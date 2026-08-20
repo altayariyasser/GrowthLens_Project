@@ -30,66 +30,70 @@ The opportunity signal is a discovery aid. It is not mathematically blended with
 
 ## System architecture
 
-GrowthLens is a decision-support platform with two independent analytical engines. The structured ML engine helps decision makers discover and shortlist companies; the NLP engine helps them understand what changed in annual filings and verify the supporting evidence. Their outputs meet in one research workspace, but their scores remain separate.
+GrowthLens combines the ML workflow in [`GrowthLens_Project.ipynb`](./GrowthLens_Project.ipynb) with an NLP filing-research workflow. The two outputs support one research workspace but remain independent.
 
 ```mermaid
 flowchart TB
-    PLATFORM["GrowthLens<br/>Decision-Support Platform"]
+    P["GrowthLens<br/>Decision-Support Platform"]
 
-    subgraph ML["Part 1 · Structured ML — Opportunity Discovery"]
-        direction TB
-        ML_DATA["Company fundamentals<br/>market data and financial ratios"]
-        ML_FEATURES["Feature engineering<br/>and temporal validation"]
-        ML_MODEL["Validated opportunity<br/>prediction model"]
-        ML_SCORE["Comparative<br/>opportunity score"]
-        ML_FILTERS["Budget · sector · company size<br/>financial and market filters"]
-        ML_SHORTLIST["Ranked company shortlist"]
-
-        ML_DATA --> ML_FEATURES --> ML_MODEL --> ML_SCORE --> ML_FILTERS --> ML_SHORTLIST
+    subgraph ML["Part 1 · ML Opportunity Prediction"]
+        M1["Structured company data"] --> M2["Cleaning · target<br/>feature engineering"]
+        M2 --> M3["Temporal splits<br/>train-only preprocessing"]
+        M3 --> M4["PCA stacking · CatBoost<br/>exploratory XGBoost"]
+        M4 --> M5["Evaluation + comparative<br/>opportunity output"]
     end
 
-    subgraph NLP["Part 2 · NLP — Filing Intelligence"]
-        direction TB
-        NLP_DATA["Previous and current<br/>SEC 10-K filings"]
-        NLP_PREP["Filing pairing · section mapping<br/>paragraph normalization"]
-        NLP_ALIGN["Paragraph alignment<br/>entity and number extraction"]
-        NLP_CHANGE["Disclosure change detection<br/>New · Removed · Modified<br/>Intensified · Softened"]
-        NLP_PRIORITY["Evidence validation<br/>and attention priority"]
-        NLP_RETRIEVAL["Two-filing evidence retrieval"]
-        NLP_OUTPUTS["Material changes · peer comparison<br/>evidence Q&A · research memo"]
-
-        NLP_DATA --> NLP_PREP --> NLP_ALIGN --> NLP_CHANGE --> NLP_PRIORITY --> NLP_RETRIEVAL --> NLP_OUTPUTS
+    subgraph NLP["Part 2 · NLP Filing Intelligence"]
+        N1["SEC 10-K disclosures"] --> N2["Clean · deduplicate · chunk<br/>preserve filing metadata"]
+        N2 --> N3["MiniLM embeddings<br/>FAISS semantic index"]
+        N3 --> N4["Filing-change analysis<br/>metadata-filtered RAG"]
+        N4 --> N5["Evidence answers · peers<br/>research memo"]
     end
 
-    PLATFORM --> ML_DATA
-    PLATFORM --> NLP_DATA
+    P --> M1
+    P --> N1
+    M5 --> W["Decision-maker<br/>research workspace"]
+    N5 --> W
 
-    ML_SHORTLIST --> WORKSPACE["Decision-maker research workspace"]
-    NLP_OUTPUTS --> WORKSPACE
-    WORKSPACE --> OUTCOME["Evidence-led company review<br/>and better-informed decisions"]
-
-    ML_SCORE -.-> SEPARATION["Independent signals<br/>Opportunity score ≠ NLP attention priority"]
-    NLP_PRIORITY -.-> SEPARATION
-
-    classDef platform fill:#071b16,color:#f5f3eb,stroke:#aaff55,stroke-width:2px;
-    classDef ml fill:#e8f5ef,color:#071b16,stroke:#2f7f62,stroke-width:1px;
-    classDef nlp fill:#f5f1e8,color:#071b16,stroke:#d28b52,stroke-width:1px;
-    classDef decision fill:#aaff55,color:#071b16,stroke:#071b16,stroke-width:2px;
-    classDef note fill:#fff4d8,color:#071b16,stroke:#d2a64b,stroke-dasharray:5 3;
-
-    class PLATFORM platform;
-    class ML_DATA,ML_FEATURES,ML_MODEL,ML_SCORE,ML_FILTERS,ML_SHORTLIST ml;
-    class NLP_DATA,NLP_PREP,NLP_ALIGN,NLP_CHANGE,NLP_PRIORITY,NLP_RETRIEVAL,NLP_OUTPUTS nlp;
-    class WORKSPACE,OUTCOME decision;
-    class SEPARATION note;
+    classDef root fill:#071b16,color:#f5f3eb,stroke:#aaff55,stroke-width:2px;
+    classDef ml fill:#e8f5ef,color:#071b16,stroke:#2f7f62;
+    classDef nlp fill:#f5f1e8,color:#071b16,stroke:#d28b52;
+    classDef out fill:#aaff55,color:#071b16,stroke:#071b16,stroke-width:2px;
+    class P root;
+    class M1,M2,M3,M4,M5 ml;
+    class N1,N2,N3,N4,N5 nlp;
+    class W out;
 ```
 
-### How decision makers use both parts
+The ML pipeline ends at the evaluated score and class. Budget, sector, company-size, and ranking controls belong to the interface, not model training.
 
-1. **Discover:** use the ML opportunity score and practical filters to create a research shortlist.
-2. **Investigate:** use NLP filing intelligence to review material narrative changes and their source evidence.
-3. **Compare:** examine peers, filing dates, numerical deltas, and disclosure themes without merging the two signals.
-4. **Document:** ask evidence-scoped questions and export a neutral research memo for further review.
+### RAG flow
+
+```mermaid
+flowchart LR
+    Q["Research question<br/>+ scope"] --> F["Company · section<br/>date filters"]
+    Q --> E["MiniLM query<br/>embedding"]
+    K["10-K chunks<br/>FAISS cosine index"] --> S["Top-k semantic<br/>search"]
+    F --> S
+    E --> S
+    S --> C["Threshold +<br/>deduplication"]
+    C --> G["Qwen 2.5 3B<br/>local Ollama"]
+    G --> V["Citation<br/>validation"]
+    V --> A["Grounded answer<br/>or refusal"]
+
+    classDef input fill:#edf3ee,color:#071b16,stroke:#6f8f80;
+    classDef process fill:#f5f1e8,color:#071b16,stroke:#d28b52;
+    classDef answer fill:#aaff55,color:#071b16,stroke:#071b16,stroke-width:2px;
+    class Q,F,E,K input;
+    class S,C,G,V process;
+    class A answer;
+```
+
+- **Search:** normalized MiniLM embeddings with FAISS exact cosine search; lexical matching is only a fallback.
+- **Filtering:** company/CIK, accession, section, sector, and point-in-time filing date.
+- **Guardrails:** evidence threshold, duplicate removal, source-ID validation, and refusal when support is weak.
+
+**Decision flow:** Discover with ML → investigate with NLP → compare evidence → document the conclusion.
 
 ## Product workspaces
 
