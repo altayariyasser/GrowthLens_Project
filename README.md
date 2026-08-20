@@ -30,63 +30,119 @@ The opportunity signal is a discovery aid. It is not mathematically blended with
 
 ## System architecture
 
-GrowthLens is a decision-support platform with two independent analytical engines. The structured ML engine helps decision makers discover and shortlist companies; the NLP engine helps them understand what changed in annual filings and verify the supporting evidence. Their outputs meet in one research workspace, but their scores remain separate.
+GrowthLens is a decision-support platform with two independent analytical engines. The structured ML engine follows the workflow in [`GrowthLens_Project.ipynb`](./GrowthLens_Project.ipynb) and estimates a comparative opportunity signal. The NLP engine processes SEC disclosures, detects filing changes, and powers evidence-grounded research. Their outputs meet in one workspace, but their scores remain separate.
+
+The diagram describes the full research architecture. The public GitHub Pages demonstration serves precomputed examples and does not run these models in the visitor's browser.
 
 ```mermaid
 flowchart TB
     PLATFORM["GrowthLens<br/>Decision-Support Platform"]
 
-    subgraph ML["Part 1 · Structured ML — Opportunity Discovery"]
+    subgraph ML["Part 1 · Structured ML — Opportunity Prediction"]
         direction TB
-        ML_DATA["Company fundamentals<br/>market data and financial ratios"]
-        ML_FEATURES["Feature engineering<br/>and temporal validation"]
-        ML_MODEL["Validated opportunity<br/>prediction model"]
-        ML_SCORE["Comparative<br/>opportunity score"]
-        ML_FILTERS["Budget · sector · company size<br/>financial and market filters"]
-        ML_SHORTLIST["Ranked company shortlist"]
+        ML_DATA["Structured company data<br/>fundamentals · market data · financial ratios"]
+        ML_TARGET["Cleaning and target creation<br/>3-year market-cap growth greater than 50%"]
+        ML_FEATURES["EDA and feature engineering<br/>leakage-prone fields excluded"]
+        ML_SPLITS["Temporal evaluation design<br/>chronological 80/10/10<br/>plus exploratory 3-month/1-month folds"]
+        ML_PREP["Train-only preprocessing<br/>imputation · encoding · scaling · PCA"]
+        ML_MODELS["GPU model experiments<br/>cuML PCA stacking · CatBoost<br/>exploratory XGBoost"]
+        ML_EVAL["Model evaluation<br/>AUC · F1 · balanced accuracy<br/>training time · inference · GPU usage"]
+        ML_OUTPUT["Comparative model score<br/>Opportunity / Not Opportunity"]
 
-        ML_DATA --> ML_FEATURES --> ML_MODEL --> ML_SCORE --> ML_FILTERS --> ML_SHORTLIST
+        ML_DATA --> ML_TARGET --> ML_FEATURES --> ML_SPLITS --> ML_PREP --> ML_MODELS --> ML_EVAL --> ML_OUTPUT
     end
 
     subgraph NLP["Part 2 · NLP — Filing Intelligence"]
         direction TB
-        NLP_DATA["Previous and current<br/>SEC 10-K filings"]
-        NLP_PREP["Filing pairing · section mapping<br/>paragraph normalization"]
-        NLP_ALIGN["Paragraph alignment<br/>entity and number extraction"]
-        NLP_CHANGE["Disclosure change detection<br/>New · Removed · Modified<br/>Intensified · Softened"]
-        NLP_PRIORITY["Evidence validation<br/>and attention priority"]
-        NLP_RETRIEVAL["Two-filing evidence retrieval"]
-        NLP_OUTPUTS["Material changes · peer comparison<br/>evidence Q&A · research memo"]
+        NLP_SOURCE["SEC 10-K disclosure collection<br/>Business · Risk Factors · MD&A"]
+        NLP_CLEAN["Text extraction · normalization<br/>cleaning and deduplication"]
+        NLP_CHUNKS["Section-aware chunking with provenance<br/>CIK · ticker · accession · filing date<br/>section · chunk ID · source URL"]
 
-        NLP_DATA --> NLP_PREP --> NLP_ALIGN --> NLP_CHANGE --> NLP_PRIORITY --> NLP_RETRIEVAL --> NLP_OUTPUTS
+        NLP_SOURCE --> NLP_CLEAN --> NLP_CHUNKS
+
+        subgraph CHANGE["Two-filing change-analysis path"]
+            direction TB
+            NLP_PAIR["Pair previous and current filings<br/>by CIK · accession · filing date · section"]
+            NLP_ALIGN["Paragraph matching<br/>exact normalized hashes + MiniLM similarity<br/>mutual one-to-one alignment"]
+            NLP_EXTRACT["Entity and numerical extraction<br/>dates · percentages · monetary values"]
+            NLP_CHANGE["Disclosure change classification<br/>New · Removed · Modified<br/>Intensified · Softened"]
+            NLP_PRIORITY["Explainable attention priority<br/>novelty · section importance · risk language<br/>numerical deltas · evidence quality"]
+
+            NLP_PAIR --> NLP_ALIGN --> NLP_EXTRACT --> NLP_CHANGE --> NLP_PRIORITY
+        end
+
+        subgraph RAG["Metadata-filtered RAG path"]
+            direction TB
+            NLP_EMBED["MiniLM sentence embeddings<br/>384-dimensional · L2-normalized"]
+            NLP_INDEX["FAISS IndexFlatIP<br/>exact inner-product cosine index"]
+            NLP_QUERY["Research question and scope<br/>company/ticker · sector · section · known-by date"]
+            NLP_FILTER["Canonical entity resolution<br/>metadata + point-in-time accession filtering"]
+            NLP_SEARCH["Semantic top-k retrieval<br/>cosine threshold · duplicate removal<br/>lexical diagnostic fallback when unavailable"]
+            NLP_CONTEXT["Prompt context assembly<br/>retrieved passages + allowed source IDs"]
+            NLP_QWEN["Qwen 2.5 3B through local Ollama<br/>loopback-only constrained generation"]
+            NLP_GUARD["Grounding guardrails<br/>citation allow-list and value validation<br/>weak-evidence refusal · extractive fallback"]
+            NLP_ANSWER["Grounded answer<br/>with filing passages and source links"]
+
+            NLP_EMBED --> NLP_INDEX --> NLP_SEARCH
+            NLP_QUERY --> NLP_FILTER --> NLP_SEARCH
+            NLP_SEARCH --> NLP_CONTEXT --> NLP_QWEN --> NLP_GUARD --> NLP_ANSWER
+        end
+
+        NLP_CHUNKS --> NLP_PAIR
+        NLP_CHUNKS --> NLP_EMBED
+        NLP_CHUNKS --> NLP_FILTER
+        NLP_CHUNKS -.-> NLP_TONE["Optional FinBERT filing-tone metadata<br/>not used as investment quality"]
+
+        NLP_PRIORITY --> NLP_OUTPUTS["Filing Intelligence outputs<br/>material changes · peer comparison<br/>evidence Q&A · research memo"]
+        NLP_ANSWER --> NLP_OUTPUTS
+        NLP_TONE -.-> NLP_OUTPUTS
+        NLP_OUTPUTS -.-> NLP_CACHE["Fingerprint cache<br/>inputs · model · prompt · configuration"]
     end
 
     PLATFORM --> ML_DATA
-    PLATFORM --> NLP_DATA
+    PLATFORM --> NLP_SOURCE
 
-    ML_SHORTLIST --> WORKSPACE["Decision-maker research workspace"]
+    ML_OUTPUT --> WORKSPACE["Decision-maker research workspace"]
     NLP_OUTPUTS --> WORKSPACE
     WORKSPACE --> OUTCOME["Evidence-led company review<br/>and better-informed decisions"]
 
-    ML_SCORE -.-> SEPARATION["Independent signals<br/>Opportunity score ≠ NLP attention priority"]
+    ML_OUTPUT -.-> SEPARATION["Independent signals<br/>ML opportunity score ≠ NLP attention priority"]
     NLP_PRIORITY -.-> SEPARATION
 
     classDef platform fill:#071b16,color:#f5f3eb,stroke:#aaff55,stroke-width:2px;
     classDef ml fill:#e8f5ef,color:#071b16,stroke:#2f7f62,stroke-width:1px;
     classDef nlp fill:#f5f1e8,color:#071b16,stroke:#d28b52,stroke-width:1px;
+    classDef rag fill:#edf3ee,color:#071b16,stroke:#6f8f80,stroke-width:1px;
     classDef decision fill:#aaff55,color:#071b16,stroke:#071b16,stroke-width:2px;
     classDef note fill:#fff4d8,color:#071b16,stroke:#d2a64b,stroke-dasharray:5 3;
 
     class PLATFORM platform;
-    class ML_DATA,ML_FEATURES,ML_MODEL,ML_SCORE,ML_FILTERS,ML_SHORTLIST ml;
-    class NLP_DATA,NLP_PREP,NLP_ALIGN,NLP_CHANGE,NLP_PRIORITY,NLP_RETRIEVAL,NLP_OUTPUTS nlp;
+    class ML_DATA,ML_TARGET,ML_FEATURES,ML_SPLITS,ML_PREP,ML_MODELS,ML_EVAL,ML_OUTPUT ml;
+    class NLP_SOURCE,NLP_CLEAN,NLP_CHUNKS,NLP_PAIR,NLP_ALIGN,NLP_EXTRACT,NLP_CHANGE,NLP_PRIORITY,NLP_OUTPUTS nlp;
+    class NLP_EMBED,NLP_INDEX,NLP_QUERY,NLP_FILTER,NLP_SEARCH,NLP_CONTEXT,NLP_QWEN,NLP_GUARD,NLP_ANSWER rag;
     class WORKSPACE,OUTCOME decision;
-    class SEPARATION note;
+    class SEPARATION,NLP_TONE,NLP_CACHE note;
 ```
+
+### NLP and RAG techniques represented
+
+- **Section-aware ingestion:** extracts Business, Risk Factors, and MD&A disclosures, then cleans, deduplicates, and chunks the text while preserving source metadata.
+- **Semantic embeddings:** represents passages and questions with L2-normalized `all-MiniLM-L6-v2` vectors in 384 dimensions.
+- **Exact vector search:** uses FAISS `IndexFlatIP`; because the vectors are normalized, inner product is equivalent to cosine similarity.
+- **Metadata filtering:** scopes retrieval by canonical company identity, CIK/accession, sector, filing section, and known-by date, including point-in-time-safe filing selection.
+- **Evidence selection:** retrieves semantic top-k passages, removes duplicate text, and applies a minimum similarity threshold before allowing a grounded answer.
+- **Lexical fallback:** uses normalized term coverage only when semantic query encoding is unavailable. It is a diagnostic fallback, not a score blended with semantic search.
+- **Local generation:** sends the selected passages and an allow-list of source IDs to Qwen 2.5 3B through a loopback-only Ollama endpoint.
+- **Grounding guardrails:** validates returned citation IDs and quoted values, rejects unsupported citations, refuses weak evidence, and can fall back to an extractive answer.
+- **Two-filing alignment:** uses exact normalized hashes first, then MiniLM similarity with mutual one-to-one matching for comparable prior/current paragraphs.
+- **Change intelligence:** extracts entities and numbers, classifies new, removed, modified, intensified, and softened disclosures, and calculates an explainable attention priority.
+- **Optional enrichment and caching:** retains FinBERT filing-tone metadata as a secondary descriptor and fingerprints inputs, models, prompts, and configuration for repeatable cached analyses.
+
+The ML diagram intentionally ends at the evaluated comparative score and class. Budget, sector, company-size, and ranking controls belong to the product interface; they are not stages in the notebook's ML training pipeline.
 
 ### How decision makers use both parts
 
-1. **Discover:** use the ML opportunity score and practical filters to create a research shortlist.
+1. **Discover:** use the comparative ML output to identify companies that merit deeper research.
 2. **Investigate:** use NLP filing intelligence to review material narrative changes and their source evidence.
 3. **Compare:** examine peers, filing dates, numerical deltas, and disclosure themes without merging the two signals.
 4. **Document:** ask evidence-scoped questions and export a neutral research memo for further review.
