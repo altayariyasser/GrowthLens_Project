@@ -1,0 +1,2541 @@
+{
+  "analysis_id": "5f3c13d5ca084e01",
+  "company": {
+    "cik": "0000771497",
+    "ticker": "ABM",
+    "company_name": "ABM INDUSTRIES INC /DE/"
+  },
+  "filing_pair": {
+    "previous": {
+      "accession_number": "0000771497-24-000029",
+      "filing_date": "2024-12-19",
+      "report_date": "2024-10-31",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/771497/000077149724000029/abm-20241031.htm"
+    },
+    "current": {
+      "accession_number": "0000771497-25-000031",
+      "filing_date": "2025-12-19",
+      "report_date": "2025-10-31",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/771497/000077149725000031/abm-20251031.htm"
+    }
+  },
+  "pipeline_version": "filing-intelligence-v1",
+  "comparison_available": true,
+  "coverage": {
+    "prior_sections": [
+      "business",
+      "management_discussion",
+      "risk_factors"
+    ],
+    "current_sections": [
+      "business",
+      "management_discussion",
+      "risk_factors"
+    ],
+    "comparable_sections": [
+      "business",
+      "management_discussion",
+      "risk_factors"
+    ],
+    "missing_from_current": [],
+    "new_in_current": [],
+    "prior_text_capped": false,
+    "current_text_capped": false,
+    "status": "complete_available_sections",
+    "alignment_methods": {
+      "local semantic": 3
+    },
+    "paragraphs_compared": 223
+  },
+  "summary": {
+    "total_changes": 24,
+    "high_attention": 22,
+    "new": 12,
+    "removed": 12,
+    "modified": 0,
+    "dominant_topics": [
+      {
+        "topic": "liquidity_debt_margins_and_costs",
+        "label": "Liquidity, debt, margins and costs",
+        "count": 11
+      },
+      {
+        "topic": "growth_and_strategy",
+        "label": "Growth and strategy",
+        "count": 6
+      },
+      {
+        "topic": "demand_and_competition",
+        "label": "Demand and competition",
+        "count": 3
+      }
+    ]
+  },
+  "changes": [
+    {
+      "change_id": "cc42655b5ec2461c",
+      "change_type": "removed",
+      "topic": "liquidity_debt_margins_and_costs",
+      "topic_label": "Liquidity, debt, margins and costs",
+      "section": "management_discussion",
+      "attention": {
+        "score": 90,
+        "label": "high",
+        "factors": [
+          {
+            "label": "Disclosure novelty",
+            "points": 40
+          },
+          {
+            "label": "Section significance",
+            "points": 17
+          },
+          {
+            "label": "Risk language",
+            "points": 16
+          },
+          {
+            "label": "Numerical change",
+            "points": 14
+          },
+          {
+            "label": "Evidence specificity",
+            "points": 3
+          }
+        ]
+      },
+      "explanation": "A prior disclosure related to liquidity, debt, margins and costs is no longer present in the comparable section.",
+      "analyst_relevance": "Review the cited language in the context of the investment thesis.",
+      "similarity": null,
+      "numeric_deltas": [
+        {
+          "previous": "10",
+          "current": null
+        },
+        {
+          "previous": "$7.9 million",
+          "current": null
+        },
+        {
+          "previous": "$205.0 million",
+          "current": null
+        },
+        {
+          "previous": "$34.1 million",
+          "current": null
+        }
+      ],
+      "previous_evidence": {
+        "evidence_id": "bc03b04a3b74dbd8aff8",
+        "filing_version": "prior",
+        "accession_number": "0000771497-24-000029",
+        "filing_date": "2024-12-19",
+        "report_date": "2024-10-31",
+        "section": "management_discussion",
+        "paragraph_index": 36,
+        "text_excerpt": "See Note 10, “Insurance,” in the Financial Statements for further detail. • Unrecognized Tax Benefits – At October 31, 2024, our total liability for unrecognized tax benefits was $7.9 million. The resolution or settlement of these tax positions with the taxing authorities is subject to significant uncertainty, and therefore we are unable to make a reliable estimate of the amount or timing of cash that may be required to settle these matters. In addition, certain of these matters may not require cash settlements due to the utilization of credits and net operating loss carryforwards as well as other offsets, including the indirect benefit from other taxing jurisdictions that may be available. • Contingent Consideration Payable in Connection with Our Acquisition of RavenVolt – At October 31, 2024, contingent consideration of up to $205.0 million, of which $34.1 million has been accrued as of October 31, 2024,…",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/771497/000077149724000029/abm-20241031.htm",
+        "numbers": [
+          "10",
+          "31",
+          "2024",
+          "$7.9 million",
+          "$205.0 million",
+          "$34.1 million",
+          "2026",
+          "2025"
+        ],
+        "dates": [
+          "October 31, 2024"
+        ]
+      },
+      "current_evidence": null
+    },
+    {
+      "change_id": "43515b52e6480513",
+      "change_type": "new",
+      "topic": "liquidity_debt_margins_and_costs",
+      "topic_label": "Liquidity, debt, margins and costs",
+      "section": "management_discussion",
+      "attention": {
+        "score": 86,
+        "label": "high",
+        "factors": [
+          {
+            "label": "Disclosure novelty",
+            "points": 40
+          },
+          {
+            "label": "Section significance",
+            "points": 17
+          },
+          {
+            "label": "Risk language",
+            "points": 16
+          },
+          {
+            "label": "Numerical change",
+            "points": 10
+          },
+          {
+            "label": "Evidence specificity",
+            "points": 3
+          }
+        ]
+      },
+      "explanation": "The current filing introduces a new disclosure related to liquidity, debt, margins and costs.",
+      "analyst_relevance": "Review the cited language in the context of the investment thesis.",
+      "similarity": null,
+      "numeric_deltas": [
+        {
+          "previous": null,
+          "current": "11"
+        },
+        {
+          "previous": null,
+          "current": "$8.0 million"
+        }
+      ],
+      "previous_evidence": null,
+      "current_evidence": {
+        "evidence_id": "cc28c20721a9d8999d9f",
+        "filing_version": "current",
+        "accession_number": "0000771497-25-000031",
+        "filing_date": "2025-12-19",
+        "report_date": "2025-10-31",
+        "section": "management_discussion",
+        "paragraph_index": 31,
+        "text_excerpt": "As these obligations do not have scheduled maturities, we are unable to make a reliable estimate of the amount or timing of cash that may be required to settle these matters. See Note 11, “Insurance,” in the Financial Statements for further detail. • Unrecognized Tax Benefits – At October 31, 2025, our total liability for unrecognized tax benefits was $8.0 million. The resolution or settlement of these tax positions with the taxing authorities is subject to significant uncertainty, and therefore we are unable to make a reliable estimate of the amount or timing of cash that may be required to settle these matters. In addition, certain of these matters may not require cash settlements due to the utilization of credits and net operating loss carryforwards as well as other offsets, including the indirect benefit from other taxing jurisdictions that may be available. Off-Balance Sheet Arrangements We have no of…",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/771497/000077149725000031/abm-20251031.htm",
+        "numbers": [
+          "11",
+          "31",
+          "2025",
+          "$8.0 million"
+        ],
+        "dates": [
+          "October 31, 2025"
+        ]
+      }
+    },
+    {
+      "change_id": "26bd0c6dfa0cf302",
+      "change_type": "removed",
+      "topic": "growth_and_strategy",
+      "topic_label": "Growth and strategy",
+      "section": "management_discussion",
+      "attention": {
+        "score": 84,
+        "label": "high",
+        "factors": [
+          {
+            "label": "Disclosure novelty",
+            "points": 40
+          },
+          {
+            "label": "Section significance",
+            "points": 17
+          },
+          {
+            "label": "Risk language",
+            "points": 10
+          },
+          {
+            "label": "Numerical change",
+            "points": 14
+          },
+          {
+            "label": "Evidence specificity",
+            "points": 3
+          }
+        ]
+      },
+      "explanation": "A prior disclosure related to growth and strategy is no longer present in the comparable section.",
+      "analyst_relevance": "Review the cited language in the context of the investment thesis.",
+      "similarity": null,
+      "numeric_deltas": [
+        {
+          "previous": "$20.3 million",
+          "current": null
+        },
+        {
+          "previous": "$14.8 million",
+          "current": null
+        },
+        {
+          "previous": "23",
+          "current": null
+        },
+        {
+          "previous": "$263.0 million",
+          "current": null
+        },
+        {
+          "previous": "3.2%",
+          "current": null
+        },
+        {
+          "previous": "$8,359.4 million",
+          "current": null
+        }
+      ],
+      "previous_evidence": {
+        "evidence_id": "7ba73c9ac7a2baf74ff5",
+        "filing_version": "prior",
+        "accession_number": "0000771497-24-000029",
+        "filing_date": "2024-12-19",
+        "report_date": "2024-10-31",
+        "section": "management_discussion",
+        "paragraph_index": 5,
+        "text_excerpt": "The specific case reserves estimated by the third-party administrators are provided to the actuary who assists us in projecting an actuarial estimate of the overall ultimate losses for our self-insured or high deductible programs, which includes the case reserves plus an actuarial estimate of reserves required for additional developments, such as IBNR Claims. We utilize the results of actuarial studies to estimate our insurance rates and insurance reserves for future periods and to adjust reserves, if appropriate, for prior years. Based on the results of the actuarial reviews performed during 2024, which included analyzing recent loss development patterns, comparing the loss development against benchmarks, and applying actuarial projection methods to determine the estimate of ultimate losses, we increased our total reserves related to prior years for known claims as well as our estimate of the loss amounts…",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/771497/000077149724000029/abm-20241031.htm",
+        "numbers": [
+          "2024",
+          "$20.3 million",
+          "2023",
+          "$14.8 million",
+          "23",
+          "$263.0 million",
+          "3.2%",
+          "$8,359.4 million"
+        ],
+        "dates": []
+      },
+      "current_evidence": null
+    },
+    {
+      "change_id": "4e1317bfbea90946",
+      "change_type": "new",
+      "topic": "liquidity_debt_margins_and_costs",
+      "topic_label": "Liquidity, debt, margins and costs",
+      "section": "management_discussion",
+      "attention": {
+        "score": 82,
+        "label": "high",
+        "factors": [
+          {
+            "label": "Disclosure novelty",
+            "points": 40
+          },
+          {
+            "label": "Section significance",
+            "points": 17
+          },
+          {
+            "label": "Risk language",
+            "points": 8
+          },
+          {
+            "label": "Numerical change",
+            "points": 14
+          },
+          {
+            "label": "Evidence specificity",
+            "points": 3
+          }
+        ]
+      },
+      "explanation": "The current filing introduces a new disclosure related to liquidity, debt, margins and costs.",
+      "analyst_relevance": "Review the cited language in the context of the investment thesis.",
+      "similarity": null,
+      "numeric_deltas": [
+        {
+          "previous": null,
+          "current": "31"
+        },
+        {
+          "previous": null,
+          "current": "2.56"
+        },
+        {
+          "previous": null,
+          "current": "1.17"
+        },
+        {
+          "previous": null,
+          "current": "1"
+        },
+        {
+          "previous": null,
+          "current": "$ 47.35"
+        },
+        {
+          "previous": null,
+          "current": "$ 47.86"
+        },
+        {
+          "previous": null,
+          "current": "$ 121.3"
+        },
+        {
+          "previous": null,
+          "current": "$ 55.8"
+        }
+      ],
+      "previous_evidence": null,
+      "current_evidence": {
+        "evidence_id": "fde2a6e7a511d89a1f3b",
+        "filing_version": "current",
+        "accession_number": "0000771497-25-000031",
+        "filing_date": "2025-12-19",
+        "report_date": "2025-10-31",
+        "section": "management_discussion",
+        "paragraph_index": 23,
+        "text_excerpt": "Years Ended October 31, (in millions, except per share amounts) 2025 2024 Total number of shares purchased 2.56 1.17 Average price paid per share (1) $ 47.35 $ 47.86 Total cash paid for share repurchases (1) $ 121.3 $ 55.8 (1) Average price paid per share and total cash paid for share repurchases do not include any excise tax for share repurchases as part of the Inflation Reduction Act of 2022. Effect of Inflation The rates of inflation experienced in recent years have not had a material impact on our Financial Statements. We attempt to recover increased costs by increasing prices for our services to the extent permitted by contracts and competition. Regulatory Environment Our operations are subject to various federal, state, and/or local laws, rules, and regulations regulating among other things, labor, wages, and health and safety matters, as well as laws and regulations relating to the discharge of mate…",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/771497/000077149725000031/abm-20251031.htm",
+        "numbers": [
+          "31",
+          "2025",
+          "2024",
+          "2.56",
+          "1.17",
+          "1",
+          "$ 47.35",
+          "$ 47.86",
+          "$ 121.3",
+          "$ 55.8",
+          "2022"
+        ],
+        "dates": []
+      }
+    },
+    {
+      "change_id": "03ef82b094304c75",
+      "change_type": "removed",
+      "topic": "liquidity_debt_margins_and_costs",
+      "topic_label": "Liquidity, debt, margins and costs",
+      "section": "management_discussion",
+      "attention": {
+        "score": 74,
+        "label": "high",
+        "factors": [
+          {
+            "label": "Disclosure novelty",
+            "points": 40
+          },
+          {
+            "label": "Section significance",
+            "points": 17
+          },
+          {
+            "label": "Risk language",
+            "points": 0
+          },
+          {
+            "label": "Numerical change",
+            "points": 14
+          },
+          {
+            "label": "Evidence specificity",
+            "points": 3
+          }
+        ]
+      },
+      "explanation": "A prior disclosure related to liquidity, debt, margins and costs is no longer present in the comparable section.",
+      "analyst_relevance": "Review the cited language in the context of the investment thesis.",
+      "similarity": null,
+      "numeric_deltas": [
+        {
+          "previous": "$11.4 million",
+          "current": null
+        },
+        {
+          "previous": "39.1%",
+          "current": null
+        },
+        {
+          "previous": "24.1%",
+          "current": null
+        }
+      ],
+      "previous_evidence": {
+        "evidence_id": "f1c328bc5fcf6b5ab027",
+        "filing_version": "prior",
+        "accession_number": "0000771497-24-000029",
+        "filing_date": "2024-12-19",
+        "report_date": "2024-10-31",
+        "section": "management_discussion",
+        "paragraph_index": 7,
+        "text_excerpt": "The decrease in operating profit was attributable to: • an increase in the fair value of the contingent consideration related to the RavenVolt Acquisition; • an increase in other Corporate expenses, primarily costs associated with various systems’ go-live and other investments in technology; • an unfavorable self-insurance reserve adjustment related to prior year claims from actuarial evaluations completed in 2024, as compared to a favorable adjustment in 2023; • an absence of employee retention credits received as compared to 2023; and • $11.4 million in revenue recognized for an Aviation parking project during 2023, whereby all the direct labor and related costs for such project were recognized prior to 2023. The decrease was partially offset by: • labor efficiencies within B&I, Aviation, and Education, as well as contract mix within Technical Solutions, Aviation, and M&D; and • a decrease in amortizatio…",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/771497/000077149724000029/abm-20241031.htm",
+        "numbers": [
+          "2024",
+          "2023",
+          "$11.4 million",
+          "39.1%",
+          "24.1%"
+        ],
+        "dates": []
+      },
+      "current_evidence": null
+    },
+    {
+      "change_id": "077200a74f7371c5",
+      "change_type": "new",
+      "topic": "liquidity_debt_margins_and_costs",
+      "topic_label": "Liquidity, debt, margins and costs",
+      "section": "management_discussion",
+      "attention": {
+        "score": 74,
+        "label": "high",
+        "factors": [
+          {
+            "label": "Disclosure novelty",
+            "points": 40
+          },
+          {
+            "label": "Section significance",
+            "points": 17
+          },
+          {
+            "label": "Risk language",
+            "points": 0
+          },
+          {
+            "label": "Numerical change",
+            "points": 14
+          },
+          {
+            "label": "Evidence specificity",
+            "points": 3
+          }
+        ]
+      },
+      "explanation": "The current filing introduces a new disclosure related to liquidity, debt, margins and costs.",
+      "analyst_relevance": "Review the cited language in the context of the investment thesis.",
+      "similarity": null,
+      "numeric_deltas": [
+        {
+          "previous": null,
+          "current": "06"
+        },
+        {
+          "previous": null,
+          "current": "350"
+        },
+        {
+          "previous": null,
+          "current": "40"
+        },
+        {
+          "previous": null,
+          "current": "1"
+        },
+        {
+          "previous": null,
+          "current": "2"
+        },
+        {
+          "previous": null,
+          "current": "39"
+        }
+      ],
+      "previous_evidence": null,
+      "current_evidence": {
+        "evidence_id": "d51a74d5036d963fa060",
+        "filing_version": "current",
+        "accession_number": "0000771497-25-000031",
+        "filing_date": "2025-12-19",
+        "report_date": "2025-10-31",
+        "section": "management_discussion",
+        "paragraph_index": 43,
+        "text_excerpt": "2025-06 Intangibles — Goodwill and Other — Internal-Use Software (Subtopic 350-40): Targeted Improvements to the Accounting for Internal-Use Software This ASU, issued in September 2025, removes all references to prescriptive and sequential software development stages (referred to as “project stages”) throughout Subtopic 350-40 and requires the capitalization of software costs to begin when 1) management has authorized and committed to funding the software project and 2) it is probable that the project will be completed and the software will be used to perform the function intended. This ASU is effective for fiscal years beginning after December 15, 2027, and for interim periods within those annual reporting periods, with early adoption permitted. 39",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/771497/000077149725000031/abm-20251031.htm",
+        "numbers": [
+          "2025",
+          "06",
+          "350",
+          "40",
+          "1",
+          "2",
+          "15",
+          "2027",
+          "39"
+        ],
+        "dates": [
+          "December 15, 2027"
+        ]
+      }
+    },
+    {
+      "change_id": "22ddfa9c8f2c84e5",
+      "change_type": "removed",
+      "topic": "growth_and_strategy",
+      "topic_label": "Growth and strategy",
+      "section": "management_discussion",
+      "attention": {
+        "score": 74,
+        "label": "high",
+        "factors": [
+          {
+            "label": "Disclosure novelty",
+            "points": 40
+          },
+          {
+            "label": "Section significance",
+            "points": 17
+          },
+          {
+            "label": "Risk language",
+            "points": 0
+          },
+          {
+            "label": "Numerical change",
+            "points": 14
+          },
+          {
+            "label": "Evidence specificity",
+            "points": 3
+          }
+        ]
+      },
+      "explanation": "A prior disclosure related to growth and strategy is no longer present in the comparable section.",
+      "analyst_relevance": "Review the cited language in the context of the investment thesis.",
+      "similarity": null,
+      "numeric_deltas": [
+        {
+          "previous": "2.9%",
+          "current": null
+        },
+        {
+          "previous": "0.3%",
+          "current": null
+        },
+        {
+          "previous": "$26.3 million",
+          "current": null
+        },
+        {
+          "previous": "$197.5 million",
+          "current": null
+        },
+        {
+          "previous": "$212.0 million",
+          "current": null
+        }
+      ],
+      "previous_evidence": {
+        "evidence_id": "2902adb299d2ff816c51",
+        "filing_version": "prior",
+        "accession_number": "0000771497-24-000029",
+        "filing_date": "2024-12-19",
+        "report_date": "2024-10-31",
+        "section": "management_discussion",
+        "paragraph_index": 6,
+        "text_excerpt": "Revenue growth was comprised of organic growth of 2.9% and acquisition growth of 0.3%. The organic revenue growth was due to the higher project revenues due to the timing of certain microgrid systems design and installation projects within Technical Solutions, and net new business and expansion of business with existing customers within Aviation, M&D, and Education. The increase in revenues was partially offset by attrition of engineering customers and soft commercial office market conditions within B&I, and the expected rebalancing of the scope of work with an existing customer within M&D. Acquisition growth of $26.3 million was driven by the Quality Uptime Acquisition, completed in the third quarter of 2024. • Operating profit decreased by $197.5 million to $212.0 million during 2024, as compared to 2023.",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/771497/000077149724000029/abm-20241031.htm",
+        "numbers": [
+          "2.9%",
+          "0.3%",
+          "$26.3 million",
+          "2024",
+          "$197.5 million",
+          "$212.0 million",
+          "2023"
+        ],
+        "dates": []
+      },
+      "current_evidence": null
+    },
+    {
+      "change_id": "2be87008f0ab46b4",
+      "change_type": "new",
+      "topic": "growth_and_strategy",
+      "topic_label": "Growth and strategy",
+      "section": "management_discussion",
+      "attention": {
+        "score": 74,
+        "label": "high",
+        "factors": [
+          {
+            "label": "Disclosure novelty",
+            "points": 40
+          },
+          {
+            "label": "Section significance",
+            "points": 17
+          },
+          {
+            "label": "Risk language",
+            "points": 0
+          },
+          {
+            "label": "Numerical change",
+            "points": 14
+          },
+          {
+            "label": "Evidence specificity",
+            "points": 3
+          }
+        ]
+      },
+      "explanation": "The current filing introduces a new disclosure related to growth and strategy.",
+      "analyst_relevance": "Review the cited language in the context of the investment thesis.",
+      "similarity": null,
+      "numeric_deltas": [
+        {
+          "previous": null,
+          "current": "$68.4 million"
+        },
+        {
+          "previous": null,
+          "current": "$99.7 million"
+        },
+        {
+          "previous": null,
+          "current": "$311.7 million"
+        },
+        {
+          "previous": null,
+          "current": "26.2%"
+        },
+        {
+          "previous": null,
+          "current": "39.1%"
+        },
+        {
+          "previous": null,
+          "current": "$95.7 million"
+        },
+        {
+          "previous": null,
+          "current": "$234.4 million"
+        }
+      ],
+      "previous_evidence": null,
+      "current_evidence": {
+        "evidence_id": "d27c35b6be5a4c0195e5",
+        "filing_version": "current",
+        "accession_number": "0000771497-25-000031",
+        "filing_date": "2025-12-19",
+        "report_date": "2025-10-31",
+        "section": "management_discussion",
+        "paragraph_index": 4,
+        "text_excerpt": "Acquisition growth of $68.4 million was driven by revenue from the Quality Uptime and LMC acquisitions. • Operating profit increased by $99.7 million to $311.7 million during 2025, as compared to 2024. The increase in operating profit was attributable to: • respective revenue increases for all industry groups, • operational efficiencies within Aviation and Education, and • service mix within Technical Solutions. The increase was partially offset by: • strategic pricing decisions for contract rebids and proactive extensions, combined with managing the timing of contract escalations to maintain and expand certain customer accounts within B&I, and • strategic pricing on select new wins within M&D. • Our effective tax rate on income was 26.2% for 2025, as compared to 39.1% during 2024. Our effective tax rate for 2024 was negatively impacted by a $95.7 million non-taxable change to increase the fair value of th…",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/771497/000077149725000031/abm-20251031.htm",
+        "numbers": [
+          "$68.4 million",
+          "$99.7 million",
+          "$311.7 million",
+          "2025",
+          "2024",
+          "26.2%",
+          "39.1%",
+          "$95.7 million",
+          "$234.4 million"
+        ],
+        "dates": []
+      }
+    },
+    {
+      "change_id": "3499a69ede4153a3",
+      "change_type": "new",
+      "topic": "liquidity_debt_margins_and_costs",
+      "topic_label": "Liquidity, debt, margins and costs",
+      "section": "management_discussion",
+      "attention": {
+        "score": 74,
+        "label": "high",
+        "factors": [
+          {
+            "label": "Disclosure novelty",
+            "points": 40
+          },
+          {
+            "label": "Section significance",
+            "points": 17
+          },
+          {
+            "label": "Risk language",
+            "points": 0
+          },
+          {
+            "label": "Numerical change",
+            "points": 14
+          },
+          {
+            "label": "Evidence specificity",
+            "points": 3
+          }
+        ]
+      },
+      "explanation": "The current filing introduces a new disclosure related to liquidity, debt, margins and costs.",
+      "analyst_relevance": "Review the cited language in the context of the investment thesis.",
+      "similarity": null,
+      "numeric_deltas": [
+        {
+          "previous": null,
+          "current": "$65.6 million"
+        },
+        {
+          "previous": null,
+          "current": "$1.06"
+        },
+        {
+          "previous": null,
+          "current": "2.6 million"
+        },
+        {
+          "previous": null,
+          "current": "$121.3 million"
+        },
+        {
+          "previous": null,
+          "current": "$1,569.0 million"
+        },
+        {
+          "previous": null,
+          "current": "$577.5 million"
+        },
+        {
+          "previous": null,
+          "current": "25"
+        }
+      ],
+      "previous_evidence": null,
+      "current_evidence": {
+        "evidence_id": "9db12572bfe7dd23e617",
+        "filing_version": "current",
+        "accession_number": "0000771497-25-000031",
+        "filing_date": "2025-12-19",
+        "report_date": "2025-10-31",
+        "section": "management_discussion",
+        "paragraph_index": 5,
+        "text_excerpt": "Our net cash provided by operating cash activities was higher than prior year, primarily due to the timing of certain working capital requirements. • Dividends of $65.6 million were paid to shareholders, and dividends totaling $1.06 per common share were declared during 2025. Additionally, we repurchased 2.6 million shares for $121.3 million, excluding excise taxes, during 2025. • At October 31, 2025, total outstanding borrowings under our Amended Credit Facility were $1,569.0 million, and we had up to $577.5 million of borrowing capacity. 25 Results of Operations Consolidated Years Ended October 31, 2025 vs.",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/771497/000077149725000031/abm-20251031.htm",
+        "numbers": [
+          "$65.6 million",
+          "$1.06",
+          "2025",
+          "2.6 million",
+          "$121.3 million",
+          "31",
+          "$1,569.0 million",
+          "$577.5 million",
+          "25"
+        ],
+        "dates": [
+          "October 31, 2025"
+        ]
+      }
+    },
+    {
+      "change_id": "45cf5464fba3b583",
+      "change_type": "new",
+      "topic": "growth_and_strategy",
+      "topic_label": "Growth and strategy",
+      "section": "management_discussion",
+      "attention": {
+        "score": 74,
+        "label": "high",
+        "factors": [
+          {
+            "label": "Disclosure novelty",
+            "points": 40
+          },
+          {
+            "label": "Section significance",
+            "points": 17
+          },
+          {
+            "label": "Risk language",
+            "points": 0
+          },
+          {
+            "label": "Numerical change",
+            "points": 14
+          },
+          {
+            "label": "Evidence specificity",
+            "points": 3
+          }
+        ]
+      },
+      "explanation": "The current filing introduces a new disclosure related to growth and strategy.",
+      "analyst_relevance": "Review the cited language in the context of the investment thesis.",
+      "similarity": null,
+      "numeric_deltas": [
+        {
+          "previous": null,
+          "current": "$67.9 million"
+        },
+        {
+          "previous": null,
+          "current": "8.9%"
+        },
+        {
+          "previous": null,
+          "current": "$697.4 million"
+        },
+        {
+          "previous": null,
+          "current": "$95.7 million"
+        },
+        {
+          "previous": null,
+          "current": "$1.6 million"
+        },
+        {
+          "previous": null,
+          "current": "$18.9 million"
+        },
+        {
+          "previous": null,
+          "current": "26"
+        },
+        {
+          "previous": null,
+          "current": "$6.6 million"
+        }
+      ],
+      "previous_evidence": null,
+      "current_evidence": {
+        "evidence_id": "067f9f01b6954b99899f",
+        "filing_version": "current",
+        "accession_number": "0000771497-25-000031",
+        "filing_date": "2025-12-19",
+        "report_date": "2025-10-31",
+        "section": "management_discussion",
+        "paragraph_index": 8,
+        "text_excerpt": "Selling, General and Administrative Expenses Selling, general and administrative expenses decreased by $67.9 million, or 8.9%, to $697.4 million during 2025, as compared to 2024. The decrease in selling, general and administrative expenses was primarily attributable to: • an absence of a $95.7 million adjustment to increase the fair value of the contingent consideration related to the RavenVolt Acquisition in 2024, compared to a $1.6 million adjustment to decrease the fair value in 2025. This decrease was partially offset by: • an $18.9 million increase in compensation and related expenses primarily due to headcount expansion from recent acquisitions; and 26 • a $6.6 million increase in costs associated with systems’ go-live. Amortization of Intangible Assets Amortization of intangible assets decreased by $3.6 million, or 6.4%, to $52.5 million during 2025, as compared to 2024. This decrease was due to low…",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/771497/000077149725000031/abm-20251031.htm",
+        "numbers": [
+          "$67.9 million",
+          "8.9%",
+          "$697.4 million",
+          "2025",
+          "2024",
+          "$95.7 million",
+          "$1.6 million",
+          "$18.9 million",
+          "26",
+          "$6.6 million",
+          "$3.6 million",
+          "6.4%",
+          "$52.5 million"
+        ],
+        "dates": []
+      }
+    },
+    {
+      "change_id": "594f8c74fd38f497",
+      "change_type": "new",
+      "topic": "growth_and_strategy",
+      "topic_label": "Growth and strategy",
+      "section": "management_discussion",
+      "attention": {
+        "score": 74,
+        "label": "high",
+        "factors": [
+          {
+            "label": "Disclosure novelty",
+            "points": 40
+          },
+          {
+            "label": "Section significance",
+            "points": 17
+          },
+          {
+            "label": "Risk language",
+            "points": 0
+          },
+          {
+            "label": "Numerical change",
+            "points": 14
+          },
+          {
+            "label": "Evidence specificity",
+            "points": 3
+          }
+        ]
+      },
+      "explanation": "The current filing introduces a new disclosure related to growth and strategy.",
+      "analyst_relevance": "Review the cited language in the context of the investment thesis.",
+      "similarity": null,
+      "numeric_deltas": [
+        {
+          "previous": null,
+          "current": "$35.0 million"
+        },
+        {
+          "previous": null,
+          "current": "$13.4 million"
+        },
+        {
+          "previous": null,
+          "current": "$2.0"
+        },
+        {
+          "previous": null,
+          "current": "$3.0 million"
+        },
+        {
+          "previous": null,
+          "current": "24"
+        },
+        {
+          "previous": null,
+          "current": "$386.5 million"
+        },
+        {
+          "previous": null,
+          "current": "4.6%"
+        },
+        {
+          "previous": null,
+          "current": "$8,745.9 million"
+        }
+      ],
+      "previous_evidence": null,
+      "current_evidence": {
+        "evidence_id": "5abb488476dc0bc67fc9",
+        "filing_version": "current",
+        "accession_number": "0000771497-25-000031",
+        "filing_date": "2025-12-19",
+        "report_date": "2025-10-31",
+        "section": "management_discussion",
+        "paragraph_index": 3,
+        "text_excerpt": "This initiative is intended to enhance overall organizational effectiveness and ensure alignment between our cost structure and strategic growth objectives. Once fully implemented in 2026, this program is expected to deliver approximately $35.0 million of annualized cost savings. During the fourth quarter of 2025, we recorded $13.4 million in restructuring charges related to these actions and expect to record additional $2.0 - $3.0 million in 2026. We will continue to review our overhead and cost structure for efficiency opportunities under this program. 24 Key Financial Highlights • Revenues increased by $386.5 million, or 4.6%, to $8,745.9 million during 2025, as compared to 2024. Revenue growth was comprised of organic growth of 3.8% and acquisition growth of 0.8%. The organic revenue growth was due to the net new business and expansion of business with existing customers within Aviation, B&I, M&D, and…",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/771497/000077149725000031/abm-20251031.htm",
+        "numbers": [
+          "2026",
+          "$35.0 million",
+          "2025",
+          "$13.4 million",
+          "$2.0",
+          "$3.0 million",
+          "24",
+          "$386.5 million",
+          "4.6%",
+          "$8,745.9 million",
+          "2024",
+          "3.8%",
+          "0.8%"
+        ],
+        "dates": []
+      }
+    },
+    {
+      "change_id": "5978db9d5746a2f0",
+      "change_type": "removed",
+      "topic": "liquidity_debt_margins_and_costs",
+      "topic_label": "Liquidity, debt, margins and costs",
+      "section": "management_discussion",
+      "attention": {
+        "score": 74,
+        "label": "high",
+        "factors": [
+          {
+            "label": "Disclosure novelty",
+            "points": 40
+          },
+          {
+            "label": "Section significance",
+            "points": 17
+          },
+          {
+            "label": "Risk language",
+            "points": 0
+          },
+          {
+            "label": "Numerical change",
+            "points": 14
+          },
+          {
+            "label": "Evidence specificity",
+            "points": 3
+          }
+        ]
+      },
+      "explanation": "A prior disclosure related to liquidity, debt, margins and costs is no longer present in the comparable section.",
+      "analyst_relevance": "Review the cited language in the context of the investment thesis.",
+      "similarity": null,
+      "numeric_deltas": [
+        {
+          "previous": "$95.7 million",
+          "current": null
+        },
+        {
+          "previous": "$45.6 million",
+          "current": null
+        },
+        {
+          "previous": "$226.7 million",
+          "current": null
+        },
+        {
+          "previous": "$56.5 million",
+          "current": null
+        },
+        {
+          "previous": "$0.90",
+          "current": null
+        },
+        {
+          "previous": "1.17 million",
+          "current": null
+        },
+        {
+          "previous": "$55.8 million",
+          "current": null
+        },
+        {
+          "previous": "$1,335.3 million",
+          "current": null
+        }
+      ],
+      "previous_evidence": {
+        "evidence_id": "16b15ecc512a3055ad1e",
+        "filing_version": "prior",
+        "accession_number": "0000771497-24-000029",
+        "filing_date": "2024-12-19",
+        "report_date": "2024-10-31",
+        "section": "management_discussion",
+        "paragraph_index": 8,
+        "text_excerpt": "Our effective tax rate for 2024 was primarily impacted by a $95.7 million non-taxable expense related to the change in the fair value of the contingent consideration related to the RavenVolt Acquisition. Our effective tax rate for 2023 was primarily impacted by a $45.6 million non-taxable benefit related to the change in the fair value of contingent consideration related to the RavenVolt Acquisition. • Net cash provided by operating activities was $226.7 million during 2024. Our net cash provided by operating cash activities was lower than prior year, primarily due to the timing of certain working capital requirements. • Dividends of $56.5 million were paid to shareholders, and dividends totaling $0.90 per common share were declared during 2024. Additionally, we repurchased 1.17 million of shares for $55.8 million, excluding excise taxes during 2024. • At October 31, 2024, total outstanding borrowings unde…",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/771497/000077149724000029/abm-20241031.htm",
+        "numbers": [
+          "2024",
+          "$95.7 million",
+          "2023",
+          "$45.6 million",
+          "$226.7 million",
+          "$56.5 million",
+          "$0.90",
+          "1.17 million",
+          "$55.8 million",
+          "31",
+          "$1,335.3 million",
+          "$423.6 million",
+          "24"
+        ],
+        "dates": [
+          "October 31, 2024"
+        ]
+      },
+      "current_evidence": null
+    },
+    {
+      "change_id": "868ea4c0f287e08c",
+      "change_type": "removed",
+      "topic": "growth_and_strategy",
+      "topic_label": "Growth and strategy",
+      "section": "management_discussion",
+      "attention": {
+        "score": 74,
+        "label": "high",
+        "factors": [
+          {
+            "label": "Disclosure novelty",
+            "points": 40
+          },
+          {
+            "label": "Section significance",
+            "points": 17
+          },
+          {
+            "label": "Risk language",
+            "points": 0
+          },
+          {
+            "label": "Numerical change",
+            "points": 14
+          },
+          {
+            "label": "Evidence specificity",
+            "points": 3
+          }
+        ]
+      },
+      "explanation": "A prior disclosure related to growth and strategy is no longer present in the comparable section.",
+      "analyst_relevance": "Review the cited language in the context of the investment thesis.",
+      "similarity": null,
+      "numeric_deltas": [
+        {
+          "previous": "$95.7 million",
+          "current": null
+        },
+        {
+          "previous": "$45.6 million",
+          "current": null
+        },
+        {
+          "previous": "$20.3 million",
+          "current": null
+        },
+        {
+          "previous": "$14.8 million",
+          "current": null
+        },
+        {
+          "previous": "$24.3 million",
+          "current": null
+        },
+        {
+          "previous": "$24.0 million",
+          "current": null
+        },
+        {
+          "previous": "29",
+          "current": null
+        },
+        {
+          "previous": "$18.6 million",
+          "current": null
+        }
+      ],
+      "previous_evidence": {
+        "evidence_id": "a82cdc3a7bd3bcaded34",
+        "filing_version": "prior",
+        "accession_number": "0000771497-24-000029",
+        "filing_date": "2024-12-19",
+        "report_date": "2024-10-31",
+        "section": "management_discussion",
+        "paragraph_index": 21,
+        "text_excerpt": "The increase in corporate expenses was primarily related to: • a $95.7 million fair value adjustment to increase the contingent consideration related to the RavenVolt Acquisition recorded during 2024, as compared to a $45.6 million fair value adjustment to decrease the contingent consideration recorded during 2023; • a $20.3 million unfavorable self-insurance reserve adjustment related to prior year claims from actuarial evaluations completed during 2024, as compared to a favorable $14.8 million adjustment recorded in 2023; • a $24.3 million increase in costs associated with various systems’ go-live and other investments in technology; and • an absence of a $24.0 million benefit from employee retention credits received during 2023. This increase was partially offset by: 29 • an $18.6 million decrease in certain discrete transformational costs under our ELEVATE strategy for developing the new ERP system, cl…",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/771497/000077149724000029/abm-20241031.htm",
+        "numbers": [
+          "$95.7 million",
+          "2024",
+          "$45.6 million",
+          "2023",
+          "$20.3 million",
+          "$14.8 million",
+          "$24.3 million",
+          "$24.0 million",
+          "29",
+          "$18.6 million"
+        ],
+        "dates": []
+      },
+      "current_evidence": null
+    },
+    {
+      "change_id": "c2934ef8d6eec82e",
+      "change_type": "removed",
+      "topic": "demand_and_competition",
+      "topic_label": "Demand and competition",
+      "section": "management_discussion",
+      "attention": {
+        "score": 74,
+        "label": "high",
+        "factors": [
+          {
+            "label": "Disclosure novelty",
+            "points": 40
+          },
+          {
+            "label": "Section significance",
+            "points": 17
+          },
+          {
+            "label": "Risk language",
+            "points": 0
+          },
+          {
+            "label": "Numerical change",
+            "points": 14
+          },
+          {
+            "label": "Evidence specificity",
+            "points": 3
+          }
+        ]
+      },
+      "explanation": "A prior disclosure related to demand and competition is no longer present in the comparable section.",
+      "analyst_relevance": "Review the cited language in the context of the investment thesis.",
+      "similarity": null,
+      "numeric_deltas": [
+        {
+          "previous": "$154.5 million",
+          "current": null
+        },
+        {
+          "previous": "31",
+          "current": null
+        },
+        {
+          "previous": "1.17",
+          "current": null
+        },
+        {
+          "previous": "3.34",
+          "current": null
+        },
+        {
+          "previous": "1",
+          "current": null
+        },
+        {
+          "previous": "$ 47.86",
+          "current": null
+        },
+        {
+          "previous": "$ 41.06",
+          "current": null
+        },
+        {
+          "previous": "$ 55.8",
+          "current": null
+        }
+      ],
+      "previous_evidence": {
+        "evidence_id": "159afcc7f57637c799a1",
+        "filing_version": "prior",
+        "accession_number": "0000771497-24-000029",
+        "filing_date": "2024-12-19",
+        "report_date": "2024-10-31",
+        "section": "management_discussion",
+        "paragraph_index": 27,
+        "text_excerpt": "We repurchased shares under the share repurchase program during the year ended October 31, 2024, as summarized below. At October 31, 2024, authorization for $154.5 million of repurchases remained under the Share Repurchase Program. Years Ended October 31, (in millions, except per share amounts) 2024 2023 Total number of shares purchased 1.17 3.34 Average price paid per share (1) $ 47.86 $ 41.06 Total cash paid for share repurchases (1) $ 55.8 $ 137.1 (1) Average price paid per share and total cash paid for share repurchases do not include any excise tax for stock repurchases as part of the Inflation Reduction Act of 2022. Proceeds from Federal Energy Savings Performance Contracts As part of our Technical Solutions business, we enter into energy savings performance contracts (“ESPC”) with the federal government pursuant to which we agree to develop, design, engineer, and construct a project and guarantee th…",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/771497/000077149724000029/abm-20241031.htm",
+        "numbers": [
+          "31",
+          "2024",
+          "$154.5 million",
+          "2023",
+          "1.17",
+          "3.34",
+          "1",
+          "$ 47.86",
+          "$ 41.06",
+          "$ 55.8",
+          "$ 137.1",
+          "2022"
+        ],
+        "dates": [
+          "October 31, 2024"
+        ]
+      },
+      "current_evidence": null
+    },
+    {
+      "change_id": "db7e459acfda9337",
+      "change_type": "removed",
+      "topic": "liquidity_debt_margins_and_costs",
+      "topic_label": "Liquidity, debt, margins and costs",
+      "section": "management_discussion",
+      "attention": {
+        "score": 74,
+        "label": "high",
+        "factors": [
+          {
+            "label": "Disclosure novelty",
+            "points": 40
+          },
+          {
+            "label": "Section significance",
+            "points": 17
+          },
+          {
+            "label": "Risk language",
+            "points": 0
+          },
+          {
+            "label": "Numerical change",
+            "points": 14
+          },
+          {
+            "label": "Evidence specificity",
+            "points": 3
+          }
+        ]
+      },
+      "explanation": "A prior disclosure related to liquidity, debt, margins and costs is no longer present in the comparable section.",
+      "analyst_relevance": "Review the cited language in the context of the investment thesis.",
+      "similarity": null,
+      "numeric_deltas": [
+        {
+          "previous": "$11.4 million",
+          "current": null
+        },
+        {
+          "previous": "$192.5 million",
+          "current": null
+        },
+        {
+          "previous": "33.6%",
+          "current": null
+        },
+        {
+          "previous": "$765.3 million",
+          "current": null
+        },
+        {
+          "previous": "$95.7 million",
+          "current": null
+        },
+        {
+          "previous": "$45.6 million",
+          "current": null
+        },
+        {
+          "previous": "25",
+          "current": null
+        },
+        {
+          "previous": "$24.3 million",
+          "current": null
+        }
+      ],
+      "previous_evidence": {
+        "evidence_id": "954a35bb39ef807ea13b",
+        "filing_version": "prior",
+        "accession_number": "0000771497-24-000029",
+        "filing_date": "2024-12-19",
+        "report_date": "2024-10-31",
+        "section": "management_discussion",
+        "paragraph_index": 11,
+        "text_excerpt": "In addition, the decrease in gross margin was attributable to the $11.4 million in revenue from an Aviation parking project recognized in 2023. Selling, General and Administrative Expenses Selling, general and administrative expenses increased by $192.5 million, or 33.6%, to $765.3 million during 2024, as compared to 2023. The increase in selling, general and administrative expenses was primarily attributable to: • a $95.7 million fair value adjustment to increase the contingent consideration related to the RavenVolt Acquisition recorded during 2024, as compared to a $45.6 million fair value adjustment to decrease the contingent consideration recorded during 2023; 25 • a $24.3 million increase in costs associated with various systems’ go-live and other investments in technology; • an absence of a $24.0 million benefit from employee retention credits received during 2023; • an $8.8 million increase in accru…",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/771497/000077149724000029/abm-20241031.htm",
+        "numbers": [
+          "$11.4 million",
+          "2023",
+          "$192.5 million",
+          "33.6%",
+          "$765.3 million",
+          "2024",
+          "$95.7 million",
+          "$45.6 million",
+          "25",
+          "$24.3 million",
+          "$24.0 million",
+          "$8.8 million",
+          "$6.5 million"
+        ],
+        "dates": []
+      },
+      "current_evidence": null
+    },
+    {
+      "change_id": "dd14e567cc1b3670",
+      "change_type": "removed",
+      "topic": "liquidity_debt_margins_and_costs",
+      "topic_label": "Liquidity, debt, margins and costs",
+      "section": "management_discussion",
+      "attention": {
+        "score": 74,
+        "label": "high",
+        "factors": [
+          {
+            "label": "Disclosure novelty",
+            "points": 40
+          },
+          {
+            "label": "Section significance",
+            "points": 17
+          },
+          {
+            "label": "Risk language",
+            "points": 0
+          },
+          {
+            "label": "Numerical change",
+            "points": 14
+          },
+          {
+            "label": "Evidence specificity",
+            "points": 3
+          }
+        ]
+      },
+      "explanation": "A prior disclosure related to liquidity, debt, margins and costs is no longer present in the comparable section.",
+      "analyst_relevance": "Review the cited language in the context of the investment thesis.",
+      "similarity": null,
+      "numeric_deltas": [
+        {
+          "previous": "$11.4 million",
+          "current": null
+        },
+        {
+          "previous": "$36.3 million",
+          "current": null
+        },
+        {
+          "previous": "$31.8 million",
+          "current": null
+        },
+        {
+          "previous": "$0.9 million",
+          "current": null
+        },
+        {
+          "previous": "$59.1 million",
+          "current": null
+        },
+        {
+          "previous": "75 bps",
+          "current": null
+        },
+        {
+          "previous": "5.7%",
+          "current": null
+        },
+        {
+          "previous": "6.5%",
+          "current": null
+        }
+      ],
+      "previous_evidence": {
+        "evidence_id": "e9935f619f80bf41ec42",
+        "filing_version": "prior",
+        "accession_number": "0000771497-24-000029",
+        "filing_date": "2024-12-19",
+        "report_date": "2024-10-31",
+        "section": "management_discussion",
+        "paragraph_index": 18,
+        "text_excerpt": "In addition, in 2023, we recognized $11.4 million in revenue from an Aviation parking project, whereby all the direct labor and related costs were recognized prior to 2023. Management reimbursement revenues for this segment totaled $36.3 million and $31.8 million during 2024 and 2023, respectively. Operating profit decreased by $0.9 million, to $59.1 million during 2024, as compared to 2023. Operating profit margin decreased by 75 bps to 5.7% in 2024, from 6.5% in 2023. The decrease in operating profit margin was primarily attributable to the $11.4 million in revenue from an Aviation parking project recognized in 2023. The decrease in operating profit margin was partially offset by contract mix and labor efficiencies primarily due to increases in travel volume. 28 Education Year Ended October 31, ($ in millions) 2024 2023 Increase Revenues $ 904.0 $ 880.4 $ 23.6 2.7% Operating profit 55.3 49.7 5.6 11.4% Op…",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/771497/000077149724000029/abm-20241031.htm",
+        "numbers": [
+          "2023",
+          "$11.4 million",
+          "$36.3 million",
+          "$31.8 million",
+          "2024",
+          "$0.9 million",
+          "$59.1 million",
+          "75 bps",
+          "5.7%",
+          "6.5%",
+          "28",
+          "31",
+          "$ 904.0",
+          "$ 880.4",
+          "$ 23.6",
+          "2.7%"
+        ],
+        "dates": []
+      },
+      "current_evidence": null
+    },
+    {
+      "change_id": "f491ee3224791536",
+      "change_type": "new",
+      "topic": "demand_and_competition",
+      "topic_label": "Demand and competition",
+      "section": "management_discussion",
+      "attention": {
+        "score": 74,
+        "label": "high",
+        "factors": [
+          {
+            "label": "Disclosure novelty",
+            "points": 40
+          },
+          {
+            "label": "Section significance",
+            "points": 17
+          },
+          {
+            "label": "Risk language",
+            "points": 0
+          },
+          {
+            "label": "Numerical change",
+            "points": 14
+          },
+          {
+            "label": "Evidence specificity",
+            "points": 3
+          }
+        ]
+      },
+      "explanation": "The current filing introduces a new disclosure related to demand and competition.",
+      "analyst_relevance": "Review the cited language in the context of the investment thesis.",
+      "similarity": null,
+      "numeric_deltas": [
+        {
+          "previous": null,
+          "current": "$291.4 million"
+        },
+        {
+          "previous": null,
+          "current": "$281.4 million"
+        },
+        {
+          "previous": null,
+          "current": "$9.9 million"
+        },
+        {
+          "previous": null,
+          "current": "3.2%"
+        },
+        {
+          "previous": null,
+          "current": "$316.9 million"
+        },
+        {
+          "previous": null,
+          "current": "12 bps"
+        },
+        {
+          "previous": null,
+          "current": "7.7%"
+        },
+        {
+          "previous": null,
+          "current": "7.6%"
+        }
+      ],
+      "previous_evidence": null,
+      "current_evidence": {
+        "evidence_id": "d5a0fcab4a9ca3fd35a6",
+        "filing_version": "current",
+        "accession_number": "0000771497-25-000031",
+        "filing_date": "2025-12-19",
+        "report_date": "2025-10-31",
+        "section": "management_discussion",
+        "paragraph_index": 13,
+        "text_excerpt": "The revenue increase was primarily driven by client expansions both domestic and international, partially offset by strategic pricing decisions on contract rebids and attrition of certain engineering clients. Management reimbursement revenues for this segment totaled $291.4 million and $281.4 million during 2025 and 2024, respectively. Operating profit increased by $9.9 million, or 3.2%, to $316.9 million during 2025, as compared to 2024. Operating profit margin increased by 12 bps to 7.7% in 2025 from 7.6% in 2024. The increase in operating profit margin was primarily driven by geographic mix and operational efficiencies achieved through our Restructuring Program. The increase was partially offset by strategic pricing decisions on contract rebids and proactive extensions, combined with managing contract escalation timing to maintain and expand certain customer accounts.",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/771497/000077149725000031/abm-20251031.htm",
+        "numbers": [
+          "$291.4 million",
+          "$281.4 million",
+          "2025",
+          "2024",
+          "$9.9 million",
+          "3.2%",
+          "$316.9 million",
+          "12 bps",
+          "7.7%",
+          "7.6%"
+        ],
+        "dates": []
+      }
+    },
+    {
+      "change_id": "3482f9c97525bd90",
+      "change_type": "new",
+      "topic": "human_capital",
+      "topic_label": "Human capital",
+      "section": "risk_factors",
+      "attention": {
+        "score": 73,
+        "label": "high",
+        "factors": [
+          {
+            "label": "Disclosure novelty",
+            "points": 40
+          },
+          {
+            "label": "Section significance",
+            "points": 20
+          },
+          {
+            "label": "Risk language",
+            "points": 10
+          },
+          {
+            "label": "Numerical change",
+            "points": 0
+          },
+          {
+            "label": "Evidence specificity",
+            "points": 3
+          }
+        ]
+      },
+      "explanation": "The current filing introduces a new disclosure related to human capital.",
+      "analyst_relevance": "Review the cited language in the context of the investment thesis.",
+      "similarity": null,
+      "numeric_deltas": [],
+      "previous_evidence": null,
+      "current_evidence": {
+        "evidence_id": "01439747e124973cea95",
+        "filing_version": "current",
+        "accession_number": "0000771497-25-000031",
+        "filing_date": "2025-12-19",
+        "report_date": "2025-10-31",
+        "section": "risk_factors",
+        "paragraph_index": 17,
+        "text_excerpt": "The benefits that are expected to result from the WGNSTAR Acquisition, which we expect to be consummated in the first half of 2026, will depend, in part, on our ability to realize the anticipated growth opportunities and the realization of anticipated cost and revenue synergies. Maintaining strong relationships with acquired clients and retaining talented employees will also be critical to realizing the acquisition’s benefits. Clients or key employees of WGNSTAR may decide not to continue their relationship with us after the acquisition is consummated. Any loss of significant WGNSTAR customers or the departure of key personnel could negatively impact the success of the acquisition and hinder our ability to achieve the expected benefits. Ultimately, if we fail to fully realize the expected growth opportunities, revenue synergies, or cost savings from the WGNSTAR Acquisition, it could negatively impact our b…",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/771497/000077149725000031/abm-20251031.htm",
+        "numbers": [
+          "2026"
+        ],
+        "dates": []
+      }
+    },
+    {
+      "change_id": "c50098c3ac4666c2",
+      "change_type": "removed",
+      "topic": "regulation_and_legal_risk",
+      "topic_label": "Regulation and legal risk",
+      "section": "management_discussion",
+      "attention": {
+        "score": 70,
+        "label": "high",
+        "factors": [
+          {
+            "label": "Disclosure novelty",
+            "points": 40
+          },
+          {
+            "label": "Section significance",
+            "points": 17
+          },
+          {
+            "label": "Risk language",
+            "points": 10
+          },
+          {
+            "label": "Numerical change",
+            "points": 0
+          },
+          {
+            "label": "Evidence specificity",
+            "points": 3
+          }
+        ]
+      },
+      "explanation": "A prior disclosure related to regulation and legal risk is no longer present in the comparable section.",
+      "analyst_relevance": "Review the cited language in the context of the investment thesis.",
+      "similarity": null,
+      "numeric_deltas": [],
+      "previous_evidence": {
+        "evidence_id": "866a1e84671b919c8a8e",
+        "filing_version": "prior",
+        "accession_number": "0000771497-24-000029",
+        "filing_date": "2024-12-19",
+        "report_date": "2024-10-31",
+        "section": "management_discussion",
+        "paragraph_index": 4,
+        "text_excerpt": "Insurance Reserves We use a combination of insured and self-insurance programs to cover workers’ compensation, general liability, automobile liability, property damage, and other insurable risks. Insurance claim liabilities represent our estimate of retained risks without regard to insurance coverage. We retain a substantial portion of the risk related to certain workers’ compensation and medical claims. Liabilities associated with these losses include estimates of both filed claims and incurred but not reported claims (“IBNR Claims”). With the assistance of third-party actuaries, we review our estimate of ultimate losses for IBNR Claims on a quarterly basis and adjust our required self-insurance reserves as appropriate. As part of this evaluation, we review the status of existing and new claim reserves as established by third-party claims administrators. The third-party claims administrators establish the…",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/771497/000077149724000029/abm-20241031.htm",
+        "numbers": [],
+        "dates": []
+      },
+      "current_evidence": null
+    },
+    {
+      "change_id": "95443966bf7a0dd7",
+      "change_type": "new",
+      "topic": "regulation_and_legal_risk",
+      "topic_label": "Regulation and legal risk",
+      "section": "business",
+      "attention": {
+        "score": 69,
+        "label": "high",
+        "factors": [
+          {
+            "label": "Disclosure novelty",
+            "points": 40
+          },
+          {
+            "label": "Section significance",
+            "points": 13
+          },
+          {
+            "label": "Risk language",
+            "points": 8
+          },
+          {
+            "label": "Numerical change",
+            "points": 5
+          },
+          {
+            "label": "Evidence specificity",
+            "points": 3
+          }
+        ]
+      },
+      "explanation": "The current filing introduces a new disclosure related to regulation and legal risk.",
+      "analyst_relevance": "Review the cited language in the context of the investment thesis.",
+      "similarity": null,
+      "numeric_deltas": [
+        {
+          "previous": null,
+          "current": "6"
+        }
+      ],
+      "previous_evidence": null,
+      "current_evidence": {
+        "evidence_id": "a0a3f19252003ddcc73b",
+        "filing_version": "current",
+        "accession_number": "0000771497-25-000031",
+        "filing_date": "2025-12-19",
+        "report_date": "2025-10-31",
+        "section": "business",
+        "paragraph_index": 17,
+        "text_excerpt": "The Board’s Stakeholder and Enterprise Risk Committee is responsible for oversight of the Company’s programs, policies, and practices related to environmental, social, and stakeholder matters that may impact the 6 Company’s business and key stakeholders, as well as of the Company’s execution of its enterprise risk management program. ABM’s cross-functional teams, including representatives from sustainability, human resources, legal, procurement, operations, and communications, are responsible for advancing the Company’s Corporate Responsibility initiative across the enterprise. These teams regularly present to the Board of Directors’ Stakeholder and Enterprise Risk Committee. In 2024, we established a management-level Sustainability Committee to integrate sustainability capabilities across business functions and client offerings and to support innovation and measurable impact. Since 2011, ABM has voluntari…",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/771497/000077149725000031/abm-20251031.htm",
+        "numbers": [
+          "6",
+          "2024",
+          "2011"
+        ],
+        "dates": []
+      }
+    },
+    {
+      "change_id": "782714eda709db11",
+      "change_type": "removed",
+      "topic": "demand_and_competition",
+      "topic_label": "Demand and competition",
+      "section": "management_discussion",
+      "attention": {
+        "score": 69,
+        "label": "high",
+        "factors": [
+          {
+            "label": "Disclosure novelty",
+            "points": 40
+          },
+          {
+            "label": "Section significance",
+            "points": 17
+          },
+          {
+            "label": "Risk language",
+            "points": 4
+          },
+          {
+            "label": "Numerical change",
+            "points": 5
+          },
+          {
+            "label": "Evidence specificity",
+            "points": 3
+          }
+        ]
+      },
+      "explanation": "A prior disclosure related to demand and competition is no longer present in the comparable section.",
+      "analyst_relevance": "Review the cited language in the context of the investment thesis.",
+      "similarity": null,
+      "numeric_deltas": [
+        {
+          "previous": "22",
+          "current": null
+        }
+      ],
+      "previous_evidence": {
+        "evidence_id": "c28521c3156e1f9c26c0",
+        "filing_version": "prior",
+        "accession_number": "0000771497-24-000029",
+        "filing_date": "2024-12-19",
+        "report_date": "2024-10-31",
+        "section": "management_discussion",
+        "paragraph_index": 3,
+        "text_excerpt": "22 Developments and Trends Macro-Economic Environment in Commercial Real Estate and Other On an ongoing basis, we monitor changes to the macro-economic environment and their potential impacts on demand for our services and on our financial condition. One such monitored change is the strength or softness of the commercial real estate industry, especially multi-tenant and owner-occupied commercial office buildings. The recent softness in the market is primarily attributable to the lingering effects of the Pandemic, especially the normalization of hybrid work, which has resulted in higher office vacancy rates. Given that Class A and high-quality commercial office buildings are a key end market for us, we have experienced modest declines in demand for janitorial services and work orders in these markets. We expect the occupancy rates of Class A and high-quality buildings and back-to office trends to improve th…",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/771497/000077149724000029/abm-20241031.htm",
+        "numbers": [
+          "22",
+          "2025"
+        ],
+        "dates": []
+      },
+      "current_evidence": null
+    },
+    {
+      "change_id": "9b0a975ff061e61c",
+      "change_type": "removed",
+      "topic": "liquidity_debt_margins_and_costs",
+      "topic_label": "Liquidity, debt, margins and costs",
+      "section": "management_discussion",
+      "attention": {
+        "score": 68,
+        "label": "high",
+        "factors": [
+          {
+            "label": "Disclosure novelty",
+            "points": 40
+          },
+          {
+            "label": "Section significance",
+            "points": 17
+          },
+          {
+            "label": "Risk language",
+            "points": 8
+          },
+          {
+            "label": "Numerical change",
+            "points": 0
+          },
+          {
+            "label": "Evidence specificity",
+            "points": 3
+          }
+        ]
+      },
+      "explanation": "A prior disclosure related to liquidity, debt, margins and costs is no longer present in the comparable section.",
+      "analyst_relevance": "Review the cited language in the context of the investment thesis.",
+      "similarity": null,
+      "numeric_deltas": [],
+      "previous_evidence": {
+        "evidence_id": "96bcb049c5e918bd8106",
+        "filing_version": "prior",
+        "accession_number": "0000771497-24-000029",
+        "filing_date": "2024-12-19",
+        "report_date": "2024-10-31",
+        "section": "management_discussion",
+        "paragraph_index": 28,
+        "text_excerpt": "We use the advances from the third parties under these agreements to finance the projects, which are recorded as cash flows from financing activities. The use of the cash received under these arrangements to pay project costs is classified as operating cash flows. Effect of Inflation The rates of inflation experienced in recent years have not had a material impact on our Financial Statements. We attempt to recover increased costs by increasing prices for our services to the extent permitted by contracts and competition. Regulatory Environment Our operations are subject to various federal, state, and/or local laws, rules, and regulations regulating among other things, labor, wages, and health and safety matters, as well as laws and regulations relating to the discharge of materials into the environment or otherwise relating to the protection of the environment. Historically, the cost of complying with these…",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/771497/000077149724000029/abm-20241031.htm",
+        "numbers": [],
+        "dates": []
+      },
+      "current_evidence": null
+    },
+    {
+      "change_id": "6864eb00c1902358",
+      "change_type": "new",
+      "topic": "human_capital",
+      "topic_label": "Human capital",
+      "section": "business",
+      "attention": {
+        "score": 66,
+        "label": "medium",
+        "factors": [
+          {
+            "label": "Disclosure novelty",
+            "points": 40
+          },
+          {
+            "label": "Section significance",
+            "points": 13
+          },
+          {
+            "label": "Risk language",
+            "points": 0
+          },
+          {
+            "label": "Numerical change",
+            "points": 10
+          },
+          {
+            "label": "Evidence specificity",
+            "points": 3
+          }
+        ]
+      },
+      "explanation": "The current filing introduces a new disclosure related to human capital.",
+      "analyst_relevance": "Review the cited language in the context of the investment thesis.",
+      "similarity": null,
+      "numeric_deltas": [
+        {
+          "previous": null,
+          "current": "11246"
+        },
+        {
+          "previous": null,
+          "current": "8"
+        }
+      ],
+      "previous_evidence": null,
+      "current_evidence": {
+        "evidence_id": "5ea3fd612ddfa746c3a5",
+        "filing_version": "current",
+        "accession_number": "0000771497-25-000031",
+        "filing_date": "2025-12-19",
+        "report_date": "2025-10-31",
+        "section": "business",
+        "paragraph_index": 24,
+        "text_excerpt": "Guided by our mission and values, ABM’s inclusion strategy is activated through its Culture & Inclusion Council, as well as Impact Groups, which are accessible to all employees, with executive sponsorship from ABM’s President, Chief Executive Officer, and Chief Human Resources Officer. Beyond our internal workforce, our culture of care extends to the communities we serve. Through the ABM Cares program, employees participate in volunteer initiatives, local partnerships, and charitable giving that strengthen community ties and reflect the Company’s mission of “making a difference every person, every day.” The recently launched ABM Team Member Relief Fund further demonstrates this commitment by providing financial support to employees facing unexpected personal or natural disaster-related hardships. Additionally, ABM is an Equal Opportunity and Affirmative Action employer in compliance with the requirements o…",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/771497/000077149725000031/abm-20251031.htm",
+        "numbers": [
+          "11246",
+          "1973",
+          "8"
+        ],
+        "dates": []
+      }
+    },
+    {
+      "change_id": "9924eba70e48d3d9",
+      "change_type": "new",
+      "topic": "liquidity_debt_margins_and_costs",
+      "topic_label": "Liquidity, debt, margins and costs",
+      "section": "business",
+      "attention": {
+        "score": 65,
+        "label": "medium",
+        "factors": [
+          {
+            "label": "Disclosure novelty",
+            "points": 40
+          },
+          {
+            "label": "Section significance",
+            "points": 13
+          },
+          {
+            "label": "Risk language",
+            "points": 4
+          },
+          {
+            "label": "Numerical change",
+            "points": 5
+          },
+          {
+            "label": "Evidence specificity",
+            "points": 3
+          }
+        ]
+      },
+      "explanation": "The current filing introduces a new disclosure related to liquidity, debt, margins and costs.",
+      "analyst_relevance": "Review the cited language in the context of the investment thesis.",
+      "similarity": null,
+      "numeric_deltas": [
+        {
+          "previous": null,
+          "current": "110"
+        }
+      ],
+      "previous_evidence": null,
+      "current_evidence": {
+        "evidence_id": "befd008d6a711137fde1",
+        "filing_version": "current",
+        "accession_number": "0000771497-25-000031",
+        "filing_date": "2025-12-19",
+        "report_date": "2025-10-31",
+        "section": "business",
+        "paragraph_index": 15,
+        "text_excerpt": "Historically, the cost of complying with these laws, rules, and regulations has not had a material adverse effect on our financial position, results of operations, or cash flows. Corporate Responsibility Strategy and Oversight Corporate responsibility is central to how we operate and deliver for our stakeholders. With more than 110 years of experience, ABM integrates responsible and community-minded business practices across its operations to create long-term value for shareholders, employees, clients, and the communities we serve. Our mission to make a difference, every person, every day — and our values of respect, excellence, integrity, innovation, trust, and collaboration guide our actions.",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/771497/000077149725000031/abm-20251031.htm",
+        "numbers": [
+          "110"
+        ],
+        "dates": []
+      }
+    }
+  ],
+  "sources": [
+    {
+      "evidence_id": "bc03b04a3b74dbd8aff8",
+      "filing_version": "prior",
+      "accession_number": "0000771497-24-000029",
+      "filing_date": "2024-12-19",
+      "report_date": "2024-10-31",
+      "section": "management_discussion",
+      "paragraph_index": 36,
+      "text_excerpt": "See Note 10, “Insurance,” in the Financial Statements for further detail. • Unrecognized Tax Benefits – At October 31, 2024, our total liability for unrecognized tax benefits was $7.9 million. The resolution or settlement of these tax positions with the taxing authorities is subject to significant uncertainty, and therefore we are unable to make a reliable estimate of the amount or timing of cash that may be required to settle these matters. In addition, certain of these matters may not require cash settlements due to the utilization of credits and net operating loss carryforwards as well as other offsets, including the indirect benefit from other taxing jurisdictions that may be available. • Contingent Consideration Payable in Connection with Our Acquisition of RavenVolt – At October 31, 2024, contingent consideration of up to $205.0 million, of which $34.1 million has been accrued as of October 31, 2024,…",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/771497/000077149724000029/abm-20241031.htm",
+      "numbers": [
+        "10",
+        "31",
+        "2024",
+        "$7.9 million",
+        "$205.0 million",
+        "$34.1 million",
+        "2026",
+        "2025"
+      ],
+      "dates": [
+        "October 31, 2024"
+      ]
+    },
+    {
+      "evidence_id": "cc28c20721a9d8999d9f",
+      "filing_version": "current",
+      "accession_number": "0000771497-25-000031",
+      "filing_date": "2025-12-19",
+      "report_date": "2025-10-31",
+      "section": "management_discussion",
+      "paragraph_index": 31,
+      "text_excerpt": "As these obligations do not have scheduled maturities, we are unable to make a reliable estimate of the amount or timing of cash that may be required to settle these matters. See Note 11, “Insurance,” in the Financial Statements for further detail. • Unrecognized Tax Benefits – At October 31, 2025, our total liability for unrecognized tax benefits was $8.0 million. The resolution or settlement of these tax positions with the taxing authorities is subject to significant uncertainty, and therefore we are unable to make a reliable estimate of the amount or timing of cash that may be required to settle these matters. In addition, certain of these matters may not require cash settlements due to the utilization of credits and net operating loss carryforwards as well as other offsets, including the indirect benefit from other taxing jurisdictions that may be available. Off-Balance Sheet Arrangements We have no of…",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/771497/000077149725000031/abm-20251031.htm",
+      "numbers": [
+        "11",
+        "31",
+        "2025",
+        "$8.0 million"
+      ],
+      "dates": [
+        "October 31, 2025"
+      ]
+    },
+    {
+      "evidence_id": "7ba73c9ac7a2baf74ff5",
+      "filing_version": "prior",
+      "accession_number": "0000771497-24-000029",
+      "filing_date": "2024-12-19",
+      "report_date": "2024-10-31",
+      "section": "management_discussion",
+      "paragraph_index": 5,
+      "text_excerpt": "The specific case reserves estimated by the third-party administrators are provided to the actuary who assists us in projecting an actuarial estimate of the overall ultimate losses for our self-insured or high deductible programs, which includes the case reserves plus an actuarial estimate of reserves required for additional developments, such as IBNR Claims. We utilize the results of actuarial studies to estimate our insurance rates and insurance reserves for future periods and to adjust reserves, if appropriate, for prior years. Based on the results of the actuarial reviews performed during 2024, which included analyzing recent loss development patterns, comparing the loss development against benchmarks, and applying actuarial projection methods to determine the estimate of ultimate losses, we increased our total reserves related to prior years for known claims as well as our estimate of the loss amounts…",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/771497/000077149724000029/abm-20241031.htm",
+      "numbers": [
+        "2024",
+        "$20.3 million",
+        "2023",
+        "$14.8 million",
+        "23",
+        "$263.0 million",
+        "3.2%",
+        "$8,359.4 million"
+      ],
+      "dates": []
+    },
+    {
+      "evidence_id": "fde2a6e7a511d89a1f3b",
+      "filing_version": "current",
+      "accession_number": "0000771497-25-000031",
+      "filing_date": "2025-12-19",
+      "report_date": "2025-10-31",
+      "section": "management_discussion",
+      "paragraph_index": 23,
+      "text_excerpt": "Years Ended October 31, (in millions, except per share amounts) 2025 2024 Total number of shares purchased 2.56 1.17 Average price paid per share (1) $ 47.35 $ 47.86 Total cash paid for share repurchases (1) $ 121.3 $ 55.8 (1) Average price paid per share and total cash paid for share repurchases do not include any excise tax for share repurchases as part of the Inflation Reduction Act of 2022. Effect of Inflation The rates of inflation experienced in recent years have not had a material impact on our Financial Statements. We attempt to recover increased costs by increasing prices for our services to the extent permitted by contracts and competition. Regulatory Environment Our operations are subject to various federal, state, and/or local laws, rules, and regulations regulating among other things, labor, wages, and health and safety matters, as well as laws and regulations relating to the discharge of mate…",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/771497/000077149725000031/abm-20251031.htm",
+      "numbers": [
+        "31",
+        "2025",
+        "2024",
+        "2.56",
+        "1.17",
+        "1",
+        "$ 47.35",
+        "$ 47.86",
+        "$ 121.3",
+        "$ 55.8",
+        "2022"
+      ],
+      "dates": []
+    },
+    {
+      "evidence_id": "f1c328bc5fcf6b5ab027",
+      "filing_version": "prior",
+      "accession_number": "0000771497-24-000029",
+      "filing_date": "2024-12-19",
+      "report_date": "2024-10-31",
+      "section": "management_discussion",
+      "paragraph_index": 7,
+      "text_excerpt": "The decrease in operating profit was attributable to: • an increase in the fair value of the contingent consideration related to the RavenVolt Acquisition; • an increase in other Corporate expenses, primarily costs associated with various systems’ go-live and other investments in technology; • an unfavorable self-insurance reserve adjustment related to prior year claims from actuarial evaluations completed in 2024, as compared to a favorable adjustment in 2023; • an absence of employee retention credits received as compared to 2023; and • $11.4 million in revenue recognized for an Aviation parking project during 2023, whereby all the direct labor and related costs for such project were recognized prior to 2023. The decrease was partially offset by: • labor efficiencies within B&I, Aviation, and Education, as well as contract mix within Technical Solutions, Aviation, and M&D; and • a decrease in amortizatio…",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/771497/000077149724000029/abm-20241031.htm",
+      "numbers": [
+        "2024",
+        "2023",
+        "$11.4 million",
+        "39.1%",
+        "24.1%"
+      ],
+      "dates": []
+    },
+    {
+      "evidence_id": "d51a74d5036d963fa060",
+      "filing_version": "current",
+      "accession_number": "0000771497-25-000031",
+      "filing_date": "2025-12-19",
+      "report_date": "2025-10-31",
+      "section": "management_discussion",
+      "paragraph_index": 43,
+      "text_excerpt": "2025-06 Intangibles — Goodwill and Other — Internal-Use Software (Subtopic 350-40): Targeted Improvements to the Accounting for Internal-Use Software This ASU, issued in September 2025, removes all references to prescriptive and sequential software development stages (referred to as “project stages”) throughout Subtopic 350-40 and requires the capitalization of software costs to begin when 1) management has authorized and committed to funding the software project and 2) it is probable that the project will be completed and the software will be used to perform the function intended. This ASU is effective for fiscal years beginning after December 15, 2027, and for interim periods within those annual reporting periods, with early adoption permitted. 39",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/771497/000077149725000031/abm-20251031.htm",
+      "numbers": [
+        "2025",
+        "06",
+        "350",
+        "40",
+        "1",
+        "2",
+        "15",
+        "2027",
+        "39"
+      ],
+      "dates": [
+        "December 15, 2027"
+      ]
+    },
+    {
+      "evidence_id": "2902adb299d2ff816c51",
+      "filing_version": "prior",
+      "accession_number": "0000771497-24-000029",
+      "filing_date": "2024-12-19",
+      "report_date": "2024-10-31",
+      "section": "management_discussion",
+      "paragraph_index": 6,
+      "text_excerpt": "Revenue growth was comprised of organic growth of 2.9% and acquisition growth of 0.3%. The organic revenue growth was due to the higher project revenues due to the timing of certain microgrid systems design and installation projects within Technical Solutions, and net new business and expansion of business with existing customers within Aviation, M&D, and Education. The increase in revenues was partially offset by attrition of engineering customers and soft commercial office market conditions within B&I, and the expected rebalancing of the scope of work with an existing customer within M&D. Acquisition growth of $26.3 million was driven by the Quality Uptime Acquisition, completed in the third quarter of 2024. • Operating profit decreased by $197.5 million to $212.0 million during 2024, as compared to 2023.",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/771497/000077149724000029/abm-20241031.htm",
+      "numbers": [
+        "2.9%",
+        "0.3%",
+        "$26.3 million",
+        "2024",
+        "$197.5 million",
+        "$212.0 million",
+        "2023"
+      ],
+      "dates": []
+    },
+    {
+      "evidence_id": "d27c35b6be5a4c0195e5",
+      "filing_version": "current",
+      "accession_number": "0000771497-25-000031",
+      "filing_date": "2025-12-19",
+      "report_date": "2025-10-31",
+      "section": "management_discussion",
+      "paragraph_index": 4,
+      "text_excerpt": "Acquisition growth of $68.4 million was driven by revenue from the Quality Uptime and LMC acquisitions. • Operating profit increased by $99.7 million to $311.7 million during 2025, as compared to 2024. The increase in operating profit was attributable to: • respective revenue increases for all industry groups, • operational efficiencies within Aviation and Education, and • service mix within Technical Solutions. The increase was partially offset by: • strategic pricing decisions for contract rebids and proactive extensions, combined with managing the timing of contract escalations to maintain and expand certain customer accounts within B&I, and • strategic pricing on select new wins within M&D. • Our effective tax rate on income was 26.2% for 2025, as compared to 39.1% during 2024. Our effective tax rate for 2024 was negatively impacted by a $95.7 million non-taxable change to increase the fair value of th…",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/771497/000077149725000031/abm-20251031.htm",
+      "numbers": [
+        "$68.4 million",
+        "$99.7 million",
+        "$311.7 million",
+        "2025",
+        "2024",
+        "26.2%",
+        "39.1%",
+        "$95.7 million",
+        "$234.4 million"
+      ],
+      "dates": []
+    },
+    {
+      "evidence_id": "9db12572bfe7dd23e617",
+      "filing_version": "current",
+      "accession_number": "0000771497-25-000031",
+      "filing_date": "2025-12-19",
+      "report_date": "2025-10-31",
+      "section": "management_discussion",
+      "paragraph_index": 5,
+      "text_excerpt": "Our net cash provided by operating cash activities was higher than prior year, primarily due to the timing of certain working capital requirements. • Dividends of $65.6 million were paid to shareholders, and dividends totaling $1.06 per common share were declared during 2025. Additionally, we repurchased 2.6 million shares for $121.3 million, excluding excise taxes, during 2025. • At October 31, 2025, total outstanding borrowings under our Amended Credit Facility were $1,569.0 million, and we had up to $577.5 million of borrowing capacity. 25 Results of Operations Consolidated Years Ended October 31, 2025 vs.",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/771497/000077149725000031/abm-20251031.htm",
+      "numbers": [
+        "$65.6 million",
+        "$1.06",
+        "2025",
+        "2.6 million",
+        "$121.3 million",
+        "31",
+        "$1,569.0 million",
+        "$577.5 million",
+        "25"
+      ],
+      "dates": [
+        "October 31, 2025"
+      ]
+    },
+    {
+      "evidence_id": "067f9f01b6954b99899f",
+      "filing_version": "current",
+      "accession_number": "0000771497-25-000031",
+      "filing_date": "2025-12-19",
+      "report_date": "2025-10-31",
+      "section": "management_discussion",
+      "paragraph_index": 8,
+      "text_excerpt": "Selling, General and Administrative Expenses Selling, general and administrative expenses decreased by $67.9 million, or 8.9%, to $697.4 million during 2025, as compared to 2024. The decrease in selling, general and administrative expenses was primarily attributable to: • an absence of a $95.7 million adjustment to increase the fair value of the contingent consideration related to the RavenVolt Acquisition in 2024, compared to a $1.6 million adjustment to decrease the fair value in 2025. This decrease was partially offset by: • an $18.9 million increase in compensation and related expenses primarily due to headcount expansion from recent acquisitions; and 26 • a $6.6 million increase in costs associated with systems’ go-live. Amortization of Intangible Assets Amortization of intangible assets decreased by $3.6 million, or 6.4%, to $52.5 million during 2025, as compared to 2024. This decrease was due to low…",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/771497/000077149725000031/abm-20251031.htm",
+      "numbers": [
+        "$67.9 million",
+        "8.9%",
+        "$697.4 million",
+        "2025",
+        "2024",
+        "$95.7 million",
+        "$1.6 million",
+        "$18.9 million",
+        "26",
+        "$6.6 million",
+        "$3.6 million",
+        "6.4%",
+        "$52.5 million"
+      ],
+      "dates": []
+    },
+    {
+      "evidence_id": "5abb488476dc0bc67fc9",
+      "filing_version": "current",
+      "accession_number": "0000771497-25-000031",
+      "filing_date": "2025-12-19",
+      "report_date": "2025-10-31",
+      "section": "management_discussion",
+      "paragraph_index": 3,
+      "text_excerpt": "This initiative is intended to enhance overall organizational effectiveness and ensure alignment between our cost structure and strategic growth objectives. Once fully implemented in 2026, this program is expected to deliver approximately $35.0 million of annualized cost savings. During the fourth quarter of 2025, we recorded $13.4 million in restructuring charges related to these actions and expect to record additional $2.0 - $3.0 million in 2026. We will continue to review our overhead and cost structure for efficiency opportunities under this program. 24 Key Financial Highlights • Revenues increased by $386.5 million, or 4.6%, to $8,745.9 million during 2025, as compared to 2024. Revenue growth was comprised of organic growth of 3.8% and acquisition growth of 0.8%. The organic revenue growth was due to the net new business and expansion of business with existing customers within Aviation, B&I, M&D, and…",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/771497/000077149725000031/abm-20251031.htm",
+      "numbers": [
+        "2026",
+        "$35.0 million",
+        "2025",
+        "$13.4 million",
+        "$2.0",
+        "$3.0 million",
+        "24",
+        "$386.5 million",
+        "4.6%",
+        "$8,745.9 million",
+        "2024",
+        "3.8%",
+        "0.8%"
+      ],
+      "dates": []
+    },
+    {
+      "evidence_id": "16b15ecc512a3055ad1e",
+      "filing_version": "prior",
+      "accession_number": "0000771497-24-000029",
+      "filing_date": "2024-12-19",
+      "report_date": "2024-10-31",
+      "section": "management_discussion",
+      "paragraph_index": 8,
+      "text_excerpt": "Our effective tax rate for 2024 was primarily impacted by a $95.7 million non-taxable expense related to the change in the fair value of the contingent consideration related to the RavenVolt Acquisition. Our effective tax rate for 2023 was primarily impacted by a $45.6 million non-taxable benefit related to the change in the fair value of contingent consideration related to the RavenVolt Acquisition. • Net cash provided by operating activities was $226.7 million during 2024. Our net cash provided by operating cash activities was lower than prior year, primarily due to the timing of certain working capital requirements. • Dividends of $56.5 million were paid to shareholders, and dividends totaling $0.90 per common share were declared during 2024. Additionally, we repurchased 1.17 million of shares for $55.8 million, excluding excise taxes during 2024. • At October 31, 2024, total outstanding borrowings unde…",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/771497/000077149724000029/abm-20241031.htm",
+      "numbers": [
+        "2024",
+        "$95.7 million",
+        "2023",
+        "$45.6 million",
+        "$226.7 million",
+        "$56.5 million",
+        "$0.90",
+        "1.17 million",
+        "$55.8 million",
+        "31",
+        "$1,335.3 million",
+        "$423.6 million",
+        "24"
+      ],
+      "dates": [
+        "October 31, 2024"
+      ]
+    },
+    {
+      "evidence_id": "a82cdc3a7bd3bcaded34",
+      "filing_version": "prior",
+      "accession_number": "0000771497-24-000029",
+      "filing_date": "2024-12-19",
+      "report_date": "2024-10-31",
+      "section": "management_discussion",
+      "paragraph_index": 21,
+      "text_excerpt": "The increase in corporate expenses was primarily related to: • a $95.7 million fair value adjustment to increase the contingent consideration related to the RavenVolt Acquisition recorded during 2024, as compared to a $45.6 million fair value adjustment to decrease the contingent consideration recorded during 2023; • a $20.3 million unfavorable self-insurance reserve adjustment related to prior year claims from actuarial evaluations completed during 2024, as compared to a favorable $14.8 million adjustment recorded in 2023; • a $24.3 million increase in costs associated with various systems’ go-live and other investments in technology; and • an absence of a $24.0 million benefit from employee retention credits received during 2023. This increase was partially offset by: 29 • an $18.6 million decrease in certain discrete transformational costs under our ELEVATE strategy for developing the new ERP system, cl…",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/771497/000077149724000029/abm-20241031.htm",
+      "numbers": [
+        "$95.7 million",
+        "2024",
+        "$45.6 million",
+        "2023",
+        "$20.3 million",
+        "$14.8 million",
+        "$24.3 million",
+        "$24.0 million",
+        "29",
+        "$18.6 million"
+      ],
+      "dates": []
+    },
+    {
+      "evidence_id": "159afcc7f57637c799a1",
+      "filing_version": "prior",
+      "accession_number": "0000771497-24-000029",
+      "filing_date": "2024-12-19",
+      "report_date": "2024-10-31",
+      "section": "management_discussion",
+      "paragraph_index": 27,
+      "text_excerpt": "We repurchased shares under the share repurchase program during the year ended October 31, 2024, as summarized below. At October 31, 2024, authorization for $154.5 million of repurchases remained under the Share Repurchase Program. Years Ended October 31, (in millions, except per share amounts) 2024 2023 Total number of shares purchased 1.17 3.34 Average price paid per share (1) $ 47.86 $ 41.06 Total cash paid for share repurchases (1) $ 55.8 $ 137.1 (1) Average price paid per share and total cash paid for share repurchases do not include any excise tax for stock repurchases as part of the Inflation Reduction Act of 2022. Proceeds from Federal Energy Savings Performance Contracts As part of our Technical Solutions business, we enter into energy savings performance contracts (“ESPC”) with the federal government pursuant to which we agree to develop, design, engineer, and construct a project and guarantee th…",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/771497/000077149724000029/abm-20241031.htm",
+      "numbers": [
+        "31",
+        "2024",
+        "$154.5 million",
+        "2023",
+        "1.17",
+        "3.34",
+        "1",
+        "$ 47.86",
+        "$ 41.06",
+        "$ 55.8",
+        "$ 137.1",
+        "2022"
+      ],
+      "dates": [
+        "October 31, 2024"
+      ]
+    },
+    {
+      "evidence_id": "954a35bb39ef807ea13b",
+      "filing_version": "prior",
+      "accession_number": "0000771497-24-000029",
+      "filing_date": "2024-12-19",
+      "report_date": "2024-10-31",
+      "section": "management_discussion",
+      "paragraph_index": 11,
+      "text_excerpt": "In addition, the decrease in gross margin was attributable to the $11.4 million in revenue from an Aviation parking project recognized in 2023. Selling, General and Administrative Expenses Selling, general and administrative expenses increased by $192.5 million, or 33.6%, to $765.3 million during 2024, as compared to 2023. The increase in selling, general and administrative expenses was primarily attributable to: • a $95.7 million fair value adjustment to increase the contingent consideration related to the RavenVolt Acquisition recorded during 2024, as compared to a $45.6 million fair value adjustment to decrease the contingent consideration recorded during 2023; 25 • a $24.3 million increase in costs associated with various systems’ go-live and other investments in technology; • an absence of a $24.0 million benefit from employee retention credits received during 2023; • an $8.8 million increase in accru…",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/771497/000077149724000029/abm-20241031.htm",
+      "numbers": [
+        "$11.4 million",
+        "2023",
+        "$192.5 million",
+        "33.6%",
+        "$765.3 million",
+        "2024",
+        "$95.7 million",
+        "$45.6 million",
+        "25",
+        "$24.3 million",
+        "$24.0 million",
+        "$8.8 million",
+        "$6.5 million"
+      ],
+      "dates": []
+    },
+    {
+      "evidence_id": "e9935f619f80bf41ec42",
+      "filing_version": "prior",
+      "accession_number": "0000771497-24-000029",
+      "filing_date": "2024-12-19",
+      "report_date": "2024-10-31",
+      "section": "management_discussion",
+      "paragraph_index": 18,
+      "text_excerpt": "In addition, in 2023, we recognized $11.4 million in revenue from an Aviation parking project, whereby all the direct labor and related costs were recognized prior to 2023. Management reimbursement revenues for this segment totaled $36.3 million and $31.8 million during 2024 and 2023, respectively. Operating profit decreased by $0.9 million, to $59.1 million during 2024, as compared to 2023. Operating profit margin decreased by 75 bps to 5.7% in 2024, from 6.5% in 2023. The decrease in operating profit margin was primarily attributable to the $11.4 million in revenue from an Aviation parking project recognized in 2023. The decrease in operating profit margin was partially offset by contract mix and labor efficiencies primarily due to increases in travel volume. 28 Education Year Ended October 31, ($ in millions) 2024 2023 Increase Revenues $ 904.0 $ 880.4 $ 23.6 2.7% Operating profit 55.3 49.7 5.6 11.4% Op…",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/771497/000077149724000029/abm-20241031.htm",
+      "numbers": [
+        "2023",
+        "$11.4 million",
+        "$36.3 million",
+        "$31.8 million",
+        "2024",
+        "$0.9 million",
+        "$59.1 million",
+        "75 bps",
+        "5.7%",
+        "6.5%",
+        "28",
+        "31",
+        "$ 904.0",
+        "$ 880.4",
+        "$ 23.6",
+        "2.7%"
+      ],
+      "dates": []
+    },
+    {
+      "evidence_id": "d5a0fcab4a9ca3fd35a6",
+      "filing_version": "current",
+      "accession_number": "0000771497-25-000031",
+      "filing_date": "2025-12-19",
+      "report_date": "2025-10-31",
+      "section": "management_discussion",
+      "paragraph_index": 13,
+      "text_excerpt": "The revenue increase was primarily driven by client expansions both domestic and international, partially offset by strategic pricing decisions on contract rebids and attrition of certain engineering clients. Management reimbursement revenues for this segment totaled $291.4 million and $281.4 million during 2025 and 2024, respectively. Operating profit increased by $9.9 million, or 3.2%, to $316.9 million during 2025, as compared to 2024. Operating profit margin increased by 12 bps to 7.7% in 2025 from 7.6% in 2024. The increase in operating profit margin was primarily driven by geographic mix and operational efficiencies achieved through our Restructuring Program. The increase was partially offset by strategic pricing decisions on contract rebids and proactive extensions, combined with managing contract escalation timing to maintain and expand certain customer accounts.",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/771497/000077149725000031/abm-20251031.htm",
+      "numbers": [
+        "$291.4 million",
+        "$281.4 million",
+        "2025",
+        "2024",
+        "$9.9 million",
+        "3.2%",
+        "$316.9 million",
+        "12 bps",
+        "7.7%",
+        "7.6%"
+      ],
+      "dates": []
+    },
+    {
+      "evidence_id": "01439747e124973cea95",
+      "filing_version": "current",
+      "accession_number": "0000771497-25-000031",
+      "filing_date": "2025-12-19",
+      "report_date": "2025-10-31",
+      "section": "risk_factors",
+      "paragraph_index": 17,
+      "text_excerpt": "The benefits that are expected to result from the WGNSTAR Acquisition, which we expect to be consummated in the first half of 2026, will depend, in part, on our ability to realize the anticipated growth opportunities and the realization of anticipated cost and revenue synergies. Maintaining strong relationships with acquired clients and retaining talented employees will also be critical to realizing the acquisition’s benefits. Clients or key employees of WGNSTAR may decide not to continue their relationship with us after the acquisition is consummated. Any loss of significant WGNSTAR customers or the departure of key personnel could negatively impact the success of the acquisition and hinder our ability to achieve the expected benefits. Ultimately, if we fail to fully realize the expected growth opportunities, revenue synergies, or cost savings from the WGNSTAR Acquisition, it could negatively impact our b…",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/771497/000077149725000031/abm-20251031.htm",
+      "numbers": [
+        "2026"
+      ],
+      "dates": []
+    },
+    {
+      "evidence_id": "866a1e84671b919c8a8e",
+      "filing_version": "prior",
+      "accession_number": "0000771497-24-000029",
+      "filing_date": "2024-12-19",
+      "report_date": "2024-10-31",
+      "section": "management_discussion",
+      "paragraph_index": 4,
+      "text_excerpt": "Insurance Reserves We use a combination of insured and self-insurance programs to cover workers’ compensation, general liability, automobile liability, property damage, and other insurable risks. Insurance claim liabilities represent our estimate of retained risks without regard to insurance coverage. We retain a substantial portion of the risk related to certain workers’ compensation and medical claims. Liabilities associated with these losses include estimates of both filed claims and incurred but not reported claims (“IBNR Claims”). With the assistance of third-party actuaries, we review our estimate of ultimate losses for IBNR Claims on a quarterly basis and adjust our required self-insurance reserves as appropriate. As part of this evaluation, we review the status of existing and new claim reserves as established by third-party claims administrators. The third-party claims administrators establish the…",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/771497/000077149724000029/abm-20241031.htm",
+      "numbers": [],
+      "dates": []
+    },
+    {
+      "evidence_id": "a0a3f19252003ddcc73b",
+      "filing_version": "current",
+      "accession_number": "0000771497-25-000031",
+      "filing_date": "2025-12-19",
+      "report_date": "2025-10-31",
+      "section": "business",
+      "paragraph_index": 17,
+      "text_excerpt": "The Board’s Stakeholder and Enterprise Risk Committee is responsible for oversight of the Company’s programs, policies, and practices related to environmental, social, and stakeholder matters that may impact the 6 Company’s business and key stakeholders, as well as of the Company’s execution of its enterprise risk management program. ABM’s cross-functional teams, including representatives from sustainability, human resources, legal, procurement, operations, and communications, are responsible for advancing the Company’s Corporate Responsibility initiative across the enterprise. These teams regularly present to the Board of Directors’ Stakeholder and Enterprise Risk Committee. In 2024, we established a management-level Sustainability Committee to integrate sustainability capabilities across business functions and client offerings and to support innovation and measurable impact. Since 2011, ABM has voluntari…",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/771497/000077149725000031/abm-20251031.htm",
+      "numbers": [
+        "6",
+        "2024",
+        "2011"
+      ],
+      "dates": []
+    },
+    {
+      "evidence_id": "c28521c3156e1f9c26c0",
+      "filing_version": "prior",
+      "accession_number": "0000771497-24-000029",
+      "filing_date": "2024-12-19",
+      "report_date": "2024-10-31",
+      "section": "management_discussion",
+      "paragraph_index": 3,
+      "text_excerpt": "22 Developments and Trends Macro-Economic Environment in Commercial Real Estate and Other On an ongoing basis, we monitor changes to the macro-economic environment and their potential impacts on demand for our services and on our financial condition. One such monitored change is the strength or softness of the commercial real estate industry, especially multi-tenant and owner-occupied commercial office buildings. The recent softness in the market is primarily attributable to the lingering effects of the Pandemic, especially the normalization of hybrid work, which has resulted in higher office vacancy rates. Given that Class A and high-quality commercial office buildings are a key end market for us, we have experienced modest declines in demand for janitorial services and work orders in these markets. We expect the occupancy rates of Class A and high-quality buildings and back-to office trends to improve th…",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/771497/000077149724000029/abm-20241031.htm",
+      "numbers": [
+        "22",
+        "2025"
+      ],
+      "dates": []
+    },
+    {
+      "evidence_id": "96bcb049c5e918bd8106",
+      "filing_version": "prior",
+      "accession_number": "0000771497-24-000029",
+      "filing_date": "2024-12-19",
+      "report_date": "2024-10-31",
+      "section": "management_discussion",
+      "paragraph_index": 28,
+      "text_excerpt": "We use the advances from the third parties under these agreements to finance the projects, which are recorded as cash flows from financing activities. The use of the cash received under these arrangements to pay project costs is classified as operating cash flows. Effect of Inflation The rates of inflation experienced in recent years have not had a material impact on our Financial Statements. We attempt to recover increased costs by increasing prices for our services to the extent permitted by contracts and competition. Regulatory Environment Our operations are subject to various federal, state, and/or local laws, rules, and regulations regulating among other things, labor, wages, and health and safety matters, as well as laws and regulations relating to the discharge of materials into the environment or otherwise relating to the protection of the environment. Historically, the cost of complying with these…",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/771497/000077149724000029/abm-20241031.htm",
+      "numbers": [],
+      "dates": []
+    },
+    {
+      "evidence_id": "5ea3fd612ddfa746c3a5",
+      "filing_version": "current",
+      "accession_number": "0000771497-25-000031",
+      "filing_date": "2025-12-19",
+      "report_date": "2025-10-31",
+      "section": "business",
+      "paragraph_index": 24,
+      "text_excerpt": "Guided by our mission and values, ABM’s inclusion strategy is activated through its Culture & Inclusion Council, as well as Impact Groups, which are accessible to all employees, with executive sponsorship from ABM’s President, Chief Executive Officer, and Chief Human Resources Officer. Beyond our internal workforce, our culture of care extends to the communities we serve. Through the ABM Cares program, employees participate in volunteer initiatives, local partnerships, and charitable giving that strengthen community ties and reflect the Company’s mission of “making a difference every person, every day.” The recently launched ABM Team Member Relief Fund further demonstrates this commitment by providing financial support to employees facing unexpected personal or natural disaster-related hardships. Additionally, ABM is an Equal Opportunity and Affirmative Action employer in compliance with the requirements o…",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/771497/000077149725000031/abm-20251031.htm",
+      "numbers": [
+        "11246",
+        "1973",
+        "8"
+      ],
+      "dates": []
+    },
+    {
+      "evidence_id": "befd008d6a711137fde1",
+      "filing_version": "current",
+      "accession_number": "0000771497-25-000031",
+      "filing_date": "2025-12-19",
+      "report_date": "2025-10-31",
+      "section": "business",
+      "paragraph_index": 15,
+      "text_excerpt": "Historically, the cost of complying with these laws, rules, and regulations has not had a material adverse effect on our financial position, results of operations, or cash flows. Corporate Responsibility Strategy and Oversight Corporate responsibility is central to how we operate and deliver for our stakeholders. With more than 110 years of experience, ABM integrates responsible and community-minded business practices across its operations to create long-term value for shareholders, employees, clients, and the communities we serve. Our mission to make a difference, every person, every day — and our values of respect, excellence, integrity, innovation, trust, and collaboration guide our actions.",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/771497/000077149725000031/abm-20251031.htm",
+      "numbers": [
+        "110"
+      ],
+      "dates": []
+    }
+  ],
+  "generation": {
+    "used": false,
+    "status": "disabled",
+    "model": null
+  },
+  "cache": {
+    "hit": false,
+    "fingerprint": "5f3c13d5ca084e017ae40a9f4ec56a16fc66c6d94aea816e92a88c8d14e87562"
+  },
+  "latency_ms": 4520.75
+}

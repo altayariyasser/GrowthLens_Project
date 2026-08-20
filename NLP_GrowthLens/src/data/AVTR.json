@@ -1,0 +1,2150 @@
+{
+  "analysis_id": "526ca746e843eca2",
+  "company": {
+    "cik": "0001722482",
+    "ticker": "AVTR",
+    "company_name": "Avantor, Inc."
+  },
+  "filing_pair": {
+    "previous": {
+      "accession_number": "0001722482-25-000015",
+      "filing_date": "2025-02-07",
+      "report_date": "2024-12-31",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1722482/000172248225000015/avtr-20241231.htm"
+    },
+    "current": {
+      "accession_number": "0001628280-26-007118",
+      "filing_date": "2026-02-11",
+      "report_date": "2025-12-31",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1722482/000162828026007118/avtr-20251231.htm"
+    }
+  },
+  "pipeline_version": "filing-intelligence-v1",
+  "comparison_available": true,
+  "coverage": {
+    "prior_sections": [
+      "business",
+      "management_discussion",
+      "risk_factors"
+    ],
+    "current_sections": [
+      "business",
+      "management_discussion",
+      "risk_factors"
+    ],
+    "comparable_sections": [
+      "business",
+      "management_discussion",
+      "risk_factors"
+    ],
+    "missing_from_current": [],
+    "new_in_current": [],
+    "prior_text_capped": false,
+    "current_text_capped": false,
+    "status": "complete_available_sections",
+    "alignment_methods": {
+      "local semantic": 3
+    },
+    "paragraphs_compared": 258
+  },
+  "summary": {
+    "total_changes": 24,
+    "high_attention": 24,
+    "new": 16,
+    "removed": 8,
+    "modified": 0,
+    "dominant_topics": [
+      {
+        "topic": "liquidity_debt_margins_and_costs",
+        "label": "Liquidity, debt, margins and costs",
+        "count": 9
+      },
+      {
+        "topic": "regulation_and_legal_risk",
+        "label": "Regulation and legal risk",
+        "count": 7
+      },
+      {
+        "topic": "demand_and_competition",
+        "label": "Demand and competition",
+        "count": 3
+      }
+    ]
+  },
+  "changes": [
+    {
+      "change_id": "2e4b62ff9d3cc875",
+      "change_type": "removed",
+      "topic": "regulation_and_legal_risk",
+      "topic_label": "Regulation and legal risk",
+      "section": "risk_factors",
+      "attention": {
+        "score": 93,
+        "label": "high",
+        "factors": [
+          {
+            "label": "Disclosure novelty",
+            "points": 40
+          },
+          {
+            "label": "Section significance",
+            "points": 20
+          },
+          {
+            "label": "Risk language",
+            "points": 16
+          },
+          {
+            "label": "Numerical change",
+            "points": 14
+          },
+          {
+            "label": "Evidence specificity",
+            "points": 3
+          }
+        ]
+      },
+      "explanation": "A prior disclosure related to regulation and legal risk is no longer present in the comparable section.",
+      "analyst_relevance": "Review the cited language in the context of the investment thesis.",
+      "similarity": null,
+      "numeric_deltas": [
+        {
+          "previous": "13485",
+          "current": null
+        },
+        {
+          "previous": "9001",
+          "current": null
+        },
+        {
+          "previous": "22000",
+          "current": null
+        },
+        {
+          "previous": "14001",
+          "current": null
+        }
+      ],
+      "previous_evidence": {
+        "evidence_id": "00772173e304425258a6",
+        "filing_version": "prior",
+        "accession_number": "0001722482-25-000015",
+        "filing_date": "2025-02-07",
+        "report_date": "2024-12-31",
+        "section": "risk_factors",
+        "paragraph_index": 37,
+        "text_excerpt": "We are also registered with the DDTC, as a manufacturer and exporter of goods controlled by ITAR, and we are subject to strict export control and prior approval requirements related to these goods. Our failure to comply with ITAR and other export control laws and regulations, as well as economic sanctions, could result in penalties, loss, or suspension of contracts or other consequences. Any of these could adversely affect our operations and financial condition. Failure by us or by our customers to meet one or more of these various regulatory obligations could have adverse consequences in the event of material non-compliance. Compliance with relevant sanctions and export control laws could restrict our access to, and increase the cost of obtaining, certain products and at times could interrupt our supply of imported inventory or our ability to service certain customers. Conversely, compliance with these re…",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1722482/000172248225000015/avtr-20241231.htm",
+        "numbers": [
+          "13485",
+          "9001",
+          "22000",
+          "14001"
+        ],
+        "dates": []
+      },
+      "current_evidence": null
+    },
+    {
+      "change_id": "1ead8bf9996cc416",
+      "change_type": "new",
+      "topic": "growth_and_strategy",
+      "topic_label": "Growth and strategy",
+      "section": "management_discussion",
+      "attention": {
+        "score": 86,
+        "label": "high",
+        "factors": [
+          {
+            "label": "Disclosure novelty",
+            "points": 40
+          },
+          {
+            "label": "Section significance",
+            "points": 17
+          },
+          {
+            "label": "Risk language",
+            "points": 12
+          },
+          {
+            "label": "Numerical change",
+            "points": 14
+          },
+          {
+            "label": "Evidence specificity",
+            "points": 3
+          }
+        ]
+      },
+      "explanation": "The current filing introduces a new disclosure related to growth and strategy.",
+      "analyst_relevance": "Review the cited language in the context of the investment thesis.",
+      "similarity": null,
+      "numeric_deltas": [
+        {
+          "previous": null,
+          "current": "33"
+        },
+        {
+          "previous": null,
+          "current": "31"
+        },
+        {
+          "previous": null,
+          "current": "$ 4,399.7"
+        },
+        {
+          "previous": null,
+          "current": "$ 4,610.1"
+        },
+        {
+          "previous": null,
+          "current": "210.4"
+        },
+        {
+          "previous": null,
+          "current": "$ 86.0"
+        },
+        {
+          "previous": null,
+          "current": "147.9"
+        },
+        {
+          "previous": null,
+          "current": "148.5"
+        }
+      ],
+      "previous_evidence": null,
+      "current_evidence": {
+        "evidence_id": "8fb1d2e5f81b1b9decd6",
+        "filing_version": "current",
+        "accession_number": "0001628280-26-007118",
+        "filing_date": "2026-02-11",
+        "report_date": "2025-12-31",
+        "section": "management_discussion",
+        "paragraph_index": 12,
+        "text_excerpt": "Operating income declined largely due to a non‑cash goodwill impairment charge recorded in the Distribution reporting unit in the current year and the absence of the 33 gain on sale of the Clinical Services business recognized in the prior year. The reduction in gross profit, partially offset by lower SG&A expenses, resulted in contraction of Adjusted EBITDA and Adjusted Operating Income margins. Net sales (in millions) Year ended December 31, Reconciliation of net sales growth (decline) to organic net sales growth (decline) Net sales growth (decline) Foreign currency impact Divestiture impact Organic net sales growth (decline) 2025 2024 Laboratory Solutions $ 4,399.7 $ 4,610.1 $ (210.4) $ 86.0 $ (147.9) $ (148.5) Bioscience Production 2,152.5 2,173.5 (21.0) 18.7 — (39.7) Total $ 6,552.2 $ 6,783.6 $ (231.4) $ 104.7 $ (147.9) $ (188.2) Net sales decreased $231.4 million or 3.4%, which included $104.7 millio…",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1722482/000162828026007118/avtr-20251231.htm",
+        "numbers": [
+          "33",
+          "31",
+          "2025",
+          "2024",
+          "$ 4,399.7",
+          "$ 4,610.1",
+          "210.4",
+          "$ 86.0",
+          "147.9",
+          "148.5",
+          "2,152.5",
+          "2,173.5",
+          "21.0",
+          "18.7",
+          "39.7",
+          "$ 6,552.2"
+        ],
+        "dates": []
+      }
+    },
+    {
+      "change_id": "7ba8196ecd89a468",
+      "change_type": "new",
+      "topic": "liquidity_debt_margins_and_costs",
+      "topic_label": "Liquidity, debt, margins and costs",
+      "section": "risk_factors",
+      "attention": {
+        "score": 85,
+        "label": "high",
+        "factors": [
+          {
+            "label": "Disclosure novelty",
+            "points": 40
+          },
+          {
+            "label": "Section significance",
+            "points": 20
+          },
+          {
+            "label": "Risk language",
+            "points": 12
+          },
+          {
+            "label": "Numerical change",
+            "points": 10
+          },
+          {
+            "label": "Evidence specificity",
+            "points": 3
+          }
+        ]
+      },
+      "explanation": "The current filing introduces a new disclosure related to liquidity, debt, margins and costs.",
+      "analyst_relevance": "Review the cited language in the context of the investment thesis.",
+      "similarity": null,
+      "numeric_deltas": [
+        {
+          "previous": null,
+          "current": "$43.0 million"
+        },
+        {
+          "previous": null,
+          "current": "100%"
+        }
+      ],
+      "previous_evidence": null,
+      "current_evidence": {
+        "evidence_id": "23d11f3c576e61440a1b",
+        "filing_version": "current",
+        "accession_number": "0001628280-26-007118",
+        "filing_date": "2026-02-11",
+        "report_date": "2025-12-31",
+        "section": "risk_factors",
+        "paragraph_index": 35,
+        "text_excerpt": "As a result of OBBBA, our current cash tax obligations were reduced by approximately $43.0 million due to changes to several provisions, including the reinstatement of immediate expensing for domestic R&D expenditures, the extension of 100% bonus depreciation for qualified properties and the relaxation of limitations on the deductibility of business interest expense. The impact on income tax expense resulting from OBBBA was immaterial. Due to the potential for changes to tax laws and regulations or changes to the interpretation thereof, the ambiguity of tax laws and regulations, the subjectivity of factual interpretations, the complexity of our intercompany arrangements, uncertainties regarding the geographic mix of earnings in any particular period, and other factors, our estimates of effective tax rate and income tax assets and liabilities may be incorrect and our financial statements could be adversely…",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1722482/000162828026007118/avtr-20251231.htm",
+        "numbers": [
+          "$43.0 million",
+          "100%"
+        ],
+        "dates": []
+      }
+    },
+    {
+      "change_id": "328c1963e5662757",
+      "change_type": "new",
+      "topic": "liquidity_debt_margins_and_costs",
+      "topic_label": "Liquidity, debt, margins and costs",
+      "section": "management_discussion",
+      "attention": {
+        "score": 84,
+        "label": "high",
+        "factors": [
+          {
+            "label": "Disclosure novelty",
+            "points": 40
+          },
+          {
+            "label": "Section significance",
+            "points": 17
+          },
+          {
+            "label": "Risk language",
+            "points": 10
+          },
+          {
+            "label": "Numerical change",
+            "points": 14
+          },
+          {
+            "label": "Evidence specificity",
+            "points": 3
+          }
+        ]
+      },
+      "explanation": "The current filing introduces a new disclosure related to liquidity, debt, margins and costs.",
+      "analyst_relevance": "Review the cited language in the context of the investment thesis.",
+      "similarity": null,
+      "numeric_deltas": [
+        {
+          "previous": null,
+          "current": "31"
+        },
+        {
+          "previous": null,
+          "current": "246.2"
+        },
+        {
+          "previous": null,
+          "current": "$ 1,084.8"
+        },
+        {
+          "previous": null,
+          "current": "1,331.0"
+        },
+        {
+          "previous": null,
+          "current": "169.8"
+        },
+        {
+          "previous": null,
+          "current": "218.8"
+        },
+        {
+          "previous": null,
+          "current": "49.0"
+        },
+        {
+          "previous": null,
+          "current": "4.6"
+        }
+      ],
+      "previous_evidence": null,
+      "current_evidence": {
+        "evidence_id": "8c2b47e05c95fa9bb9bb",
+        "filing_version": "current",
+        "accession_number": "0001628280-26-007118",
+        "filing_date": "2026-02-11",
+        "report_date": "2025-12-31",
+        "section": "management_discussion",
+        "paragraph_index": 15,
+        "text_excerpt": "The decrease in SG&A expenses resulted from lower restructuring and severance charges, reduced annual incentive compensation expense, savings from our cost transformation initiative and the divestiture of our Clinical Services business, partially offset by inflationary pressures. Net (loss) income (in millions) Year ended December 31, Change 2025 2024 Operating (loss) income $ (246.2) $ 1,084.8 $ (1,331.0) Interest expense, net (169.8) (218.8) 49.0 Loss on extinguishment of debt (4.6) (10.9) 6.3 Other (expense) income, net (20.7) (1.2) (19.5) Income tax expense (88.9) (142.4) 53.5 Net (loss) income $ (530.2) $ 711.5 $ (1,241.7) Net (loss) income decreased primarily due to lower operating income, as previously discussed, and pension termination charges, partially offset by lower interest expense resulting from debt repayments made over the last twelve months and lower income tax expense driven by reduced in…",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1722482/000162828026007118/avtr-20251231.htm",
+        "numbers": [
+          "31",
+          "2025",
+          "2024",
+          "246.2",
+          "$ 1,084.8",
+          "1,331.0",
+          "169.8",
+          "218.8",
+          "49.0",
+          "4.6",
+          "10.9",
+          "6.3",
+          "20.7",
+          "1.2",
+          "19.5",
+          "88.9"
+        ],
+        "dates": []
+      }
+    },
+    {
+      "change_id": "5927b8827a838a82",
+      "change_type": "removed",
+      "topic": "growth_and_strategy",
+      "topic_label": "Growth and strategy",
+      "section": "management_discussion",
+      "attention": {
+        "score": 84,
+        "label": "high",
+        "factors": [
+          {
+            "label": "Disclosure novelty",
+            "points": 40
+          },
+          {
+            "label": "Section significance",
+            "points": 17
+          },
+          {
+            "label": "Risk language",
+            "points": 10
+          },
+          {
+            "label": "Numerical change",
+            "points": 14
+          },
+          {
+            "label": "Evidence specificity",
+            "points": 3
+          }
+        ]
+      },
+      "explanation": "A prior disclosure related to growth and strategy is no longer present in the comparable section.",
+      "analyst_relevance": "Review the cited language in the context of the investment thesis.",
+      "similarity": null,
+      "numeric_deltas": [
+        {
+          "previous": "33",
+          "current": null
+        },
+        {
+          "previous": "31",
+          "current": null
+        },
+        {
+          "previous": "$ 4,610.1",
+          "current": null
+        },
+        {
+          "previous": "$ 4,738.3",
+          "current": null
+        },
+        {
+          "previous": "128.2",
+          "current": null
+        },
+        {
+          "previous": "$ 5.5",
+          "current": null
+        },
+        {
+          "previous": "42.4",
+          "current": null
+        },
+        {
+          "previous": "91.3",
+          "current": null
+        }
+      ],
+      "previous_evidence": {
+        "evidence_id": "d79e9ef8ad40f9967c14",
+        "filing_version": "prior",
+        "accession_number": "0001722482-25-000015",
+        "filing_date": "2025-02-07",
+        "report_date": "2024-12-31",
+        "section": "management_discussion",
+        "paragraph_index": 13,
+        "text_excerpt": "33 Net sales (in millions) Year ended December 31, Reconciliation of net sales growth (decline) to organic net sales growth (decline) Net sales growth (decline) Foreign currency impact Divestiture impact Organic net sales growth (decline) 2024 2023 Laboratory Solutions $ 4,610.1 $ 4,738.3 $ (128.2) $ 5.5 $ (42.4) $ (91.3) Bioscience Production 2,173.5 2,228.9 (55.4) 1.8 — (57.2) Total $ 6,783.6 $ 6,967.2 $ (183.6) $ 7.3 $ (42.4) $ (148.5) Net sales decreased $183.6 million or 2.6%, which included $7.3 million or 0.1% of favorable foreign currency translation impact and $42.4 million or 0.6% of impact related to our Clinical Services divestiture. Organic net sales decreased by $148.5 million or 2.1% which is discussed below. In the Laboratory Solutions segment, net sales decreased $128.2 million or 2.7% which included $5.5 million or 0.1% of favorable foreign currency translation impact and $42.4 million or…",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1722482/000172248225000015/avtr-20241231.htm",
+        "numbers": [
+          "33",
+          "31",
+          "2024",
+          "2023",
+          "$ 4,610.1",
+          "$ 4,738.3",
+          "128.2",
+          "$ 5.5",
+          "42.4",
+          "91.3",
+          "2,173.5",
+          "2,228.9",
+          "55.4",
+          "1.8",
+          "57.2",
+          "$ 6,783.6"
+        ],
+        "dates": []
+      },
+      "current_evidence": null
+    },
+    {
+      "change_id": "d01ef01a1502481f",
+      "change_type": "removed",
+      "topic": "demand_and_competition",
+      "topic_label": "Demand and competition",
+      "section": "management_discussion",
+      "attention": {
+        "score": 84,
+        "label": "high",
+        "factors": [
+          {
+            "label": "Disclosure novelty",
+            "points": 40
+          },
+          {
+            "label": "Section significance",
+            "points": 17
+          },
+          {
+            "label": "Risk language",
+            "points": 10
+          },
+          {
+            "label": "Numerical change",
+            "points": 14
+          },
+          {
+            "label": "Evidence specificity",
+            "points": 3
+          }
+        ]
+      },
+      "explanation": "A prior disclosure related to demand and competition is no longer present in the comparable section.",
+      "analyst_relevance": "Review the cited language in the context of the investment thesis.",
+      "similarity": null,
+      "numeric_deltas": [
+        {
+          "previous": "$264.1 million",
+          "current": null
+        },
+        {
+          "previous": "5.3%",
+          "current": null
+        },
+        {
+          "previous": "$30.8 million",
+          "current": null
+        },
+        {
+          "previous": "0.6%",
+          "current": null
+        },
+        {
+          "previous": "$294.9 million",
+          "current": null
+        },
+        {
+          "previous": "5.9%",
+          "current": null
+        },
+        {
+          "previous": "3.4%",
+          "current": null
+        },
+        {
+          "previous": "19",
+          "current": null
+        }
+      ],
+      "previous_evidence": {
+        "evidence_id": "7fc61a66b2c7354a8349",
+        "filing_version": "prior",
+        "accession_number": "0001722482-25-000015",
+        "filing_date": "2025-02-07",
+        "report_date": "2024-12-31",
+        "section": "management_discussion",
+        "paragraph_index": 15,
+        "text_excerpt": "In the Laboratory Solutions segment, net sales decreased $264.1 million or 5.3% which included $30.8 million or 0.6% of favorable foreign currency translation impact. Organic net sales decreased by $294.9 million or 5.9% (decline of 3.4% excluding COVID-19 headwinds). The organic decline was primarily 34 related to the roll off of COVID-19 revenues for diagnostic testing, in addition to reduced customer demand and destocking of lab products. In the Bioscience Production segment, net sales decreased $281.1 million or 11.2%, which included $10.4 million or 0.4% of favorable foreign currency translation impact. Organic net sales decreased $291.5 million or 11.6% (decline of 8.9% excluding COVID-19 headwinds). The organic decline was primarily related to the roll off of COVID-19 revenues for vaccines, decline in medical grade silicones and lower demand for our semiconductor and electronic device offerings. Gro…",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1722482/000172248225000015/avtr-20241231.htm",
+        "numbers": [
+          "$264.1 million",
+          "5.3%",
+          "$30.8 million",
+          "0.6%",
+          "$294.9 million",
+          "5.9%",
+          "3.4%",
+          "19",
+          "34",
+          "$281.1 million",
+          "11.2%",
+          "$10.4 million",
+          "0.4%",
+          "$291.5 million",
+          "11.6%",
+          "8.9%"
+        ],
+        "dates": [
+          "December 31, 2024"
+        ]
+      },
+      "current_evidence": null
+    },
+    {
+      "change_id": "212a09dbd1b895b8",
+      "change_type": "removed",
+      "topic": "operations_and_supply_chain",
+      "topic_label": "Operations and supply chain",
+      "section": "risk_factors",
+      "attention": {
+        "score": 84,
+        "label": "high",
+        "factors": [
+          {
+            "label": "Disclosure novelty",
+            "points": 40
+          },
+          {
+            "label": "Section significance",
+            "points": 20
+          },
+          {
+            "label": "Risk language",
+            "points": 16
+          },
+          {
+            "label": "Numerical change",
+            "points": 5
+          },
+          {
+            "label": "Evidence specificity",
+            "points": 3
+          }
+        ]
+      },
+      "explanation": "A prior disclosure related to operations and supply chain is no longer present in the comparable section.",
+      "analyst_relevance": "Review the cited language in the context of the investment thesis.",
+      "similarity": null,
+      "numeric_deltas": [
+        {
+          "previous": "19",
+          "current": null
+        }
+      ],
+      "previous_evidence": {
+        "evidence_id": "7d1ecc9e253078130cff",
+        "filing_version": "prior",
+        "accession_number": "0001722482-25-000015",
+        "filing_date": "2025-02-07",
+        "report_date": "2024-12-31",
+        "section": "risk_factors",
+        "paragraph_index": 36,
+        "text_excerpt": "Our subsidiaries may be required to register for permits and/or licenses with, and may be required to comply with, the laws and regulations of the FDA, the DHHS, the DEA, foreign agencies including the EMA, and other various state health departments and/or comparable state and 19 foreign agencies as well as certain accrediting bodies depending upon the types of operations and locations of distribution and sale of the products manufactured or services provided by those subsidiaries. Any significant change in regulations could reduce demand for our products or increase our expenses. For example, many of our products are marketed to the biopharma industry for use in discovering, developing and manufacturing drugs, or are sold as raw materials or components to drug device manufacturers or for use in the manufacture of implantable devices. Changes in the domestic or foreign regulation of drug discovery, develop…",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1722482/000172248225000015/avtr-20241231.htm",
+        "numbers": [
+          "19"
+        ],
+        "dates": []
+      },
+      "current_evidence": null
+    },
+    {
+      "change_id": "2c4dcef0f98d2a0a",
+      "change_type": "removed",
+      "topic": "operations_and_supply_chain",
+      "topic_label": "Operations and supply chain",
+      "section": "risk_factors",
+      "attention": {
+        "score": 84,
+        "label": "high",
+        "factors": [
+          {
+            "label": "Disclosure novelty",
+            "points": 40
+          },
+          {
+            "label": "Section significance",
+            "points": 20
+          },
+          {
+            "label": "Risk language",
+            "points": 16
+          },
+          {
+            "label": "Numerical change",
+            "points": 5
+          },
+          {
+            "label": "Evidence specificity",
+            "points": 3
+          }
+        ]
+      },
+      "explanation": "A prior disclosure related to operations and supply chain is no longer present in the comparable section.",
+      "analyst_relevance": "Review the cited language in the context of the investment thesis.",
+      "similarity": null,
+      "numeric_deltas": [
+        {
+          "previous": "17",
+          "current": null
+        }
+      ],
+      "previous_evidence": {
+        "evidence_id": "06cf418e39bdd9603cd3",
+        "filing_version": "prior",
+        "accession_number": "0001722482-25-000015",
+        "filing_date": "2025-02-07",
+        "report_date": "2024-12-31",
+        "section": "risk_factors",
+        "paragraph_index": 28,
+        "text_excerpt": "However, we face climate and environmental risks and the occurrence of one or more unexpected events, including fires, tornadoes, tsunamis, hurricanes, earthquakes, drought, storms, sea level rise, floods, and other severe hazards or accidents in the United States, the United Kingdom, the EU or in other countries or regions in which we operate could adversely affect our operations and financial performance. Extreme weather, natural disasters, power outages, or other unexpected events could result in physical damage to, and complete or partial closure of, one or more of our manufacturing or distribution centers; temporary or long-term disruption in the supply of products; and/or disruption of our ability to deliver products to customers. Increasing concern over climate change also may result in additional legal or regulatory requirements designed to reduce or mitigate the effects of carbon dioxide and other…",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1722482/000172248225000015/avtr-20241231.htm",
+        "numbers": [
+          "17"
+        ],
+        "dates": []
+      },
+      "current_evidence": null
+    },
+    {
+      "change_id": "a6fbf961ab94335a",
+      "change_type": "removed",
+      "topic": "liquidity_debt_margins_and_costs",
+      "topic_label": "Liquidity, debt, margins and costs",
+      "section": "management_discussion",
+      "attention": {
+        "score": 82,
+        "label": "high",
+        "factors": [
+          {
+            "label": "Disclosure novelty",
+            "points": 40
+          },
+          {
+            "label": "Section significance",
+            "points": 17
+          },
+          {
+            "label": "Risk language",
+            "points": 8
+          },
+          {
+            "label": "Numerical change",
+            "points": 14
+          },
+          {
+            "label": "Evidence specificity",
+            "points": 3
+          }
+        ]
+      },
+      "explanation": "A prior disclosure related to liquidity, debt, margins and costs is no longer present in the comparable section.",
+      "analyst_relevance": "Review the cited language in the context of the investment thesis.",
+      "similarity": null,
+      "numeric_deltas": [
+        {
+          "previous": "$43.7 million",
+          "current": null
+        },
+        {
+          "previous": "7.3%",
+          "current": null
+        },
+        {
+          "previous": "$8.0 million",
+          "current": null
+        },
+        {
+          "previous": "31",
+          "current": null
+        },
+        {
+          "previous": "$ 668.3",
+          "current": null
+        },
+        {
+          "previous": "$ 764.7",
+          "current": null
+        },
+        {
+          "previous": "96.4",
+          "current": null
+        },
+        {
+          "previous": "601.9",
+          "current": null
+        }
+      ],
+      "previous_evidence": {
+        "evidence_id": "9a05a153112c8c7f7be7",
+        "filing_version": "prior",
+        "accession_number": "0001722482-25-000015",
+        "filing_date": "2025-02-07",
+        "report_date": "2024-12-31",
+        "section": "management_discussion",
+        "paragraph_index": 21,
+        "text_excerpt": "In the Bioscience Production segment, Adjusted Operating Income declined $43.7 million or 7.3%. The impact of foreign currency translation impact was immaterial. The decrease was driven primarily by lower sales volume, unfavorable product mix and higher annual incentive compensation expenses, partially offset by savings from our cost transformation initiative. In Corporate, Adjusted Operating Income decreased $8.0 million driven primarily by increased stock-based compensation expense. (dollars in millions) Year ended December 31, Change 2023 2022 Adjusted Operating Income: Laboratory Solutions $ 668.3 $ 764.7 $ (96.4) Bioscience Production 601.9 778.9 (177.0) Corporate ( 58.4 ) (66.3) 7.9 Total $ 1,211.8 $ 1,477.3 $ (265.5) Adjusted Operating Income margin 17.4 % 19.7 % (230) bps 37 Adjusted Operating Income decreased $265.5 million or 18.0%, which included a favorable foreign currency translation impact o…",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1722482/000172248225000015/avtr-20241231.htm",
+        "numbers": [
+          "$43.7 million",
+          "7.3%",
+          "$8.0 million",
+          "31",
+          "2023",
+          "2022",
+          "$ 668.3",
+          "$ 764.7",
+          "96.4",
+          "601.9",
+          "778.9",
+          "177.0",
+          "58.4",
+          "66.3",
+          "7.9",
+          "$ 1,211.8"
+        ],
+        "dates": []
+      },
+      "current_evidence": null
+    },
+    {
+      "change_id": "dbdeadb72a9b9ff7",
+      "change_type": "new",
+      "topic": "liquidity_debt_margins_and_costs",
+      "topic_label": "Liquidity, debt, margins and costs",
+      "section": "management_discussion",
+      "attention": {
+        "score": 82,
+        "label": "high",
+        "factors": [
+          {
+            "label": "Disclosure novelty",
+            "points": 40
+          },
+          {
+            "label": "Section significance",
+            "points": 17
+          },
+          {
+            "label": "Risk language",
+            "points": 8
+          },
+          {
+            "label": "Numerical change",
+            "points": 14
+          },
+          {
+            "label": "Evidence specificity",
+            "points": 3
+          }
+        ]
+      },
+      "explanation": "The current filing introduces a new disclosure related to liquidity, debt, margins and costs.",
+      "analyst_relevance": "Review the cited language in the context of the investment thesis.",
+      "similarity": null,
+      "numeric_deltas": [
+        {
+          "previous": null,
+          "current": "5 percent"
+        },
+        {
+          "previous": null,
+          "current": "$0.9 million"
+        },
+        {
+          "previous": null,
+          "current": "45"
+        }
+      ],
+      "previous_evidence": null,
+      "current_evidence": {
+        "evidence_id": "eda609e4ae8553e36bb7",
+        "filing_version": "current",
+        "accession_number": "0001628280-26-007118",
+        "filing_date": "2026-02-11",
+        "report_date": "2025-12-31",
+        "section": "management_discussion",
+        "paragraph_index": 44,
+        "text_excerpt": "The fair value of our awards would have differed had we selected different peer companies or used a different technique to estimate volatility. Increasing our expected volatility assumption by 5 percentage points for all stock options at the date of grant would have increased our 2025 stock-based compensation expense by $0.9 million. Estimating the net realizable value of inventories We value our inventories at the lower of cost or net realizable value. We regularly review quantities of inventories on hand and compare these amounts to the expected use of each product or product line, which can require us to make significant judgments. If our judgments prove to be incorrect, we may be 45 required to record a charge to cost of sales to reduce the carrying amount of inventory on hand to net realizable value. As with any significant estimate, we cannot be certain of future events which may cause us to change o…",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1722482/000162828026007118/avtr-20251231.htm",
+        "numbers": [
+          "5 percent",
+          "2025",
+          "$0.9 million",
+          "45"
+        ],
+        "dates": []
+      }
+    },
+    {
+      "change_id": "a65b91803505ad05",
+      "change_type": "new",
+      "topic": "liquidity_debt_margins_and_costs",
+      "topic_label": "Liquidity, debt, margins and costs",
+      "section": "risk_factors",
+      "attention": {
+        "score": 82,
+        "label": "high",
+        "factors": [
+          {
+            "label": "Disclosure novelty",
+            "points": 40
+          },
+          {
+            "label": "Section significance",
+            "points": 20
+          },
+          {
+            "label": "Risk language",
+            "points": 14
+          },
+          {
+            "label": "Numerical change",
+            "points": 5
+          },
+          {
+            "label": "Evidence specificity",
+            "points": 3
+          }
+        ]
+      },
+      "explanation": "The current filing introduces a new disclosure related to liquidity, debt, margins and costs.",
+      "analyst_relevance": "Review the cited language in the context of the investment thesis.",
+      "similarity": null,
+      "numeric_deltas": [
+        {
+          "previous": null,
+          "current": "23"
+        }
+      ],
+      "previous_evidence": null,
+      "current_evidence": {
+        "evidence_id": "135d68deadca4246ad30",
+        "filing_version": "current",
+        "accession_number": "0001628280-26-007118",
+        "filing_date": "2026-02-11",
+        "report_date": "2025-12-31",
+        "section": "risk_factors",
+        "paragraph_index": 57,
+        "text_excerpt": "Responding to an activist campaign could cause us to incur substantial fees and expenses and could also lead to litigation, which could be a further distraction to our Board and management and require us to incur significant additional costs. 23 Perceived uncertainties as to our future direction, strategy or leadership created as a consequence of activist shareholders may result in the loss of potential business opportunities, harm our ability to attract new or retain existing investors, lenders, customers, directors, employees, or other partners, and negatively affect or create volatility in our stock price.",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1722482/000162828026007118/avtr-20251231.htm",
+        "numbers": [
+          "23"
+        ],
+        "dates": []
+      }
+    },
+    {
+      "change_id": "d07204fcfbd13a03",
+      "change_type": "removed",
+      "topic": "regulation_and_legal_risk",
+      "topic_label": "Regulation and legal risk",
+      "section": "risk_factors",
+      "attention": {
+        "score": 82,
+        "label": "high",
+        "factors": [
+          {
+            "label": "Disclosure novelty",
+            "points": 40
+          },
+          {
+            "label": "Section significance",
+            "points": 20
+          },
+          {
+            "label": "Risk language",
+            "points": 14
+          },
+          {
+            "label": "Numerical change",
+            "points": 5
+          },
+          {
+            "label": "Evidence specificity",
+            "points": 3
+          }
+        ]
+      },
+      "explanation": "A prior disclosure related to regulation and legal risk is no longer present in the comparable section.",
+      "analyst_relevance": "Review the cited language in the context of the investment thesis.",
+      "similarity": null,
+      "numeric_deltas": [
+        {
+          "previous": "21",
+          "current": null
+        }
+      ],
+      "previous_evidence": {
+        "evidence_id": "d5b0c9acf82c3eda8dfe",
+        "filing_version": "prior",
+        "accession_number": "0001722482-25-000015",
+        "filing_date": "2025-02-07",
+        "report_date": "2024-12-31",
+        "section": "risk_factors",
+        "paragraph_index": 44,
+        "text_excerpt": "These rules and regulations continue to evolve in scope and complexity, and many new requirements have been created in response to laws and directives enacted by federal, state, local and foreign governments, making compliance more difficult and uncertain. The increasing complexity and costs to comply with such evolving expectations, rules and regulations, as well as any risk of noncompliance, could adversely affect our business. 21 Risks related to our indebtedness Our indebtedness could adversely affect our financial condition and prevent us from fulfilling our debt or contractual obligations. We now have and expect to continue to have a significant amount of debt.",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1722482/000172248225000015/avtr-20241231.htm",
+        "numbers": [
+          "21"
+        ],
+        "dates": []
+      },
+      "current_evidence": null
+    },
+    {
+      "change_id": "10c0d7330a4db75d",
+      "change_type": "new",
+      "topic": "liquidity_debt_margins_and_costs",
+      "topic_label": "Liquidity, debt, margins and costs",
+      "section": "management_discussion",
+      "attention": {
+        "score": 80,
+        "label": "high",
+        "factors": [
+          {
+            "label": "Disclosure novelty",
+            "points": 40
+          },
+          {
+            "label": "Section significance",
+            "points": 17
+          },
+          {
+            "label": "Risk language",
+            "points": 10
+          },
+          {
+            "label": "Numerical change",
+            "points": 10
+          },
+          {
+            "label": "Evidence specificity",
+            "points": 3
+          }
+        ]
+      },
+      "explanation": "The current filing introduces a new disclosure related to liquidity, debt, margins and costs.",
+      "analyst_relevance": "Review the cited language in the context of the investment thesis.",
+      "similarity": null,
+      "numeric_deltas": [
+        {
+          "previous": null,
+          "current": "$785.0 million"
+        },
+        {
+          "previous": null,
+          "current": "31"
+        }
+      ],
+      "previous_evidence": null,
+      "current_evidence": {
+        "evidence_id": "5b3b3796659e32836ec8",
+        "filing_version": "current",
+        "accession_number": "0001628280-26-007118",
+        "filing_date": "2026-02-11",
+        "report_date": "2025-12-31",
+        "section": "management_discussion",
+        "paragraph_index": 5,
+        "text_excerpt": "Goodwill impairment related to our Distribution reporting unit In the third quarter of 2025, we recorded a goodwill impairment charge of $785.0 million related to our Distribution reporting unit, formerly referred to as our Buy Sell reporting unit. This impairment was primarily driven by sustained decreases in our publicly quoted share price and market capitalization, as well as changes in operating results. While the impairment is a non-cash charge, it reflects underlying business conditions that may continue to affect our future results. We are actively implementing initiatives and evaluating strategic actions to mitigate these pressures. 31 Key indicators of performance and financial condition To evaluate our performance, we monitor a number of key indicators. As appropriate, we supplement our results of operations determined in accordance with GAAP with certain non-GAAP financial measurements that we b…",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1722482/000162828026007118/avtr-20251231.htm",
+        "numbers": [
+          "2025",
+          "$785.0 million",
+          "31"
+        ],
+        "dates": []
+      }
+    },
+    {
+      "change_id": "7afd68710363e030",
+      "change_type": "new",
+      "topic": "liquidity_debt_margins_and_costs",
+      "topic_label": "Liquidity, debt, margins and costs",
+      "section": "management_discussion",
+      "attention": {
+        "score": 80,
+        "label": "high",
+        "factors": [
+          {
+            "label": "Disclosure novelty",
+            "points": 40
+          },
+          {
+            "label": "Section significance",
+            "points": 17
+          },
+          {
+            "label": "Risk language",
+            "points": 6
+          },
+          {
+            "label": "Numerical change",
+            "points": 14
+          },
+          {
+            "label": "Evidence specificity",
+            "points": 3
+          }
+        ]
+      },
+      "explanation": "The current filing introduces a new disclosure related to liquidity, debt, margins and costs.",
+      "analyst_relevance": "Review the cited language in the context of the investment thesis.",
+      "similarity": null,
+      "numeric_deltas": [
+        {
+          "previous": null,
+          "current": "$500.0 million"
+        },
+        {
+          "previous": null,
+          "current": "$75.0 million"
+        },
+        {
+          "previous": null,
+          "current": "$425.0 million"
+        }
+      ],
+      "previous_evidence": null,
+      "current_evidence": {
+        "evidence_id": "bbea1d879506ec8ac685",
+        "filing_version": "current",
+        "accession_number": "0001628280-26-007118",
+        "filing_date": "2026-02-11",
+        "report_date": "2025-12-31",
+        "section": "management_discussion",
+        "paragraph_index": 25,
+        "text_excerpt": "Although we believe that these sources will provide sufficient liquidity for us to meet our long-term capital needs, our ability to fund these needs will depend to a significant extent on our future financial performance, which will be subject in part to general economic, competitive, financial, regulatory and other factors that are beyond our control. We believe that cash generated by operations, together with available liquidity under our credit facilities, will be adequate to meet our current and expected needs for cash prior to the maturity of our debt, although no assurance can be given in this regard. In October 2025, our Board of Directors authorized the repurchase of up to $500.0 million of our common stock. Repurchases may be funded through available cash, borrowings under existing credit facilities, or other financing arrangements. The program may be modified, suspended, or terminated at any time…",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1722482/000162828026007118/avtr-20251231.htm",
+        "numbers": [
+          "2025",
+          "$500.0 million",
+          "$75.0 million",
+          "31",
+          "$425.0 million"
+        ],
+        "dates": [
+          "December 31, 2025"
+        ]
+      }
+    },
+    {
+      "change_id": "4c67940e1e5e81be",
+      "change_type": "new",
+      "topic": "regulation_and_legal_risk",
+      "topic_label": "Regulation and legal risk",
+      "section": "risk_factors",
+      "attention": {
+        "score": 79,
+        "label": "high",
+        "factors": [
+          {
+            "label": "Disclosure novelty",
+            "points": 40
+          },
+          {
+            "label": "Section significance",
+            "points": 20
+          },
+          {
+            "label": "Risk language",
+            "points": 16
+          },
+          {
+            "label": "Numerical change",
+            "points": 0
+          },
+          {
+            "label": "Evidence specificity",
+            "points": 3
+          }
+        ]
+      },
+      "explanation": "The current filing introduces a new disclosure related to regulation and legal risk.",
+      "analyst_relevance": "Review the cited language in the context of the investment thesis.",
+      "similarity": null,
+      "numeric_deltas": [],
+      "previous_evidence": null,
+      "current_evidence": {
+        "evidence_id": "2adbceec586443768bf1",
+        "filing_version": "current",
+        "accession_number": "0001628280-26-007118",
+        "filing_date": "2026-02-11",
+        "report_date": "2025-12-31",
+        "section": "risk_factors",
+        "paragraph_index": 31,
+        "text_excerpt": "Additionally, a failure to adequately meet regulatory expectations may result in non-compliance, the loss of business and reputational impacts, and we may become the target of litigation or investigations initiated by government authorities or private actors alleging that our activities related to these matters are anti-competitive, discriminatory or otherwise unlawful. We are highly dependent on our senior management and key employees. Our success depends on our ability to attract, motivate and retain highly qualified individuals. Competition for senior management and other key personnel in our industry is intense, and the pool of suitable candidates is limited. We have recently experienced changes in our senior management. The inability to identify, attract, retain and properly motivate members of our senior management team and other key employees, or to find suitable replacements for them could have a n…",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1722482/000162828026007118/avtr-20251231.htm",
+        "numbers": [],
+        "dates": []
+      }
+    },
+    {
+      "change_id": "6565526a4612dde5",
+      "change_type": "new",
+      "topic": "regulation_and_legal_risk",
+      "topic_label": "Regulation and legal risk",
+      "section": "risk_factors",
+      "attention": {
+        "score": 79,
+        "label": "high",
+        "factors": [
+          {
+            "label": "Disclosure novelty",
+            "points": 40
+          },
+          {
+            "label": "Section significance",
+            "points": 20
+          },
+          {
+            "label": "Risk language",
+            "points": 16
+          },
+          {
+            "label": "Numerical change",
+            "points": 0
+          },
+          {
+            "label": "Evidence specificity",
+            "points": 3
+          }
+        ]
+      },
+      "explanation": "The current filing introduces a new disclosure related to regulation and legal risk.",
+      "analyst_relevance": "Review the cited language in the context of the investment thesis.",
+      "similarity": null,
+      "numeric_deltas": [],
+      "previous_evidence": null,
+      "current_evidence": {
+        "evidence_id": "8f58f432f249055d24a1",
+        "filing_version": "current",
+        "accession_number": "0001628280-26-007118",
+        "filing_date": "2026-02-11",
+        "report_date": "2025-12-31",
+        "section": "risk_factors",
+        "paragraph_index": 46,
+        "text_excerpt": "We are subject to the rules and regulations promulgated by a number of governmental and self-regulatory organizations, including the SEC and NYSE, as well as evolving investor expectations around sustainability and corporate responsibility practices and disclosures. These rules and regulations continue to evolve in scope and complexity, and many new requirements have been created in response to laws and directives enacted by federal, state, local and foreign governments, making compliance more difficult and uncertain. The increasing complexity and costs to comply with such evolving expectations, rules and regulations, as well as any risk of noncompliance, could adversely affect our business. Changes to trade policy, including new or increased tariffs and changing import/export regulations, may adversely affect our business, financial condition and results of operations. Changes in U.S. or international law…",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1722482/000162828026007118/avtr-20251231.htm",
+        "numbers": [],
+        "dates": []
+      }
+    },
+    {
+      "change_id": "7260839b9b555f28",
+      "change_type": "new",
+      "topic": "regulation_and_legal_risk",
+      "topic_label": "Regulation and legal risk",
+      "section": "risk_factors",
+      "attention": {
+        "score": 79,
+        "label": "high",
+        "factors": [
+          {
+            "label": "Disclosure novelty",
+            "points": 40
+          },
+          {
+            "label": "Section significance",
+            "points": 20
+          },
+          {
+            "label": "Risk language",
+            "points": 16
+          },
+          {
+            "label": "Numerical change",
+            "points": 0
+          },
+          {
+            "label": "Evidence specificity",
+            "points": 3
+          }
+        ]
+      },
+      "explanation": "The current filing introduces a new disclosure related to regulation and legal risk.",
+      "analyst_relevance": "Review the cited language in the context of the investment thesis.",
+      "similarity": null,
+      "numeric_deltas": [],
+      "previous_evidence": null,
+      "current_evidence": {
+        "evidence_id": "1f79151afba7fd57b2c8",
+        "filing_version": "current",
+        "accession_number": "0001628280-26-007118",
+        "filing_date": "2026-02-11",
+        "report_date": "2025-12-31",
+        "section": "risk_factors",
+        "paragraph_index": 37,
+        "text_excerpt": "Because these and other factors may be beyond our control, the development or commercialization of our products involved in collaborative partnerships may be delayed or otherwise adversely affected. If we or any of our collaborative partners terminate a collaborative arrangement, we may be required to devote additional resources to product development and commercialization or we may need to cancel some development programs, which could adversely affect our business and financial statements. Risks related to regulation We are required to comply with a wide variety of laws and regulations, and are subject to regulation by various federal, state and foreign agencies, and our failure to comply with existing and future regulatory requirements could adversely affect our results of operations and financial condition.",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1722482/000162828026007118/avtr-20251231.htm",
+        "numbers": [],
+        "dates": []
+      }
+    },
+    {
+      "change_id": "8611dd912d594dc7",
+      "change_type": "new",
+      "topic": "regulation_and_legal_risk",
+      "topic_label": "Regulation and legal risk",
+      "section": "risk_factors",
+      "attention": {
+        "score": 79,
+        "label": "high",
+        "factors": [
+          {
+            "label": "Disclosure novelty",
+            "points": 40
+          },
+          {
+            "label": "Section significance",
+            "points": 20
+          },
+          {
+            "label": "Risk language",
+            "points": 16
+          },
+          {
+            "label": "Numerical change",
+            "points": 0
+          },
+          {
+            "label": "Evidence specificity",
+            "points": 3
+          }
+        ]
+      },
+      "explanation": "The current filing introduces a new disclosure related to regulation and legal risk.",
+      "analyst_relevance": "Review the cited language in the context of the investment thesis.",
+      "similarity": null,
+      "numeric_deltas": [],
+      "previous_evidence": null,
+      "current_evidence": {
+        "evidence_id": "91cbdacdc63dba149ecd",
+        "filing_version": "current",
+        "accession_number": "0001628280-26-007118",
+        "filing_date": "2026-02-11",
+        "report_date": "2025-12-31",
+        "section": "risk_factors",
+        "paragraph_index": 30,
+        "text_excerpt": "If we are unable to achieve, or improperly report on our progress toward, our carbon footprint reduction goals and commitments, this may result in litigation and/or regulatory action as well as negative publicity, which could lead to the loss of business, adverse reputational impacts, diluted market valuations and challenges in attracting and retaining customers and talented employees. We also face increasing attention from investors, regulators, and other stakeholders, who may have conflicting views related to our positions, performance, and disclosures relating to sustainability and corporate responsibility-related matters, and the legal and regulatory landscape continues to evolve and may result in conflicting requirements and expectations. If we draw scrutiny for the positions we take or do not take on these matters (or for altering any such position) or receive unfavorable ratings from third-party org…",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1722482/000162828026007118/avtr-20251231.htm",
+        "numbers": [],
+        "dates": []
+      }
+    },
+    {
+      "change_id": "ca8f3eddcd934621",
+      "change_type": "new",
+      "topic": "demand_and_competition",
+      "topic_label": "Demand and competition",
+      "section": "risk_factors",
+      "attention": {
+        "score": 79,
+        "label": "high",
+        "factors": [
+          {
+            "label": "Disclosure novelty",
+            "points": 40
+          },
+          {
+            "label": "Section significance",
+            "points": 20
+          },
+          {
+            "label": "Risk language",
+            "points": 16
+          },
+          {
+            "label": "Numerical change",
+            "points": 0
+          },
+          {
+            "label": "Evidence specificity",
+            "points": 3
+          }
+        ]
+      },
+      "explanation": "The current filing introduces a new disclosure related to demand and competition.",
+      "analyst_relevance": "Review the cited language in the context of the investment thesis.",
+      "similarity": null,
+      "numeric_deltas": [],
+      "previous_evidence": null,
+      "current_evidence": {
+        "evidence_id": "7799a7cb488b5d80d06f",
+        "filing_version": "current",
+        "accession_number": "0001628280-26-007118",
+        "filing_date": "2026-02-11",
+        "report_date": "2025-12-31",
+        "section": "risk_factors",
+        "paragraph_index": 48,
+        "text_excerpt": "The extent and duration of the tariffs and other trade restrictions and the resulting impact on general economic conditions and on our business are uncertain and depend on various factors, such as negotiations between the U.S. and affected countries, the responses of other countries or regions, exemptions or exclusions that may be granted, availability and cost of alternative sources of supply, and demand for our products in affected markets. Further, actions we take to adapt to new tariffs or other trade restrictions may cause us to modify our operations, which could be time-consuming and expensive, impact pricing of our products, which could impact our sales and profitability, or cause us to forgo business opportunities. Risks related to our indebtedness Our indebtedness could adversely affect our financial condition and prevent us from fulfilling our debt or contractual obligations. We now have and expe…",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1722482/000162828026007118/avtr-20251231.htm",
+        "numbers": [],
+        "dates": []
+      }
+    },
+    {
+      "change_id": "e40674bf0bba843d",
+      "change_type": "new",
+      "topic": "regulation_and_legal_risk",
+      "topic_label": "Regulation and legal risk",
+      "section": "risk_factors",
+      "attention": {
+        "score": 79,
+        "label": "high",
+        "factors": [
+          {
+            "label": "Disclosure novelty",
+            "points": 40
+          },
+          {
+            "label": "Section significance",
+            "points": 20
+          },
+          {
+            "label": "Risk language",
+            "points": 16
+          },
+          {
+            "label": "Numerical change",
+            "points": 0
+          },
+          {
+            "label": "Evidence specificity",
+            "points": 3
+          }
+        ]
+      },
+      "explanation": "The current filing introduces a new disclosure related to regulation and legal risk.",
+      "analyst_relevance": "Review the cited language in the context of the investment thesis.",
+      "similarity": null,
+      "numeric_deltas": [],
+      "previous_evidence": null,
+      "current_evidence": {
+        "evidence_id": "bd7f532b23ab808989de",
+        "filing_version": "current",
+        "accession_number": "0001628280-26-007118",
+        "filing_date": "2026-02-11",
+        "report_date": "2025-12-31",
+        "section": "risk_factors",
+        "paragraph_index": 39,
+        "text_excerpt": "Any significant change in regulations could reduce demand for our products or increase our expenses. For example, many of our products are marketed to the biopharma industry for use in discovering, developing and manufacturing drugs, or are sold as raw materials or components to drug device manufacturers or for use in the manufacture of implantable devices. Changes in the domestic or foreign regulation of drug discovery, development or manufacturing processes or medical device manufacturing processes, or adverse findings concerning any health effects associated with these products, could have an adverse effect on the demand for these products and could also result in legal liability and claims. We are also registered with the DDTC, as a manufacturer and exporter of goods controlled by ITAR, and we are subject to strict export control and prior approval requirements related to these goods. Our failure to co…",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1722482/000162828026007118/avtr-20251231.htm",
+        "numbers": [],
+        "dates": []
+      }
+    },
+    {
+      "change_id": "fc0610fc8e796393",
+      "change_type": "removed",
+      "topic": "liquidity_debt_margins_and_costs",
+      "topic_label": "Liquidity, debt, margins and costs",
+      "section": "management_discussion",
+      "attention": {
+        "score": 78,
+        "label": "high",
+        "factors": [
+          {
+            "label": "Disclosure novelty",
+            "points": 40
+          },
+          {
+            "label": "Section significance",
+            "points": 17
+          },
+          {
+            "label": "Risk language",
+            "points": 8
+          },
+          {
+            "label": "Numerical change",
+            "points": 10
+          },
+          {
+            "label": "Evidence specificity",
+            "points": 3
+          }
+        ]
+      },
+      "explanation": "A prior disclosure related to liquidity, debt, margins and costs is no longer present in the comparable section.",
+      "analyst_relevance": "Review the cited language in the context of the investment thesis.",
+      "similarity": null,
+      "numeric_deltas": [
+        {
+          "previous": "50%",
+          "current": null
+        },
+        {
+          "previous": "$83.3 million",
+          "current": null
+        }
+      ],
+      "previous_evidence": {
+        "evidence_id": "13309270072d63517a33",
+        "filing_version": "prior",
+        "accession_number": "0001722482-25-000015",
+        "filing_date": "2025-02-07",
+        "report_date": "2024-12-31",
+        "section": "management_discussion",
+        "paragraph_index": 43,
+        "text_excerpt": "Accounting for uncertain tax positions In the ordinary course of business, there is inherent uncertainty in quantifying our income tax positions. We assess income tax positions for all years subject to examination based upon our evaluation of the facts, circumstances and information available at the reporting date. For those tax positions where it is more likely than not that a tax benefit will be sustained, we have recorded an amount having greater than 50% likelihood of being realized upon ultimate settlement with a taxing authority assumed to have full knowledge of all relevant information. For those income tax positions where it is not more likely than not that a tax benefit will be sustained, no tax benefit has been recognized in the financial statements. Our reserve for uncertain tax positions was $83.3 million at December 31, 2024, exclusive of penalties and interest. Where applicable, associated in…",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1722482/000172248225000015/avtr-20241231.htm",
+        "numbers": [
+          "50%",
+          "$83.3 million",
+          "31",
+          "2024"
+        ],
+        "dates": [
+          "December 31, 2024"
+        ]
+      },
+      "current_evidence": null
+    },
+    {
+      "change_id": "9cb74786ebf2c82c",
+      "change_type": "new",
+      "topic": "operations_and_supply_chain",
+      "topic_label": "Operations and supply chain",
+      "section": "management_discussion",
+      "attention": {
+        "score": 77,
+        "label": "high",
+        "factors": [
+          {
+            "label": "Disclosure novelty",
+            "points": 40
+          },
+          {
+            "label": "Section significance",
+            "points": 17
+          },
+          {
+            "label": "Risk language",
+            "points": 12
+          },
+          {
+            "label": "Numerical change",
+            "points": 5
+          },
+          {
+            "label": "Evidence specificity",
+            "points": 3
+          }
+        ]
+      },
+      "explanation": "The current filing introduces a new disclosure related to operations and supply chain.",
+      "analyst_relevance": "Review the cited language in the context of the investment thesis.",
+      "similarity": null,
+      "numeric_deltas": [
+        {
+          "previous": null,
+          "current": "$785.0 million"
+        }
+      ],
+      "previous_evidence": null,
+      "current_evidence": {
+        "evidence_id": "086fbad9c767060d4bef",
+        "filing_version": "current",
+        "accession_number": "0001628280-26-007118",
+        "filing_date": "2026-02-11",
+        "report_date": "2025-12-31",
+        "section": "management_discussion",
+        "paragraph_index": 38,
+        "text_excerpt": "As a result of sustained decreases in our publicly quoted share price and market capitalization as well as changes in the operating results of our Distribution reporting unit, we conducted an interim test of our goodwill as of September 30, 2025. Based on the results of the impairment test, the carrying amount of our Distribution reporting unit exceeded its fair value, resulting in a non-deductible, non-cash goodwill impairment charge of $785.0 million, which was recorded in the consolidated statement of operations for the three months ended September 30, 2025. We did not identify impairment of any other long-lived assets in this reporting unit. The remaining reporting units tested were not impaired, as their estimated fair values exceeded their respective carrying amounts as of the interim testing date. Following the impairment charge, the carrying value of the Distribution reporting unit is equal to its…",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1722482/000162828026007118/avtr-20251231.htm",
+        "numbers": [
+          "30",
+          "2025",
+          "$785.0 million"
+        ],
+        "dates": [
+          "September 30, 2025"
+        ]
+      }
+    },
+    {
+      "change_id": "664c011a593d41a5",
+      "change_type": "new",
+      "topic": "demand_and_competition",
+      "topic_label": "Demand and competition",
+      "section": "risk_factors",
+      "attention": {
+        "score": 77,
+        "label": "high",
+        "factors": [
+          {
+            "label": "Disclosure novelty",
+            "points": 40
+          },
+          {
+            "label": "Section significance",
+            "points": 20
+          },
+          {
+            "label": "Risk language",
+            "points": 14
+          },
+          {
+            "label": "Numerical change",
+            "points": 0
+          },
+          {
+            "label": "Evidence specificity",
+            "points": 3
+          }
+        ]
+      },
+      "explanation": "The current filing introduces a new disclosure related to demand and competition.",
+      "analyst_relevance": "Review the cited language in the context of the investment thesis.",
+      "similarity": null,
+      "numeric_deltas": [],
+      "previous_evidence": null,
+      "current_evidence": {
+        "evidence_id": "a6a11b0486d9090d1bf7",
+        "filing_version": "current",
+        "accession_number": "0001628280-26-007118",
+        "filing_date": "2026-02-11",
+        "report_date": "2025-12-31",
+        "section": "risk_factors",
+        "paragraph_index": 8,
+        "text_excerpt": "Some of our customers have implemented, or may in the future implement, certain measures described above in an effort to control and reduce costs. The ability of our customers to develop new products to replace sales decreases attributable to expirations of significant patents, along with the impact of other past or potential future changes in the industries we serve, may result in our customers significantly reducing their purchases of products from us or the prices they are willing to pay for those products. While we believe we will be able to adapt our business to maintain existing customer relationships and develop new customer relationships, if we are unsuccessful or untimely in these efforts, our results of operations may suffer. Reductions in customers’ research budgets or government funding may adversely affect our business. Many of our customers are universities, government research laboratories,…",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1722482/000162828026007118/avtr-20251231.htm",
+        "numbers": [],
+        "dates": []
+      }
+    },
+    {
+      "change_id": "ced476296743be7e",
+      "change_type": "new",
+      "topic": "liquidity_debt_margins_and_costs",
+      "topic_label": "Liquidity, debt, margins and costs",
+      "section": "risk_factors",
+      "attention": {
+        "score": 77,
+        "label": "high",
+        "factors": [
+          {
+            "label": "Disclosure novelty",
+            "points": 40
+          },
+          {
+            "label": "Section significance",
+            "points": 20
+          },
+          {
+            "label": "Risk language",
+            "points": 14
+          },
+          {
+            "label": "Numerical change",
+            "points": 0
+          },
+          {
+            "label": "Evidence specificity",
+            "points": 3
+          }
+        ]
+      },
+      "explanation": "The current filing introduces a new disclosure related to liquidity, debt, margins and costs.",
+      "analyst_relevance": "Review the cited language in the context of the investment thesis.",
+      "similarity": null,
+      "numeric_deltas": [],
+      "previous_evidence": null,
+      "current_evidence": {
+        "evidence_id": "3ffef8c300a4ea3a0a3f",
+        "filing_version": "current",
+        "accession_number": "0001628280-26-007118",
+        "filing_date": "2026-02-11",
+        "report_date": "2025-12-31",
+        "section": "risk_factors",
+        "paragraph_index": 56,
+        "text_excerpt": "Alternatively, if a court were to find the choice of forum provision contained in our amended and restated certificate of incorporation to be inapplicable or unenforceable in an action, we may incur additional costs associated with resolving such action in other jurisdictions, which could harm our business, operating results and financial condition. Our business could be impacted as a result of actions by activist shareholders or others. We have in the past and may in the future be the focus of shareholder activism, which has become increasingly prevalent. Shareholder activism, particularly with respect to matters that our Board, in exercising its fiduciary duties, disagrees with, or has determined not to pursue, may adversely affect our business because responding to activist shareholders can be costly and time-consuming, disruptive to operations and divert the attention of our Board and management. Our a…",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1722482/000162828026007118/avtr-20251231.htm",
+        "numbers": [],
+        "dates": []
+      }
+    }
+  ],
+  "sources": [
+    {
+      "evidence_id": "00772173e304425258a6",
+      "filing_version": "prior",
+      "accession_number": "0001722482-25-000015",
+      "filing_date": "2025-02-07",
+      "report_date": "2024-12-31",
+      "section": "risk_factors",
+      "paragraph_index": 37,
+      "text_excerpt": "We are also registered with the DDTC, as a manufacturer and exporter of goods controlled by ITAR, and we are subject to strict export control and prior approval requirements related to these goods. Our failure to comply with ITAR and other export control laws and regulations, as well as economic sanctions, could result in penalties, loss, or suspension of contracts or other consequences. Any of these could adversely affect our operations and financial condition. Failure by us or by our customers to meet one or more of these various regulatory obligations could have adverse consequences in the event of material non-compliance. Compliance with relevant sanctions and export control laws could restrict our access to, and increase the cost of obtaining, certain products and at times could interrupt our supply of imported inventory or our ability to service certain customers. Conversely, compliance with these re…",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1722482/000172248225000015/avtr-20241231.htm",
+      "numbers": [
+        "13485",
+        "9001",
+        "22000",
+        "14001"
+      ],
+      "dates": []
+    },
+    {
+      "evidence_id": "8fb1d2e5f81b1b9decd6",
+      "filing_version": "current",
+      "accession_number": "0001628280-26-007118",
+      "filing_date": "2026-02-11",
+      "report_date": "2025-12-31",
+      "section": "management_discussion",
+      "paragraph_index": 12,
+      "text_excerpt": "Operating income declined largely due to a non‑cash goodwill impairment charge recorded in the Distribution reporting unit in the current year and the absence of the 33 gain on sale of the Clinical Services business recognized in the prior year. The reduction in gross profit, partially offset by lower SG&A expenses, resulted in contraction of Adjusted EBITDA and Adjusted Operating Income margins. Net sales (in millions) Year ended December 31, Reconciliation of net sales growth (decline) to organic net sales growth (decline) Net sales growth (decline) Foreign currency impact Divestiture impact Organic net sales growth (decline) 2025 2024 Laboratory Solutions $ 4,399.7 $ 4,610.1 $ (210.4) $ 86.0 $ (147.9) $ (148.5) Bioscience Production 2,152.5 2,173.5 (21.0) 18.7 — (39.7) Total $ 6,552.2 $ 6,783.6 $ (231.4) $ 104.7 $ (147.9) $ (188.2) Net sales decreased $231.4 million or 3.4%, which included $104.7 millio…",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1722482/000162828026007118/avtr-20251231.htm",
+      "numbers": [
+        "33",
+        "31",
+        "2025",
+        "2024",
+        "$ 4,399.7",
+        "$ 4,610.1",
+        "210.4",
+        "$ 86.0",
+        "147.9",
+        "148.5",
+        "2,152.5",
+        "2,173.5",
+        "21.0",
+        "18.7",
+        "39.7",
+        "$ 6,552.2"
+      ],
+      "dates": []
+    },
+    {
+      "evidence_id": "23d11f3c576e61440a1b",
+      "filing_version": "current",
+      "accession_number": "0001628280-26-007118",
+      "filing_date": "2026-02-11",
+      "report_date": "2025-12-31",
+      "section": "risk_factors",
+      "paragraph_index": 35,
+      "text_excerpt": "As a result of OBBBA, our current cash tax obligations were reduced by approximately $43.0 million due to changes to several provisions, including the reinstatement of immediate expensing for domestic R&D expenditures, the extension of 100% bonus depreciation for qualified properties and the relaxation of limitations on the deductibility of business interest expense. The impact on income tax expense resulting from OBBBA was immaterial. Due to the potential for changes to tax laws and regulations or changes to the interpretation thereof, the ambiguity of tax laws and regulations, the subjectivity of factual interpretations, the complexity of our intercompany arrangements, uncertainties regarding the geographic mix of earnings in any particular period, and other factors, our estimates of effective tax rate and income tax assets and liabilities may be incorrect and our financial statements could be adversely…",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1722482/000162828026007118/avtr-20251231.htm",
+      "numbers": [
+        "$43.0 million",
+        "100%"
+      ],
+      "dates": []
+    },
+    {
+      "evidence_id": "8c2b47e05c95fa9bb9bb",
+      "filing_version": "current",
+      "accession_number": "0001628280-26-007118",
+      "filing_date": "2026-02-11",
+      "report_date": "2025-12-31",
+      "section": "management_discussion",
+      "paragraph_index": 15,
+      "text_excerpt": "The decrease in SG&A expenses resulted from lower restructuring and severance charges, reduced annual incentive compensation expense, savings from our cost transformation initiative and the divestiture of our Clinical Services business, partially offset by inflationary pressures. Net (loss) income (in millions) Year ended December 31, Change 2025 2024 Operating (loss) income $ (246.2) $ 1,084.8 $ (1,331.0) Interest expense, net (169.8) (218.8) 49.0 Loss on extinguishment of debt (4.6) (10.9) 6.3 Other (expense) income, net (20.7) (1.2) (19.5) Income tax expense (88.9) (142.4) 53.5 Net (loss) income $ (530.2) $ 711.5 $ (1,241.7) Net (loss) income decreased primarily due to lower operating income, as previously discussed, and pension termination charges, partially offset by lower interest expense resulting from debt repayments made over the last twelve months and lower income tax expense driven by reduced in…",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1722482/000162828026007118/avtr-20251231.htm",
+      "numbers": [
+        "31",
+        "2025",
+        "2024",
+        "246.2",
+        "$ 1,084.8",
+        "1,331.0",
+        "169.8",
+        "218.8",
+        "49.0",
+        "4.6",
+        "10.9",
+        "6.3",
+        "20.7",
+        "1.2",
+        "19.5",
+        "88.9"
+      ],
+      "dates": []
+    },
+    {
+      "evidence_id": "d79e9ef8ad40f9967c14",
+      "filing_version": "prior",
+      "accession_number": "0001722482-25-000015",
+      "filing_date": "2025-02-07",
+      "report_date": "2024-12-31",
+      "section": "management_discussion",
+      "paragraph_index": 13,
+      "text_excerpt": "33 Net sales (in millions) Year ended December 31, Reconciliation of net sales growth (decline) to organic net sales growth (decline) Net sales growth (decline) Foreign currency impact Divestiture impact Organic net sales growth (decline) 2024 2023 Laboratory Solutions $ 4,610.1 $ 4,738.3 $ (128.2) $ 5.5 $ (42.4) $ (91.3) Bioscience Production 2,173.5 2,228.9 (55.4) 1.8 — (57.2) Total $ 6,783.6 $ 6,967.2 $ (183.6) $ 7.3 $ (42.4) $ (148.5) Net sales decreased $183.6 million or 2.6%, which included $7.3 million or 0.1% of favorable foreign currency translation impact and $42.4 million or 0.6% of impact related to our Clinical Services divestiture. Organic net sales decreased by $148.5 million or 2.1% which is discussed below. In the Laboratory Solutions segment, net sales decreased $128.2 million or 2.7% which included $5.5 million or 0.1% of favorable foreign currency translation impact and $42.4 million or…",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1722482/000172248225000015/avtr-20241231.htm",
+      "numbers": [
+        "33",
+        "31",
+        "2024",
+        "2023",
+        "$ 4,610.1",
+        "$ 4,738.3",
+        "128.2",
+        "$ 5.5",
+        "42.4",
+        "91.3",
+        "2,173.5",
+        "2,228.9",
+        "55.4",
+        "1.8",
+        "57.2",
+        "$ 6,783.6"
+      ],
+      "dates": []
+    },
+    {
+      "evidence_id": "7fc61a66b2c7354a8349",
+      "filing_version": "prior",
+      "accession_number": "0001722482-25-000015",
+      "filing_date": "2025-02-07",
+      "report_date": "2024-12-31",
+      "section": "management_discussion",
+      "paragraph_index": 15,
+      "text_excerpt": "In the Laboratory Solutions segment, net sales decreased $264.1 million or 5.3% which included $30.8 million or 0.6% of favorable foreign currency translation impact. Organic net sales decreased by $294.9 million or 5.9% (decline of 3.4% excluding COVID-19 headwinds). The organic decline was primarily 34 related to the roll off of COVID-19 revenues for diagnostic testing, in addition to reduced customer demand and destocking of lab products. In the Bioscience Production segment, net sales decreased $281.1 million or 11.2%, which included $10.4 million or 0.4% of favorable foreign currency translation impact. Organic net sales decreased $291.5 million or 11.6% (decline of 8.9% excluding COVID-19 headwinds). The organic decline was primarily related to the roll off of COVID-19 revenues for vaccines, decline in medical grade silicones and lower demand for our semiconductor and electronic device offerings. Gro…",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1722482/000172248225000015/avtr-20241231.htm",
+      "numbers": [
+        "$264.1 million",
+        "5.3%",
+        "$30.8 million",
+        "0.6%",
+        "$294.9 million",
+        "5.9%",
+        "3.4%",
+        "19",
+        "34",
+        "$281.1 million",
+        "11.2%",
+        "$10.4 million",
+        "0.4%",
+        "$291.5 million",
+        "11.6%",
+        "8.9%"
+      ],
+      "dates": [
+        "December 31, 2024"
+      ]
+    },
+    {
+      "evidence_id": "7d1ecc9e253078130cff",
+      "filing_version": "prior",
+      "accession_number": "0001722482-25-000015",
+      "filing_date": "2025-02-07",
+      "report_date": "2024-12-31",
+      "section": "risk_factors",
+      "paragraph_index": 36,
+      "text_excerpt": "Our subsidiaries may be required to register for permits and/or licenses with, and may be required to comply with, the laws and regulations of the FDA, the DHHS, the DEA, foreign agencies including the EMA, and other various state health departments and/or comparable state and 19 foreign agencies as well as certain accrediting bodies depending upon the types of operations and locations of distribution and sale of the products manufactured or services provided by those subsidiaries. Any significant change in regulations could reduce demand for our products or increase our expenses. For example, many of our products are marketed to the biopharma industry for use in discovering, developing and manufacturing drugs, or are sold as raw materials or components to drug device manufacturers or for use in the manufacture of implantable devices. Changes in the domestic or foreign regulation of drug discovery, develop…",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1722482/000172248225000015/avtr-20241231.htm",
+      "numbers": [
+        "19"
+      ],
+      "dates": []
+    },
+    {
+      "evidence_id": "06cf418e39bdd9603cd3",
+      "filing_version": "prior",
+      "accession_number": "0001722482-25-000015",
+      "filing_date": "2025-02-07",
+      "report_date": "2024-12-31",
+      "section": "risk_factors",
+      "paragraph_index": 28,
+      "text_excerpt": "However, we face climate and environmental risks and the occurrence of one or more unexpected events, including fires, tornadoes, tsunamis, hurricanes, earthquakes, drought, storms, sea level rise, floods, and other severe hazards or accidents in the United States, the United Kingdom, the EU or in other countries or regions in which we operate could adversely affect our operations and financial performance. Extreme weather, natural disasters, power outages, or other unexpected events could result in physical damage to, and complete or partial closure of, one or more of our manufacturing or distribution centers; temporary or long-term disruption in the supply of products; and/or disruption of our ability to deliver products to customers. Increasing concern over climate change also may result in additional legal or regulatory requirements designed to reduce or mitigate the effects of carbon dioxide and other…",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1722482/000172248225000015/avtr-20241231.htm",
+      "numbers": [
+        "17"
+      ],
+      "dates": []
+    },
+    {
+      "evidence_id": "9a05a153112c8c7f7be7",
+      "filing_version": "prior",
+      "accession_number": "0001722482-25-000015",
+      "filing_date": "2025-02-07",
+      "report_date": "2024-12-31",
+      "section": "management_discussion",
+      "paragraph_index": 21,
+      "text_excerpt": "In the Bioscience Production segment, Adjusted Operating Income declined $43.7 million or 7.3%. The impact of foreign currency translation impact was immaterial. The decrease was driven primarily by lower sales volume, unfavorable product mix and higher annual incentive compensation expenses, partially offset by savings from our cost transformation initiative. In Corporate, Adjusted Operating Income decreased $8.0 million driven primarily by increased stock-based compensation expense. (dollars in millions) Year ended December 31, Change 2023 2022 Adjusted Operating Income: Laboratory Solutions $ 668.3 $ 764.7 $ (96.4) Bioscience Production 601.9 778.9 (177.0) Corporate ( 58.4 ) (66.3) 7.9 Total $ 1,211.8 $ 1,477.3 $ (265.5) Adjusted Operating Income margin 17.4 % 19.7 % (230) bps 37 Adjusted Operating Income decreased $265.5 million or 18.0%, which included a favorable foreign currency translation impact o…",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1722482/000172248225000015/avtr-20241231.htm",
+      "numbers": [
+        "$43.7 million",
+        "7.3%",
+        "$8.0 million",
+        "31",
+        "2023",
+        "2022",
+        "$ 668.3",
+        "$ 764.7",
+        "96.4",
+        "601.9",
+        "778.9",
+        "177.0",
+        "58.4",
+        "66.3",
+        "7.9",
+        "$ 1,211.8"
+      ],
+      "dates": []
+    },
+    {
+      "evidence_id": "eda609e4ae8553e36bb7",
+      "filing_version": "current",
+      "accession_number": "0001628280-26-007118",
+      "filing_date": "2026-02-11",
+      "report_date": "2025-12-31",
+      "section": "management_discussion",
+      "paragraph_index": 44,
+      "text_excerpt": "The fair value of our awards would have differed had we selected different peer companies or used a different technique to estimate volatility. Increasing our expected volatility assumption by 5 percentage points for all stock options at the date of grant would have increased our 2025 stock-based compensation expense by $0.9 million. Estimating the net realizable value of inventories We value our inventories at the lower of cost or net realizable value. We regularly review quantities of inventories on hand and compare these amounts to the expected use of each product or product line, which can require us to make significant judgments. If our judgments prove to be incorrect, we may be 45 required to record a charge to cost of sales to reduce the carrying amount of inventory on hand to net realizable value. As with any significant estimate, we cannot be certain of future events which may cause us to change o…",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1722482/000162828026007118/avtr-20251231.htm",
+      "numbers": [
+        "5 percent",
+        "2025",
+        "$0.9 million",
+        "45"
+      ],
+      "dates": []
+    },
+    {
+      "evidence_id": "135d68deadca4246ad30",
+      "filing_version": "current",
+      "accession_number": "0001628280-26-007118",
+      "filing_date": "2026-02-11",
+      "report_date": "2025-12-31",
+      "section": "risk_factors",
+      "paragraph_index": 57,
+      "text_excerpt": "Responding to an activist campaign could cause us to incur substantial fees and expenses and could also lead to litigation, which could be a further distraction to our Board and management and require us to incur significant additional costs. 23 Perceived uncertainties as to our future direction, strategy or leadership created as a consequence of activist shareholders may result in the loss of potential business opportunities, harm our ability to attract new or retain existing investors, lenders, customers, directors, employees, or other partners, and negatively affect or create volatility in our stock price.",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1722482/000162828026007118/avtr-20251231.htm",
+      "numbers": [
+        "23"
+      ],
+      "dates": []
+    },
+    {
+      "evidence_id": "d5b0c9acf82c3eda8dfe",
+      "filing_version": "prior",
+      "accession_number": "0001722482-25-000015",
+      "filing_date": "2025-02-07",
+      "report_date": "2024-12-31",
+      "section": "risk_factors",
+      "paragraph_index": 44,
+      "text_excerpt": "These rules and regulations continue to evolve in scope and complexity, and many new requirements have been created in response to laws and directives enacted by federal, state, local and foreign governments, making compliance more difficult and uncertain. The increasing complexity and costs to comply with such evolving expectations, rules and regulations, as well as any risk of noncompliance, could adversely affect our business. 21 Risks related to our indebtedness Our indebtedness could adversely affect our financial condition and prevent us from fulfilling our debt or contractual obligations. We now have and expect to continue to have a significant amount of debt.",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1722482/000172248225000015/avtr-20241231.htm",
+      "numbers": [
+        "21"
+      ],
+      "dates": []
+    },
+    {
+      "evidence_id": "5b3b3796659e32836ec8",
+      "filing_version": "current",
+      "accession_number": "0001628280-26-007118",
+      "filing_date": "2026-02-11",
+      "report_date": "2025-12-31",
+      "section": "management_discussion",
+      "paragraph_index": 5,
+      "text_excerpt": "Goodwill impairment related to our Distribution reporting unit In the third quarter of 2025, we recorded a goodwill impairment charge of $785.0 million related to our Distribution reporting unit, formerly referred to as our Buy Sell reporting unit. This impairment was primarily driven by sustained decreases in our publicly quoted share price and market capitalization, as well as changes in operating results. While the impairment is a non-cash charge, it reflects underlying business conditions that may continue to affect our future results. We are actively implementing initiatives and evaluating strategic actions to mitigate these pressures. 31 Key indicators of performance and financial condition To evaluate our performance, we monitor a number of key indicators. As appropriate, we supplement our results of operations determined in accordance with GAAP with certain non-GAAP financial measurements that we b…",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1722482/000162828026007118/avtr-20251231.htm",
+      "numbers": [
+        "2025",
+        "$785.0 million",
+        "31"
+      ],
+      "dates": []
+    },
+    {
+      "evidence_id": "bbea1d879506ec8ac685",
+      "filing_version": "current",
+      "accession_number": "0001628280-26-007118",
+      "filing_date": "2026-02-11",
+      "report_date": "2025-12-31",
+      "section": "management_discussion",
+      "paragraph_index": 25,
+      "text_excerpt": "Although we believe that these sources will provide sufficient liquidity for us to meet our long-term capital needs, our ability to fund these needs will depend to a significant extent on our future financial performance, which will be subject in part to general economic, competitive, financial, regulatory and other factors that are beyond our control. We believe that cash generated by operations, together with available liquidity under our credit facilities, will be adequate to meet our current and expected needs for cash prior to the maturity of our debt, although no assurance can be given in this regard. In October 2025, our Board of Directors authorized the repurchase of up to $500.0 million of our common stock. Repurchases may be funded through available cash, borrowings under existing credit facilities, or other financing arrangements. The program may be modified, suspended, or terminated at any time…",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1722482/000162828026007118/avtr-20251231.htm",
+      "numbers": [
+        "2025",
+        "$500.0 million",
+        "$75.0 million",
+        "31",
+        "$425.0 million"
+      ],
+      "dates": [
+        "December 31, 2025"
+      ]
+    },
+    {
+      "evidence_id": "2adbceec586443768bf1",
+      "filing_version": "current",
+      "accession_number": "0001628280-26-007118",
+      "filing_date": "2026-02-11",
+      "report_date": "2025-12-31",
+      "section": "risk_factors",
+      "paragraph_index": 31,
+      "text_excerpt": "Additionally, a failure to adequately meet regulatory expectations may result in non-compliance, the loss of business and reputational impacts, and we may become the target of litigation or investigations initiated by government authorities or private actors alleging that our activities related to these matters are anti-competitive, discriminatory or otherwise unlawful. We are highly dependent on our senior management and key employees. Our success depends on our ability to attract, motivate and retain highly qualified individuals. Competition for senior management and other key personnel in our industry is intense, and the pool of suitable candidates is limited. We have recently experienced changes in our senior management. The inability to identify, attract, retain and properly motivate members of our senior management team and other key employees, or to find suitable replacements for them could have a n…",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1722482/000162828026007118/avtr-20251231.htm",
+      "numbers": [],
+      "dates": []
+    },
+    {
+      "evidence_id": "8f58f432f249055d24a1",
+      "filing_version": "current",
+      "accession_number": "0001628280-26-007118",
+      "filing_date": "2026-02-11",
+      "report_date": "2025-12-31",
+      "section": "risk_factors",
+      "paragraph_index": 46,
+      "text_excerpt": "We are subject to the rules and regulations promulgated by a number of governmental and self-regulatory organizations, including the SEC and NYSE, as well as evolving investor expectations around sustainability and corporate responsibility practices and disclosures. These rules and regulations continue to evolve in scope and complexity, and many new requirements have been created in response to laws and directives enacted by federal, state, local and foreign governments, making compliance more difficult and uncertain. The increasing complexity and costs to comply with such evolving expectations, rules and regulations, as well as any risk of noncompliance, could adversely affect our business. Changes to trade policy, including new or increased tariffs and changing import/export regulations, may adversely affect our business, financial condition and results of operations. Changes in U.S. or international law…",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1722482/000162828026007118/avtr-20251231.htm",
+      "numbers": [],
+      "dates": []
+    },
+    {
+      "evidence_id": "1f79151afba7fd57b2c8",
+      "filing_version": "current",
+      "accession_number": "0001628280-26-007118",
+      "filing_date": "2026-02-11",
+      "report_date": "2025-12-31",
+      "section": "risk_factors",
+      "paragraph_index": 37,
+      "text_excerpt": "Because these and other factors may be beyond our control, the development or commercialization of our products involved in collaborative partnerships may be delayed or otherwise adversely affected. If we or any of our collaborative partners terminate a collaborative arrangement, we may be required to devote additional resources to product development and commercialization or we may need to cancel some development programs, which could adversely affect our business and financial statements. Risks related to regulation We are required to comply with a wide variety of laws and regulations, and are subject to regulation by various federal, state and foreign agencies, and our failure to comply with existing and future regulatory requirements could adversely affect our results of operations and financial condition.",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1722482/000162828026007118/avtr-20251231.htm",
+      "numbers": [],
+      "dates": []
+    },
+    {
+      "evidence_id": "91cbdacdc63dba149ecd",
+      "filing_version": "current",
+      "accession_number": "0001628280-26-007118",
+      "filing_date": "2026-02-11",
+      "report_date": "2025-12-31",
+      "section": "risk_factors",
+      "paragraph_index": 30,
+      "text_excerpt": "If we are unable to achieve, or improperly report on our progress toward, our carbon footprint reduction goals and commitments, this may result in litigation and/or regulatory action as well as negative publicity, which could lead to the loss of business, adverse reputational impacts, diluted market valuations and challenges in attracting and retaining customers and talented employees. We also face increasing attention from investors, regulators, and other stakeholders, who may have conflicting views related to our positions, performance, and disclosures relating to sustainability and corporate responsibility-related matters, and the legal and regulatory landscape continues to evolve and may result in conflicting requirements and expectations. If we draw scrutiny for the positions we take or do not take on these matters (or for altering any such position) or receive unfavorable ratings from third-party org…",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1722482/000162828026007118/avtr-20251231.htm",
+      "numbers": [],
+      "dates": []
+    },
+    {
+      "evidence_id": "7799a7cb488b5d80d06f",
+      "filing_version": "current",
+      "accession_number": "0001628280-26-007118",
+      "filing_date": "2026-02-11",
+      "report_date": "2025-12-31",
+      "section": "risk_factors",
+      "paragraph_index": 48,
+      "text_excerpt": "The extent and duration of the tariffs and other trade restrictions and the resulting impact on general economic conditions and on our business are uncertain and depend on various factors, such as negotiations between the U.S. and affected countries, the responses of other countries or regions, exemptions or exclusions that may be granted, availability and cost of alternative sources of supply, and demand for our products in affected markets. Further, actions we take to adapt to new tariffs or other trade restrictions may cause us to modify our operations, which could be time-consuming and expensive, impact pricing of our products, which could impact our sales and profitability, or cause us to forgo business opportunities. Risks related to our indebtedness Our indebtedness could adversely affect our financial condition and prevent us from fulfilling our debt or contractual obligations. We now have and expe…",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1722482/000162828026007118/avtr-20251231.htm",
+      "numbers": [],
+      "dates": []
+    },
+    {
+      "evidence_id": "bd7f532b23ab808989de",
+      "filing_version": "current",
+      "accession_number": "0001628280-26-007118",
+      "filing_date": "2026-02-11",
+      "report_date": "2025-12-31",
+      "section": "risk_factors",
+      "paragraph_index": 39,
+      "text_excerpt": "Any significant change in regulations could reduce demand for our products or increase our expenses. For example, many of our products are marketed to the biopharma industry for use in discovering, developing and manufacturing drugs, or are sold as raw materials or components to drug device manufacturers or for use in the manufacture of implantable devices. Changes in the domestic or foreign regulation of drug discovery, development or manufacturing processes or medical device manufacturing processes, or adverse findings concerning any health effects associated with these products, could have an adverse effect on the demand for these products and could also result in legal liability and claims. We are also registered with the DDTC, as a manufacturer and exporter of goods controlled by ITAR, and we are subject to strict export control and prior approval requirements related to these goods. Our failure to co…",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1722482/000162828026007118/avtr-20251231.htm",
+      "numbers": [],
+      "dates": []
+    },
+    {
+      "evidence_id": "13309270072d63517a33",
+      "filing_version": "prior",
+      "accession_number": "0001722482-25-000015",
+      "filing_date": "2025-02-07",
+      "report_date": "2024-12-31",
+      "section": "management_discussion",
+      "paragraph_index": 43,
+      "text_excerpt": "Accounting for uncertain tax positions In the ordinary course of business, there is inherent uncertainty in quantifying our income tax positions. We assess income tax positions for all years subject to examination based upon our evaluation of the facts, circumstances and information available at the reporting date. For those tax positions where it is more likely than not that a tax benefit will be sustained, we have recorded an amount having greater than 50% likelihood of being realized upon ultimate settlement with a taxing authority assumed to have full knowledge of all relevant information. For those income tax positions where it is not more likely than not that a tax benefit will be sustained, no tax benefit has been recognized in the financial statements. Our reserve for uncertain tax positions was $83.3 million at December 31, 2024, exclusive of penalties and interest. Where applicable, associated in…",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1722482/000172248225000015/avtr-20241231.htm",
+      "numbers": [
+        "50%",
+        "$83.3 million",
+        "31",
+        "2024"
+      ],
+      "dates": [
+        "December 31, 2024"
+      ]
+    },
+    {
+      "evidence_id": "086fbad9c767060d4bef",
+      "filing_version": "current",
+      "accession_number": "0001628280-26-007118",
+      "filing_date": "2026-02-11",
+      "report_date": "2025-12-31",
+      "section": "management_discussion",
+      "paragraph_index": 38,
+      "text_excerpt": "As a result of sustained decreases in our publicly quoted share price and market capitalization as well as changes in the operating results of our Distribution reporting unit, we conducted an interim test of our goodwill as of September 30, 2025. Based on the results of the impairment test, the carrying amount of our Distribution reporting unit exceeded its fair value, resulting in a non-deductible, non-cash goodwill impairment charge of $785.0 million, which was recorded in the consolidated statement of operations for the three months ended September 30, 2025. We did not identify impairment of any other long-lived assets in this reporting unit. The remaining reporting units tested were not impaired, as their estimated fair values exceeded their respective carrying amounts as of the interim testing date. Following the impairment charge, the carrying value of the Distribution reporting unit is equal to its…",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1722482/000162828026007118/avtr-20251231.htm",
+      "numbers": [
+        "30",
+        "2025",
+        "$785.0 million"
+      ],
+      "dates": [
+        "September 30, 2025"
+      ]
+    },
+    {
+      "evidence_id": "a6a11b0486d9090d1bf7",
+      "filing_version": "current",
+      "accession_number": "0001628280-26-007118",
+      "filing_date": "2026-02-11",
+      "report_date": "2025-12-31",
+      "section": "risk_factors",
+      "paragraph_index": 8,
+      "text_excerpt": "Some of our customers have implemented, or may in the future implement, certain measures described above in an effort to control and reduce costs. The ability of our customers to develop new products to replace sales decreases attributable to expirations of significant patents, along with the impact of other past or potential future changes in the industries we serve, may result in our customers significantly reducing their purchases of products from us or the prices they are willing to pay for those products. While we believe we will be able to adapt our business to maintain existing customer relationships and develop new customer relationships, if we are unsuccessful or untimely in these efforts, our results of operations may suffer. Reductions in customers’ research budgets or government funding may adversely affect our business. Many of our customers are universities, government research laboratories,…",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1722482/000162828026007118/avtr-20251231.htm",
+      "numbers": [],
+      "dates": []
+    },
+    {
+      "evidence_id": "3ffef8c300a4ea3a0a3f",
+      "filing_version": "current",
+      "accession_number": "0001628280-26-007118",
+      "filing_date": "2026-02-11",
+      "report_date": "2025-12-31",
+      "section": "risk_factors",
+      "paragraph_index": 56,
+      "text_excerpt": "Alternatively, if a court were to find the choice of forum provision contained in our amended and restated certificate of incorporation to be inapplicable or unenforceable in an action, we may incur additional costs associated with resolving such action in other jurisdictions, which could harm our business, operating results and financial condition. Our business could be impacted as a result of actions by activist shareholders or others. We have in the past and may in the future be the focus of shareholder activism, which has become increasingly prevalent. Shareholder activism, particularly with respect to matters that our Board, in exercising its fiduciary duties, disagrees with, or has determined not to pursue, may adversely affect our business because responding to activist shareholders can be costly and time-consuming, disruptive to operations and divert the attention of our Board and management. Our a…",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1722482/000162828026007118/avtr-20251231.htm",
+      "numbers": [],
+      "dates": []
+    }
+  ],
+  "generation": {
+    "used": false,
+    "status": "disabled",
+    "model": null
+  },
+  "cache": {
+    "hit": false,
+    "fingerprint": "526ca746e843eca23f7a00ad24aac55dc8f093bf773933f9d235de871279a51d"
+  },
+  "latency_ms": 4247.7
+}

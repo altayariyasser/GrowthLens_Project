@@ -1,0 +1,2679 @@
+{
+  "analysis_id": "28b7e4ce084766a2",
+  "company": {
+    "cik": "0001158449",
+    "ticker": "AAP",
+    "company_name": "ADVANCE AUTO PARTS INC"
+  },
+  "filing_pair": {
+    "previous": {
+      "accession_number": "0001158449-25-000064",
+      "filing_date": "2025-02-26",
+      "report_date": "2024-12-28",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1158449/000115844925000064/aap-20241228.htm"
+    },
+    "current": {
+      "accession_number": "0001193125-26-051305",
+      "filing_date": "2026-02-13",
+      "report_date": "2026-01-03",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1158449/000119312526051305/aap-20260103.htm"
+    }
+  },
+  "pipeline_version": "filing-intelligence-v1",
+  "comparison_available": true,
+  "coverage": {
+    "prior_sections": [
+      "business",
+      "management_discussion",
+      "risk_factors"
+    ],
+    "current_sections": [
+      "management_discussion",
+      "risk_factors"
+    ],
+    "comparable_sections": [
+      "management_discussion",
+      "risk_factors"
+    ],
+    "missing_from_current": [
+      "business"
+    ],
+    "new_in_current": [],
+    "prior_text_capped": false,
+    "current_text_capped": false,
+    "status": "partial",
+    "alignment_methods": {
+      "local semantic": 2
+    },
+    "paragraphs_compared": 563
+  },
+  "summary": {
+    "total_changes": 24,
+    "high_attention": 24,
+    "new": 13,
+    "removed": 11,
+    "modified": 0,
+    "dominant_topics": [
+      {
+        "topic": "liquidity_debt_margins_and_costs",
+        "label": "Liquidity, debt, margins and costs",
+        "count": 16
+      },
+      {
+        "topic": "operations_and_supply_chain",
+        "label": "Operations and supply chain",
+        "count": 3
+      },
+      {
+        "topic": "demand_and_competition",
+        "label": "Demand and competition",
+        "count": 3
+      }
+    ]
+  },
+  "changes": [
+    {
+      "change_id": "b7abd530c587d5db",
+      "change_type": "removed",
+      "topic": "operations_and_supply_chain",
+      "topic_label": "Operations and supply chain",
+      "section": "risk_factors",
+      "attention": {
+        "score": 87,
+        "label": "high",
+        "factors": [
+          {
+            "label": "Disclosure novelty",
+            "points": 40
+          },
+          {
+            "label": "Section significance",
+            "points": 20
+          },
+          {
+            "label": "Risk language",
+            "points": 10
+          },
+          {
+            "label": "Numerical change",
+            "points": 14
+          },
+          {
+            "label": "Evidence specificity",
+            "points": 3
+          }
+        ]
+      },
+      "explanation": "Removed section on supplier finance programs and restructuring.",
+      "analyst_relevance": "This change removes information about the Company's supply chain financing agreements and restructuring plans, which may reduce analyst interest in operations and supply chain details.",
+      "similarity": null,
+      "numeric_deltas": [
+        {
+          "previous": "$ 906",
+          "current": null
+        },
+        {
+          "previous": "27,965",
+          "current": null
+        },
+        {
+          "previous": "27,059",
+          "current": null
+        },
+        {
+          "previous": "186",
+          "current": null
+        },
+        {
+          "previous": "17,450",
+          "current": null
+        },
+        {
+          "previous": "17,636",
+          "current": null
+        },
+        {
+          "previous": "720",
+          "current": null
+        },
+        {
+          "previous": "45,415",
+          "current": null
+        }
+      ],
+      "previous_evidence": {
+        "evidence_id": "f723a3208f8cae991f85",
+        "filing_version": "prior",
+        "accession_number": "0001158449-25-000064",
+        "filing_date": "2025-02-26",
+        "report_date": "2024-12-28",
+        "section": "risk_factors",
+        "paragraph_index": 153,
+        "text_excerpt": "Accumulated Other Comprehensive Loss Accumulated other comprehensive loss, net of tax, consisted of the following: Unrealized Gain (Loss) on Postretirement Plan Foreign Currency Translation Accumulated Other Comprehensive (Loss) Income Balance, January 1, 2022 $ 906 $ ( 27,965 ) $ ( 27,059 ) 2022 activity ( 186 ) ( 17,450 ) ( 17,636 ) Balance, December 31, 2022 720 ( 45,415 ) ( 44,695 ) 2023 activity 82 ( 7,619 ) ( 7,537 ) Balance, December 30, 2023 802 ( 53,034 ) ( 52,232 ) 2024 activity ( 149 ) 5,235 5,086 Balance, December 28, 2024 $ 653 $ ( 47,799 ) $ ( 47,146 ) 18. Supplier Finance Programs The Company maintains supply chain financing agreements with third-party financial institutions to provide the Company’s suppliers with enhanced receivables options. Through these agreements, the Company’s suppliers, at their sole discretion, may elect to sell their receivables due from the Company to the third-par…",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1158449/000115844925000064/aap-20241228.htm",
+        "numbers": [
+          "1",
+          "2022",
+          "$ 906",
+          "27,965",
+          "27,059",
+          "186",
+          "17,450",
+          "17,636",
+          "31",
+          "720",
+          "45,415",
+          "44,695",
+          "2023",
+          "82",
+          "7,619",
+          "7,537"
+        ],
+        "dates": [
+          "January 1, 2022",
+          "December 31, 2022",
+          "December 30, 2023",
+          "December 28, 2024"
+        ]
+      },
+      "current_evidence": null
+    },
+    {
+      "change_id": "5a24084bc15f095b",
+      "change_type": "new",
+      "topic": "liquidity_debt_margins_and_costs",
+      "topic_label": "Liquidity, debt, margins and costs",
+      "section": "risk_factors",
+      "attention": {
+        "score": 85,
+        "label": "high",
+        "factors": [
+          {
+            "label": "Disclosure novelty",
+            "points": 40
+          },
+          {
+            "label": "Section significance",
+            "points": 20
+          },
+          {
+            "label": "Risk language",
+            "points": 12
+          },
+          {
+            "label": "Numerical change",
+            "points": 10
+          },
+          {
+            "label": "Evidence specificity",
+            "points": 3
+          }
+        ]
+      },
+      "explanation": "Added non-cash charge due to vendor bankruptcy.",
+      "analyst_relevance": "This new information highlights a liquidity risk and could impact analyst views on the Company's financial health.",
+      "similarity": null,
+      "numeric_deltas": [
+        {
+          "previous": null,
+          "current": "11"
+        },
+        {
+          "previous": null,
+          "current": "$28 million"
+        }
+      ],
+      "previous_evidence": null,
+      "current_evidence": {
+        "evidence_id": "cd4340c5e77a58a98e23",
+        "filing_version": "current",
+        "accession_number": "0001193125-26-051305",
+        "filing_date": "2026-02-13",
+        "report_date": "2026-01-03",
+        "section": "risk_factors",
+        "paragraph_index": 4,
+        "text_excerpt": "In the third quarter of fiscal 2025, one of the Company’s vendors, a leading auto parts supplier for the automotive aftermarket industry, filed voluntary petitions for Chapter 11 bankruptcy protection with the U.S. Bankruptcy Court for the Southern District of Texas. The vendor has secured short-term financing through a debtor-in-possession (“DIP”) loan, however, Chapter 11 proceedings carry inherent risks with respect to a company’s ability to continue operations and maintain adequate liquidity to satisfy current and future obligations. As a result of these events, the Company recorded a non-cash charge of $28 million to cost of sales in the third quarter of fiscal 2025, reflecting estimated future credit losses on certain vendor receivables due from the vendor. The estimate was developed utilizing a probability weighted cash-flow model adjusted for risks associated with credit risk deterioration for comp…",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1158449/000119312526051305/aap-20260103.htm",
+        "numbers": [
+          "2025",
+          "11",
+          "$28 million"
+        ],
+        "dates": []
+      }
+    },
+    {
+      "change_id": "5e3e2a911fda0b2e",
+      "change_type": "removed",
+      "topic": "operations_and_supply_chain",
+      "topic_label": "Operations and supply chain",
+      "section": "risk_factors",
+      "attention": {
+        "score": 85,
+        "label": "high",
+        "factors": [
+          {
+            "label": "Disclosure novelty",
+            "points": 40
+          },
+          {
+            "label": "Section significance",
+            "points": 20
+          },
+          {
+            "label": "Risk language",
+            "points": 8
+          },
+          {
+            "label": "Numerical change",
+            "points": 14
+          },
+          {
+            "label": "Evidence specificity",
+            "points": 3
+          }
+        ]
+      },
+      "explanation": "Removed restructuring information.",
+      "analyst_relevance": "This change removes details about store closures and asset impairment, which may reduce analyst interest in operations and supply chain.",
+      "similarity": null,
+      "numeric_deltas": [
+        {
+          "previous": "3",
+          "current": null
+        },
+        {
+          "previous": "500",
+          "current": null
+        },
+        {
+          "previous": "200",
+          "current": null
+        },
+        {
+          "previous": "$ 740.4 million",
+          "current": null
+        }
+      ],
+      "previous_evidence": {
+        "evidence_id": "9ff8e69faa9c000f6da2",
+        "filing_version": "prior",
+        "accession_number": "0001158449-25-000064",
+        "filing_date": "2025-02-26",
+        "report_date": "2024-12-28",
+        "section": "risk_factors",
+        "paragraph_index": 60,
+        "text_excerpt": "Restructuring — Refer to Note 3 to the Consolidated Financial Statements Critical Audit Matter Description The Company recorded restructuring and impairment charges related to its Board of Directors approved restructuring and asset optimization plan (“2024 Restructuring Plan”). This plan anticipates the closure of approximately 500 stores, approximately 200 independent locations and four distribution centers. The Company incurred $ 740.4 million of restructuring charges, which primarily related to inventory write-down charges for reducing inventory to net realizable value in connection with the store and distribution center closures and asset impairment charges associated with operating lease right-of-use (ROU) assets. The determination of restructuring charges and related reserves requires management to make significant estimates and assumptions regarding the amount of inventory write-down charges and imp…",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1158449/000115844925000064/aap-20241228.htm",
+        "numbers": [
+          "3",
+          "2024",
+          "500",
+          "200",
+          "$ 740.4 million"
+        ],
+        "dates": []
+      },
+      "current_evidence": null
+    },
+    {
+      "change_id": "ae01fd23e284a465",
+      "change_type": "new",
+      "topic": "liquidity_debt_margins_and_costs",
+      "topic_label": "Liquidity, debt, margins and costs",
+      "section": "risk_factors",
+      "attention": {
+        "score": 85,
+        "label": "high",
+        "factors": [
+          {
+            "label": "Disclosure novelty",
+            "points": 40
+          },
+          {
+            "label": "Section significance",
+            "points": 20
+          },
+          {
+            "label": "Risk language",
+            "points": 8
+          },
+          {
+            "label": "Numerical change",
+            "points": 14
+          },
+          {
+            "label": "Evidence specificity",
+            "points": 3
+          }
+        ]
+      },
+      "explanation": "Added information about vendor bankruptcy.",
+      "analyst_relevance": "This new information could impact analyst views on the Company's liquidity and credit risk.",
+      "similarity": null,
+      "numeric_deltas": [
+        {
+          "previous": null,
+          "current": "11"
+        },
+        {
+          "previous": null,
+          "current": "$ 28 million"
+        },
+        {
+          "previous": null,
+          "current": "7"
+        }
+      ],
+      "previous_evidence": null,
+      "current_evidence": {
+        "evidence_id": "07264fac3198c5810a07",
+        "filing_version": "current",
+        "accession_number": "0001193125-26-051305",
+        "filing_date": "2026-02-13",
+        "report_date": "2026-01-03",
+        "section": "risk_factors",
+        "paragraph_index": 116,
+        "text_excerpt": "The vendor has secured short-term financing through a debtor-in-possession (“DIP”) loan, however, Chapter 11 proceedings carry inherent risks with respect to a company’s ability to continue operations and maintain adequate liquidity to satisfy current and future obligations. As a result of these events, the Company recorded a non-cash charge of $ 28 million to cost of sales in the third quarter of fiscal 2025, within the consolidated statement of operations, reflecting estimated future credit losses on certain vendor receivables due from the vendor. The estimate was developed utilizing a probability weighted cash-flow model adjusted for risks associated with credit risk deterioration for companies that enter Chapter 11 bankruptcy proceedings. 7.",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1158449/000119312526051305/aap-20260103.htm",
+        "numbers": [
+          "11",
+          "$ 28 million",
+          "2025",
+          "7"
+        ],
+        "dates": []
+      }
+    },
+    {
+      "change_id": "f472a28f426e9175",
+      "change_type": "removed",
+      "topic": "growth_and_strategy",
+      "topic_label": "Growth and strategy",
+      "section": "risk_factors",
+      "attention": {
+        "score": 84,
+        "label": "high",
+        "factors": [
+          {
+            "label": "Disclosure novelty",
+            "points": 40
+          },
+          {
+            "label": "Section significance",
+            "points": 20
+          },
+          {
+            "label": "Risk language",
+            "points": 16
+          },
+          {
+            "label": "Numerical change",
+            "points": 5
+          },
+          {
+            "label": "Evidence specificity",
+            "points": 3
+          }
+        ]
+      },
+      "explanation": "Removed ASU 2023-06 information.",
+      "analyst_relevance": "This change removes details about a new accounting standard, which may reduce analyst interest in the Company's strategic direction.",
+      "similarity": null,
+      "numeric_deltas": [
+        {
+          "previous": "06",
+          "current": null
+        }
+      ],
+      "previous_evidence": {
+        "evidence_id": "e70877466d3cc8466565",
+        "filing_version": "prior",
+        "accession_number": "0001158449-25-000064",
+        "filing_date": "2025-02-26",
+        "report_date": "2024-12-28",
+        "section": "risk_factors",
+        "paragraph_index": 97,
+        "text_excerpt": "If the applicable requirements have not been removed by the SEC by June 30, 2027, this ASU will not become effective. Early adoption is prohibited. The Company is currently evaluating the impact of adopting ASU 2023-06 on the consolidated financial statements and related disclosures, and does not believe it will have a material impact on the consolidated financial statements. Climate Disclosure Requirements In March 2024, the SEC issued its final climate disclosure rules, which require the disclosure of climate-related information in annual reports and registration statements. The rules require disclosure in the audited financial statements of certain effects of severe weather events and other natural conditions and greenhouse gas emissions above certain financial thresholds, as well as amounts related to carbon offsets and renewable energy credits or certificates, if material. Additionally, the rule estab…",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1158449/000115844925000064/aap-20241228.htm",
+        "numbers": [
+          "30",
+          "2027",
+          "2023",
+          "06",
+          "2024"
+        ],
+        "dates": [
+          "June 30, 2027"
+        ]
+      },
+      "current_evidence": null
+    },
+    {
+      "change_id": "44fed78c5ae87dae",
+      "change_type": "removed",
+      "topic": "liquidity_debt_margins_and_costs",
+      "topic_label": "Liquidity, debt, margins and costs",
+      "section": "risk_factors",
+      "attention": {
+        "score": 83,
+        "label": "high",
+        "factors": [
+          {
+            "label": "Disclosure novelty",
+            "points": 40
+          },
+          {
+            "label": "Section significance",
+            "points": 20
+          },
+          {
+            "label": "Risk language",
+            "points": 6
+          },
+          {
+            "label": "Numerical change",
+            "points": 14
+          },
+          {
+            "label": "Evidence specificity",
+            "points": 3
+          }
+        ]
+      },
+      "explanation": "Removed stock option information.",
+      "analyst_relevance": "This change removes details about share-based compensation, which may reduce analyst interest in the Company's financial performance.",
+      "similarity": null,
+      "numeric_deltas": [
+        {
+          "previous": "417",
+          "current": null
+        },
+        {
+          "previous": "$ 124.59",
+          "current": null
+        },
+        {
+          "previous": "203",
+          "current": null
+        },
+        {
+          "previous": "$ 78.72",
+          "current": null
+        },
+        {
+          "previous": "101",
+          "current": null
+        },
+        {
+          "previous": "$ 134.87",
+          "current": null
+        },
+        {
+          "previous": "519",
+          "current": null
+        },
+        {
+          "previous": "$ 104.61",
+          "current": null
+        }
+      ],
+      "previous_evidence": {
+        "evidence_id": "eba6b40a4717b3bce2c8",
+        "filing_version": "prior",
+        "accession_number": "0001158449-25-000064",
+        "filing_date": "2025-02-26",
+        "report_date": "2024-12-28",
+        "section": "risk_factors",
+        "paragraph_index": 149,
+        "text_excerpt": "The following table includes summary information for stock options as of December 28, 2024 (inclusive of discontinued operations related activity): Number of Awards Weighted Average Exercise Price Weighted Average Remaining Contractual Life (Years) Aggregate Intrinsic Value Outstanding at December 30, 2023 417 $ 124.59 Granted 203 $ 78.72 Exercised — $ — Forfeited ( 101 ) $ 134.87 Outstanding at December 28, 2024 519 $ 104.61 8.1 $ — Exercisable at December 28, 2024 198 $ 142.66 6.8 $ — The following table presents the range of the weighted-average assumptions used in determining the fair values of options granted: Year Ended December 28, 2024 Risk-free interest rate (1) 4.1 % – 4.2 % Expected life (2) 6 years Expected volatility (3) 41.6 % – 42.6 % Expected dividend yield (4) 1.4 % – 1.5 % (1) The risk-free interest rate is based on the yield in effect at grant for zero-coupon U.S. Treasury notes with mat…",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1158449/000115844925000064/aap-20241228.htm",
+        "numbers": [
+          "28",
+          "2024",
+          "30",
+          "2023",
+          "417",
+          "$ 124.59",
+          "203",
+          "$ 78.72",
+          "101",
+          "$ 134.87",
+          "519",
+          "$ 104.61",
+          "8.1",
+          "198",
+          "$ 142.66",
+          "6.8"
+        ],
+        "dates": [
+          "December 28, 2024",
+          "December 30, 2023"
+        ]
+      },
+      "current_evidence": null
+    },
+    {
+      "change_id": "57e382e4028ad19d",
+      "change_type": "removed",
+      "topic": "liquidity_debt_margins_and_costs",
+      "topic_label": "Liquidity, debt, margins and costs",
+      "section": "risk_factors",
+      "attention": {
+        "score": 83,
+        "label": "high",
+        "factors": [
+          {
+            "label": "Disclosure novelty",
+            "points": 40
+          },
+          {
+            "label": "Section significance",
+            "points": 20
+          },
+          {
+            "label": "Risk language",
+            "points": 6
+          },
+          {
+            "label": "Numerical change",
+            "points": 14
+          },
+          {
+            "label": "Evidence specificity",
+            "points": 3
+          }
+        ]
+      },
+      "explanation": "Removed expected term and volatility information.",
+      "analyst_relevance": "This change removes details about stock options, which may reduce analyst interest in the Company's financial performance.",
+      "similarity": null,
+      "numeric_deltas": [
+        {
+          "previous": "3",
+          "current": null
+        },
+        {
+          "previous": "4",
+          "current": null
+        },
+        {
+          "previous": "$ 10.0 million",
+          "current": null
+        },
+        {
+          "previous": "$ 10.1 million",
+          "current": null
+        },
+        {
+          "previous": "$ 11.7 million",
+          "current": null
+        },
+        {
+          "previous": "$ 61.0 million",
+          "current": null
+        },
+        {
+          "previous": "1.52",
+          "current": null
+        }
+      ],
+      "previous_evidence": {
+        "evidence_id": "edcf5519762258dbb3c8",
+        "filing_version": "prior",
+        "accession_number": "0001158449-25-000064",
+        "filing_date": "2025-02-26",
+        "report_date": "2024-12-28",
+        "section": "risk_factors",
+        "paragraph_index": 150,
+        "text_excerpt": "As the Company does not have sufficient historical data, the Company utilized the simplified method provided by the Securities and Exchange Commission to calculate the expected term as the average of the contractual term and vesting period. (3) Expected volatility is the measure of the amount by which the stock price has fluctuated or is expected to fluctuate. The Company utilized historical trends and the implied volatility of the Company’s publicly traded financial instruments in developing the volatility estimate for the Company’s stock options. (4) The expected dividend yield is calculated based on the Company’s expected quarterly dividend and the three-month average stock price as of the grant date. Other Considerations Total income tax benefit related to share-based compensation expense for 2024, 2023 and 2022 was $ 10.0 million, $ 10.1 million and $ 11.7 million, respectively. As of December 28, 202…",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1158449/000115844925000064/aap-20241228.htm",
+        "numbers": [
+          "3",
+          "4",
+          "2024",
+          "2023",
+          "2022",
+          "$ 10.0 million",
+          "$ 10.1 million",
+          "$ 11.7 million",
+          "28",
+          "$ 61.0 million",
+          "1.52"
+        ],
+        "dates": [
+          "December 28, 2024"
+        ]
+      },
+      "current_evidence": null
+    },
+    {
+      "change_id": "7395c8b216bb6205",
+      "change_type": "new",
+      "topic": "demand_and_competition",
+      "topic_label": "Demand and competition",
+      "section": "risk_factors",
+      "attention": {
+        "score": 83,
+        "label": "high",
+        "factors": [
+          {
+            "label": "Disclosure novelty",
+            "points": 40
+          },
+          {
+            "label": "Section significance",
+            "points": 20
+          },
+          {
+            "label": "Risk language",
+            "points": 6
+          },
+          {
+            "label": "Numerical change",
+            "points": 14
+          },
+          {
+            "label": "Evidence specificity",
+            "points": 3
+          }
+        ]
+      },
+      "explanation": "Added 2025 financial highlights.",
+      "analyst_relevance": "This new information could impact analyst views on the Company's performance and market position.",
+      "similarity": null,
+      "numeric_deltas": [
+        {
+          "previous": null,
+          "current": "$8.6 billion"
+        },
+        {
+          "previous": null,
+          "current": "5.4%"
+        },
+        {
+          "previous": null,
+          "current": "53"
+        },
+        {
+          "previous": null,
+          "current": "0.8%"
+        },
+        {
+          "previous": null,
+          "current": "43.4%"
+        },
+        {
+          "previous": null,
+          "current": "592 basis points"
+        },
+        {
+          "previous": null,
+          "current": "$43 million"
+        },
+        {
+          "previous": null,
+          "current": "$670 million"
+        }
+      ],
+      "previous_evidence": null,
+      "current_evidence": {
+        "evidence_id": "985caa2da223d0ed2452",
+        "filing_version": "current",
+        "accession_number": "0001193125-26-051305",
+        "filing_date": "2026-02-13",
+        "report_date": "2026-01-03",
+        "section": "risk_factors",
+        "paragraph_index": 1,
+        "text_excerpt": "A high-level summary of the Company’s financial results and other highlights from 2025 includes: • Net sales from continuing operations during fiscal 2025 were $8.6 billion, a decrease of 5.4% compared with fiscal 2024, driven by lower sales as a result of store closures executed under the 2024 Restructuring Plan, partially offset by the impact of the 53rd week. Comparable store sales increased 0.8%. • Gross profit margin from continuing operations for fiscal 2025 was 43.4% of net sales, an increase of 592 basis points compared with fiscal 2024, primarily due to the adverse impact on gross profit margin in fiscal 2024 from inventory-related charges under the 2024 Restructuring Plan. • Operating loss from continuing operations for 2025 was $43 million, an improvement of $670 million as compared to fiscal 2024. As a percentage of net sales, operating loss was (0.5)%, an improvement of 734 basis points compar…",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1158449/000119312526051305/aap-20260103.htm",
+        "numbers": [
+          "2025",
+          "$8.6 billion",
+          "5.4%",
+          "2024",
+          "53",
+          "0.8%",
+          "43.4%",
+          "592 basis points",
+          "$43 million",
+          "$670 million",
+          "0.5",
+          "734 basis points"
+        ],
+        "dates": []
+      }
+    },
+    {
+      "change_id": "78ce9a081083177c",
+      "change_type": "new",
+      "topic": "demand_and_competition",
+      "topic_label": "Demand and competition",
+      "section": "risk_factors",
+      "attention": {
+        "score": 83,
+        "label": "high",
+        "factors": [
+          {
+            "label": "Disclosure novelty",
+            "points": 40
+          },
+          {
+            "label": "Section significance",
+            "points": 20
+          },
+          {
+            "label": "Risk language",
+            "points": 10
+          },
+          {
+            "label": "Numerical change",
+            "points": 10
+          },
+          {
+            "label": "Evidence specificity",
+            "points": 3
+          }
+        ]
+      },
+      "explanation": "Added ASU 2025-05 information.",
+      "analyst_relevance": "This new information could impact analyst views on the Company's accounting practices and financial reporting.",
+      "similarity": null,
+      "numeric_deltas": [
+        {
+          "previous": null,
+          "current": "05"
+        },
+        {
+          "previous": null,
+          "current": "326"
+        }
+      ],
+      "previous_evidence": null,
+      "current_evidence": {
+        "evidence_id": "c232ecd5d326265b0ccc",
+        "filing_version": "current",
+        "accession_number": "0001193125-26-051305",
+        "filing_date": "2026-02-13",
+        "report_date": "2026-01-03",
+        "section": "risk_factors",
+        "paragraph_index": 100,
+        "text_excerpt": "Measurement of Credit Losses for Accounts Receivable and Contract Assets In July 2025, the FASB issued ASU 2025-05, Financial Instruments - Credit Losses (Topic 326): Measurement of Credit Losses for Accounts Receivable and Contract Assets (“ASU 2025-05”), which provides a practical expedient permitting an entity to assume that conditions at the balance sheet date remain unchanged over the life of the asset when estimating expected credit losses for current accounts receivable and current contract assets. ASU 2025-05 is effective for annual reporting periods beginning after December 15, 2025, and for interim periods within those annual reporting periods, with early adoption permitted. The amendments in ASU 2025-05 should be applied prospectively. The Company is currently evaluating the impact of adopting ASU 2025-05 and believes that the adoption will not have a material impact on the consolidated financia…",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1158449/000119312526051305/aap-20260103.htm",
+        "numbers": [
+          "2025",
+          "05",
+          "326",
+          "15"
+        ],
+        "dates": [
+          "December 15, 2025"
+        ]
+      }
+    },
+    {
+      "change_id": "dcb3d64b5f8f4b25",
+      "change_type": "new",
+      "topic": "operations_and_supply_chain",
+      "topic_label": "Operations and supply chain",
+      "section": "risk_factors",
+      "attention": {
+        "score": 83,
+        "label": "high",
+        "factors": [
+          {
+            "label": "Disclosure novelty",
+            "points": 40
+          },
+          {
+            "label": "Section significance",
+            "points": 20
+          },
+          {
+            "label": "Risk language",
+            "points": 6
+          },
+          {
+            "label": "Numerical change",
+            "points": 14
+          },
+          {
+            "label": "Evidence specificity",
+            "points": 3
+          }
+        ]
+      },
+      "explanation": "Added ABL Facility details.",
+      "analyst_relevance": "This new information could impact analyst views on the Company's liquidity and supply chain management.",
+      "similarity": null,
+      "numeric_deltas": [
+        {
+          "previous": null,
+          "current": "90 %"
+        },
+        {
+          "previous": null,
+          "current": "85 %"
+        },
+        {
+          "previous": null,
+          "current": "100 %"
+        }
+      ],
+      "previous_evidence": null,
+      "current_evidence": {
+        "evidence_id": "98e898fbdc53f71e4d3f",
+        "filing_version": "current",
+        "accession_number": "0001193125-26-051305",
+        "filing_date": "2026-02-13",
+        "report_date": "2026-01-03",
+        "section": "risk_factors",
+        "paragraph_index": 126,
+        "text_excerpt": "Availability under the ABL Facility is limited to the lesser of (i) the borrowing base, equal to the sum of 90 % of eligible credit card receivables, 85 % of eligible trade accounts receivable, 85 % of the net orderly liquidation value of eligible inventory and 100 % of qualified cash (up to certain limits for the purpose of determining borrowing capacity), subject, in each case, to customary reserves established by the collateral agent under the ABL Facility from time to time, including reserves related to outstanding obligations to our suppliers that are payable to the paying agents, as a result of such suppliers electing, at their option, to utilize third-party financing, commonly referred to as supply chain financing, and debt maturity reserves, and (ii) the aggregate revolving credit commitments. The ABL Facility contains customary representations and warranties, events of default and financial, affir…",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1158449/000119312526051305/aap-20260103.htm",
+        "numbers": [
+          "90 %",
+          "85 %",
+          "100 %"
+        ],
+        "dates": []
+      }
+    },
+    {
+      "change_id": "f168ebad94c74d8a",
+      "change_type": "removed",
+      "topic": "growth_and_strategy",
+      "topic_label": "Growth and strategy",
+      "section": "risk_factors",
+      "attention": {
+        "score": 83,
+        "label": "high",
+        "factors": [
+          {
+            "label": "Disclosure novelty",
+            "points": 40
+          },
+          {
+            "label": "Section significance",
+            "points": 20
+          },
+          {
+            "label": "Risk language",
+            "points": 6
+          },
+          {
+            "label": "Numerical change",
+            "points": 14
+          },
+          {
+            "label": "Evidence specificity",
+            "points": 3
+          }
+        ]
+      },
+      "explanation": "A prior disclosure related to growth and strategy is no longer present in the comparable section.",
+      "analyst_relevance": "Review the cited language in the context of the investment thesis.",
+      "similarity": null,
+      "numeric_deltas": [
+        {
+          "previous": "$9.1 billion",
+          "current": null
+        },
+        {
+          "previous": "1.2%",
+          "current": null
+        },
+        {
+          "previous": "0.7%",
+          "current": null
+        },
+        {
+          "previous": "37.5%",
+          "current": null
+        },
+        {
+          "previous": "444 basis points",
+          "current": null
+        },
+        {
+          "previous": "$713.3 million",
+          "current": null
+        },
+        {
+          "previous": "$752.2 million",
+          "current": null
+        },
+        {
+          "previous": "7.8%",
+          "current": null
+        }
+      ],
+      "previous_evidence": {
+        "evidence_id": "3754fd66abba9b366d8c",
+        "filing_version": "prior",
+        "accession_number": "0001158449-25-000064",
+        "filing_date": "2025-02-26",
+        "report_date": "2024-12-28",
+        "section": "risk_factors",
+        "paragraph_index": 1,
+        "text_excerpt": "A high-level summary of the Company’s financial results and other highlights from 2024 includes: • Net sales from continuing operations during 2024 we re $9.1 billion, a decrease of 1.2% compared wit h 2023, driven by a decrease in price and volume partially offset by a favorable product mix. Comparable store sales declined 0.7%. • Gro ss profit margin from continuing operations for 2024 was 37.5% of net sales, a decrease of 444 basis points co mpared with 2023 , primarily due to inventory-related charges attributable to the location closures and streamlining product assortment resulting from the Board-approved restructuring and asset optimization plan (“2024 Restructuring Plan”). • Operating loss from continuing operations for 2024 was $713.3 million, a decrease of $752.2 million from 2023. As a percentage of net sales, operating loss wa s 7.8%, a decrease of 827 basis points co mpared with 2023.",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1158449/000115844925000064/aap-20241228.htm",
+        "numbers": [
+          "2024",
+          "$9.1 billion",
+          "1.2%",
+          "2023",
+          "0.7%",
+          "37.5%",
+          "444 basis points",
+          "$713.3 million",
+          "$752.2 million",
+          "7.8%",
+          "827 basis points"
+        ],
+        "dates": []
+      },
+      "current_evidence": null
+    },
+    {
+      "change_id": "ff7b6a228faa23f0",
+      "change_type": "new",
+      "topic": "liquidity_debt_margins_and_costs",
+      "topic_label": "Liquidity, debt, margins and costs",
+      "section": "risk_factors",
+      "attention": {
+        "score": 83,
+        "label": "high",
+        "factors": [
+          {
+            "label": "Disclosure novelty",
+            "points": 40
+          },
+          {
+            "label": "Section significance",
+            "points": 20
+          },
+          {
+            "label": "Risk language",
+            "points": 6
+          },
+          {
+            "label": "Numerical change",
+            "points": 14
+          },
+          {
+            "label": "Evidence specificity",
+            "points": 3
+          }
+        ]
+      },
+      "explanation": "The current filing introduces a new disclosure related to liquidity, debt, margins and costs.",
+      "analyst_relevance": "Review the cited language in the context of the investment thesis.",
+      "similarity": null,
+      "numeric_deltas": [
+        {
+          "previous": null,
+          "current": "$126 million"
+        },
+        {
+          "previous": null,
+          "current": "13"
+        },
+        {
+          "previous": null,
+          "current": "$24 million"
+        }
+      ],
+      "previous_evidence": null,
+      "current_evidence": {
+        "evidence_id": "e4780dd7d6849449b44d",
+        "filing_version": "current",
+        "accession_number": "0001193125-26-051305",
+        "filing_date": "2026-02-13",
+        "report_date": "2026-01-03",
+        "section": "risk_factors",
+        "paragraph_index": 15,
+        "text_excerpt": "The decrease in tax benefit for the fifty-three weeks ended January 3, 2026, was a result of a decrease in the loss before taxes from continuing operations, partially offset by a net discrete tax benefit in the first quarter of fiscal 2025 of $126 million, related to an internal legal entity restructuring event completed in the fiscal year treated as a taxable stock disposition for U.S. federal income tax purposes. As a result, the Company recognized a capital loss deduction which was utilized against capital gain income. See Note 13. Income Taxes, of the Notes to the Consolidated Financial Statements of this Annual Report. Discontinued Operations For the fifty-three weeks ended January 3, 2026, the Company recorded a loss of $24 million, net of taxes from discontinued operations, reflecting an adjustment to the previously recognized gain on divesture of Worldpac in fiscal 2024 after finalizing customary w…",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1158449/000119312526051305/aap-20260103.htm",
+        "numbers": [
+          "3",
+          "2026",
+          "2025",
+          "$126 million",
+          "13",
+          "$24 million",
+          "2024"
+        ],
+        "dates": [
+          "January 3, 2026"
+        ]
+      }
+    },
+    {
+      "change_id": "135dcb39803e93ad",
+      "change_type": "new",
+      "topic": "liquidity_debt_margins_and_costs",
+      "topic_label": "Liquidity, debt, margins and costs",
+      "section": "management_discussion",
+      "attention": {
+        "score": 82,
+        "label": "high",
+        "factors": [
+          {
+            "label": "Disclosure novelty",
+            "points": 40
+          },
+          {
+            "label": "Section significance",
+            "points": 17
+          },
+          {
+            "label": "Risk language",
+            "points": 12
+          },
+          {
+            "label": "Numerical change",
+            "points": 10
+          },
+          {
+            "label": "Evidence specificity",
+            "points": 3
+          }
+        ]
+      },
+      "explanation": "The current filing introduces a new disclosure related to liquidity, debt, margins and costs.",
+      "analyst_relevance": "Review the cited language in the context of the investment thesis.",
+      "similarity": null,
+      "numeric_deltas": [
+        {
+          "previous": null,
+          "current": "11"
+        },
+        {
+          "previous": null,
+          "current": "$28 million"
+        }
+      ],
+      "previous_evidence": null,
+      "current_evidence": {
+        "evidence_id": "dd57eacd4f54fc03090c",
+        "filing_version": "current",
+        "accession_number": "0001193125-26-051305",
+        "filing_date": "2026-02-13",
+        "report_date": "2026-01-03",
+        "section": "management_discussion",
+        "paragraph_index": 66,
+        "text_excerpt": "In the third quarter of fiscal 2025, one of the Company’s vendors, a leading auto parts supplier for the automotive aftermarket industry, filed voluntary petitions for Chapter 11 bankruptcy protection with the U.S. Bankruptcy Court for the Southern District of Texas. The vendor has secured short-term financing through a debtor-in-possession (“DIP”) loan, however, Chapter 11 proceedings carry inherent risks with respect to a company’s ability to continue operations and maintain adequate liquidity to satisfy current and future obligations. As a result of these events, the Company recorded a non-cash charge of $28 million to cost of sales in the third quarter of fiscal 2025, reflecting estimated future credit losses on certain vendor receivables due from the vendor. The estimate was developed utilizing a probability weighted cash-flow model adjusted for risks associated with credit risk deterioration for comp…",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1158449/000119312526051305/aap-20260103.htm",
+        "numbers": [
+          "2025",
+          "11",
+          "$28 million"
+        ],
+        "dates": []
+      }
+    },
+    {
+      "change_id": "1ded31f6938c0c9c",
+      "change_type": "new",
+      "topic": "liquidity_debt_margins_and_costs",
+      "topic_label": "Liquidity, debt, margins and costs",
+      "section": "risk_factors",
+      "attention": {
+        "score": 81,
+        "label": "high",
+        "factors": [
+          {
+            "label": "Disclosure novelty",
+            "points": 40
+          },
+          {
+            "label": "Section significance",
+            "points": 20
+          },
+          {
+            "label": "Risk language",
+            "points": 4
+          },
+          {
+            "label": "Numerical change",
+            "points": 14
+          },
+          {
+            "label": "Evidence specificity",
+            "points": 3
+          }
+        ]
+      },
+      "explanation": "The current filing introduces a new disclosure related to liquidity, debt, margins and costs.",
+      "analyst_relevance": "Review the cited language in the context of the investment thesis.",
+      "similarity": null,
+      "numeric_deltas": [
+        {
+          "previous": null,
+          "current": "$25 million"
+        },
+        {
+          "previous": null,
+          "current": "$15 million"
+        },
+        {
+          "previous": null,
+          "current": "$21 million"
+        },
+        {
+          "previous": null,
+          "current": "3"
+        },
+        {
+          "previous": null,
+          "current": "$60 million"
+        },
+        {
+          "previous": null,
+          "current": "$23 million"
+        }
+      ],
+      "previous_evidence": null,
+      "current_evidence": {
+        "evidence_id": "6ae9ae3c5878a4516df7",
+        "filing_version": "current",
+        "accession_number": "0001193125-26-051305",
+        "filing_date": "2026-02-13",
+        "report_date": "2026-01-03",
+        "section": "risk_factors",
+        "paragraph_index": 22,
+        "text_excerpt": "Restructuring and other related expenses for the fifty-two weeks ended December 28, 2024 includes $25 million of incremental receivable reserves resulting from contract terminations with certain independents as part of the 2024 Restructuring Plan, $15 million of severance and other labor related costs as part of the 2024 Restructuring Plan, and $21 million of nonrecurring services rendered by third party vendors assisting with the 2024 Restructuring Plan. (3) The Company recorded incremental accelerated depreciation and amortization for property and equipment and ROU assets of $60 million and impairment charges for ROU assets and property and equipment of $23 million, net of gains on sale, for the fifty-three weeks ended January 3, 2026.",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1158449/000119312526051305/aap-20260103.htm",
+        "numbers": [
+          "28",
+          "2024",
+          "$25 million",
+          "$15 million",
+          "$21 million",
+          "3",
+          "$60 million",
+          "$23 million",
+          "2026"
+        ],
+        "dates": [
+          "December 28, 2024",
+          "January 3, 2026"
+        ]
+      }
+    },
+    {
+      "change_id": "20226bcf2cfa5346",
+      "change_type": "new",
+      "topic": "liquidity_debt_margins_and_costs",
+      "topic_label": "Liquidity, debt, margins and costs",
+      "section": "risk_factors",
+      "attention": {
+        "score": 81,
+        "label": "high",
+        "factors": [
+          {
+            "label": "Disclosure novelty",
+            "points": 40
+          },
+          {
+            "label": "Section significance",
+            "points": 20
+          },
+          {
+            "label": "Risk language",
+            "points": 8
+          },
+          {
+            "label": "Numerical change",
+            "points": 10
+          },
+          {
+            "label": "Evidence specificity",
+            "points": 3
+          }
+        ]
+      },
+      "explanation": "The current filing introduces a new disclosure related to liquidity, debt, margins and costs.",
+      "analyst_relevance": "Review the cited language in the context of the investment thesis.",
+      "similarity": null,
+      "numeric_deltas": [
+        {
+          "previous": null,
+          "current": "11"
+        },
+        {
+          "previous": null,
+          "current": "$28 million"
+        }
+      ],
+      "previous_evidence": null,
+      "current_evidence": {
+        "evidence_id": "72a478b91d92092a6f3d",
+        "filing_version": "current",
+        "accession_number": "0001193125-26-051305",
+        "filing_date": "2026-02-13",
+        "report_date": "2026-01-03",
+        "section": "risk_factors",
+        "paragraph_index": 41,
+        "text_excerpt": "Certain of the Company’s vendor agreements contain purchase volume incentives that provide for increased funding when graduated purchase volumes are met, which is subject to uncertainty and require estimation. Amounts accrued throughout the year could be impacted if actual purchase volumes differ from projected annual purchase volumes. In the third quarter of fiscal 2025, one of the Company’s vendors, a leading auto parts supplier for the automotive aftermarket industry, filed voluntary petitions for Chapter 11 bankruptcy protection with the U.S. Bankruptcy Court for the Southern District of Texas. As a result, the Company recorded a non-cash charge of $28 million to cost of sales, within the consolidated statement of operations, reflecting estimated future credit losses on certain vendor receivables due from the vendor. Historically, the change in the Company’s reserve for receivables related to vendor fu…",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1158449/000119312526051305/aap-20260103.htm",
+        "numbers": [
+          "2025",
+          "11",
+          "$28 million"
+        ],
+        "dates": []
+      }
+    },
+    {
+      "change_id": "396cfc2be9423b80",
+      "change_type": "removed",
+      "topic": "liquidity_debt_margins_and_costs",
+      "topic_label": "Liquidity, debt, margins and costs",
+      "section": "risk_factors",
+      "attention": {
+        "score": 81,
+        "label": "high",
+        "factors": [
+          {
+            "label": "Disclosure novelty",
+            "points": 40
+          },
+          {
+            "label": "Section significance",
+            "points": 20
+          },
+          {
+            "label": "Risk language",
+            "points": 4
+          },
+          {
+            "label": "Numerical change",
+            "points": 14
+          },
+          {
+            "label": "Evidence specificity",
+            "points": 3
+          }
+        ]
+      },
+      "explanation": "A prior disclosure related to liquidity, debt, margins and costs is no longer present in the comparable section.",
+      "analyst_relevance": "Review the cited language in the context of the investment thesis.",
+      "similarity": null,
+      "numeric_deltas": [
+        {
+          "previous": "3",
+          "current": null
+        },
+        {
+          "previous": "1.75",
+          "current": null
+        },
+        {
+          "previous": "1.00",
+          "current": null
+        },
+        {
+          "previous": "2.00",
+          "current": null
+        },
+        {
+          "previous": "2.25",
+          "current": null
+        },
+        {
+          "previous": "2",
+          "current": null
+        },
+        {
+          "previous": "4",
+          "current": null
+        },
+        {
+          "previous": "10%",
+          "current": null
+        }
+      ],
+      "previous_evidence": {
+        "evidence_id": "430662dfc6ad0a7f60fd",
+        "filing_version": "prior",
+        "accession_number": "0001158449-25-000064",
+        "filing_date": "2025-02-26",
+        "report_date": "2024-12-28",
+        "section": "risk_factors",
+        "paragraph_index": 30,
+        "text_excerpt": "3, the Company may not permit the Consolidated Coverage Ratio to be less than (a) 1.75 to 1.00 for each period of four fiscal quarters ending on October 7, 2023 through and including the period of four fiscal quarters ending on October 5, 2024, (b) 2.00 to 1.00 for each period of four fiscal quarters ending on December 28, 2024 through and including the period of four fiscal quarters ending on October 4, 2025 and (c) 2.25 to 1.00 for each period of four fiscal quarters ending after October 4, 2025. Amendment No. 2. and Amendment No. 3 made no other material changes to the terms of the 2021 Credit Agreement. On February 26, 2024, the Company entered into Amendment No. 4 (“Amendment No. 4”) to the 2021 Credit Agreement to enable certain addbacks to the definition of Consolidated EBITDA contained therein for specific write-downs of inventory and vendor receivables. Amendment No. 4 also updated certain limitat…",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1158449/000115844925000064/aap-20241228.htm",
+        "numbers": [
+          "3",
+          "1.75",
+          "1.00",
+          "7",
+          "2023",
+          "5",
+          "2024",
+          "2.00",
+          "28",
+          "4",
+          "2025",
+          "2.25",
+          "2",
+          "2021",
+          "26",
+          "10%"
+        ],
+        "dates": [
+          "October 7, 2023",
+          "October 5, 2024",
+          "December 28, 2024",
+          "October 4, 2025",
+          "February 26, 2024"
+        ]
+      },
+      "current_evidence": null
+    },
+    {
+      "change_id": "3a716096b09f015c",
+      "change_type": "new",
+      "topic": "demand_and_competition",
+      "topic_label": "Demand and competition",
+      "section": "risk_factors",
+      "attention": {
+        "score": 81,
+        "label": "high",
+        "factors": [
+          {
+            "label": "Disclosure novelty",
+            "points": 40
+          },
+          {
+            "label": "Section significance",
+            "points": 20
+          },
+          {
+            "label": "Risk language",
+            "points": 4
+          },
+          {
+            "label": "Numerical change",
+            "points": 14
+          },
+          {
+            "label": "Evidence specificity",
+            "points": 3
+          }
+        ]
+      },
+      "explanation": "The current filing introduces a new disclosure related to demand and competition.",
+      "analyst_relevance": "Review the cited language in the context of the investment thesis.",
+      "similarity": null,
+      "numeric_deltas": [
+        {
+          "previous": null,
+          "current": "$ 2,247"
+        },
+        {
+          "previous": null,
+          "current": "$ 2,359"
+        },
+        {
+          "previous": null,
+          "current": "435"
+        },
+        {
+          "previous": null,
+          "current": "462"
+        },
+        {
+          "previous": null,
+          "current": "$ 1,812"
+        },
+        {
+          "previous": null,
+          "current": "$ 1,897"
+        }
+      ],
+      "previous_evidence": null,
+      "current_evidence": {
+        "evidence_id": "14239e7ea54285acf196",
+        "filing_version": "current",
+        "accession_number": "0001193125-26-051305",
+        "filing_date": "2026-02-13",
+        "report_date": "2026-01-03",
+        "section": "risk_factors",
+        "paragraph_index": 132,
+        "text_excerpt": "The initial term for facilities is typically five to ten years , with renewal options typically at five-year intervals, with the exercise of lease renewal options at the Company's sole discretion. The Company's vehicle and equipment lease terms are typically three to six years . The Company's lease agreements do not contain any material residual value guarantees or material restrictive covenants. Operating lease liabilities consisted of the following: January 3, 2026 December 28, 2024 Total operating lease liabilities $ 2,247 $ 2,359 Less: Current portion of operating lease liabilities ( 435 ) ( 462 ) Non-current operating lease liabilities $ 1,812 $ 1,897 The current portion of operating lease liabilities is included in other current liabilities in the accompanying consolidated balance sheets.",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1158449/000119312526051305/aap-20260103.htm",
+        "numbers": [
+          "3",
+          "2026",
+          "28",
+          "2024",
+          "$ 2,247",
+          "$ 2,359",
+          "435",
+          "462",
+          "$ 1,812",
+          "$ 1,897"
+        ],
+        "dates": [
+          "January 3, 2026",
+          "December 28, 2024"
+        ]
+      }
+    },
+    {
+      "change_id": "4e6eb1e3fa1bc129",
+      "change_type": "new",
+      "topic": "liquidity_debt_margins_and_costs",
+      "topic_label": "Liquidity, debt, margins and costs",
+      "section": "risk_factors",
+      "attention": {
+        "score": 81,
+        "label": "high",
+        "factors": [
+          {
+            "label": "Disclosure novelty",
+            "points": 40
+          },
+          {
+            "label": "Section significance",
+            "points": 20
+          },
+          {
+            "label": "Risk language",
+            "points": 4
+          },
+          {
+            "label": "Numerical change",
+            "points": 14
+          },
+          {
+            "label": "Evidence specificity",
+            "points": 3
+          }
+        ]
+      },
+      "explanation": "The current filing introduces a new disclosure related to liquidity, debt, margins and costs.",
+      "analyst_relevance": "Review the cited language in the context of the investment thesis.",
+      "similarity": null,
+      "numeric_deltas": [
+        {
+          "previous": null,
+          "current": "$72 million"
+        },
+        {
+          "previous": null,
+          "current": "$239 million"
+        },
+        {
+          "previous": null,
+          "current": "$1.6 billion"
+        },
+        {
+          "previous": null,
+          "current": "$1.5 billion"
+        },
+        {
+          "previous": null,
+          "current": "5.90%"
+        }
+      ],
+      "previous_evidence": null,
+      "current_evidence": {
+        "evidence_id": "8eae2955fec0a6f59838",
+        "filing_version": "current",
+        "accession_number": "0001193125-26-051305",
+        "filing_date": "2026-02-13",
+        "report_date": "2026-01-03",
+        "section": "risk_factors",
+        "paragraph_index": 30,
+        "text_excerpt": "Investing Activities In fiscal 2025, cash flows used in investing activities increased $72 million to $239 million compared with fiscal 2024. This increase was attributable to increased capital spend related to store renovations. Financing Activities In fiscal 2025, cash flows provided by financing activities increased by $1.6 billion to $1.5 billion compared with fiscal 2024. The net increase in cash provided by financing activities was attributable to the issuances of senior unsecured notes in 2025 partially offset by the redemption of the 5.90% 2026 Notes. The Company’s Board of Directors has declared a quarterly cash dividend since 2006. Any payments of dividends in the future will be at the discretion of the Company’s Board of Directors and will depend upon the Company’s results of operations, cash flows, capital requirements and other factors deemed relevant by the Company’s Board of Directors. Simil…",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1158449/000119312526051305/aap-20260103.htm",
+        "numbers": [
+          "2025",
+          "$72 million",
+          "$239 million",
+          "2024",
+          "$1.6 billion",
+          "$1.5 billion",
+          "5.90%",
+          "2026",
+          "2006",
+          "2021"
+        ],
+        "dates": []
+      }
+    },
+    {
+      "change_id": "649d72c2bbbc092e",
+      "change_type": "removed",
+      "topic": "liquidity_debt_margins_and_costs",
+      "topic_label": "Liquidity, debt, margins and costs",
+      "section": "risk_factors",
+      "attention": {
+        "score": 81,
+        "label": "high",
+        "factors": [
+          {
+            "label": "Disclosure novelty",
+            "points": 40
+          },
+          {
+            "label": "Section significance",
+            "points": 20
+          },
+          {
+            "label": "Risk language",
+            "points": 4
+          },
+          {
+            "label": "Numerical change",
+            "points": 14
+          },
+          {
+            "label": "Evidence specificity",
+            "points": 3
+          }
+        ]
+      },
+      "explanation": "A prior disclosure related to liquidity, debt, margins and costs is no longer present in the comparable section.",
+      "analyst_relevance": "Review the cited language in the context of the investment thesis.",
+      "similarity": null,
+      "numeric_deltas": [
+        {
+          "previous": "3",
+          "current": null
+        },
+        {
+          "previous": "1.75",
+          "current": null
+        },
+        {
+          "previous": "1.00",
+          "current": null
+        },
+        {
+          "previous": "2.00",
+          "current": null
+        },
+        {
+          "previous": "2.25",
+          "current": null
+        },
+        {
+          "previous": "2",
+          "current": null
+        },
+        {
+          "previous": "4",
+          "current": null
+        },
+        {
+          "previous": "10 %",
+          "current": null
+        }
+      ],
+      "previous_evidence": {
+        "evidence_id": "c1cb1ba9e543b7dda727",
+        "filing_version": "prior",
+        "accession_number": "0001158449-25-000064",
+        "filing_date": "2025-02-26",
+        "report_date": "2024-12-28",
+        "section": "risk_factors",
+        "paragraph_index": 115,
+        "text_excerpt": "3, the Company may not permit the Consolidated Coverage Ratio to be less than (a) 1.75 to 1.00 for each period of four fiscal quarters ending on October 7, 2023 through and including the period of four fiscal quarters ending on October 5, 2024, (b) 2.00 to 1.00 for each period of four fiscal quarters ending on December 28, 2024 through and including the period of four fiscal quarters ending on October 4, 2025 and (c) 2.25 to 1.00 for each period of four fiscal quarters ending after October 4, 2025. Amendment No. 2. and Amendment No. 3 made no other material changes to the terms of the 2021 Credit Agreement. On February 26, 2024, the Company entered into Amendment No. 4 (“Amendment No. 4”) to the 2021 Credit Agreement to enable certain addbacks to the definition of Consolidated EBITDA contained therein for specific write-downs of inventory and vendor receivables . Amendment No. 4 also updated certain limita…",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1158449/000115844925000064/aap-20241228.htm",
+        "numbers": [
+          "3",
+          "1.75",
+          "1.00",
+          "7",
+          "2023",
+          "5",
+          "2024",
+          "2.00",
+          "28",
+          "4",
+          "2025",
+          "2.25",
+          "2",
+          "2021",
+          "26",
+          "10 %"
+        ],
+        "dates": [
+          "October 7, 2023",
+          "October 5, 2024",
+          "December 28, 2024",
+          "October 4, 2025",
+          "February 26, 2024"
+        ]
+      },
+      "current_evidence": null
+    },
+    {
+      "change_id": "96da2cd99ab2e1e2",
+      "change_type": "new",
+      "topic": "liquidity_debt_margins_and_costs",
+      "topic_label": "Liquidity, debt, margins and costs",
+      "section": "risk_factors",
+      "attention": {
+        "score": 81,
+        "label": "high",
+        "factors": [
+          {
+            "label": "Disclosure novelty",
+            "points": 40
+          },
+          {
+            "label": "Section significance",
+            "points": 20
+          },
+          {
+            "label": "Risk language",
+            "points": 4
+          },
+          {
+            "label": "Numerical change",
+            "points": 14
+          },
+          {
+            "label": "Evidence specificity",
+            "points": 3
+          }
+        ]
+      },
+      "explanation": "The current filing introduces a new disclosure related to liquidity, debt, margins and costs.",
+      "analyst_relevance": "Review the cited language in the context of the investment thesis.",
+      "similarity": null,
+      "numeric_deltas": [
+        {
+          "previous": null,
+          "current": "1"
+        },
+        {
+          "previous": null,
+          "current": "12.5 %"
+        },
+        {
+          "previous": null,
+          "current": "$ 125 million"
+        },
+        {
+          "previous": null,
+          "current": "2"
+        },
+        {
+          "previous": null,
+          "current": "$ 400 million"
+        },
+        {
+          "previous": null,
+          "current": "$ 91 million"
+        }
+      ],
+      "previous_evidence": null,
+      "current_evidence": {
+        "evidence_id": "454a535f88477ad8a12a",
+        "filing_version": "current",
+        "accession_number": "0001193125-26-051305",
+        "filing_date": "2026-02-13",
+        "report_date": "2026-01-03",
+        "section": "risk_factors",
+        "paragraph_index": 128,
+        "text_excerpt": "These amounts are unrestricted and the Company is able to direct, and have sole control over, the manner of disposition of funds in such accounts, subject to: 1) maintaining a minimum availability under the ABL facility of at least the greater of (i) 12.5 % of the Line Cap and (ii) $ 125 million; and 2) maintaining excess availability under the ABL Facility of at least $ 400 million. The Qualified Cash Accounts are subject to springing control agreements pursuant to which the cash deposited therein would become restricted in the event of default or a breach of such covenants. The Company was in compliance with its covenants related to the ABL Facility as of January 3, 2026. As of January 3, 2026, the Company had no bilateral letters of credit issued separately from the ABL Agreement. As of December 28, 2024, the Company had $ 91 million of bilateral letters of credit issued separately from the 2021 Credit…",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1158449/000119312526051305/aap-20260103.htm",
+        "numbers": [
+          "1",
+          "12.5 %",
+          "$ 125 million",
+          "2",
+          "$ 400 million",
+          "3",
+          "2026",
+          "28",
+          "2024",
+          "$ 91 million",
+          "2021"
+        ],
+        "dates": [
+          "January 3, 2026",
+          "December 28, 2024"
+        ]
+      }
+    },
+    {
+      "change_id": "b8f002067057853c",
+      "change_type": "removed",
+      "topic": "liquidity_debt_margins_and_costs",
+      "topic_label": "Liquidity, debt, margins and costs",
+      "section": "risk_factors",
+      "attention": {
+        "score": 81,
+        "label": "high",
+        "factors": [
+          {
+            "label": "Disclosure novelty",
+            "points": 40
+          },
+          {
+            "label": "Section significance",
+            "points": 20
+          },
+          {
+            "label": "Risk language",
+            "points": 4
+          },
+          {
+            "label": "Numerical change",
+            "points": 14
+          },
+          {
+            "label": "Evidence specificity",
+            "points": 3
+          }
+        ]
+      },
+      "explanation": "A prior disclosure related to liquidity, debt, margins and costs is no longer present in the comparable section.",
+      "analyst_relevance": "Review the cited language in the context of the investment thesis.",
+      "similarity": null,
+      "numeric_deltas": [
+        {
+          "previous": "$1.5 billion",
+          "current": null
+        },
+        {
+          "previous": "$200 million",
+          "current": null
+        },
+        {
+          "previous": "12",
+          "current": null
+        },
+        {
+          "previous": "24",
+          "current": null
+        },
+        {
+          "previous": "$1.47 billion",
+          "current": null
+        }
+      ],
+      "previous_evidence": {
+        "evidence_id": "9608b35f7ce5382a4127",
+        "filing_version": "prior",
+        "accession_number": "0001158449-25-000064",
+        "filing_date": "2025-02-26",
+        "report_date": "2024-12-28",
+        "section": "risk_factors",
+        "paragraph_index": 18,
+        "text_excerpt": "On August 22, 2024, the Company entered into a definitive purchase agreement to sell its Worldpac business for $1.5 billion, with customary adjustments for working capital and other items, as well as provision of letters of credit in an aggregate amount of up to $200 million for up to 12 months following the closing of the transaction, which letter of credit exposure will reduce to zero no later than 24 months after the closing, to support supply chain financing for the buyer. The transaction closed on November 1, 2024. Net proceeds from the transaction after paying expenses and excluding the impact of taxes were approximately $1.47 billion. The Company intends to use net proceeds from the transaction for general corporate purposes, which may include the provision of additional working capital, funding internal operational improvement initiatives and repayment or refinancing of outstanding indebtedness.",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1158449/000115844925000064/aap-20241228.htm",
+        "numbers": [
+          "22",
+          "2024",
+          "$1.5 billion",
+          "$200 million",
+          "12",
+          "24",
+          "1",
+          "$1.47 billion"
+        ],
+        "dates": [
+          "August 22, 2024",
+          "November 1, 2024"
+        ]
+      },
+      "current_evidence": null
+    },
+    {
+      "change_id": "c1b57ad5bd58605e",
+      "change_type": "removed",
+      "topic": "liquidity_debt_margins_and_costs",
+      "topic_label": "Liquidity, debt, margins and costs",
+      "section": "risk_factors",
+      "attention": {
+        "score": 81,
+        "label": "high",
+        "factors": [
+          {
+            "label": "Disclosure novelty",
+            "points": 40
+          },
+          {
+            "label": "Section significance",
+            "points": 20
+          },
+          {
+            "label": "Risk language",
+            "points": 4
+          },
+          {
+            "label": "Numerical change",
+            "points": 14
+          },
+          {
+            "label": "Evidence specificity",
+            "points": 3
+          }
+        ]
+      },
+      "explanation": "A prior disclosure related to liquidity, debt, margins and costs is no longer present in the comparable section.",
+      "analyst_relevance": "Review the cited language in the context of the investment thesis.",
+      "similarity": null,
+      "numeric_deltas": [
+        {
+          "previous": "$ 65.4 million",
+          "current": null
+        },
+        {
+          "previous": "3",
+          "current": null
+        },
+        {
+          "previous": "$ 490,818",
+          "current": null
+        },
+        {
+          "previous": "$ 526,399",
+          "current": null
+        },
+        {
+          "previous": "$ 339,734",
+          "current": null
+        },
+        {
+          "previous": "$ 388,200",
+          "current": null
+        },
+        {
+          "previous": "61",
+          "current": null
+        }
+      ],
+      "previous_evidence": {
+        "evidence_id": "d02d8c9829b2c8bfae1b",
+        "filing_version": "prior",
+        "accession_number": "0001158449-25-000064",
+        "filing_date": "2025-02-26",
+        "report_date": "2024-12-28",
+        "section": "risk_factors",
+        "paragraph_index": 132,
+        "text_excerpt": "As of December 28, 2024, the Company recorded $ 65.4 million of non-cash asset impairment and write-down charges, including impairment and incremental lease abandonment expenses as a result of accelerated amortization on leases the Company expects to exit before the end of the contractual term, net of gains on lease terminations which is included in restructuring and related expenses within the accompanying Consolidated Statements of Operations. Refer to Note 3. Restructuring of the Notes to the Consolidated Financial Statements included herein. Other information relating to the Company’s lease liabilities were as follows: Year Ended December 28, 2024 December 30, 2023 Cash paid for amounts included in the measurement of lease liabilities: Operating cash flows from operating leases $ 490,818 $ 526,399 Right-of-use assets obtained in exchange for lease obligations: Operating leases $ 339,734 $ 388,200 61 Ot…",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1158449/000115844925000064/aap-20241228.htm",
+        "numbers": [
+          "28",
+          "2024",
+          "$ 65.4 million",
+          "3",
+          "30",
+          "2023",
+          "$ 490,818",
+          "$ 526,399",
+          "$ 339,734",
+          "$ 388,200",
+          "61"
+        ],
+        "dates": [
+          "December 28, 2024",
+          "December 30, 2023"
+        ]
+      },
+      "current_evidence": null
+    },
+    {
+      "change_id": "da8615d5b7f36ba8",
+      "change_type": "removed",
+      "topic": "liquidity_debt_margins_and_costs",
+      "topic_label": "Liquidity, debt, margins and costs",
+      "section": "risk_factors",
+      "attention": {
+        "score": 81,
+        "label": "high",
+        "factors": [
+          {
+            "label": "Disclosure novelty",
+            "points": 40
+          },
+          {
+            "label": "Section significance",
+            "points": 20
+          },
+          {
+            "label": "Risk language",
+            "points": 8
+          },
+          {
+            "label": "Numerical change",
+            "points": 10
+          },
+          {
+            "label": "Evidence specificity",
+            "points": 3
+          }
+        ]
+      },
+      "explanation": "A prior disclosure related to liquidity, debt, margins and costs is no longer present in the comparable section.",
+      "analyst_relevance": "Review the cited language in the context of the investment thesis.",
+      "similarity": null,
+      "numeric_deltas": [
+        {
+          "previous": "10",
+          "current": null
+        },
+        {
+          "previous": "5",
+          "current": null
+        }
+      ],
+      "previous_evidence": {
+        "evidence_id": "92c7b8f5547008ad1bed",
+        "filing_version": "prior",
+        "accession_number": "0001158449-25-000064",
+        "filing_date": "2025-02-26",
+        "report_date": "2024-12-28",
+        "section": "risk_factors",
+        "paragraph_index": 140,
+        "text_excerpt": "Although the final outcome of pending legal matters cannot be determined, based on the facts presently known, it is management’s opinion that the final outcome of any pending matters will not have a material adverse effect on the Company’s consolidated financial position, results of operations or cash flows. On October 9, 2023, and October 27, 2023, two putative class actions on behalf of purchasers of the Company’s securities who purchased or otherwise acquired their securities between November 16, 2022, and May 30, 2023, inclusive (the “Class Period”), were commenced against the Company and certain of the Company’s former officers in the United States District Court for the Eastern District of North Carolina. The plaintiffs allege that the defendants made certain false and materially misleading statements during the alleged Class Period in violation of Section 10(b) of the Securities Exchange Act of 1934…",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1158449/000115844925000064/aap-20241228.htm",
+        "numbers": [
+          "9",
+          "2023",
+          "27",
+          "16",
+          "2022",
+          "30",
+          "10",
+          "1934",
+          "5",
+          "2024",
+          "22"
+        ],
+        "dates": [
+          "October 9, 2023",
+          "October 27, 2023",
+          "November 16, 2022",
+          "May 30, 2023",
+          "February 9, 2024",
+          "April 22, 2024"
+        ]
+      },
+      "current_evidence": null
+    },
+    {
+      "change_id": "ebf3b8d55b00a1bb",
+      "change_type": "new",
+      "topic": "liquidity_debt_margins_and_costs",
+      "topic_label": "Liquidity, debt, margins and costs",
+      "section": "risk_factors",
+      "attention": {
+        "score": 81,
+        "label": "high",
+        "factors": [
+          {
+            "label": "Disclosure novelty",
+            "points": 40
+          },
+          {
+            "label": "Section significance",
+            "points": 20
+          },
+          {
+            "label": "Risk language",
+            "points": 4
+          },
+          {
+            "label": "Numerical change",
+            "points": 14
+          },
+          {
+            "label": "Evidence specificity",
+            "points": 3
+          }
+        ]
+      },
+      "explanation": "The current filing introduces a new disclosure related to liquidity, debt, margins and costs.",
+      "analyst_relevance": "Review the cited language in the context of the investment thesis.",
+      "similarity": null,
+      "numeric_deltas": [
+        {
+          "previous": null,
+          "current": "1"
+        },
+        {
+          "previous": null,
+          "current": "2"
+        },
+        {
+          "previous": null,
+          "current": "3"
+        }
+      ],
+      "previous_evidence": null,
+      "current_evidence": {
+        "evidence_id": "164200491e4ae6dc2398",
+        "filing_version": "current",
+        "accession_number": "0001193125-26-051305",
+        "filing_date": "2026-02-13",
+        "report_date": "2026-01-03",
+        "section": "risk_factors",
+        "paragraph_index": 16,
+        "text_excerpt": "Non-GAAP financial measures, including Adjusted Operating income, Adjusted Net income (loss), Adjusted Cost of sales, Adjusted Diluted Earnings (Loss) Per Share (\"Adjusted EPS\"), and Adjusted Selling, general and administrative (\"Adjusted SG&A\"), should not be used as a substitute for GAAP financial measures, or considered in isolation, for the purpose of analyzing operating performance, financial position or cash flows. The Company has presented these non-GAAP financial measures as the Company believes that the presentation of the financial results that exclude (1) transformation expenses under the Company’s turnaround plans, inclusive of the Worldpac divestiture (2) other significant expenses and (3) nonrecurring tax expense are useful and indicative of the Company's base operations because the expenses vary from period to period in terms of size, nature and significance. The income tax impact of these n…",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1158449/000119312526051305/aap-20260103.htm",
+        "numbers": [
+          "1",
+          "2",
+          "3"
+        ],
+        "dates": []
+      }
+    }
+  ],
+  "sources": [
+    {
+      "evidence_id": "f723a3208f8cae991f85",
+      "filing_version": "prior",
+      "accession_number": "0001158449-25-000064",
+      "filing_date": "2025-02-26",
+      "report_date": "2024-12-28",
+      "section": "risk_factors",
+      "paragraph_index": 153,
+      "text_excerpt": "Accumulated Other Comprehensive Loss Accumulated other comprehensive loss, net of tax, consisted of the following: Unrealized Gain (Loss) on Postretirement Plan Foreign Currency Translation Accumulated Other Comprehensive (Loss) Income Balance, January 1, 2022 $ 906 $ ( 27,965 ) $ ( 27,059 ) 2022 activity ( 186 ) ( 17,450 ) ( 17,636 ) Balance, December 31, 2022 720 ( 45,415 ) ( 44,695 ) 2023 activity 82 ( 7,619 ) ( 7,537 ) Balance, December 30, 2023 802 ( 53,034 ) ( 52,232 ) 2024 activity ( 149 ) 5,235 5,086 Balance, December 28, 2024 $ 653 $ ( 47,799 ) $ ( 47,146 ) 18. Supplier Finance Programs The Company maintains supply chain financing agreements with third-party financial institutions to provide the Company’s suppliers with enhanced receivables options. Through these agreements, the Company’s suppliers, at their sole discretion, may elect to sell their receivables due from the Company to the third-par…",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1158449/000115844925000064/aap-20241228.htm",
+      "numbers": [
+        "1",
+        "2022",
+        "$ 906",
+        "27,965",
+        "27,059",
+        "186",
+        "17,450",
+        "17,636",
+        "31",
+        "720",
+        "45,415",
+        "44,695",
+        "2023",
+        "82",
+        "7,619",
+        "7,537"
+      ],
+      "dates": [
+        "January 1, 2022",
+        "December 31, 2022",
+        "December 30, 2023",
+        "December 28, 2024"
+      ]
+    },
+    {
+      "evidence_id": "cd4340c5e77a58a98e23",
+      "filing_version": "current",
+      "accession_number": "0001193125-26-051305",
+      "filing_date": "2026-02-13",
+      "report_date": "2026-01-03",
+      "section": "risk_factors",
+      "paragraph_index": 4,
+      "text_excerpt": "In the third quarter of fiscal 2025, one of the Company’s vendors, a leading auto parts supplier for the automotive aftermarket industry, filed voluntary petitions for Chapter 11 bankruptcy protection with the U.S. Bankruptcy Court for the Southern District of Texas. The vendor has secured short-term financing through a debtor-in-possession (“DIP”) loan, however, Chapter 11 proceedings carry inherent risks with respect to a company’s ability to continue operations and maintain adequate liquidity to satisfy current and future obligations. As a result of these events, the Company recorded a non-cash charge of $28 million to cost of sales in the third quarter of fiscal 2025, reflecting estimated future credit losses on certain vendor receivables due from the vendor. The estimate was developed utilizing a probability weighted cash-flow model adjusted for risks associated with credit risk deterioration for comp…",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1158449/000119312526051305/aap-20260103.htm",
+      "numbers": [
+        "2025",
+        "11",
+        "$28 million"
+      ],
+      "dates": []
+    },
+    {
+      "evidence_id": "9ff8e69faa9c000f6da2",
+      "filing_version": "prior",
+      "accession_number": "0001158449-25-000064",
+      "filing_date": "2025-02-26",
+      "report_date": "2024-12-28",
+      "section": "risk_factors",
+      "paragraph_index": 60,
+      "text_excerpt": "Restructuring — Refer to Note 3 to the Consolidated Financial Statements Critical Audit Matter Description The Company recorded restructuring and impairment charges related to its Board of Directors approved restructuring and asset optimization plan (“2024 Restructuring Plan”). This plan anticipates the closure of approximately 500 stores, approximately 200 independent locations and four distribution centers. The Company incurred $ 740.4 million of restructuring charges, which primarily related to inventory write-down charges for reducing inventory to net realizable value in connection with the store and distribution center closures and asset impairment charges associated with operating lease right-of-use (ROU) assets. The determination of restructuring charges and related reserves requires management to make significant estimates and assumptions regarding the amount of inventory write-down charges and imp…",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1158449/000115844925000064/aap-20241228.htm",
+      "numbers": [
+        "3",
+        "2024",
+        "500",
+        "200",
+        "$ 740.4 million"
+      ],
+      "dates": []
+    },
+    {
+      "evidence_id": "07264fac3198c5810a07",
+      "filing_version": "current",
+      "accession_number": "0001193125-26-051305",
+      "filing_date": "2026-02-13",
+      "report_date": "2026-01-03",
+      "section": "risk_factors",
+      "paragraph_index": 116,
+      "text_excerpt": "The vendor has secured short-term financing through a debtor-in-possession (“DIP”) loan, however, Chapter 11 proceedings carry inherent risks with respect to a company’s ability to continue operations and maintain adequate liquidity to satisfy current and future obligations. As a result of these events, the Company recorded a non-cash charge of $ 28 million to cost of sales in the third quarter of fiscal 2025, within the consolidated statement of operations, reflecting estimated future credit losses on certain vendor receivables due from the vendor. The estimate was developed utilizing a probability weighted cash-flow model adjusted for risks associated with credit risk deterioration for companies that enter Chapter 11 bankruptcy proceedings. 7.",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1158449/000119312526051305/aap-20260103.htm",
+      "numbers": [
+        "11",
+        "$ 28 million",
+        "2025",
+        "7"
+      ],
+      "dates": []
+    },
+    {
+      "evidence_id": "e70877466d3cc8466565",
+      "filing_version": "prior",
+      "accession_number": "0001158449-25-000064",
+      "filing_date": "2025-02-26",
+      "report_date": "2024-12-28",
+      "section": "risk_factors",
+      "paragraph_index": 97,
+      "text_excerpt": "If the applicable requirements have not been removed by the SEC by June 30, 2027, this ASU will not become effective. Early adoption is prohibited. The Company is currently evaluating the impact of adopting ASU 2023-06 on the consolidated financial statements and related disclosures, and does not believe it will have a material impact on the consolidated financial statements. Climate Disclosure Requirements In March 2024, the SEC issued its final climate disclosure rules, which require the disclosure of climate-related information in annual reports and registration statements. The rules require disclosure in the audited financial statements of certain effects of severe weather events and other natural conditions and greenhouse gas emissions above certain financial thresholds, as well as amounts related to carbon offsets and renewable energy credits or certificates, if material. Additionally, the rule estab…",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1158449/000115844925000064/aap-20241228.htm",
+      "numbers": [
+        "30",
+        "2027",
+        "2023",
+        "06",
+        "2024"
+      ],
+      "dates": [
+        "June 30, 2027"
+      ]
+    },
+    {
+      "evidence_id": "eba6b40a4717b3bce2c8",
+      "filing_version": "prior",
+      "accession_number": "0001158449-25-000064",
+      "filing_date": "2025-02-26",
+      "report_date": "2024-12-28",
+      "section": "risk_factors",
+      "paragraph_index": 149,
+      "text_excerpt": "The following table includes summary information for stock options as of December 28, 2024 (inclusive of discontinued operations related activity): Number of Awards Weighted Average Exercise Price Weighted Average Remaining Contractual Life (Years) Aggregate Intrinsic Value Outstanding at December 30, 2023 417 $ 124.59 Granted 203 $ 78.72 Exercised — $ — Forfeited ( 101 ) $ 134.87 Outstanding at December 28, 2024 519 $ 104.61 8.1 $ — Exercisable at December 28, 2024 198 $ 142.66 6.8 $ — The following table presents the range of the weighted-average assumptions used in determining the fair values of options granted: Year Ended December 28, 2024 Risk-free interest rate (1) 4.1 % – 4.2 % Expected life (2) 6 years Expected volatility (3) 41.6 % – 42.6 % Expected dividend yield (4) 1.4 % – 1.5 % (1) The risk-free interest rate is based on the yield in effect at grant for zero-coupon U.S. Treasury notes with mat…",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1158449/000115844925000064/aap-20241228.htm",
+      "numbers": [
+        "28",
+        "2024",
+        "30",
+        "2023",
+        "417",
+        "$ 124.59",
+        "203",
+        "$ 78.72",
+        "101",
+        "$ 134.87",
+        "519",
+        "$ 104.61",
+        "8.1",
+        "198",
+        "$ 142.66",
+        "6.8"
+      ],
+      "dates": [
+        "December 28, 2024",
+        "December 30, 2023"
+      ]
+    },
+    {
+      "evidence_id": "edcf5519762258dbb3c8",
+      "filing_version": "prior",
+      "accession_number": "0001158449-25-000064",
+      "filing_date": "2025-02-26",
+      "report_date": "2024-12-28",
+      "section": "risk_factors",
+      "paragraph_index": 150,
+      "text_excerpt": "As the Company does not have sufficient historical data, the Company utilized the simplified method provided by the Securities and Exchange Commission to calculate the expected term as the average of the contractual term and vesting period. (3) Expected volatility is the measure of the amount by which the stock price has fluctuated or is expected to fluctuate. The Company utilized historical trends and the implied volatility of the Company’s publicly traded financial instruments in developing the volatility estimate for the Company’s stock options. (4) The expected dividend yield is calculated based on the Company’s expected quarterly dividend and the three-month average stock price as of the grant date. Other Considerations Total income tax benefit related to share-based compensation expense for 2024, 2023 and 2022 was $ 10.0 million, $ 10.1 million and $ 11.7 million, respectively. As of December 28, 202…",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1158449/000115844925000064/aap-20241228.htm",
+      "numbers": [
+        "3",
+        "4",
+        "2024",
+        "2023",
+        "2022",
+        "$ 10.0 million",
+        "$ 10.1 million",
+        "$ 11.7 million",
+        "28",
+        "$ 61.0 million",
+        "1.52"
+      ],
+      "dates": [
+        "December 28, 2024"
+      ]
+    },
+    {
+      "evidence_id": "985caa2da223d0ed2452",
+      "filing_version": "current",
+      "accession_number": "0001193125-26-051305",
+      "filing_date": "2026-02-13",
+      "report_date": "2026-01-03",
+      "section": "risk_factors",
+      "paragraph_index": 1,
+      "text_excerpt": "A high-level summary of the Company’s financial results and other highlights from 2025 includes: • Net sales from continuing operations during fiscal 2025 were $8.6 billion, a decrease of 5.4% compared with fiscal 2024, driven by lower sales as a result of store closures executed under the 2024 Restructuring Plan, partially offset by the impact of the 53rd week. Comparable store sales increased 0.8%. • Gross profit margin from continuing operations for fiscal 2025 was 43.4% of net sales, an increase of 592 basis points compared with fiscal 2024, primarily due to the adverse impact on gross profit margin in fiscal 2024 from inventory-related charges under the 2024 Restructuring Plan. • Operating loss from continuing operations for 2025 was $43 million, an improvement of $670 million as compared to fiscal 2024. As a percentage of net sales, operating loss was (0.5)%, an improvement of 734 basis points compar…",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1158449/000119312526051305/aap-20260103.htm",
+      "numbers": [
+        "2025",
+        "$8.6 billion",
+        "5.4%",
+        "2024",
+        "53",
+        "0.8%",
+        "43.4%",
+        "592 basis points",
+        "$43 million",
+        "$670 million",
+        "0.5",
+        "734 basis points"
+      ],
+      "dates": []
+    },
+    {
+      "evidence_id": "c232ecd5d326265b0ccc",
+      "filing_version": "current",
+      "accession_number": "0001193125-26-051305",
+      "filing_date": "2026-02-13",
+      "report_date": "2026-01-03",
+      "section": "risk_factors",
+      "paragraph_index": 100,
+      "text_excerpt": "Measurement of Credit Losses for Accounts Receivable and Contract Assets In July 2025, the FASB issued ASU 2025-05, Financial Instruments - Credit Losses (Topic 326): Measurement of Credit Losses for Accounts Receivable and Contract Assets (“ASU 2025-05”), which provides a practical expedient permitting an entity to assume that conditions at the balance sheet date remain unchanged over the life of the asset when estimating expected credit losses for current accounts receivable and current contract assets. ASU 2025-05 is effective for annual reporting periods beginning after December 15, 2025, and for interim periods within those annual reporting periods, with early adoption permitted. The amendments in ASU 2025-05 should be applied prospectively. The Company is currently evaluating the impact of adopting ASU 2025-05 and believes that the adoption will not have a material impact on the consolidated financia…",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1158449/000119312526051305/aap-20260103.htm",
+      "numbers": [
+        "2025",
+        "05",
+        "326",
+        "15"
+      ],
+      "dates": [
+        "December 15, 2025"
+      ]
+    },
+    {
+      "evidence_id": "98e898fbdc53f71e4d3f",
+      "filing_version": "current",
+      "accession_number": "0001193125-26-051305",
+      "filing_date": "2026-02-13",
+      "report_date": "2026-01-03",
+      "section": "risk_factors",
+      "paragraph_index": 126,
+      "text_excerpt": "Availability under the ABL Facility is limited to the lesser of (i) the borrowing base, equal to the sum of 90 % of eligible credit card receivables, 85 % of eligible trade accounts receivable, 85 % of the net orderly liquidation value of eligible inventory and 100 % of qualified cash (up to certain limits for the purpose of determining borrowing capacity), subject, in each case, to customary reserves established by the collateral agent under the ABL Facility from time to time, including reserves related to outstanding obligations to our suppliers that are payable to the paying agents, as a result of such suppliers electing, at their option, to utilize third-party financing, commonly referred to as supply chain financing, and debt maturity reserves, and (ii) the aggregate revolving credit commitments. The ABL Facility contains customary representations and warranties, events of default and financial, affir…",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1158449/000119312526051305/aap-20260103.htm",
+      "numbers": [
+        "90 %",
+        "85 %",
+        "100 %"
+      ],
+      "dates": []
+    },
+    {
+      "evidence_id": "3754fd66abba9b366d8c",
+      "filing_version": "prior",
+      "accession_number": "0001158449-25-000064",
+      "filing_date": "2025-02-26",
+      "report_date": "2024-12-28",
+      "section": "risk_factors",
+      "paragraph_index": 1,
+      "text_excerpt": "A high-level summary of the Company’s financial results and other highlights from 2024 includes: • Net sales from continuing operations during 2024 we re $9.1 billion, a decrease of 1.2% compared wit h 2023, driven by a decrease in price and volume partially offset by a favorable product mix. Comparable store sales declined 0.7%. • Gro ss profit margin from continuing operations for 2024 was 37.5% of net sales, a decrease of 444 basis points co mpared with 2023 , primarily due to inventory-related charges attributable to the location closures and streamlining product assortment resulting from the Board-approved restructuring and asset optimization plan (“2024 Restructuring Plan”). • Operating loss from continuing operations for 2024 was $713.3 million, a decrease of $752.2 million from 2023. As a percentage of net sales, operating loss wa s 7.8%, a decrease of 827 basis points co mpared with 2023.",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1158449/000115844925000064/aap-20241228.htm",
+      "numbers": [
+        "2024",
+        "$9.1 billion",
+        "1.2%",
+        "2023",
+        "0.7%",
+        "37.5%",
+        "444 basis points",
+        "$713.3 million",
+        "$752.2 million",
+        "7.8%",
+        "827 basis points"
+      ],
+      "dates": []
+    },
+    {
+      "evidence_id": "e4780dd7d6849449b44d",
+      "filing_version": "current",
+      "accession_number": "0001193125-26-051305",
+      "filing_date": "2026-02-13",
+      "report_date": "2026-01-03",
+      "section": "risk_factors",
+      "paragraph_index": 15,
+      "text_excerpt": "The decrease in tax benefit for the fifty-three weeks ended January 3, 2026, was a result of a decrease in the loss before taxes from continuing operations, partially offset by a net discrete tax benefit in the first quarter of fiscal 2025 of $126 million, related to an internal legal entity restructuring event completed in the fiscal year treated as a taxable stock disposition for U.S. federal income tax purposes. As a result, the Company recognized a capital loss deduction which was utilized against capital gain income. See Note 13. Income Taxes, of the Notes to the Consolidated Financial Statements of this Annual Report. Discontinued Operations For the fifty-three weeks ended January 3, 2026, the Company recorded a loss of $24 million, net of taxes from discontinued operations, reflecting an adjustment to the previously recognized gain on divesture of Worldpac in fiscal 2024 after finalizing customary w…",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1158449/000119312526051305/aap-20260103.htm",
+      "numbers": [
+        "3",
+        "2026",
+        "2025",
+        "$126 million",
+        "13",
+        "$24 million",
+        "2024"
+      ],
+      "dates": [
+        "January 3, 2026"
+      ]
+    },
+    {
+      "evidence_id": "dd57eacd4f54fc03090c",
+      "filing_version": "current",
+      "accession_number": "0001193125-26-051305",
+      "filing_date": "2026-02-13",
+      "report_date": "2026-01-03",
+      "section": "management_discussion",
+      "paragraph_index": 66,
+      "text_excerpt": "In the third quarter of fiscal 2025, one of the Company’s vendors, a leading auto parts supplier for the automotive aftermarket industry, filed voluntary petitions for Chapter 11 bankruptcy protection with the U.S. Bankruptcy Court for the Southern District of Texas. The vendor has secured short-term financing through a debtor-in-possession (“DIP”) loan, however, Chapter 11 proceedings carry inherent risks with respect to a company’s ability to continue operations and maintain adequate liquidity to satisfy current and future obligations. As a result of these events, the Company recorded a non-cash charge of $28 million to cost of sales in the third quarter of fiscal 2025, reflecting estimated future credit losses on certain vendor receivables due from the vendor. The estimate was developed utilizing a probability weighted cash-flow model adjusted for risks associated with credit risk deterioration for comp…",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1158449/000119312526051305/aap-20260103.htm",
+      "numbers": [
+        "2025",
+        "11",
+        "$28 million"
+      ],
+      "dates": []
+    },
+    {
+      "evidence_id": "6ae9ae3c5878a4516df7",
+      "filing_version": "current",
+      "accession_number": "0001193125-26-051305",
+      "filing_date": "2026-02-13",
+      "report_date": "2026-01-03",
+      "section": "risk_factors",
+      "paragraph_index": 22,
+      "text_excerpt": "Restructuring and other related expenses for the fifty-two weeks ended December 28, 2024 includes $25 million of incremental receivable reserves resulting from contract terminations with certain independents as part of the 2024 Restructuring Plan, $15 million of severance and other labor related costs as part of the 2024 Restructuring Plan, and $21 million of nonrecurring services rendered by third party vendors assisting with the 2024 Restructuring Plan. (3) The Company recorded incremental accelerated depreciation and amortization for property and equipment and ROU assets of $60 million and impairment charges for ROU assets and property and equipment of $23 million, net of gains on sale, for the fifty-three weeks ended January 3, 2026.",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1158449/000119312526051305/aap-20260103.htm",
+      "numbers": [
+        "28",
+        "2024",
+        "$25 million",
+        "$15 million",
+        "$21 million",
+        "3",
+        "$60 million",
+        "$23 million",
+        "2026"
+      ],
+      "dates": [
+        "December 28, 2024",
+        "January 3, 2026"
+      ]
+    },
+    {
+      "evidence_id": "72a478b91d92092a6f3d",
+      "filing_version": "current",
+      "accession_number": "0001193125-26-051305",
+      "filing_date": "2026-02-13",
+      "report_date": "2026-01-03",
+      "section": "risk_factors",
+      "paragraph_index": 41,
+      "text_excerpt": "Certain of the Company’s vendor agreements contain purchase volume incentives that provide for increased funding when graduated purchase volumes are met, which is subject to uncertainty and require estimation. Amounts accrued throughout the year could be impacted if actual purchase volumes differ from projected annual purchase volumes. In the third quarter of fiscal 2025, one of the Company’s vendors, a leading auto parts supplier for the automotive aftermarket industry, filed voluntary petitions for Chapter 11 bankruptcy protection with the U.S. Bankruptcy Court for the Southern District of Texas. As a result, the Company recorded a non-cash charge of $28 million to cost of sales, within the consolidated statement of operations, reflecting estimated future credit losses on certain vendor receivables due from the vendor. Historically, the change in the Company’s reserve for receivables related to vendor fu…",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1158449/000119312526051305/aap-20260103.htm",
+      "numbers": [
+        "2025",
+        "11",
+        "$28 million"
+      ],
+      "dates": []
+    },
+    {
+      "evidence_id": "430662dfc6ad0a7f60fd",
+      "filing_version": "prior",
+      "accession_number": "0001158449-25-000064",
+      "filing_date": "2025-02-26",
+      "report_date": "2024-12-28",
+      "section": "risk_factors",
+      "paragraph_index": 30,
+      "text_excerpt": "3, the Company may not permit the Consolidated Coverage Ratio to be less than (a) 1.75 to 1.00 for each period of four fiscal quarters ending on October 7, 2023 through and including the period of four fiscal quarters ending on October 5, 2024, (b) 2.00 to 1.00 for each period of four fiscal quarters ending on December 28, 2024 through and including the period of four fiscal quarters ending on October 4, 2025 and (c) 2.25 to 1.00 for each period of four fiscal quarters ending after October 4, 2025. Amendment No. 2. and Amendment No. 3 made no other material changes to the terms of the 2021 Credit Agreement. On February 26, 2024, the Company entered into Amendment No. 4 (“Amendment No. 4”) to the 2021 Credit Agreement to enable certain addbacks to the definition of Consolidated EBITDA contained therein for specific write-downs of inventory and vendor receivables. Amendment No. 4 also updated certain limitat…",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1158449/000115844925000064/aap-20241228.htm",
+      "numbers": [
+        "3",
+        "1.75",
+        "1.00",
+        "7",
+        "2023",
+        "5",
+        "2024",
+        "2.00",
+        "28",
+        "4",
+        "2025",
+        "2.25",
+        "2",
+        "2021",
+        "26",
+        "10%"
+      ],
+      "dates": [
+        "October 7, 2023",
+        "October 5, 2024",
+        "December 28, 2024",
+        "October 4, 2025",
+        "February 26, 2024"
+      ]
+    },
+    {
+      "evidence_id": "14239e7ea54285acf196",
+      "filing_version": "current",
+      "accession_number": "0001193125-26-051305",
+      "filing_date": "2026-02-13",
+      "report_date": "2026-01-03",
+      "section": "risk_factors",
+      "paragraph_index": 132,
+      "text_excerpt": "The initial term for facilities is typically five to ten years , with renewal options typically at five-year intervals, with the exercise of lease renewal options at the Company's sole discretion. The Company's vehicle and equipment lease terms are typically three to six years . The Company's lease agreements do not contain any material residual value guarantees or material restrictive covenants. Operating lease liabilities consisted of the following: January 3, 2026 December 28, 2024 Total operating lease liabilities $ 2,247 $ 2,359 Less: Current portion of operating lease liabilities ( 435 ) ( 462 ) Non-current operating lease liabilities $ 1,812 $ 1,897 The current portion of operating lease liabilities is included in other current liabilities in the accompanying consolidated balance sheets.",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1158449/000119312526051305/aap-20260103.htm",
+      "numbers": [
+        "3",
+        "2026",
+        "28",
+        "2024",
+        "$ 2,247",
+        "$ 2,359",
+        "435",
+        "462",
+        "$ 1,812",
+        "$ 1,897"
+      ],
+      "dates": [
+        "January 3, 2026",
+        "December 28, 2024"
+      ]
+    },
+    {
+      "evidence_id": "8eae2955fec0a6f59838",
+      "filing_version": "current",
+      "accession_number": "0001193125-26-051305",
+      "filing_date": "2026-02-13",
+      "report_date": "2026-01-03",
+      "section": "risk_factors",
+      "paragraph_index": 30,
+      "text_excerpt": "Investing Activities In fiscal 2025, cash flows used in investing activities increased $72 million to $239 million compared with fiscal 2024. This increase was attributable to increased capital spend related to store renovations. Financing Activities In fiscal 2025, cash flows provided by financing activities increased by $1.6 billion to $1.5 billion compared with fiscal 2024. The net increase in cash provided by financing activities was attributable to the issuances of senior unsecured notes in 2025 partially offset by the redemption of the 5.90% 2026 Notes. The Company’s Board of Directors has declared a quarterly cash dividend since 2006. Any payments of dividends in the future will be at the discretion of the Company’s Board of Directors and will depend upon the Company’s results of operations, cash flows, capital requirements and other factors deemed relevant by the Company’s Board of Directors. Simil…",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1158449/000119312526051305/aap-20260103.htm",
+      "numbers": [
+        "2025",
+        "$72 million",
+        "$239 million",
+        "2024",
+        "$1.6 billion",
+        "$1.5 billion",
+        "5.90%",
+        "2026",
+        "2006",
+        "2021"
+      ],
+      "dates": []
+    },
+    {
+      "evidence_id": "c1cb1ba9e543b7dda727",
+      "filing_version": "prior",
+      "accession_number": "0001158449-25-000064",
+      "filing_date": "2025-02-26",
+      "report_date": "2024-12-28",
+      "section": "risk_factors",
+      "paragraph_index": 115,
+      "text_excerpt": "3, the Company may not permit the Consolidated Coverage Ratio to be less than (a) 1.75 to 1.00 for each period of four fiscal quarters ending on October 7, 2023 through and including the period of four fiscal quarters ending on October 5, 2024, (b) 2.00 to 1.00 for each period of four fiscal quarters ending on December 28, 2024 through and including the period of four fiscal quarters ending on October 4, 2025 and (c) 2.25 to 1.00 for each period of four fiscal quarters ending after October 4, 2025. Amendment No. 2. and Amendment No. 3 made no other material changes to the terms of the 2021 Credit Agreement. On February 26, 2024, the Company entered into Amendment No. 4 (“Amendment No. 4”) to the 2021 Credit Agreement to enable certain addbacks to the definition of Consolidated EBITDA contained therein for specific write-downs of inventory and vendor receivables . Amendment No. 4 also updated certain limita…",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1158449/000115844925000064/aap-20241228.htm",
+      "numbers": [
+        "3",
+        "1.75",
+        "1.00",
+        "7",
+        "2023",
+        "5",
+        "2024",
+        "2.00",
+        "28",
+        "4",
+        "2025",
+        "2.25",
+        "2",
+        "2021",
+        "26",
+        "10 %"
+      ],
+      "dates": [
+        "October 7, 2023",
+        "October 5, 2024",
+        "December 28, 2024",
+        "October 4, 2025",
+        "February 26, 2024"
+      ]
+    },
+    {
+      "evidence_id": "454a535f88477ad8a12a",
+      "filing_version": "current",
+      "accession_number": "0001193125-26-051305",
+      "filing_date": "2026-02-13",
+      "report_date": "2026-01-03",
+      "section": "risk_factors",
+      "paragraph_index": 128,
+      "text_excerpt": "These amounts are unrestricted and the Company is able to direct, and have sole control over, the manner of disposition of funds in such accounts, subject to: 1) maintaining a minimum availability under the ABL facility of at least the greater of (i) 12.5 % of the Line Cap and (ii) $ 125 million; and 2) maintaining excess availability under the ABL Facility of at least $ 400 million. The Qualified Cash Accounts are subject to springing control agreements pursuant to which the cash deposited therein would become restricted in the event of default or a breach of such covenants. The Company was in compliance with its covenants related to the ABL Facility as of January 3, 2026. As of January 3, 2026, the Company had no bilateral letters of credit issued separately from the ABL Agreement. As of December 28, 2024, the Company had $ 91 million of bilateral letters of credit issued separately from the 2021 Credit…",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1158449/000119312526051305/aap-20260103.htm",
+      "numbers": [
+        "1",
+        "12.5 %",
+        "$ 125 million",
+        "2",
+        "$ 400 million",
+        "3",
+        "2026",
+        "28",
+        "2024",
+        "$ 91 million",
+        "2021"
+      ],
+      "dates": [
+        "January 3, 2026",
+        "December 28, 2024"
+      ]
+    },
+    {
+      "evidence_id": "9608b35f7ce5382a4127",
+      "filing_version": "prior",
+      "accession_number": "0001158449-25-000064",
+      "filing_date": "2025-02-26",
+      "report_date": "2024-12-28",
+      "section": "risk_factors",
+      "paragraph_index": 18,
+      "text_excerpt": "On August 22, 2024, the Company entered into a definitive purchase agreement to sell its Worldpac business for $1.5 billion, with customary adjustments for working capital and other items, as well as provision of letters of credit in an aggregate amount of up to $200 million for up to 12 months following the closing of the transaction, which letter of credit exposure will reduce to zero no later than 24 months after the closing, to support supply chain financing for the buyer. The transaction closed on November 1, 2024. Net proceeds from the transaction after paying expenses and excluding the impact of taxes were approximately $1.47 billion. The Company intends to use net proceeds from the transaction for general corporate purposes, which may include the provision of additional working capital, funding internal operational improvement initiatives and repayment or refinancing of outstanding indebtedness.",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1158449/000115844925000064/aap-20241228.htm",
+      "numbers": [
+        "22",
+        "2024",
+        "$1.5 billion",
+        "$200 million",
+        "12",
+        "24",
+        "1",
+        "$1.47 billion"
+      ],
+      "dates": [
+        "August 22, 2024",
+        "November 1, 2024"
+      ]
+    },
+    {
+      "evidence_id": "d02d8c9829b2c8bfae1b",
+      "filing_version": "prior",
+      "accession_number": "0001158449-25-000064",
+      "filing_date": "2025-02-26",
+      "report_date": "2024-12-28",
+      "section": "risk_factors",
+      "paragraph_index": 132,
+      "text_excerpt": "As of December 28, 2024, the Company recorded $ 65.4 million of non-cash asset impairment and write-down charges, including impairment and incremental lease abandonment expenses as a result of accelerated amortization on leases the Company expects to exit before the end of the contractual term, net of gains on lease terminations which is included in restructuring and related expenses within the accompanying Consolidated Statements of Operations. Refer to Note 3. Restructuring of the Notes to the Consolidated Financial Statements included herein. Other information relating to the Company’s lease liabilities were as follows: Year Ended December 28, 2024 December 30, 2023 Cash paid for amounts included in the measurement of lease liabilities: Operating cash flows from operating leases $ 490,818 $ 526,399 Right-of-use assets obtained in exchange for lease obligations: Operating leases $ 339,734 $ 388,200 61 Ot…",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1158449/000115844925000064/aap-20241228.htm",
+      "numbers": [
+        "28",
+        "2024",
+        "$ 65.4 million",
+        "3",
+        "30",
+        "2023",
+        "$ 490,818",
+        "$ 526,399",
+        "$ 339,734",
+        "$ 388,200",
+        "61"
+      ],
+      "dates": [
+        "December 28, 2024",
+        "December 30, 2023"
+      ]
+    },
+    {
+      "evidence_id": "92c7b8f5547008ad1bed",
+      "filing_version": "prior",
+      "accession_number": "0001158449-25-000064",
+      "filing_date": "2025-02-26",
+      "report_date": "2024-12-28",
+      "section": "risk_factors",
+      "paragraph_index": 140,
+      "text_excerpt": "Although the final outcome of pending legal matters cannot be determined, based on the facts presently known, it is management’s opinion that the final outcome of any pending matters will not have a material adverse effect on the Company’s consolidated financial position, results of operations or cash flows. On October 9, 2023, and October 27, 2023, two putative class actions on behalf of purchasers of the Company’s securities who purchased or otherwise acquired their securities between November 16, 2022, and May 30, 2023, inclusive (the “Class Period”), were commenced against the Company and certain of the Company’s former officers in the United States District Court for the Eastern District of North Carolina. The plaintiffs allege that the defendants made certain false and materially misleading statements during the alleged Class Period in violation of Section 10(b) of the Securities Exchange Act of 1934…",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1158449/000115844925000064/aap-20241228.htm",
+      "numbers": [
+        "9",
+        "2023",
+        "27",
+        "16",
+        "2022",
+        "30",
+        "10",
+        "1934",
+        "5",
+        "2024",
+        "22"
+      ],
+      "dates": [
+        "October 9, 2023",
+        "October 27, 2023",
+        "November 16, 2022",
+        "May 30, 2023",
+        "February 9, 2024",
+        "April 22, 2024"
+      ]
+    },
+    {
+      "evidence_id": "164200491e4ae6dc2398",
+      "filing_version": "current",
+      "accession_number": "0001193125-26-051305",
+      "filing_date": "2026-02-13",
+      "report_date": "2026-01-03",
+      "section": "risk_factors",
+      "paragraph_index": 16,
+      "text_excerpt": "Non-GAAP financial measures, including Adjusted Operating income, Adjusted Net income (loss), Adjusted Cost of sales, Adjusted Diluted Earnings (Loss) Per Share (\"Adjusted EPS\"), and Adjusted Selling, general and administrative (\"Adjusted SG&A\"), should not be used as a substitute for GAAP financial measures, or considered in isolation, for the purpose of analyzing operating performance, financial position or cash flows. The Company has presented these non-GAAP financial measures as the Company believes that the presentation of the financial results that exclude (1) transformation expenses under the Company’s turnaround plans, inclusive of the Worldpac divestiture (2) other significant expenses and (3) nonrecurring tax expense are useful and indicative of the Company's base operations because the expenses vary from period to period in terms of size, nature and significance. The income tax impact of these n…",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1158449/000119312526051305/aap-20260103.htm",
+      "numbers": [
+        "1",
+        "2",
+        "3"
+      ],
+      "dates": []
+    }
+  ],
+  "generation": {
+    "used": false,
+    "status": "precomputed evidence analysis"
+  },
+  "cache": {
+    "hit": false,
+    "fingerprint": "28b7e4ce084766a235bc0764fa7704259a1c9217c36677c845fd2b6dbbce0b7b"
+  },
+  "latency_ms": 45812.68
+}
