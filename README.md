@@ -28,38 +28,6 @@ GrowthLens brings company discovery and annual-filing analysis into one research
 
 The opportunity signal is a discovery aid. It is not mathematically blended with filing-change attention and must not be interpreted as a probability, recommendation, or expected return.
 
-## Public and local editions
-
-### Public GitHub Pages edition
-
-The deployable website in [`NLP_GrowthLens`](./NLP_GrowthLens) is a lightweight React application designed for GitHub Pages.
-
-It preserves the main product experience while using a curated set of precomputed examples directly in the browser. It requires:
-
-- no Python or Flask server;
-- no local language model;
-- no API key;
-- no database;
-- no private parquet files;
-- no external AI request at runtime.
-
-The public demonstration currently includes six companies with precomputed filing comparisons, discovery records, peer views, evidence summaries, and Markdown memo generation. Company analysis files are loaded only when selected, keeping the initial page responsive.
-
-### Full local research edition
-
-The full private workflow is intended for local research with the complete SEC and structured datasets. Its design supports:
-
-1. annual-filing pairing by CIK, accession, filing date, and section;
-2. paragraph normalization and exact-text matching;
-3. semantic alignment of comparable prior/current passages;
-4. numerical, date, percentage, and monetary-value extraction;
-5. structured change classification;
-6. evidence validation and attention-priority calculation;
-7. two-filing retrieval for prior, current, both, or detected-change questions;
-8. local answer generation and memo creation.
-
-Large datasets, private artifacts, model files, and the local backend are intentionally excluded from this public repository.
-
 ## Product workspaces
 
 ### Filing Intelligence
@@ -116,80 +84,8 @@ GrowthLens_Project/
 `-- README.md
 ```
 
-## Public application architecture
-
-```text
-Precomputed filing analyses        Curated company records
-             |                              |
-             +--------------+---------------+
-                            |
-                    Browser data adapter
-                            |
-       +--------------------+--------------------+
-       |                    |                    |
-Filing Intelligence   Discover Companies   Peers and Memos
-       |                    |                    |
-       +--------------------+--------------------+
-                            |
-                     React user interface
-```
 
 All public-edition operations happen inside the visitor's browser. The interface does not call a hidden API or require a running computer elsewhere.
-
-## Run the public application locally
-
-### Requirements
-
-- [Node.js](https://nodejs.org/) 22 or newer
-- npm, which is included with Node.js
-
-### Windows PowerShell
-
-```powershell
-git clone https://github.com/altayariyasser/GrowthLens_Project.git
-cd GrowthLens_Project\NLP_GrowthLens
-npm.cmd install
-npm.cmd run dev
-```
-
-Open the local address printed by Vite, normally `http://localhost:5173/GrowthLens_Project/`.
-
-### macOS or Linux
-
-```bash
-git clone https://github.com/altayariyasser/GrowthLens_Project.git
-cd GrowthLens_Project/NLP_GrowthLens
-npm install
-npm run dev
-```
-
-## Create a production build
-
-On Windows:
-
-```powershell
-cd NLP_GrowthLens
-npm.cmd install
-npm.cmd run build
-npm.cmd run preview
-```
-
-On macOS or Linux, use `npm` in place of `npm.cmd`.
-
-Vite writes the optimized website to `NLP_GrowthLens/dist`. The repository base path is configured as `/GrowthLens_Project/` for GitHub Pages.
-
-## Deployment
-
-The workflow at [`.github/workflows/pages.yml`](./.github/workflows/pages.yml) installs dependencies, builds the React application, and publishes `NLP_GrowthLens/dist` whenever `main` changes.
-
-In GitHub, the repository setting must be:
-
-1. **Settings**
-2. **Pages**
-3. **Build and deployment**
-4. **Source: GitHub Actions**
-
-No secrets are required for the public deployment.
 
 ## Research methodology
 
