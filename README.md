@@ -8,6 +8,12 @@ Instead of reducing a filing to a single sentiment label, GrowthLens organizes m
 
 > GrowthLens supports research and review. It does not provide investment recommendations, return forecasts, live prices, or financial advice.
 
+## Product walkthrough
+
+![Animated GrowthLens demo showing Filing Intelligence, material-change evidence, research questions, and company discovery](./docs/assets/growthlens-demo.gif)
+
+The walkthrough follows the core research journey: open Filing Intelligence, choose a company, review its change portrait, scan ranked disclosures, expand source evidence, ask a filing-scoped question, and discover additional research candidates.
+
 ## What the project does
 
 GrowthLens brings company discovery and annual-filing analysis into one research workflow:
