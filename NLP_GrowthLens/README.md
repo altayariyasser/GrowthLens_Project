@@ -1,8 +1,8 @@
 # GrowthLens GitHub Pages showcase
 
-This folder contains the lightweight public edition of GrowthLens Filing Intelligence.
+This folder contains the lightweight public edition of GrowthLens Filing Intelligence. It uses the same React interface and product workspaces as the local application.
 
-It is intentionally separate from the full local application. The public edition uses a small set of precomputed research examples and contains no Flask server, Ollama models, embeddings, private files, or large parquet artifacts.
+It is intentionally separate from the full local application. Filing analysis, discovery, peer comparison, evidence summaries, and Markdown memo creation run from a small set of precomputed browser data. The public edition contains no Flask server, model runtime, embeddings, private files, or large parquet artifacts, and it makes no local API calls.
 
 ## Run locally
 

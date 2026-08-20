@@ -1,0 +1,1974 @@
+{
+  "analysis_id": "0ac5683cbefe9426",
+  "company": {
+    "cik": "0001829576",
+    "ticker": "CARE",
+    "company_name": "Carter Bankshares, Inc."
+  },
+  "filing_pair": {
+    "previous": {
+      "accession_number": "0001829576-25-000016",
+      "filing_date": "2025-03-07",
+      "report_date": "2024-12-31",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1829576/000182957625000016/care-20241231.htm"
+    },
+    "current": {
+      "accession_number": "0001829576-26-000018",
+      "filing_date": "2026-03-05",
+      "report_date": "2025-12-31",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1829576/000182957626000018/care-20251231.htm"
+    }
+  },
+  "pipeline_version": "filing-intelligence-v1",
+  "comparison_available": true,
+  "coverage": {
+    "prior_sections": [
+      "business",
+      "management_discussion",
+      "risk_factors"
+    ],
+    "current_sections": [
+      "business",
+      "management_discussion",
+      "risk_factors"
+    ],
+    "comparable_sections": [
+      "business",
+      "management_discussion",
+      "risk_factors"
+    ],
+    "missing_from_current": [],
+    "new_in_current": [],
+    "prior_text_capped": false,
+    "current_text_capped": false,
+    "status": "complete_available_sections",
+    "alignment_methods": {
+      "local semantic": 3
+    },
+    "paragraphs_compared": 482
+  },
+  "summary": {
+    "total_changes": 24,
+    "high_attention": 24,
+    "new": 16,
+    "removed": 8,
+    "modified": 0,
+    "dominant_topics": [
+      {
+        "topic": "liquidity_debt_margins_and_costs",
+        "label": "Liquidity, debt, margins and costs",
+        "count": 10
+      },
+      {
+        "topic": "demand_and_competition",
+        "label": "Demand and competition",
+        "count": 3
+      },
+      {
+        "topic": "growth_and_strategy",
+        "label": "Growth and strategy",
+        "count": 3
+      }
+    ]
+  },
+  "changes": [
+    {
+      "change_id": "6d0c1e70ca587d87",
+      "change_type": "new",
+      "topic": "liquidity_debt_margins_and_costs",
+      "topic_label": "Liquidity, debt, margins and costs",
+      "section": "risk_factors",
+      "attention": {
+        "score": 89,
+        "label": "high",
+        "factors": [
+          {
+            "label": "Disclosure novelty",
+            "points": 40
+          },
+          {
+            "label": "Section significance",
+            "points": 20
+          },
+          {
+            "label": "Risk language",
+            "points": 16
+          },
+          {
+            "label": "Numerical change",
+            "points": 10
+          },
+          {
+            "label": "Evidence specificity",
+            "points": 3
+          }
+        ]
+      },
+      "explanation": "The current filing introduces a new disclosure related to liquidity, debt, margins and costs.",
+      "analyst_relevance": "Review the cited language in the context of the investment thesis.",
+      "similarity": null,
+      "numeric_deltas": [
+        {
+          "previous": null,
+          "current": "$2.2 billion"
+        },
+        {
+          "previous": null,
+          "current": "57.1%"
+        }
+      ],
+      "previous_evidence": null,
+      "current_evidence": {
+        "evidence_id": "71b5397d4ae8f6dc82a8",
+        "filing_version": "current",
+        "accession_number": "0001829576-26-000018",
+        "filing_date": "2026-03-05",
+        "report_date": "2025-12-31",
+        "section": "risk_factors",
+        "paragraph_index": 11,
+        "text_excerpt": "If any of these valuations are inaccurate, the Company’s consolidated financial statements may not reflect the correct value of OREO, and our ACL may not reflect accurate loan impairments. The Company’s concentration in commercial real estate loans, including construction loans, increases its credit risk and could adversely affect its financial condition and results of operations. The Company maintains a significant concentration in loans secured by CRE, which subjects it to heightened credit risk compared to institutions with more diversified loan portfolios. As of December 31, 2025, loans secured by commercial purpose real estate, excluding construction loans, totaled approximately $2.2 billion, or 57.1% of the Company’s total loan portfolio. These loans typically involve larger average balances. These loans often also have more complex financial and credit risks than residential real estate loans. Repay…",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1829576/000182957626000018/care-20251231.htm",
+        "numbers": [
+          "31",
+          "2025",
+          "$2.2 billion",
+          "57.1%"
+        ],
+        "dates": [
+          "December 31, 2025"
+        ]
+      }
+    },
+    {
+      "change_id": "f0beaf6620733e26",
+      "change_type": "new",
+      "topic": "demand_and_competition",
+      "topic_label": "Demand and competition",
+      "section": "business",
+      "attention": {
+        "score": 84,
+        "label": "high",
+        "factors": [
+          {
+            "label": "Disclosure novelty",
+            "points": 40
+          },
+          {
+            "label": "Section significance",
+            "points": 13
+          },
+          {
+            "label": "Risk language",
+            "points": 14
+          },
+          {
+            "label": "Numerical change",
+            "points": 14
+          },
+          {
+            "label": "Evidence specificity",
+            "points": 3
+          }
+        ]
+      },
+      "explanation": "The current filing introduces a new disclosure related to demand and competition.",
+      "analyst_relevance": "Review the cited language in the context of the investment thesis.",
+      "similarity": null,
+      "numeric_deltas": [
+        {
+          "previous": null,
+          "current": "1"
+        },
+        {
+          "previous": null,
+          "current": "100%"
+        },
+        {
+          "previous": null,
+          "current": "2"
+        },
+        {
+          "previous": null,
+          "current": "300%"
+        },
+        {
+          "previous": null,
+          "current": "50%"
+        },
+        {
+          "previous": null,
+          "current": "36"
+        }
+      ],
+      "previous_evidence": null,
+      "current_evidence": {
+        "evidence_id": "6a4c03817b95c1c4a593",
+        "filing_version": "current",
+        "accession_number": "0001829576-26-000018",
+        "filing_date": "2026-03-05",
+        "report_date": "2025-12-31",
+        "section": "business",
+        "paragraph_index": 44,
+        "text_excerpt": "If a concentration is present, management must employ heightened risk management practices that address key elements, including board and management oversight and strategic planning, portfolio management, development of underwriting standards, risk assessment and monitoring through market analysis and stress testing, and maintenance of increased capital levels as needed to support the level of CRE lending. The guidance states that the following metrics may indicate a concentration of CRE loans, but that these metrics are neither limits nor a safe harbor: (1) total reported loans for construction, land development, and other land represent 100% or more of total risk-based capital; or (2) total reported loans secured by multi-family properties, nonfarm non-residential properties (excluding those that are owner-occupied), and loans for construction, land development, and other land represent 300% or more of t…",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1829576/000182957626000018/care-20251231.htm",
+        "numbers": [
+          "1",
+          "100%",
+          "2",
+          "300%",
+          "50%",
+          "36"
+        ],
+        "dates": []
+      }
+    },
+    {
+      "change_id": "6d23e62a37e64860",
+      "change_type": "removed",
+      "topic": "liquidity_debt_margins_and_costs",
+      "topic_label": "Liquidity, debt, margins and costs",
+      "section": "management_discussion",
+      "attention": {
+        "score": 82,
+        "label": "high",
+        "factors": [
+          {
+            "label": "Disclosure novelty",
+            "points": 40
+          },
+          {
+            "label": "Section significance",
+            "points": 17
+          },
+          {
+            "label": "Risk language",
+            "points": 8
+          },
+          {
+            "label": "Numerical change",
+            "points": 14
+          },
+          {
+            "label": "Evidence specificity",
+            "points": 3
+          }
+        ]
+      },
+      "explanation": "A prior disclosure related to liquidity, debt, margins and costs is no longer present in the comparable section.",
+      "analyst_relevance": "Review the cited language in the context of the investment thesis.",
+      "similarity": null,
+      "numeric_deltas": [
+        {
+          "previous": "1",
+          "current": null
+        },
+        {
+          "previous": "10.88%",
+          "current": null
+        },
+        {
+          "previous": "12.13%",
+          "current": null
+        },
+        {
+          "previous": "8.00%",
+          "current": null
+        },
+        {
+          "previous": "10.00%",
+          "current": null
+        },
+        {
+          "previous": "$15.0 billion",
+          "current": null
+        }
+      ],
+      "previous_evidence": {
+        "evidence_id": "8c0b37a5cb6710ff43b9",
+        "filing_version": "prior",
+        "accession_number": "0001829576-25-000016",
+        "filing_date": "2025-03-07",
+        "report_date": "2024-12-31",
+        "section": "management_discussion",
+        "paragraph_index": 93,
+        "text_excerpt": "Our risk-based Tier 1 and Total Capital ratios were 10.88% and 12.13%, respectively, which places the Company above the federal bank regulatory agencies’ well-capitalized guidelines of 8.00% and 10.00%, respectively. We believe that we have the ability to raise additional capital, if necessary. The Basel rules permit banking organizations with less than $15.0 billion in assets to retain, through a one-time election, existing treatment for accumulated other comprehensive loss, which currently does not affect regulatory capital. The Company elected to retain this treatment which reduces the volatility of regulatory capital levels. The Basel III Capital Rules require the Company and the Bank to maintain minimum Common Equity Tier 1, Tier 1 and Total Capital ratios, along with a capital conservation buffer, effectively resulting in new minimum capital ratios. The capital conservation buffer is designed to abso…",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1829576/000182957625000016/care-20241231.htm",
+        "numbers": [
+          "1",
+          "10.88%",
+          "12.13%",
+          "8.00%",
+          "10.00%",
+          "$15.0 billion"
+        ],
+        "dates": []
+      },
+      "current_evidence": null
+    },
+    {
+      "change_id": "9db35f8200c2adcb",
+      "change_type": "removed",
+      "topic": "operations_and_supply_chain",
+      "topic_label": "Operations and supply chain",
+      "section": "management_discussion",
+      "attention": {
+        "score": 82,
+        "label": "high",
+        "factors": [
+          {
+            "label": "Disclosure novelty",
+            "points": 40
+          },
+          {
+            "label": "Section significance",
+            "points": 17
+          },
+          {
+            "label": "Risk language",
+            "points": 8
+          },
+          {
+            "label": "Numerical change",
+            "points": 14
+          },
+          {
+            "label": "Evidence specificity",
+            "points": 3
+          }
+        ]
+      },
+      "explanation": "A prior disclosure related to operations and supply chain is no longer present in the comparable section.",
+      "analyst_relevance": "Review the cited language in the context of the investment thesis.",
+      "similarity": null,
+      "numeric_deltas": [
+        {
+          "previous": "$15.0 million",
+          "current": null
+        },
+        {
+          "previous": "$6.6 million",
+          "current": null
+        },
+        {
+          "previous": "$49.9 million",
+          "current": null
+        },
+        {
+          "previous": "1.24%",
+          "current": null
+        },
+        {
+          "previous": "1.22%",
+          "current": null
+        },
+        {
+          "previous": "$431.5 million",
+          "current": null
+        },
+        {
+          "previous": "$4.2 billion",
+          "current": null
+        }
+      ],
+      "previous_evidence": {
+        "evidence_id": "8f55d2788eacec06f498",
+        "filing_version": "prior",
+        "accession_number": "0001829576-25-000016",
+        "filing_date": "2025-03-07",
+        "report_date": "2024-12-31",
+        "section": "management_discussion",
+        "paragraph_index": 40,
+        "text_excerpt": "The decrease is primarily related to an updated analysis of the individually evaluated loans, a $15.0 million charge-off related to the Other segment of the loan portfolio in the third quarter of 2024 and $6.6 million of Other segment specific reserves released in connection with $49.9 million of curtailment payments made by the Bank’s largest nonperforming credit relationship during the year ended December 31, 2024. General reserves as a percentage of total portfolio loans were 1.24% at December 31, 2024 and 1.22% at December 31, 2023. Management believes the ACL is adequate to absorb expected losses inherent in the loan portfolio. See the sections of this MD&A titled “(Recovery) Provision for Credit Losses,” “Credit Quality” and “Allowance for Credit Losses” for information about the factors that impacted the ACL and the provision for credit losses. Total deposits increased $431.5 million to $4.2 billion…",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1829576/000182957625000016/care-20241231.htm",
+        "numbers": [
+          "$15.0 million",
+          "2024",
+          "$6.6 million",
+          "$49.9 million",
+          "31",
+          "1.24%",
+          "1.22%",
+          "2023",
+          "$431.5 million",
+          "$4.2 billion"
+        ],
+        "dates": [
+          "December 31, 2024",
+          "December 31, 2023"
+        ]
+      },
+      "current_evidence": null
+    },
+    {
+      "change_id": "ef2aa8ba59fb6f0f",
+      "change_type": "new",
+      "topic": "growth_and_strategy",
+      "topic_label": "Growth and strategy",
+      "section": "management_discussion",
+      "attention": {
+        "score": 82,
+        "label": "high",
+        "factors": [
+          {
+            "label": "Disclosure novelty",
+            "points": 40
+          },
+          {
+            "label": "Section significance",
+            "points": 17
+          },
+          {
+            "label": "Risk language",
+            "points": 8
+          },
+          {
+            "label": "Numerical change",
+            "points": 14
+          },
+          {
+            "label": "Evidence specificity",
+            "points": 3
+          }
+        ]
+      },
+      "explanation": "The current filing introduces a new disclosure related to growth and strategy.",
+      "analyst_relevance": "Review the cited language in the context of the investment thesis.",
+      "similarity": null,
+      "numeric_deltas": [
+        {
+          "previous": null,
+          "current": "33.9%"
+        },
+        {
+          "previous": null,
+          "current": "3.73%"
+        },
+        {
+          "previous": null,
+          "current": "4.18%"
+        },
+        {
+          "previous": null,
+          "current": "4.38%"
+        },
+        {
+          "previous": null,
+          "current": "4.58%"
+        }
+      ],
+      "previous_evidence": null,
+      "current_evidence": {
+        "evidence_id": "ebae1cb8d4cf13694a9c",
+        "filing_version": "current",
+        "accession_number": "0001829576-26-000018",
+        "filing_date": "2026-03-05",
+        "report_date": "2025-12-31",
+        "section": "management_discussion",
+        "paragraph_index": 44,
+        "text_excerpt": "States and political subdivision securities comprise 33.9% and are largely general obligations and essential purpose revenue bonds, which have historically performed well across economic cycles and are predominantly rated AA and AAA. The Company has the ability and intent to hold these securities to maturity and expects to recover the full amortized cost of these investments. The Company may occasionally sell securities to take advantage of market opportunities or as part of a strategic initiative. Unrealized losses were concentrated primarily in securities with intermediate and long-term maturities, whose market values are most sensitive to movements in the U.S. Treasury yield curve, particularly the five year and ten year maturities. During the year ended December 31, 2025, intermediate term Treasury yields declined, contributing to a reduction in unrealized losses. At December 31, 2025, the five and ten…",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1829576/000182957626000018/care-20251231.htm",
+        "numbers": [
+          "33.9%",
+          "31",
+          "2025",
+          "3.73%",
+          "4.18%",
+          "4.38%",
+          "4.58%",
+          "2024"
+        ],
+        "dates": [
+          "December 31, 2025",
+          "December 31, 2024"
+        ]
+      }
+    },
+    {
+      "change_id": "1891c2b9cd533fc7",
+      "change_type": "new",
+      "topic": "regulation_and_legal_risk",
+      "topic_label": "Regulation and legal risk",
+      "section": "risk_factors",
+      "attention": {
+        "score": 82,
+        "label": "high",
+        "factors": [
+          {
+            "label": "Disclosure novelty",
+            "points": 40
+          },
+          {
+            "label": "Section significance",
+            "points": 20
+          },
+          {
+            "label": "Risk language",
+            "points": 14
+          },
+          {
+            "label": "Numerical change",
+            "points": 5
+          },
+          {
+            "label": "Evidence specificity",
+            "points": 3
+          }
+        ]
+      },
+      "explanation": "The current filing introduces a new disclosure related to regulation and legal risk.",
+      "analyst_relevance": "Review the cited language in the context of the investment thesis.",
+      "similarity": null,
+      "numeric_deltas": [
+        {
+          "previous": null,
+          "current": "$10 billion"
+        }
+      ],
+      "previous_evidence": null,
+      "current_evidence": {
+        "evidence_id": "c9c23e8a1babdf7467a8",
+        "filing_version": "current",
+        "accession_number": "0001829576-26-000018",
+        "filing_date": "2026-03-05",
+        "report_date": "2025-12-31",
+        "section": "risk_factors",
+        "paragraph_index": 64,
+        "text_excerpt": "In particular, the CFPB’s interpretation of the Dodd-Frank Act’s prohibitions against unfair, deceptive and abusive consumer finance products or practices and the application of those prohibitions to so-called “junk fees” may ultimately affect products or services currently offered by the Corporation and its subsidiaries and may affect the amount of revenue that may be derived from these products and services in the future, especially revenue from overdraft products offered by the Bank. Although the CFPB has jurisdiction over banks with $10 billion or greater in assets, rules, regulations and policies issued by the CFPB may also apply to the Corporation or its subsidiaries by virtue of the adoption of such policies and practices by the Federal Reserve and the FDIC. Further, the CFPB may include its own examiners in regulatory examinations by the Corporation’s primary regulators. The limitations and restric…",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1829576/000182957626000018/care-20251231.htm",
+        "numbers": [
+          "$10 billion"
+        ],
+        "dates": []
+      }
+    },
+    {
+      "change_id": "32079437a3d0d35d",
+      "change_type": "new",
+      "topic": "demand_and_competition",
+      "topic_label": "Demand and competition",
+      "section": "management_discussion",
+      "attention": {
+        "score": 80,
+        "label": "high",
+        "factors": [
+          {
+            "label": "Disclosure novelty",
+            "points": 40
+          },
+          {
+            "label": "Section significance",
+            "points": 17
+          },
+          {
+            "label": "Risk language",
+            "points": 6
+          },
+          {
+            "label": "Numerical change",
+            "points": 14
+          },
+          {
+            "label": "Evidence specificity",
+            "points": 3
+          }
+        ]
+      },
+      "explanation": "The current filing introduces a new disclosure related to demand and competition.",
+      "analyst_relevance": "Review the cited language in the context of the investment thesis.",
+      "similarity": null,
+      "numeric_deltas": [
+        {
+          "previous": null,
+          "current": "$192.7 million"
+        },
+        {
+          "previous": null,
+          "current": "$4.9 billion"
+        },
+        {
+          "previous": null,
+          "current": "$4.7 billion"
+        },
+        {
+          "previous": null,
+          "current": "$254.7 million"
+        },
+        {
+          "previous": null,
+          "current": "7.0%"
+        },
+        {
+          "previous": null,
+          "current": "$3.9 billion"
+        },
+        {
+          "previous": null,
+          "current": "$26.8 million"
+        },
+        {
+          "previous": null,
+          "current": "14.3%"
+        }
+      ],
+      "previous_evidence": null,
+      "current_evidence": {
+        "evidence_id": "12d82374c352d9a4bf83",
+        "filing_version": "current",
+        "accession_number": "0001829576-26-000018",
+        "filing_date": "2026-03-05",
+        "report_date": "2025-12-31",
+        "section": "management_discussion",
+        "paragraph_index": 38,
+        "text_excerpt": "Financial Condition December 31, 2025 Total assets increased $192.7 million, to $4.9 billion at December 31, 2025 compared to $4.7 billion at December 31, 2024, reflecting balance sheet growth primarily driven by loan growth. Total portfolio loans increased $254.7 million, or 7.0% to $3.9 billion at December 31, 2025 compared to December 31, 2024. Loan growth was led by increases in the CRE, residential mortgage, construction and commercial and industrial loan (“C&I”) portfolios, partially offset by curtailment payments within the Other loan segment and a decline in the other consumer portfolio. The available-for-sale securities portfolio decreased $26.8 million during 2025 and represented 14.3% of total assets at December 31, 2025, compared to 15.4% of total assets at December 31, 2024. The decrease was primarily attributable to security sales, normal paydowns, amortization, and calls partially offset by…",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1829576/000182957626000018/care-20251231.htm",
+        "numbers": [
+          "31",
+          "2025",
+          "$192.7 million",
+          "$4.9 billion",
+          "$4.7 billion",
+          "2024",
+          "$254.7 million",
+          "7.0%",
+          "$3.9 billion",
+          "$26.8 million",
+          "14.3%",
+          "15.4%"
+        ],
+        "dates": [
+          "December 31, 2025",
+          "December 31, 2024"
+        ]
+      }
+    },
+    {
+      "change_id": "eef865b2f68a3a17",
+      "change_type": "removed",
+      "topic": "liquidity_debt_margins_and_costs",
+      "topic_label": "Liquidity, debt, margins and costs",
+      "section": "management_discussion",
+      "attention": {
+        "score": 80,
+        "label": "high",
+        "factors": [
+          {
+            "label": "Disclosure novelty",
+            "points": 40
+          },
+          {
+            "label": "Section significance",
+            "points": 17
+          },
+          {
+            "label": "Risk language",
+            "points": 6
+          },
+          {
+            "label": "Numerical change",
+            "points": 14
+          },
+          {
+            "label": "Evidence specificity",
+            "points": 3
+          }
+        ]
+      },
+      "explanation": "A prior disclosure related to liquidity, debt, margins and costs is no longer present in the comparable section.",
+      "analyst_relevance": "Review the cited language in the context of the investment thesis.",
+      "similarity": null,
+      "numeric_deltas": [
+        {
+          "previous": "31",
+          "current": null
+        },
+        {
+          "previous": "0.54 %",
+          "current": null
+        },
+        {
+          "previous": "0.53 %",
+          "current": null
+        },
+        {
+          "previous": "1.21 %",
+          "current": null
+        },
+        {
+          "previous": "6.67 %",
+          "current": null
+        },
+        {
+          "previous": "6.79 %",
+          "current": null
+        },
+        {
+          "previous": "14.30 %",
+          "current": null
+        },
+        {
+          "previous": "87.27 %",
+          "current": null
+        }
+      ],
+      "previous_evidence": {
+        "evidence_id": "993889ef599a81b20e31",
+        "filing_version": "prior",
+        "accession_number": "0001829576-25-000016",
+        "filing_date": "2025-03-07",
+        "report_date": "2024-12-31",
+        "section": "management_discussion",
+        "paragraph_index": 17,
+        "text_excerpt": "Years Ended December 31, PERFORMANCE RATIOS 2024 2023 2022 Return on Average Assets 0.54 % 0.53 % 1.21 % Return on Average Shareholders' Equity 6.67 % 6.79 % 14.30 % Portfolio Loans to Deposit Ratio 87.27 % 94.20 % 86.69 % Allowance for Credit Losses to Total Portfolio Loans 2.09 % 2.77 % 2.98 % Nonperforming Loans to Total Portfolio Loans 7.15 % 8.83 % 0.21 % Net Interest Income Our principal source of revenue is net interest income. Net interest income represents the difference between the interest and fees earned on interest-earning assets and the interest paid on interest-bearing liabilities. Net interest income is affected by changes in the average balance of interest-earning assets, interest-bearing liabilities, as well as changes in interest rates and spreads. The level and mix of interest-earning assets and interest-bearing liabilities is managed by our Asset and Liability Committee (“ALCO”), in or…",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1829576/000182957625000016/care-20241231.htm",
+        "numbers": [
+          "31",
+          "2024",
+          "2023",
+          "2022",
+          "0.54 %",
+          "0.53 %",
+          "1.21 %",
+          "6.67 %",
+          "6.79 %",
+          "14.30 %",
+          "87.27 %",
+          "94.20 %",
+          "86.69 %",
+          "2.09 %",
+          "2.77 %",
+          "2.98 %"
+        ],
+        "dates": []
+      },
+      "current_evidence": null
+    },
+    {
+      "change_id": "012a52bd49b1b4da",
+      "change_type": "new",
+      "topic": "human_capital",
+      "topic_label": "Human capital",
+      "section": "risk_factors",
+      "attention": {
+        "score": 79,
+        "label": "high",
+        "factors": [
+          {
+            "label": "Disclosure novelty",
+            "points": 40
+          },
+          {
+            "label": "Section significance",
+            "points": 20
+          },
+          {
+            "label": "Risk language",
+            "points": 16
+          },
+          {
+            "label": "Numerical change",
+            "points": 0
+          },
+          {
+            "label": "Evidence specificity",
+            "points": 3
+          }
+        ]
+      },
+      "explanation": "The current filing introduces a new disclosure related to human capital.",
+      "analyst_relevance": "Review the cited language in the context of the investment thesis.",
+      "similarity": null,
+      "numeric_deltas": [],
+      "previous_evidence": null,
+      "current_evidence": {
+        "evidence_id": "87de6e70b35cb2d022d1",
+        "filing_version": "current",
+        "accession_number": "0001829576-26-000018",
+        "filing_date": "2026-03-05",
+        "report_date": "2025-12-31",
+        "section": "risk_factors",
+        "paragraph_index": 38,
+        "text_excerpt": "Key challenges include service interruptions, transaction processing errors and system conversion delays, which may cause the Company to lose customers or fail to comply with applicable laws, and may cause the Company to incur additional expenses, which may be substantial and could have a material adverse effect on its business, financial condition, results of operations, and future prospects. The Company’s business is dependent on its executive management team and other key personnel, and the loss of their services could adversely affect its operations. The Company’s success depends significantly on the leadership, experience, and expertise of its executive officers and other key personnel. These individuals possess substantial knowledge of the markets the Company serves, maintain important customer and community relationship, and provide critical strategic direction. The unexpected loss of the services o…",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1829576/000182957626000018/care-20251231.htm",
+        "numbers": [],
+        "dates": []
+      }
+    },
+    {
+      "change_id": "0646e05b0db03da3",
+      "change_type": "new",
+      "topic": "liquidity_debt_margins_and_costs",
+      "topic_label": "Liquidity, debt, margins and costs",
+      "section": "risk_factors",
+      "attention": {
+        "score": 79,
+        "label": "high",
+        "factors": [
+          {
+            "label": "Disclosure novelty",
+            "points": 40
+          },
+          {
+            "label": "Section significance",
+            "points": 20
+          },
+          {
+            "label": "Risk language",
+            "points": 16
+          },
+          {
+            "label": "Numerical change",
+            "points": 0
+          },
+          {
+            "label": "Evidence specificity",
+            "points": 3
+          }
+        ]
+      },
+      "explanation": "The current filing introduces a new disclosure related to liquidity, debt, margins and costs.",
+      "analyst_relevance": "Review the cited language in the context of the investment thesis.",
+      "similarity": null,
+      "numeric_deltas": [],
+      "previous_evidence": null,
+      "current_evidence": {
+        "evidence_id": "18091182ffecb24e0b28",
+        "filing_version": "current",
+        "accession_number": "0001829576-26-000018",
+        "filing_date": "2026-03-05",
+        "report_date": "2025-12-31",
+        "section": "risk_factors",
+        "paragraph_index": 73,
+        "text_excerpt": "The Company’s risk management framework may not be effective in identifying or mitigating risks, which could adversely affect its financial condition and results of operations. The Company maintains an enterprise risk management program designed to identify, measure, monitor, report and control the various risks it faces. These risks include, among others, credit, interest rate, liquidity, operational, compliance, legal, reputational, strategic, and economic risks. Our risk management processes incorporate assumptions, judgments, models, and analytical tools that may not always accurately predict risk exposures or future outcomes. Although the Company regularly evaluates and enhances its risk management framework and related controls, no risk management system can eliminate risk entirely or anticipate every emerging threat. Its framework may prove inadequate due to design limitations, execution failures, i…",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1829576/000182957626000018/care-20251231.htm",
+        "numbers": [],
+        "dates": []
+      }
+    },
+    {
+      "change_id": "08cd14de070fcd3c",
+      "change_type": "new",
+      "topic": "growth_and_strategy",
+      "topic_label": "Growth and strategy",
+      "section": "risk_factors",
+      "attention": {
+        "score": 79,
+        "label": "high",
+        "factors": [
+          {
+            "label": "Disclosure novelty",
+            "points": 40
+          },
+          {
+            "label": "Section significance",
+            "points": 20
+          },
+          {
+            "label": "Risk language",
+            "points": 16
+          },
+          {
+            "label": "Numerical change",
+            "points": 0
+          },
+          {
+            "label": "Evidence specificity",
+            "points": 3
+          }
+        ]
+      },
+      "explanation": "The current filing introduces a new disclosure related to growth and strategy.",
+      "analyst_relevance": "Review the cited language in the context of the investment thesis.",
+      "similarity": null,
+      "numeric_deltas": [],
+      "previous_evidence": null,
+      "current_evidence": {
+        "evidence_id": "109e0820c8147069243c",
+        "filing_version": "current",
+        "accession_number": "0001829576-26-000018",
+        "filing_date": "2026-03-05",
+        "report_date": "2025-12-31",
+        "section": "risk_factors",
+        "paragraph_index": 45,
+        "text_excerpt": "RISK FACTORS - (continued) expected to be extended or repeated in response to a future bank closure. Additionally, during periods of industry stress, governmental and regulatory actions intended to stabilize the banking system may not be sufficient to prevent funding disruptions or deposit outflows, particularly sudden or large-scale withdrawals. If these conditions were to occur, they could impair our access to funding, place pressure on our liquidity position, and materially adversely affect our financial condition and results of operations. The Company’s liquidity could be adversely affected if it were unable to access short-term funding or monetize liquid assets. The Company’s ability to maintain adequate liquidity depends on reliable access to funding sources and the capacity to convert liquid assets into cash in a timely manner. Significant volatility or disruptions in the wholesale funding markets o…",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1829576/000182957626000018/care-20251231.htm",
+        "numbers": [],
+        "dates": []
+      }
+    },
+    {
+      "change_id": "13e04018466b79af",
+      "change_type": "removed",
+      "topic": "regulation_and_legal_risk",
+      "topic_label": "Regulation and legal risk",
+      "section": "risk_factors",
+      "attention": {
+        "score": 79,
+        "label": "high",
+        "factors": [
+          {
+            "label": "Disclosure novelty",
+            "points": 40
+          },
+          {
+            "label": "Section significance",
+            "points": 20
+          },
+          {
+            "label": "Risk language",
+            "points": 16
+          },
+          {
+            "label": "Numerical change",
+            "points": 0
+          },
+          {
+            "label": "Evidence specificity",
+            "points": 3
+          }
+        ]
+      },
+      "explanation": "A prior disclosure related to regulation and legal risk is no longer present in the comparable section.",
+      "analyst_relevance": "Review the cited language in the context of the investment thesis.",
+      "similarity": null,
+      "numeric_deltas": [],
+      "previous_evidence": {
+        "evidence_id": "3447edbcf8f5dd0d5288",
+        "filing_version": "prior",
+        "accession_number": "0001829576-25-000016",
+        "filing_date": "2025-03-07",
+        "report_date": "2024-12-31",
+        "section": "risk_factors",
+        "paragraph_index": 43,
+        "text_excerpt": "The process of eliminating banks as intermediaries, known as “disintermediation,” could result in the loss of fee income, as well as the loss of customer deposits and the related income generated from those deposits. The loss of these revenue streams and the lower cost of deposits as a source of funds could have a material adverse effect on our financial condition and results of operations. Risks Related to Regulatory Compliance and Legal Matters We are subject to extensive government regulation and supervision. Banking regulations are primarily intended to protect depositors’ funds, federal deposit insurance funds and the banking system as a whole, not security holders. These regulations affect our lending practices, capital structure, investment practices, dividend policy and growth, among other things. Congress and federal regulatory agencies continually review banking laws, regulations and policies for…",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1829576/000182957625000016/care-20241231.htm",
+        "numbers": [],
+        "dates": []
+      },
+      "current_evidence": null
+    },
+    {
+      "change_id": "218d77bb54604ba6",
+      "change_type": "removed",
+      "topic": "liquidity_debt_margins_and_costs",
+      "topic_label": "Liquidity, debt, margins and costs",
+      "section": "risk_factors",
+      "attention": {
+        "score": 79,
+        "label": "high",
+        "factors": [
+          {
+            "label": "Disclosure novelty",
+            "points": 40
+          },
+          {
+            "label": "Section significance",
+            "points": 20
+          },
+          {
+            "label": "Risk language",
+            "points": 16
+          },
+          {
+            "label": "Numerical change",
+            "points": 0
+          },
+          {
+            "label": "Evidence specificity",
+            "points": 3
+          }
+        ]
+      },
+      "explanation": "A prior disclosure related to liquidity, debt, margins and costs is no longer present in the comparable section.",
+      "analyst_relevance": "Review the cited language in the context of the investment thesis.",
+      "similarity": null,
+      "numeric_deltas": [],
+      "previous_evidence": {
+        "evidence_id": "8640faed2621b8415561",
+        "filing_version": "prior",
+        "accession_number": "0001829576-25-000016",
+        "filing_date": "2025-03-07",
+        "report_date": "2024-12-31",
+        "section": "risk_factors",
+        "paragraph_index": 48,
+        "text_excerpt": "The application of more stringent capital requirements could, among other things, result in lower returns on equity, require the raising of additional capital, and result in regulatory actions if the Company were to be unable to comply with such requirements. Furthermore, the imposition of liquidity requirements in connection with the implementation of Basel III capital adequacy standards could result in the Company having to lengthen the term of its funding, restructure its business models, and/or increase its holdings of liquid assets. Implementation of changes to asset risk weightings for risk-based capital calculations, items included or deducted in calculating regulatory capital and/or additional capital conservation buffers could result in management modifying its business strategy, and could limit the Company’s ability to make distributions, including paying out dividends or buying back shares. If t…",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1829576/000182957625000016/care-20241231.htm",
+        "numbers": [],
+        "dates": []
+      },
+      "current_evidence": null
+    },
+    {
+      "change_id": "22d574c7952921c8",
+      "change_type": "new",
+      "topic": "demand_and_competition",
+      "topic_label": "Demand and competition",
+      "section": "risk_factors",
+      "attention": {
+        "score": 79,
+        "label": "high",
+        "factors": [
+          {
+            "label": "Disclosure novelty",
+            "points": 40
+          },
+          {
+            "label": "Section significance",
+            "points": 20
+          },
+          {
+            "label": "Risk language",
+            "points": 16
+          },
+          {
+            "label": "Numerical change",
+            "points": 0
+          },
+          {
+            "label": "Evidence specificity",
+            "points": 3
+          }
+        ]
+      },
+      "explanation": "The current filing introduces a new disclosure related to demand and competition.",
+      "analyst_relevance": "Review the cited language in the context of the investment thesis.",
+      "similarity": null,
+      "numeric_deltas": [],
+      "previous_evidence": null,
+      "current_evidence": {
+        "evidence_id": "47af057c8594ba04cddd",
+        "filing_version": "current",
+        "accession_number": "0001829576-26-000018",
+        "filing_date": "2026-03-05",
+        "report_date": "2025-12-31",
+        "section": "risk_factors",
+        "paragraph_index": 36,
+        "text_excerpt": "If the Company were required to replace a significant third-party service provider, it may not be able to do so in a timely manner or on comparable or commercially reasonable terms. Transitioning to alternative providers could involve substantial costs, implementation risks, data migration challenges, service disruptions, and reduced functionality during transition periods, any of which could materially and adversely affect our business and results of operations. Failure to keep pace with technological change could adversely affect the Company’s business and ability to remain competitive, and it may experience operational challenges when implementing new technologies. The financial services industry is continually undergoing technological change with frequent introductions of new technology-driven products and services, and the Company anticipates that new technologies will continue to emerge. The Company’…",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1829576/000182957626000018/care-20251231.htm",
+        "numbers": [],
+        "dates": []
+      }
+    },
+    {
+      "change_id": "2c6a6688cccde45f",
+      "change_type": "removed",
+      "topic": "liquidity_debt_margins_and_costs",
+      "topic_label": "Liquidity, debt, margins and costs",
+      "section": "risk_factors",
+      "attention": {
+        "score": 79,
+        "label": "high",
+        "factors": [
+          {
+            "label": "Disclosure novelty",
+            "points": 40
+          },
+          {
+            "label": "Section significance",
+            "points": 20
+          },
+          {
+            "label": "Risk language",
+            "points": 16
+          },
+          {
+            "label": "Numerical change",
+            "points": 0
+          },
+          {
+            "label": "Evidence specificity",
+            "points": 3
+          }
+        ]
+      },
+      "explanation": "A prior disclosure related to liquidity, debt, margins and costs is no longer present in the comparable section.",
+      "analyst_relevance": "Review the cited language in the context of the investment thesis.",
+      "similarity": null,
+      "numeric_deltas": [],
+      "previous_evidence": {
+        "evidence_id": "07f9ad91790830417ad2",
+        "filing_version": "prior",
+        "accession_number": "0001829576-25-000016",
+        "filing_date": "2025-03-07",
+        "report_date": "2024-12-31",
+        "section": "risk_factors",
+        "paragraph_index": 52,
+        "text_excerpt": "Even if the Company has insurance coverage for certain claims or legal or administrative actions against it, the Company’s insurance may not cover all claims that may be asserted against it in legal or administrative actions or costs that it may incur defending such actions, and any claims asserted against it, regardless of merit or eventual outcome, may harm the Company’s reputation which may harm the Company’s business. Should the ultimate judgments or settlements and/or costs incurred in any litigation exceed any applicable insurance coverage, they could have a material adverse effect on the Company’s financial condition and results of operation for any period. Litigation may also divert management resources, which may adversely impact the Company’s business and results of operations. Our risk management framework may not be effective in mitigating risk and loss. We maintain an enterprise risk managemen…",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1829576/000182957625000016/care-20241231.htm",
+        "numbers": [],
+        "dates": []
+      },
+      "current_evidence": null
+    },
+    {
+      "change_id": "3e2717eaf8415caf",
+      "change_type": "removed",
+      "topic": "regulation_and_legal_risk",
+      "topic_label": "Regulation and legal risk",
+      "section": "risk_factors",
+      "attention": {
+        "score": 79,
+        "label": "high",
+        "factors": [
+          {
+            "label": "Disclosure novelty",
+            "points": 40
+          },
+          {
+            "label": "Section significance",
+            "points": 20
+          },
+          {
+            "label": "Risk language",
+            "points": 16
+          },
+          {
+            "label": "Numerical change",
+            "points": 0
+          },
+          {
+            "label": "Evidence specificity",
+            "points": 3
+          }
+        ]
+      },
+      "explanation": "A prior disclosure related to regulation and legal risk is no longer present in the comparable section.",
+      "analyst_relevance": "Review the cited language in the context of the investment thesis.",
+      "similarity": null,
+      "numeric_deltas": [],
+      "previous_evidence": {
+        "evidence_id": "f8aeb71e5e3cb4fa38c7",
+        "filing_version": "prior",
+        "accession_number": "0001829576-25-000016",
+        "filing_date": "2025-03-07",
+        "report_date": "2024-12-31",
+        "section": "risk_factors",
+        "paragraph_index": 57,
+        "text_excerpt": "This limited transparency increases the challenges associated with assessing the proper operation of AI models, understanding and monitoring the capabilities of the AI models, reducing erroneous output, eliminating bias, and complying with regulations that require documentation or explanation of the basis on which decisions are made. Further, we may rely on AI models developed by third parties, and, to that extent, would be dependent in part on the manner in which those third parties develop and train their models, including risks arising from the inclusion of any unauthorized material in the training data for their models and the effectiveness of the steps these third parties have taken to limit the risks associated with the output of their models, matters over which we may have limited visibility. Any of these risks could expose us to liability or adverse legal or regulatory consequences and harm our rep…",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1829576/000182957625000016/care-20241231.htm",
+        "numbers": [],
+        "dates": []
+      },
+      "current_evidence": null
+    },
+    {
+      "change_id": "4128cb2ad7cd07be",
+      "change_type": "removed",
+      "topic": "human_capital",
+      "topic_label": "Human capital",
+      "section": "risk_factors",
+      "attention": {
+        "score": 79,
+        "label": "high",
+        "factors": [
+          {
+            "label": "Disclosure novelty",
+            "points": 40
+          },
+          {
+            "label": "Section significance",
+            "points": 20
+          },
+          {
+            "label": "Risk language",
+            "points": 16
+          },
+          {
+            "label": "Numerical change",
+            "points": 0
+          },
+          {
+            "label": "Evidence specificity",
+            "points": 3
+          }
+        ]
+      },
+      "explanation": "A prior disclosure related to human capital is no longer present in the comparable section.",
+      "analyst_relevance": "Review the cited language in the context of the investment thesis.",
+      "similarity": null,
+      "numeric_deltas": [],
+      "previous_evidence": {
+        "evidence_id": "366dbc17ee7ce8caa42a",
+        "filing_version": "prior",
+        "accession_number": "0001829576-25-000016",
+        "filing_date": "2025-03-07",
+        "report_date": "2024-12-31",
+        "section": "risk_factors",
+        "paragraph_index": 28,
+        "text_excerpt": "A breach of our third-party providers’ information systems could adversely affect our ability to process transactions, service our clients or manage our exposure to risk and could result in the disclosure of sensitive, personal customer information, which could have a material adverse impact on our business through damage to our reputation, loss of customer business, remedial costs, additional regulatory scrutiny or exposure to civil litigation and possible financial liability. Assurance cannot be provided that we could negotiate terms with alternative service sources that are as favorable or could obtain services with similar functionality as found in our existing systems without the need to expend substantial resources, if at all, thereby resulting in a material adverse impact on our business and results of operations. The Company is dependent on its management team, and the loss of any senior executive…",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1829576/000182957625000016/care-20241231.htm",
+        "numbers": [],
+        "dates": []
+      },
+      "current_evidence": null
+    },
+    {
+      "change_id": "4fa782cc8feff448",
+      "change_type": "new",
+      "topic": "liquidity_debt_margins_and_costs",
+      "topic_label": "Liquidity, debt, margins and costs",
+      "section": "risk_factors",
+      "attention": {
+        "score": 79,
+        "label": "high",
+        "factors": [
+          {
+            "label": "Disclosure novelty",
+            "points": 40
+          },
+          {
+            "label": "Section significance",
+            "points": 20
+          },
+          {
+            "label": "Risk language",
+            "points": 16
+          },
+          {
+            "label": "Numerical change",
+            "points": 0
+          },
+          {
+            "label": "Evidence specificity",
+            "points": 3
+          }
+        ]
+      },
+      "explanation": "The current filing introduces a new disclosure related to liquidity, debt, margins and costs.",
+      "analyst_relevance": "Review the cited language in the context of the investment thesis.",
+      "similarity": null,
+      "numeric_deltas": [],
+      "previous_evidence": null,
+      "current_evidence": {
+        "evidence_id": "acc060843738237d139b",
+        "filing_version": "current",
+        "accession_number": "0001829576-26-000018",
+        "filing_date": "2026-03-05",
+        "report_date": "2025-12-31",
+        "section": "risk_factors",
+        "paragraph_index": 68,
+        "text_excerpt": "These actions could dilute existing shareholders, reduce returns on equity, and constrain our ability to pursue strategic initiatives. The Company could also be subject to regulatory actions if it were unable to comply with the capital standards. In addition, regulatory expectations regarding liquidity management may require the Company to maintain higher levels of liquid assets, lengthen the duration of its funding, or modify aspects of its business model. Such measures could reduce net interest income and overall profitability. Changes to regulatory capital rules including revisions to asset risk weightings, the composition of qualifying capital, required regulatory deductions, or the capital conservation buffer could restrict our ability to make capital distributions, including paying out dividends or repurchasing shares, and may require adjustments to our business strategy.",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1829576/000182957626000018/care-20251231.htm",
+        "numbers": [],
+        "dates": []
+      }
+    },
+    {
+      "change_id": "5dea371501eace60",
+      "change_type": "new",
+      "topic": "liquidity_debt_margins_and_costs",
+      "topic_label": "Liquidity, debt, margins and costs",
+      "section": "risk_factors",
+      "attention": {
+        "score": 79,
+        "label": "high",
+        "factors": [
+          {
+            "label": "Disclosure novelty",
+            "points": 40
+          },
+          {
+            "label": "Section significance",
+            "points": 20
+          },
+          {
+            "label": "Risk language",
+            "points": 16
+          },
+          {
+            "label": "Numerical change",
+            "points": 0
+          },
+          {
+            "label": "Evidence specificity",
+            "points": 3
+          }
+        ]
+      },
+      "explanation": "The current filing introduces a new disclosure related to liquidity, debt, margins and costs.",
+      "analyst_relevance": "Review the cited language in the context of the investment thesis.",
+      "similarity": null,
+      "numeric_deltas": [],
+      "previous_evidence": null,
+      "current_evidence": {
+        "evidence_id": "1bdc63fdfc278023e787",
+        "filing_version": "current",
+        "accession_number": "0001829576-26-000018",
+        "filing_date": "2026-03-05",
+        "report_date": "2025-12-31",
+        "section": "risk_factors",
+        "paragraph_index": 52,
+        "text_excerpt": "The Bank’s ability to declare and pay dividends is also subject to its earnings, financial condition, capital levels, liquidity position, and, as applicable, regulatory approval or non-objection. Regulatory authorities may restrict or prohibit dividend payments if they determine that such payments would be unsafe or unsound or otherwise inconsistent with applicable regulations. For more information on these regulatory restrictions on the right of the Bank to pay dividends to the Company and on the right of the Company to pay dividends to its shareholders, see Part I, Item 1 “Supervision and Regulation —Dividend Limitations” in this Annual Report on Form 10-K. If the Bank is unable to pay dividends to the Company, the Company may lack sufficient liquidity to satisfy its obligations, including servicing its outstanding debt and paying future dividends on its common stock, and may be required to seek alternat…",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1829576/000182957626000018/care-20251231.htm",
+        "numbers": [
+          "1",
+          "10"
+        ],
+        "dates": []
+      }
+    },
+    {
+      "change_id": "65c1e5b79fc9df3e",
+      "change_type": "new",
+      "topic": "cybersecurity_and_technology",
+      "topic_label": "Cybersecurity and technology",
+      "section": "risk_factors",
+      "attention": {
+        "score": 79,
+        "label": "high",
+        "factors": [
+          {
+            "label": "Disclosure novelty",
+            "points": 40
+          },
+          {
+            "label": "Section significance",
+            "points": 20
+          },
+          {
+            "label": "Risk language",
+            "points": 16
+          },
+          {
+            "label": "Numerical change",
+            "points": 0
+          },
+          {
+            "label": "Evidence specificity",
+            "points": 3
+          }
+        ]
+      },
+      "explanation": "The current filing introduces a new disclosure related to cybersecurity and technology.",
+      "analyst_relevance": "Review the cited language in the context of the investment thesis.",
+      "similarity": null,
+      "numeric_deltas": [],
+      "previous_evidence": null,
+      "current_evidence": {
+        "evidence_id": "f50ba8e7c00ec41ba129",
+        "filing_version": "current",
+        "accession_number": "0001829576-26-000018",
+        "filing_date": "2026-03-05",
+        "report_date": "2025-12-31",
+        "section": "risk_factors",
+        "paragraph_index": 27,
+        "text_excerpt": "Any failure to meet market expectations could adversely affect the market price of our common stock. Risks Related to the Company’s Operations, Cybersecurity and Technology A failure, disruption, or breach of our operational, cybersecurity, or information technology systems, or those of third-party service providers, could disrupt the Company’s business and adversely affect our results of operations, liquidity, financial condition, and reputation. Our operations rely heavily on the secure and efficient functioning of our information technology systems, data management processes, internal controls, and operational infrastructure, as well as those of third parties that support critical business functions. The Company depends on associates and third-party vendors in its day-to-day operations, and human error, misconduct, or malfeasance, system failures, or security breaches whether intentional or accidental c…",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1829576/000182957626000018/care-20251231.htm",
+        "numbers": [],
+        "dates": []
+      }
+    },
+    {
+      "change_id": "7aa2d1b3f302b0ba",
+      "change_type": "new",
+      "topic": "growth_and_strategy",
+      "topic_label": "Growth and strategy",
+      "section": "risk_factors",
+      "attention": {
+        "score": 79,
+        "label": "high",
+        "factors": [
+          {
+            "label": "Disclosure novelty",
+            "points": 40
+          },
+          {
+            "label": "Section significance",
+            "points": 20
+          },
+          {
+            "label": "Risk language",
+            "points": 16
+          },
+          {
+            "label": "Numerical change",
+            "points": 0
+          },
+          {
+            "label": "Evidence specificity",
+            "points": 3
+          }
+        ]
+      },
+      "explanation": "The current filing introduces a new disclosure related to growth and strategy.",
+      "analyst_relevance": "Review the cited language in the context of the investment thesis.",
+      "similarity": null,
+      "numeric_deltas": [],
+      "previous_evidence": null,
+      "current_evidence": {
+        "evidence_id": "4049d1d552ba492a0934",
+        "filing_version": "current",
+        "accession_number": "0001829576-26-000018",
+        "filing_date": "2026-03-05",
+        "report_date": "2025-12-31",
+        "section": "risk_factors",
+        "paragraph_index": 59,
+        "text_excerpt": "The ongoing process of disintermediation (i.e., the removal of banks as intermediaries in financial transactions) could reduce our fee income, diminish deposit balances, and increase our cost of funds if lower cost deposits are replaced with more expensive funding sources. A sustained shift away from traditional banking relationships could also weaken customer engagement and limit opportunities to cross-sell products and services. If these trends continue, the resulting loss of deposits, revenue streams, and customer relationships could materially adversely affect our financial condition, results of operations, and long-term growth prospects. Our ability to execute our business strategy depends on attracting and retaining qualified personnel. The successful execution of the Company’s business strategy depends on its ability to identify, recruit, develop, motivate and retain experienced personnel who posses…",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1829576/000182957626000018/care-20251231.htm",
+        "numbers": [],
+        "dates": []
+      }
+    },
+    {
+      "change_id": "8a5875e0351651c2",
+      "change_type": "new",
+      "topic": "liquidity_debt_margins_and_costs",
+      "topic_label": "Liquidity, debt, margins and costs",
+      "section": "risk_factors",
+      "attention": {
+        "score": 79,
+        "label": "high",
+        "factors": [
+          {
+            "label": "Disclosure novelty",
+            "points": 40
+          },
+          {
+            "label": "Section significance",
+            "points": 20
+          },
+          {
+            "label": "Risk language",
+            "points": 16
+          },
+          {
+            "label": "Numerical change",
+            "points": 0
+          },
+          {
+            "label": "Evidence specificity",
+            "points": 3
+          }
+        ]
+      },
+      "explanation": "The current filing introduces a new disclosure related to liquidity, debt, margins and costs.",
+      "analyst_relevance": "Review the cited language in the context of the investment thesis.",
+      "similarity": null,
+      "numeric_deltas": [],
+      "previous_evidence": null,
+      "current_evidence": {
+        "evidence_id": "40b02f5ac2d7d7f61bf7",
+        "filing_version": "current",
+        "accession_number": "0001829576-26-000018",
+        "filing_date": "2026-03-05",
+        "report_date": "2025-12-31",
+        "section": "risk_factors",
+        "paragraph_index": 20,
+        "text_excerpt": "If the Company is required to hold OREO for an extended period or dispose of properties under unfavorable market conditions, these factors could increase noninterest expense, reduce profitability, and materially and adversely affect the Company’s financial condition and results of operations. Risks Related to Market Conditions, Interest Rates and Investments The Company’s business is subject to interest rate risk and fluctuations in interest rates may adversely affect its earnings, income, cash flow, capital levels and credit quality. The Company’s business is subject to interest rate risk, and fluctuations in market interest rates may adversely affect its earnings, income, cash flow, capital levels, credit quality and financial condition. The majority of the Company’s assets and liabilities are monetary in nature, which exposes it to significant risks arising from changes in interest rates. Changes in int…",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1829576/000182957626000018/care-20251231.htm",
+        "numbers": [],
+        "dates": []
+      }
+    },
+    {
+      "change_id": "ab54f92900ad0770",
+      "change_type": "new",
+      "topic": "operations_and_supply_chain",
+      "topic_label": "Operations and supply chain",
+      "section": "risk_factors",
+      "attention": {
+        "score": 79,
+        "label": "high",
+        "factors": [
+          {
+            "label": "Disclosure novelty",
+            "points": 40
+          },
+          {
+            "label": "Section significance",
+            "points": 20
+          },
+          {
+            "label": "Risk language",
+            "points": 16
+          },
+          {
+            "label": "Numerical change",
+            "points": 0
+          },
+          {
+            "label": "Evidence specificity",
+            "points": 3
+          }
+        ]
+      },
+      "explanation": "The current filing introduces a new disclosure related to operations and supply chain.",
+      "analyst_relevance": "Review the cited language in the context of the investment thesis.",
+      "similarity": null,
+      "numeric_deltas": [],
+      "previous_evidence": null,
+      "current_evidence": {
+        "evidence_id": "6eb4895de43558e77bea",
+        "filing_version": "current",
+        "accession_number": "0001829576-26-000018",
+        "filing_date": "2026-03-05",
+        "report_date": "2025-12-31",
+        "section": "risk_factors",
+        "paragraph_index": 42,
+        "text_excerpt": "Large-scale weather catastrophes or other significant climate change effects that either damage or destroy residential or multifamily real estate underlying mortgage loans or real estate collateral, could decrease the value of our real estate collateral or increase our delinquency rates in the affected areas and thus diminish the value of our loan portfolio. In addition, the effects of climate change may have a significant effect on our geographic markets and could disrupt our operations or the operations of our customers, third-party service providers, or supply chains more generally. Those disruptions could result in declines in economic conditions in our geographic markets or industries in which our borrowers operate and impact their ability to repay loans or maintain deposits. Climate change could also impact its assets or employees directly or lead to changes in customer preferences that could negativ…",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1829576/000182957626000018/care-20251231.htm",
+        "numbers": [],
+        "dates": []
+      }
+    },
+    {
+      "change_id": "b247ed0afa58a835",
+      "change_type": "new",
+      "topic": "liquidity_debt_margins_and_costs",
+      "topic_label": "Liquidity, debt, margins and costs",
+      "section": "risk_factors",
+      "attention": {
+        "score": 79,
+        "label": "high",
+        "factors": [
+          {
+            "label": "Disclosure novelty",
+            "points": 40
+          },
+          {
+            "label": "Section significance",
+            "points": 20
+          },
+          {
+            "label": "Risk language",
+            "points": 16
+          },
+          {
+            "label": "Numerical change",
+            "points": 0
+          },
+          {
+            "label": "Evidence specificity",
+            "points": 3
+          }
+        ]
+      },
+      "explanation": "The current filing introduces a new disclosure related to liquidity, debt, margins and costs.",
+      "analyst_relevance": "Review the cited language in the context of the investment thesis.",
+      "similarity": null,
+      "numeric_deltas": [],
+      "previous_evidence": null,
+      "current_evidence": {
+        "evidence_id": "3bf0bdda5e67c752d561",
+        "filing_version": "current",
+        "accession_number": "0001829576-26-000018",
+        "filing_date": "2026-03-05",
+        "report_date": "2025-12-31",
+        "section": "risk_factors",
+        "paragraph_index": 13,
+        "text_excerpt": "Construction lending is inherently riskier than lending on stabilized properties due to factors such as project delays, cost overruns driven by labor or material price increases, contractor performance issues, regulatory approvals, and the speculative nature of lease up and absorption. Additionally, repayment often depends on the borrower’s ability to complete the project on time and within budget or to secure permanent financing. A severe downturn in CRE markets could reduce demand for commercial space, increase vacancy rates, compress rental income, and negatively affect property valuations. If borrowers experience financial distress or collateral values decline, the Company may incur higher levels of delinquencies, nonperforming assets, and credit losses, which could materially and adversely affect the Company’s financial condition and results of operations. The banking regulatory agencies have expresse…",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1829576/000182957626000018/care-20251231.htm",
+        "numbers": [],
+        "dates": []
+      }
+    }
+  ],
+  "sources": [
+    {
+      "evidence_id": "71b5397d4ae8f6dc82a8",
+      "filing_version": "current",
+      "accession_number": "0001829576-26-000018",
+      "filing_date": "2026-03-05",
+      "report_date": "2025-12-31",
+      "section": "risk_factors",
+      "paragraph_index": 11,
+      "text_excerpt": "If any of these valuations are inaccurate, the Company’s consolidated financial statements may not reflect the correct value of OREO, and our ACL may not reflect accurate loan impairments. The Company’s concentration in commercial real estate loans, including construction loans, increases its credit risk and could adversely affect its financial condition and results of operations. The Company maintains a significant concentration in loans secured by CRE, which subjects it to heightened credit risk compared to institutions with more diversified loan portfolios. As of December 31, 2025, loans secured by commercial purpose real estate, excluding construction loans, totaled approximately $2.2 billion, or 57.1% of the Company’s total loan portfolio. These loans typically involve larger average balances. These loans often also have more complex financial and credit risks than residential real estate loans. Repay…",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1829576/000182957626000018/care-20251231.htm",
+      "numbers": [
+        "31",
+        "2025",
+        "$2.2 billion",
+        "57.1%"
+      ],
+      "dates": [
+        "December 31, 2025"
+      ]
+    },
+    {
+      "evidence_id": "6a4c03817b95c1c4a593",
+      "filing_version": "current",
+      "accession_number": "0001829576-26-000018",
+      "filing_date": "2026-03-05",
+      "report_date": "2025-12-31",
+      "section": "business",
+      "paragraph_index": 44,
+      "text_excerpt": "If a concentration is present, management must employ heightened risk management practices that address key elements, including board and management oversight and strategic planning, portfolio management, development of underwriting standards, risk assessment and monitoring through market analysis and stress testing, and maintenance of increased capital levels as needed to support the level of CRE lending. The guidance states that the following metrics may indicate a concentration of CRE loans, but that these metrics are neither limits nor a safe harbor: (1) total reported loans for construction, land development, and other land represent 100% or more of total risk-based capital; or (2) total reported loans secured by multi-family properties, nonfarm non-residential properties (excluding those that are owner-occupied), and loans for construction, land development, and other land represent 300% or more of t…",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1829576/000182957626000018/care-20251231.htm",
+      "numbers": [
+        "1",
+        "100%",
+        "2",
+        "300%",
+        "50%",
+        "36"
+      ],
+      "dates": []
+    },
+    {
+      "evidence_id": "8c0b37a5cb6710ff43b9",
+      "filing_version": "prior",
+      "accession_number": "0001829576-25-000016",
+      "filing_date": "2025-03-07",
+      "report_date": "2024-12-31",
+      "section": "management_discussion",
+      "paragraph_index": 93,
+      "text_excerpt": "Our risk-based Tier 1 and Total Capital ratios were 10.88% and 12.13%, respectively, which places the Company above the federal bank regulatory agencies’ well-capitalized guidelines of 8.00% and 10.00%, respectively. We believe that we have the ability to raise additional capital, if necessary. The Basel rules permit banking organizations with less than $15.0 billion in assets to retain, through a one-time election, existing treatment for accumulated other comprehensive loss, which currently does not affect regulatory capital. The Company elected to retain this treatment which reduces the volatility of regulatory capital levels. The Basel III Capital Rules require the Company and the Bank to maintain minimum Common Equity Tier 1, Tier 1 and Total Capital ratios, along with a capital conservation buffer, effectively resulting in new minimum capital ratios. The capital conservation buffer is designed to abso…",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1829576/000182957625000016/care-20241231.htm",
+      "numbers": [
+        "1",
+        "10.88%",
+        "12.13%",
+        "8.00%",
+        "10.00%",
+        "$15.0 billion"
+      ],
+      "dates": []
+    },
+    {
+      "evidence_id": "8f55d2788eacec06f498",
+      "filing_version": "prior",
+      "accession_number": "0001829576-25-000016",
+      "filing_date": "2025-03-07",
+      "report_date": "2024-12-31",
+      "section": "management_discussion",
+      "paragraph_index": 40,
+      "text_excerpt": "The decrease is primarily related to an updated analysis of the individually evaluated loans, a $15.0 million charge-off related to the Other segment of the loan portfolio in the third quarter of 2024 and $6.6 million of Other segment specific reserves released in connection with $49.9 million of curtailment payments made by the Bank’s largest nonperforming credit relationship during the year ended December 31, 2024. General reserves as a percentage of total portfolio loans were 1.24% at December 31, 2024 and 1.22% at December 31, 2023. Management believes the ACL is adequate to absorb expected losses inherent in the loan portfolio. See the sections of this MD&A titled “(Recovery) Provision for Credit Losses,” “Credit Quality” and “Allowance for Credit Losses” for information about the factors that impacted the ACL and the provision for credit losses. Total deposits increased $431.5 million to $4.2 billion…",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1829576/000182957625000016/care-20241231.htm",
+      "numbers": [
+        "$15.0 million",
+        "2024",
+        "$6.6 million",
+        "$49.9 million",
+        "31",
+        "1.24%",
+        "1.22%",
+        "2023",
+        "$431.5 million",
+        "$4.2 billion"
+      ],
+      "dates": [
+        "December 31, 2024",
+        "December 31, 2023"
+      ]
+    },
+    {
+      "evidence_id": "ebae1cb8d4cf13694a9c",
+      "filing_version": "current",
+      "accession_number": "0001829576-26-000018",
+      "filing_date": "2026-03-05",
+      "report_date": "2025-12-31",
+      "section": "management_discussion",
+      "paragraph_index": 44,
+      "text_excerpt": "States and political subdivision securities comprise 33.9% and are largely general obligations and essential purpose revenue bonds, which have historically performed well across economic cycles and are predominantly rated AA and AAA. The Company has the ability and intent to hold these securities to maturity and expects to recover the full amortized cost of these investments. The Company may occasionally sell securities to take advantage of market opportunities or as part of a strategic initiative. Unrealized losses were concentrated primarily in securities with intermediate and long-term maturities, whose market values are most sensitive to movements in the U.S. Treasury yield curve, particularly the five year and ten year maturities. During the year ended December 31, 2025, intermediate term Treasury yields declined, contributing to a reduction in unrealized losses. At December 31, 2025, the five and ten…",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1829576/000182957626000018/care-20251231.htm",
+      "numbers": [
+        "33.9%",
+        "31",
+        "2025",
+        "3.73%",
+        "4.18%",
+        "4.38%",
+        "4.58%",
+        "2024"
+      ],
+      "dates": [
+        "December 31, 2025",
+        "December 31, 2024"
+      ]
+    },
+    {
+      "evidence_id": "c9c23e8a1babdf7467a8",
+      "filing_version": "current",
+      "accession_number": "0001829576-26-000018",
+      "filing_date": "2026-03-05",
+      "report_date": "2025-12-31",
+      "section": "risk_factors",
+      "paragraph_index": 64,
+      "text_excerpt": "In particular, the CFPB’s interpretation of the Dodd-Frank Act’s prohibitions against unfair, deceptive and abusive consumer finance products or practices and the application of those prohibitions to so-called “junk fees” may ultimately affect products or services currently offered by the Corporation and its subsidiaries and may affect the amount of revenue that may be derived from these products and services in the future, especially revenue from overdraft products offered by the Bank. Although the CFPB has jurisdiction over banks with $10 billion or greater in assets, rules, regulations and policies issued by the CFPB may also apply to the Corporation or its subsidiaries by virtue of the adoption of such policies and practices by the Federal Reserve and the FDIC. Further, the CFPB may include its own examiners in regulatory examinations by the Corporation’s primary regulators. The limitations and restric…",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1829576/000182957626000018/care-20251231.htm",
+      "numbers": [
+        "$10 billion"
+      ],
+      "dates": []
+    },
+    {
+      "evidence_id": "12d82374c352d9a4bf83",
+      "filing_version": "current",
+      "accession_number": "0001829576-26-000018",
+      "filing_date": "2026-03-05",
+      "report_date": "2025-12-31",
+      "section": "management_discussion",
+      "paragraph_index": 38,
+      "text_excerpt": "Financial Condition December 31, 2025 Total assets increased $192.7 million, to $4.9 billion at December 31, 2025 compared to $4.7 billion at December 31, 2024, reflecting balance sheet growth primarily driven by loan growth. Total portfolio loans increased $254.7 million, or 7.0% to $3.9 billion at December 31, 2025 compared to December 31, 2024. Loan growth was led by increases in the CRE, residential mortgage, construction and commercial and industrial loan (“C&I”) portfolios, partially offset by curtailment payments within the Other loan segment and a decline in the other consumer portfolio. The available-for-sale securities portfolio decreased $26.8 million during 2025 and represented 14.3% of total assets at December 31, 2025, compared to 15.4% of total assets at December 31, 2024. The decrease was primarily attributable to security sales, normal paydowns, amortization, and calls partially offset by…",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1829576/000182957626000018/care-20251231.htm",
+      "numbers": [
+        "31",
+        "2025",
+        "$192.7 million",
+        "$4.9 billion",
+        "$4.7 billion",
+        "2024",
+        "$254.7 million",
+        "7.0%",
+        "$3.9 billion",
+        "$26.8 million",
+        "14.3%",
+        "15.4%"
+      ],
+      "dates": [
+        "December 31, 2025",
+        "December 31, 2024"
+      ]
+    },
+    {
+      "evidence_id": "993889ef599a81b20e31",
+      "filing_version": "prior",
+      "accession_number": "0001829576-25-000016",
+      "filing_date": "2025-03-07",
+      "report_date": "2024-12-31",
+      "section": "management_discussion",
+      "paragraph_index": 17,
+      "text_excerpt": "Years Ended December 31, PERFORMANCE RATIOS 2024 2023 2022 Return on Average Assets 0.54 % 0.53 % 1.21 % Return on Average Shareholders' Equity 6.67 % 6.79 % 14.30 % Portfolio Loans to Deposit Ratio 87.27 % 94.20 % 86.69 % Allowance for Credit Losses to Total Portfolio Loans 2.09 % 2.77 % 2.98 % Nonperforming Loans to Total Portfolio Loans 7.15 % 8.83 % 0.21 % Net Interest Income Our principal source of revenue is net interest income. Net interest income represents the difference between the interest and fees earned on interest-earning assets and the interest paid on interest-bearing liabilities. Net interest income is affected by changes in the average balance of interest-earning assets, interest-bearing liabilities, as well as changes in interest rates and spreads. The level and mix of interest-earning assets and interest-bearing liabilities is managed by our Asset and Liability Committee (“ALCO”), in or…",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1829576/000182957625000016/care-20241231.htm",
+      "numbers": [
+        "31",
+        "2024",
+        "2023",
+        "2022",
+        "0.54 %",
+        "0.53 %",
+        "1.21 %",
+        "6.67 %",
+        "6.79 %",
+        "14.30 %",
+        "87.27 %",
+        "94.20 %",
+        "86.69 %",
+        "2.09 %",
+        "2.77 %",
+        "2.98 %"
+      ],
+      "dates": []
+    },
+    {
+      "evidence_id": "87de6e70b35cb2d022d1",
+      "filing_version": "current",
+      "accession_number": "0001829576-26-000018",
+      "filing_date": "2026-03-05",
+      "report_date": "2025-12-31",
+      "section": "risk_factors",
+      "paragraph_index": 38,
+      "text_excerpt": "Key challenges include service interruptions, transaction processing errors and system conversion delays, which may cause the Company to lose customers or fail to comply with applicable laws, and may cause the Company to incur additional expenses, which may be substantial and could have a material adverse effect on its business, financial condition, results of operations, and future prospects. The Company’s business is dependent on its executive management team and other key personnel, and the loss of their services could adversely affect its operations. The Company’s success depends significantly on the leadership, experience, and expertise of its executive officers and other key personnel. These individuals possess substantial knowledge of the markets the Company serves, maintain important customer and community relationship, and provide critical strategic direction. The unexpected loss of the services o…",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1829576/000182957626000018/care-20251231.htm",
+      "numbers": [],
+      "dates": []
+    },
+    {
+      "evidence_id": "18091182ffecb24e0b28",
+      "filing_version": "current",
+      "accession_number": "0001829576-26-000018",
+      "filing_date": "2026-03-05",
+      "report_date": "2025-12-31",
+      "section": "risk_factors",
+      "paragraph_index": 73,
+      "text_excerpt": "The Company’s risk management framework may not be effective in identifying or mitigating risks, which could adversely affect its financial condition and results of operations. The Company maintains an enterprise risk management program designed to identify, measure, monitor, report and control the various risks it faces. These risks include, among others, credit, interest rate, liquidity, operational, compliance, legal, reputational, strategic, and economic risks. Our risk management processes incorporate assumptions, judgments, models, and analytical tools that may not always accurately predict risk exposures or future outcomes. Although the Company regularly evaluates and enhances its risk management framework and related controls, no risk management system can eliminate risk entirely or anticipate every emerging threat. Its framework may prove inadequate due to design limitations, execution failures, i…",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1829576/000182957626000018/care-20251231.htm",
+      "numbers": [],
+      "dates": []
+    },
+    {
+      "evidence_id": "109e0820c8147069243c",
+      "filing_version": "current",
+      "accession_number": "0001829576-26-000018",
+      "filing_date": "2026-03-05",
+      "report_date": "2025-12-31",
+      "section": "risk_factors",
+      "paragraph_index": 45,
+      "text_excerpt": "RISK FACTORS - (continued) expected to be extended or repeated in response to a future bank closure. Additionally, during periods of industry stress, governmental and regulatory actions intended to stabilize the banking system may not be sufficient to prevent funding disruptions or deposit outflows, particularly sudden or large-scale withdrawals. If these conditions were to occur, they could impair our access to funding, place pressure on our liquidity position, and materially adversely affect our financial condition and results of operations. The Company’s liquidity could be adversely affected if it were unable to access short-term funding or monetize liquid assets. The Company’s ability to maintain adequate liquidity depends on reliable access to funding sources and the capacity to convert liquid assets into cash in a timely manner. Significant volatility or disruptions in the wholesale funding markets o…",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1829576/000182957626000018/care-20251231.htm",
+      "numbers": [],
+      "dates": []
+    },
+    {
+      "evidence_id": "3447edbcf8f5dd0d5288",
+      "filing_version": "prior",
+      "accession_number": "0001829576-25-000016",
+      "filing_date": "2025-03-07",
+      "report_date": "2024-12-31",
+      "section": "risk_factors",
+      "paragraph_index": 43,
+      "text_excerpt": "The process of eliminating banks as intermediaries, known as “disintermediation,” could result in the loss of fee income, as well as the loss of customer deposits and the related income generated from those deposits. The loss of these revenue streams and the lower cost of deposits as a source of funds could have a material adverse effect on our financial condition and results of operations. Risks Related to Regulatory Compliance and Legal Matters We are subject to extensive government regulation and supervision. Banking regulations are primarily intended to protect depositors’ funds, federal deposit insurance funds and the banking system as a whole, not security holders. These regulations affect our lending practices, capital structure, investment practices, dividend policy and growth, among other things. Congress and federal regulatory agencies continually review banking laws, regulations and policies for…",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1829576/000182957625000016/care-20241231.htm",
+      "numbers": [],
+      "dates": []
+    },
+    {
+      "evidence_id": "8640faed2621b8415561",
+      "filing_version": "prior",
+      "accession_number": "0001829576-25-000016",
+      "filing_date": "2025-03-07",
+      "report_date": "2024-12-31",
+      "section": "risk_factors",
+      "paragraph_index": 48,
+      "text_excerpt": "The application of more stringent capital requirements could, among other things, result in lower returns on equity, require the raising of additional capital, and result in regulatory actions if the Company were to be unable to comply with such requirements. Furthermore, the imposition of liquidity requirements in connection with the implementation of Basel III capital adequacy standards could result in the Company having to lengthen the term of its funding, restructure its business models, and/or increase its holdings of liquid assets. Implementation of changes to asset risk weightings for risk-based capital calculations, items included or deducted in calculating regulatory capital and/or additional capital conservation buffers could result in management modifying its business strategy, and could limit the Company’s ability to make distributions, including paying out dividends or buying back shares. If t…",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1829576/000182957625000016/care-20241231.htm",
+      "numbers": [],
+      "dates": []
+    },
+    {
+      "evidence_id": "47af057c8594ba04cddd",
+      "filing_version": "current",
+      "accession_number": "0001829576-26-000018",
+      "filing_date": "2026-03-05",
+      "report_date": "2025-12-31",
+      "section": "risk_factors",
+      "paragraph_index": 36,
+      "text_excerpt": "If the Company were required to replace a significant third-party service provider, it may not be able to do so in a timely manner or on comparable or commercially reasonable terms. Transitioning to alternative providers could involve substantial costs, implementation risks, data migration challenges, service disruptions, and reduced functionality during transition periods, any of which could materially and adversely affect our business and results of operations. Failure to keep pace with technological change could adversely affect the Company’s business and ability to remain competitive, and it may experience operational challenges when implementing new technologies. The financial services industry is continually undergoing technological change with frequent introductions of new technology-driven products and services, and the Company anticipates that new technologies will continue to emerge. The Company’…",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1829576/000182957626000018/care-20251231.htm",
+      "numbers": [],
+      "dates": []
+    },
+    {
+      "evidence_id": "07f9ad91790830417ad2",
+      "filing_version": "prior",
+      "accession_number": "0001829576-25-000016",
+      "filing_date": "2025-03-07",
+      "report_date": "2024-12-31",
+      "section": "risk_factors",
+      "paragraph_index": 52,
+      "text_excerpt": "Even if the Company has insurance coverage for certain claims or legal or administrative actions against it, the Company’s insurance may not cover all claims that may be asserted against it in legal or administrative actions or costs that it may incur defending such actions, and any claims asserted against it, regardless of merit or eventual outcome, may harm the Company’s reputation which may harm the Company’s business. Should the ultimate judgments or settlements and/or costs incurred in any litigation exceed any applicable insurance coverage, they could have a material adverse effect on the Company’s financial condition and results of operation for any period. Litigation may also divert management resources, which may adversely impact the Company’s business and results of operations. Our risk management framework may not be effective in mitigating risk and loss. We maintain an enterprise risk managemen…",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1829576/000182957625000016/care-20241231.htm",
+      "numbers": [],
+      "dates": []
+    },
+    {
+      "evidence_id": "f8aeb71e5e3cb4fa38c7",
+      "filing_version": "prior",
+      "accession_number": "0001829576-25-000016",
+      "filing_date": "2025-03-07",
+      "report_date": "2024-12-31",
+      "section": "risk_factors",
+      "paragraph_index": 57,
+      "text_excerpt": "This limited transparency increases the challenges associated with assessing the proper operation of AI models, understanding and monitoring the capabilities of the AI models, reducing erroneous output, eliminating bias, and complying with regulations that require documentation or explanation of the basis on which decisions are made. Further, we may rely on AI models developed by third parties, and, to that extent, would be dependent in part on the manner in which those third parties develop and train their models, including risks arising from the inclusion of any unauthorized material in the training data for their models and the effectiveness of the steps these third parties have taken to limit the risks associated with the output of their models, matters over which we may have limited visibility. Any of these risks could expose us to liability or adverse legal or regulatory consequences and harm our rep…",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1829576/000182957625000016/care-20241231.htm",
+      "numbers": [],
+      "dates": []
+    },
+    {
+      "evidence_id": "366dbc17ee7ce8caa42a",
+      "filing_version": "prior",
+      "accession_number": "0001829576-25-000016",
+      "filing_date": "2025-03-07",
+      "report_date": "2024-12-31",
+      "section": "risk_factors",
+      "paragraph_index": 28,
+      "text_excerpt": "A breach of our third-party providers’ information systems could adversely affect our ability to process transactions, service our clients or manage our exposure to risk and could result in the disclosure of sensitive, personal customer information, which could have a material adverse impact on our business through damage to our reputation, loss of customer business, remedial costs, additional regulatory scrutiny or exposure to civil litigation and possible financial liability. Assurance cannot be provided that we could negotiate terms with alternative service sources that are as favorable or could obtain services with similar functionality as found in our existing systems without the need to expend substantial resources, if at all, thereby resulting in a material adverse impact on our business and results of operations. The Company is dependent on its management team, and the loss of any senior executive…",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1829576/000182957625000016/care-20241231.htm",
+      "numbers": [],
+      "dates": []
+    },
+    {
+      "evidence_id": "acc060843738237d139b",
+      "filing_version": "current",
+      "accession_number": "0001829576-26-000018",
+      "filing_date": "2026-03-05",
+      "report_date": "2025-12-31",
+      "section": "risk_factors",
+      "paragraph_index": 68,
+      "text_excerpt": "These actions could dilute existing shareholders, reduce returns on equity, and constrain our ability to pursue strategic initiatives. The Company could also be subject to regulatory actions if it were unable to comply with the capital standards. In addition, regulatory expectations regarding liquidity management may require the Company to maintain higher levels of liquid assets, lengthen the duration of its funding, or modify aspects of its business model. Such measures could reduce net interest income and overall profitability. Changes to regulatory capital rules including revisions to asset risk weightings, the composition of qualifying capital, required regulatory deductions, or the capital conservation buffer could restrict our ability to make capital distributions, including paying out dividends or repurchasing shares, and may require adjustments to our business strategy.",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1829576/000182957626000018/care-20251231.htm",
+      "numbers": [],
+      "dates": []
+    },
+    {
+      "evidence_id": "1bdc63fdfc278023e787",
+      "filing_version": "current",
+      "accession_number": "0001829576-26-000018",
+      "filing_date": "2026-03-05",
+      "report_date": "2025-12-31",
+      "section": "risk_factors",
+      "paragraph_index": 52,
+      "text_excerpt": "The Bank’s ability to declare and pay dividends is also subject to its earnings, financial condition, capital levels, liquidity position, and, as applicable, regulatory approval or non-objection. Regulatory authorities may restrict or prohibit dividend payments if they determine that such payments would be unsafe or unsound or otherwise inconsistent with applicable regulations. For more information on these regulatory restrictions on the right of the Bank to pay dividends to the Company and on the right of the Company to pay dividends to its shareholders, see Part I, Item 1 “Supervision and Regulation —Dividend Limitations” in this Annual Report on Form 10-K. If the Bank is unable to pay dividends to the Company, the Company may lack sufficient liquidity to satisfy its obligations, including servicing its outstanding debt and paying future dividends on its common stock, and may be required to seek alternat…",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1829576/000182957626000018/care-20251231.htm",
+      "numbers": [
+        "1",
+        "10"
+      ],
+      "dates": []
+    },
+    {
+      "evidence_id": "f50ba8e7c00ec41ba129",
+      "filing_version": "current",
+      "accession_number": "0001829576-26-000018",
+      "filing_date": "2026-03-05",
+      "report_date": "2025-12-31",
+      "section": "risk_factors",
+      "paragraph_index": 27,
+      "text_excerpt": "Any failure to meet market expectations could adversely affect the market price of our common stock. Risks Related to the Company’s Operations, Cybersecurity and Technology A failure, disruption, or breach of our operational, cybersecurity, or information technology systems, or those of third-party service providers, could disrupt the Company’s business and adversely affect our results of operations, liquidity, financial condition, and reputation. Our operations rely heavily on the secure and efficient functioning of our information technology systems, data management processes, internal controls, and operational infrastructure, as well as those of third parties that support critical business functions. The Company depends on associates and third-party vendors in its day-to-day operations, and human error, misconduct, or malfeasance, system failures, or security breaches whether intentional or accidental c…",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1829576/000182957626000018/care-20251231.htm",
+      "numbers": [],
+      "dates": []
+    },
+    {
+      "evidence_id": "4049d1d552ba492a0934",
+      "filing_version": "current",
+      "accession_number": "0001829576-26-000018",
+      "filing_date": "2026-03-05",
+      "report_date": "2025-12-31",
+      "section": "risk_factors",
+      "paragraph_index": 59,
+      "text_excerpt": "The ongoing process of disintermediation (i.e., the removal of banks as intermediaries in financial transactions) could reduce our fee income, diminish deposit balances, and increase our cost of funds if lower cost deposits are replaced with more expensive funding sources. A sustained shift away from traditional banking relationships could also weaken customer engagement and limit opportunities to cross-sell products and services. If these trends continue, the resulting loss of deposits, revenue streams, and customer relationships could materially adversely affect our financial condition, results of operations, and long-term growth prospects. Our ability to execute our business strategy depends on attracting and retaining qualified personnel. The successful execution of the Company’s business strategy depends on its ability to identify, recruit, develop, motivate and retain experienced personnel who posses…",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1829576/000182957626000018/care-20251231.htm",
+      "numbers": [],
+      "dates": []
+    },
+    {
+      "evidence_id": "40b02f5ac2d7d7f61bf7",
+      "filing_version": "current",
+      "accession_number": "0001829576-26-000018",
+      "filing_date": "2026-03-05",
+      "report_date": "2025-12-31",
+      "section": "risk_factors",
+      "paragraph_index": 20,
+      "text_excerpt": "If the Company is required to hold OREO for an extended period or dispose of properties under unfavorable market conditions, these factors could increase noninterest expense, reduce profitability, and materially and adversely affect the Company’s financial condition and results of operations. Risks Related to Market Conditions, Interest Rates and Investments The Company’s business is subject to interest rate risk and fluctuations in interest rates may adversely affect its earnings, income, cash flow, capital levels and credit quality. The Company’s business is subject to interest rate risk, and fluctuations in market interest rates may adversely affect its earnings, income, cash flow, capital levels, credit quality and financial condition. The majority of the Company’s assets and liabilities are monetary in nature, which exposes it to significant risks arising from changes in interest rates. Changes in int…",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1829576/000182957626000018/care-20251231.htm",
+      "numbers": [],
+      "dates": []
+    },
+    {
+      "evidence_id": "6eb4895de43558e77bea",
+      "filing_version": "current",
+      "accession_number": "0001829576-26-000018",
+      "filing_date": "2026-03-05",
+      "report_date": "2025-12-31",
+      "section": "risk_factors",
+      "paragraph_index": 42,
+      "text_excerpt": "Large-scale weather catastrophes or other significant climate change effects that either damage or destroy residential or multifamily real estate underlying mortgage loans or real estate collateral, could decrease the value of our real estate collateral or increase our delinquency rates in the affected areas and thus diminish the value of our loan portfolio. In addition, the effects of climate change may have a significant effect on our geographic markets and could disrupt our operations or the operations of our customers, third-party service providers, or supply chains more generally. Those disruptions could result in declines in economic conditions in our geographic markets or industries in which our borrowers operate and impact their ability to repay loans or maintain deposits. Climate change could also impact its assets or employees directly or lead to changes in customer preferences that could negativ…",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1829576/000182957626000018/care-20251231.htm",
+      "numbers": [],
+      "dates": []
+    },
+    {
+      "evidence_id": "3bf0bdda5e67c752d561",
+      "filing_version": "current",
+      "accession_number": "0001829576-26-000018",
+      "filing_date": "2026-03-05",
+      "report_date": "2025-12-31",
+      "section": "risk_factors",
+      "paragraph_index": 13,
+      "text_excerpt": "Construction lending is inherently riskier than lending on stabilized properties due to factors such as project delays, cost overruns driven by labor or material price increases, contractor performance issues, regulatory approvals, and the speculative nature of lease up and absorption. Additionally, repayment often depends on the borrower’s ability to complete the project on time and within budget or to secure permanent financing. A severe downturn in CRE markets could reduce demand for commercial space, increase vacancy rates, compress rental income, and negatively affect property valuations. If borrowers experience financial distress or collateral values decline, the Company may incur higher levels of delinquencies, nonperforming assets, and credit losses, which could materially and adversely affect the Company’s financial condition and results of operations. The banking regulatory agencies have expresse…",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1829576/000182957626000018/care-20251231.htm",
+      "numbers": [],
+      "dates": []
+    }
+  ],
+  "generation": {
+    "used": false,
+    "status": "disabled",
+    "model": null
+  },
+  "cache": {
+    "hit": false,
+    "fingerprint": "0ac5683cbefe942617f7e35ace4c87769315cc8bcb42c7935a6260e7937e91c2"
+  },
+  "latency_ms": 11248.84
+}

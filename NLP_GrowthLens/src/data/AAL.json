@@ -1,0 +1,2776 @@
+{
+  "analysis_id": "7bca7f1b34c5060a",
+  "company": {
+    "cik": "0000006201",
+    "ticker": "AAL",
+    "company_name": "American Airlines Group Inc."
+  },
+  "filing_pair": {
+    "previous": {
+      "accession_number": "0000006201-25-000010",
+      "filing_date": "2025-02-19",
+      "report_date": "2024-12-31",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/6201/000000620125000010/aal-20241231.htm"
+    },
+    "current": {
+      "accession_number": "0000006201-26-000014",
+      "filing_date": "2026-02-18",
+      "report_date": "2025-12-31",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/6201/000000620126000014/aal-20251231.htm"
+    }
+  },
+  "pipeline_version": "filing-intelligence-v1",
+  "comparison_available": true,
+  "coverage": {
+    "prior_sections": [
+      "business",
+      "management_discussion",
+      "risk_factors"
+    ],
+    "current_sections": [
+      "business",
+      "management_discussion",
+      "risk_factors"
+    ],
+    "comparable_sections": [
+      "business",
+      "management_discussion",
+      "risk_factors"
+    ],
+    "missing_from_current": [],
+    "new_in_current": [],
+    "prior_text_capped": true,
+    "current_text_capped": true,
+    "status": "partial",
+    "alignment_methods": {
+      "local semantic": 3
+    },
+    "paragraphs_compared": 984
+  },
+  "summary": {
+    "total_changes": 24,
+    "high_attention": 24,
+    "new": 12,
+    "removed": 12,
+    "modified": 0,
+    "dominant_topics": [
+      {
+        "topic": "liquidity_debt_margins_and_costs",
+        "label": "Liquidity, debt, margins and costs",
+        "count": 19
+      },
+      {
+        "topic": "cybersecurity_and_technology",
+        "label": "Cybersecurity and technology",
+        "count": 2
+      },
+      {
+        "topic": "growth_and_strategy",
+        "label": "Growth and strategy",
+        "count": 2
+      }
+    ]
+  },
+  "changes": [
+    {
+      "change_id": "8f8ba6977646601d",
+      "change_type": "new",
+      "topic": "cybersecurity_and_technology",
+      "topic_label": "Cybersecurity and technology",
+      "section": "management_discussion",
+      "attention": {
+        "score": 86,
+        "label": "high",
+        "factors": [
+          {
+            "label": "Disclosure novelty",
+            "points": 40
+          },
+          {
+            "label": "Section significance",
+            "points": 17
+          },
+          {
+            "label": "Risk language",
+            "points": 16
+          },
+          {
+            "label": "Numerical change",
+            "points": 10
+          },
+          {
+            "label": "Evidence specificity",
+            "points": 3
+          }
+        ]
+      },
+      "explanation": "The current filing introduces a new disclosure related to cybersecurity and technology.",
+      "analyst_relevance": "Review the cited language in the context of the investment thesis.",
+      "similarity": null,
+      "numeric_deltas": [
+        {
+          "previous": null,
+          "current": "2024"
+        },
+        {
+          "previous": null,
+          "current": "2025"
+        }
+      ],
+      "previous_evidence": null,
+      "current_evidence": {
+        "evidence_id": "63629c31b69a2ebdace6",
+        "filing_version": "current",
+        "accession_number": "0000006201-26-000014",
+        "filing_date": "2026-02-18",
+        "report_date": "2025-12-31",
+        "section": "management_discussion",
+        "paragraph_index": 110,
+        "text_excerpt": "For example, the CrowdStrike-caused systems outage in July 2024 significantly impacted airline operations, including our own, and forced several carriers to ground flights for a prolonged period and incur significant costs associated with reaccommodating and compensating affected passengers. Similarly, in September 2025, hundreds of our flights were delayed or cancelled out of Dallas/Fort Worth International Airport (DFW) when FAA fiberoptic cables were accidentally cut by a third party. When service interruptions occur as a result of any of the aforementioned events, we address them in accordance with applicable laws, rules and regulations. However, substantial or sustained system failures could cause service delays or failures and result in our customers purchasing tickets from other airlines. We cannot assure that our security measures, change control procedures or disaster recovery plans are adequate t…",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/6201/000000620126000014/aal-20251231.htm",
+        "numbers": [
+          "2024",
+          "2025"
+        ],
+        "dates": []
+      }
+    },
+    {
+      "change_id": "256bf3c0bc508b30",
+      "change_type": "removed",
+      "topic": "growth_and_strategy",
+      "topic_label": "Growth and strategy",
+      "section": "risk_factors",
+      "attention": {
+        "score": 85,
+        "label": "high",
+        "factors": [
+          {
+            "label": "Disclosure novelty",
+            "points": 40
+          },
+          {
+            "label": "Section significance",
+            "points": 20
+          },
+          {
+            "label": "Risk language",
+            "points": 12
+          },
+          {
+            "label": "Numerical change",
+            "points": 10
+          },
+          {
+            "label": "Evidence specificity",
+            "points": 3
+          }
+        ]
+      },
+      "explanation": "A prior disclosure related to growth and strategy is no longer present in the comparable section.",
+      "analyst_relevance": "Review the cited language in the context of the investment thesis.",
+      "similarity": null,
+      "numeric_deltas": [
+        {
+          "previous": "1",
+          "current": null
+        },
+        {
+          "previous": "2024",
+          "current": null
+        }
+      ],
+      "previous_evidence": {
+        "evidence_id": "40acc827d697e1e3f48e",
+        "filing_version": "prior",
+        "accession_number": "0000006201-25-000010",
+        "filing_date": "2025-02-19",
+        "report_date": "2024-12-31",
+        "section": "risk_factors",
+        "paragraph_index": 41,
+        "text_excerpt": "Indefinite-Lived Intangible Assets Indefinite-lived intangible assets include certain domestic airport slots, international slots and route authorities and our commercial agreement with GOL Linhas Aéreas Inteligentes S.A. (GOL). We assess indefinite-lived intangible assets for impairment annually or more frequently if events or circumstances indicate that the fair values of indefinite-lived intangible assets may be lower than their carrying values. Our annual assessment date is October 1. Indefinite-lived intangible assets are assessed for impairment by initially performing a qualitative assessment. If we determine that it is more likely than not that our indefinite-lived intangible assets may be impaired, we use a quantitative approach to assess the asset’s fair value and the amount of the impairment, if any. Based upon our annual assessment, there were no indefinite-lived intangible asset impairments in…",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/6201/000000620125000010/aal-20241231.htm",
+        "numbers": [
+          "1",
+          "2024"
+        ],
+        "dates": []
+      },
+      "current_evidence": null
+    },
+    {
+      "change_id": "26c394ac396900d3",
+      "change_type": "new",
+      "topic": "liquidity_debt_margins_and_costs",
+      "topic_label": "Liquidity, debt, margins and costs",
+      "section": "risk_factors",
+      "attention": {
+        "score": 85,
+        "label": "high",
+        "factors": [
+          {
+            "label": "Disclosure novelty",
+            "points": 40
+          },
+          {
+            "label": "Section significance",
+            "points": 20
+          },
+          {
+            "label": "Risk language",
+            "points": 8
+          },
+          {
+            "label": "Numerical change",
+            "points": 14
+          },
+          {
+            "label": "Evidence specificity",
+            "points": 3
+          }
+        ]
+      },
+      "explanation": "The current filing introduces a new disclosure related to liquidity, debt, margins and costs.",
+      "analyst_relevance": "Review the cited language in the context of the investment thesis.",
+      "similarity": null,
+      "numeric_deltas": [
+        {
+          "previous": null,
+          "current": "2025"
+        },
+        {
+          "previous": null,
+          "current": "06"
+        },
+        {
+          "previous": null,
+          "current": "350"
+        },
+        {
+          "previous": null,
+          "current": "40"
+        }
+      ],
+      "previous_evidence": null,
+      "current_evidence": {
+        "evidence_id": "4c39bc8733b95a85fe34",
+        "filing_version": "current",
+        "accession_number": "0000006201-26-000014",
+        "filing_date": "2026-02-18",
+        "report_date": "2025-12-31",
+        "section": "risk_factors",
+        "paragraph_index": 30,
+        "text_excerpt": "ASU 2025-06: Intangibles - Goodwill and Other - Internal-Use Software (Subtopic 350-40) Targeted Improvements to the Accounting for Internal-Use Software This standard modernizes the accounting for costs related to internal-use software by removing references to project stages and by clarifying the thresholds entities apply to begin capitalizing costs. The amendments in this update are effective for interim and annual periods beginning after December 15, 2027, and early adoption is permitted. We are currently evaluating how the adoption of this standard may impact our consolidated financial statements. (c) Investments Short-term investments primarily include debt securities and are classified as available-for-sale and stated at fair value. Realized gains and losses are recorded as part of interest income within total nonoperating expense, net on our consolidated statements of operations. Unrealized gains a…",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/6201/000000620126000014/aal-20251231.htm",
+        "numbers": [
+          "2025",
+          "06",
+          "350",
+          "40",
+          "15",
+          "2027"
+        ],
+        "dates": [
+          "December 15, 2027"
+        ]
+      }
+    },
+    {
+      "change_id": "a23b9b29e0c8815e",
+      "change_type": "new",
+      "topic": "liquidity_debt_margins_and_costs",
+      "topic_label": "Liquidity, debt, margins and costs",
+      "section": "risk_factors",
+      "attention": {
+        "score": 85,
+        "label": "high",
+        "factors": [
+          {
+            "label": "Disclosure novelty",
+            "points": 40
+          },
+          {
+            "label": "Section significance",
+            "points": 20
+          },
+          {
+            "label": "Risk language",
+            "points": 8
+          },
+          {
+            "label": "Numerical change",
+            "points": 14
+          },
+          {
+            "label": "Evidence specificity",
+            "points": 3
+          }
+        ]
+      },
+      "explanation": "The current filing introduces a new disclosure related to liquidity, debt, margins and costs.",
+      "analyst_relevance": "Review the cited language in the context of the investment thesis.",
+      "similarity": null,
+      "numeric_deltas": [
+        {
+          "previous": null,
+          "current": "2013"
+        },
+        {
+          "previous": null,
+          "current": "2028"
+        },
+        {
+          "previous": null,
+          "current": "1.00 %"
+        },
+        {
+          "previous": null,
+          "current": "1.25 %"
+        },
+        {
+          "previous": null,
+          "current": "0.00 %"
+        },
+        {
+          "previous": null,
+          "current": "2.25 %"
+        },
+        {
+          "previous": null,
+          "current": "2029"
+        },
+        {
+          "previous": null,
+          "current": "2.00 %"
+        }
+      ],
+      "previous_evidence": null,
+      "current_evidence": {
+        "evidence_id": "411a5311bba44d0e2b2a",
+        "filing_version": "current",
+        "accession_number": "0000006201-26-000014",
+        "filing_date": "2026-02-18",
+        "report_date": "2025-12-31",
+        "section": "risk_factors",
+        "paragraph_index": 67,
+        "text_excerpt": "The 2013 Term Loan Facility matures in February 2028 and bears interest at a base rate (subject to a floor of 1.00 %) plus an applicable margin of 1.25 % per annum or, at American’s option, the SOFR rate for a tenor of one, three or six months, depending on the interest period selected by American (subject to a floor of 0.00 %), plus an applicable margin of 2.25 % per annum. SOFR borrowings under the 2013 Term Loan Facility are not subject to a credit spread adjustment. As of December 31, 2025, the margin elected was 2.25 % per annum. The 2013 Revolving Facility matures in June 2029 and bears interest at a base rate (subject to a floor of 1.00 %) plus an applicable margin of 2.00 %, 2.25 % or 2.50 %, depending on AAG’s public corporate credit rating, or, at American’s option, the SOFR rate for a tenor of one, three or six months, depending on the interest period selected by American (subject to a floor of…",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/6201/000000620126000014/aal-20251231.htm",
+        "numbers": [
+          "2013",
+          "2028",
+          "1.00 %",
+          "1.25 %",
+          "0.00 %",
+          "2.25 %",
+          "31",
+          "2025",
+          "2029",
+          "2.00 %",
+          "2.50 %",
+          "3.00 %",
+          "3.25 %",
+          "3.50 %"
+        ],
+        "dates": [
+          "December 31, 2025"
+        ]
+      }
+    },
+    {
+      "change_id": "b462a74ca5b75a28",
+      "change_type": "new",
+      "topic": "liquidity_debt_margins_and_costs",
+      "topic_label": "Liquidity, debt, margins and costs",
+      "section": "risk_factors",
+      "attention": {
+        "score": 85,
+        "label": "high",
+        "factors": [
+          {
+            "label": "Disclosure novelty",
+            "points": 40
+          },
+          {
+            "label": "Section significance",
+            "points": 20
+          },
+          {
+            "label": "Risk language",
+            "points": 8
+          },
+          {
+            "label": "Numerical change",
+            "points": 14
+          },
+          {
+            "label": "Evidence specificity",
+            "points": 3
+          }
+        ]
+      },
+      "explanation": "The current filing introduces a new disclosure related to liquidity, debt, margins and costs.",
+      "analyst_relevance": "Review the cited language in the context of the investment thesis.",
+      "similarity": null,
+      "numeric_deltas": [
+        {
+          "previous": null,
+          "current": "2014"
+        },
+        {
+          "previous": null,
+          "current": "2027"
+        },
+        {
+          "previous": null,
+          "current": "1.00 %"
+        },
+        {
+          "previous": null,
+          "current": "0.75 %"
+        },
+        {
+          "previous": null,
+          "current": "0.00 %"
+        },
+        {
+          "previous": null,
+          "current": "1.75 %"
+        },
+        {
+          "previous": null,
+          "current": "2029"
+        },
+        {
+          "previous": null,
+          "current": "2.00 %"
+        }
+      ],
+      "previous_evidence": null,
+      "current_evidence": {
+        "evidence_id": "10c5107380a95a17e175",
+        "filing_version": "current",
+        "accession_number": "0000006201-26-000014",
+        "filing_date": "2026-02-18",
+        "report_date": "2025-12-31",
+        "section": "risk_factors",
+        "paragraph_index": 206,
+        "text_excerpt": "The 2014 Term Loan Facility matures in January 2027 and bears interest at a base rate (subject to a floor of 1.00 %) plus an applicable margin of 0.75 % or, at American’s option, the SOFR rate for a tenor of one, three or six months, depending on the interest period selected by American, plus the SOFR adjustment applicable to such interest period (with such SOFR rate plus SOFR adjustment being subject to a floor of 0.00 %) plus an applicable margin of 1.75 %. As of December 31, 2025, the margin elected was 1.75 % per annum. The 2014 Revolving Facility matures in June 2029 and bears interest at a base rate (subject to a floor of 1.00 %) plus an applicable margin of 2.00 %, 2.25 % or 2.50 %, depending on AAG’s public corporate credit rating, or, at American’s option, the SOFR rate for a tenor of one, three or six months, depending on the interest period selected by American (subject to a floor of 0.00 %), pl…",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/6201/000000620126000014/aal-20251231.htm",
+        "numbers": [
+          "2014",
+          "2027",
+          "1.00 %",
+          "0.75 %",
+          "0.00 %",
+          "1.75 %",
+          "31",
+          "2025",
+          "2029",
+          "2.00 %",
+          "2.25 %",
+          "2.50 %",
+          "3.00 %",
+          "3.25 %",
+          "3.50 %"
+        ],
+        "dates": [
+          "December 31, 2025"
+        ]
+      }
+    },
+    {
+      "change_id": "e8f0eee4a7f98caa",
+      "change_type": "new",
+      "topic": "liquidity_debt_margins_and_costs",
+      "topic_label": "Liquidity, debt, margins and costs",
+      "section": "risk_factors",
+      "attention": {
+        "score": 85,
+        "label": "high",
+        "factors": [
+          {
+            "label": "Disclosure novelty",
+            "points": 40
+          },
+          {
+            "label": "Section significance",
+            "points": 20
+          },
+          {
+            "label": "Risk language",
+            "points": 8
+          },
+          {
+            "label": "Numerical change",
+            "points": 14
+          },
+          {
+            "label": "Evidence specificity",
+            "points": 3
+          }
+        ]
+      },
+      "explanation": "The current filing introduces a new disclosure related to liquidity, debt, margins and costs.",
+      "analyst_relevance": "Review the cited language in the context of the investment thesis.",
+      "similarity": null,
+      "numeric_deltas": [
+        {
+          "previous": null,
+          "current": "$ 2.2 billion"
+        },
+        {
+          "previous": null,
+          "current": "2024"
+        },
+        {
+          "previous": null,
+          "current": "$ 2.3 billion"
+        }
+      ],
+      "previous_evidence": null,
+      "current_evidence": {
+        "evidence_id": "ed843e88fbf323efe19e",
+        "filing_version": "current",
+        "accession_number": "0000006201-26-000014",
+        "filing_date": "2026-02-18",
+        "report_date": "2025-12-31",
+        "section": "risk_factors",
+        "paragraph_index": 35,
+        "text_excerpt": "Total mainline and regional depreciation and amortization expense was $ 2.2 billion for each of the years ended December 31, 2025 and 2024 and $ 2.3 billion for the year ended December 31, 2023. We assess impairment of operating property and equipment when events and circumstances indicate that the assets may be impaired. An impairment of an asset or group of assets exists only when the sum of the estimated undiscounted cash flows expected to be generated directly by the assets are less than the carrying value of the assets. We group assets principally by fleet-type when estimating future cash flows, which is generally the lowest level for which identifiable cash flows exist. Estimates of future cash flows are based on historical results adjusted to reflect management’s best estimate of future market and operating conditions, including our current fleet plan. If such assets are impaired, the impairment cha…",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/6201/000000620126000014/aal-20251231.htm",
+        "numbers": [
+          "$ 2.2 billion",
+          "31",
+          "2025",
+          "2024",
+          "$ 2.3 billion",
+          "2023"
+        ],
+        "dates": [
+          "December 31, 2025",
+          "December 31, 2023"
+        ]
+      }
+    },
+    {
+      "change_id": "fae01253303440ff",
+      "change_type": "new",
+      "topic": "liquidity_debt_margins_and_costs",
+      "topic_label": "Liquidity, debt, margins and costs",
+      "section": "risk_factors",
+      "attention": {
+        "score": 85,
+        "label": "high",
+        "factors": [
+          {
+            "label": "Disclosure novelty",
+            "points": 40
+          },
+          {
+            "label": "Section significance",
+            "points": 20
+          },
+          {
+            "label": "Risk language",
+            "points": 8
+          },
+          {
+            "label": "Numerical change",
+            "points": 14
+          },
+          {
+            "label": "Evidence specificity",
+            "points": 3
+          }
+        ]
+      },
+      "explanation": "The current filing introduces a new disclosure related to liquidity, debt, margins and costs.",
+      "analyst_relevance": "Review the cited language in the context of the investment thesis.",
+      "similarity": null,
+      "numeric_deltas": [
+        {
+          "previous": null,
+          "current": "2023"
+        },
+        {
+          "previous": null,
+          "current": "2029"
+        },
+        {
+          "previous": null,
+          "current": "1.00 %"
+        },
+        {
+          "previous": null,
+          "current": "2.00 %"
+        },
+        {
+          "previous": null,
+          "current": "2.25 %"
+        },
+        {
+          "previous": null,
+          "current": "2.50 %"
+        },
+        {
+          "previous": null,
+          "current": "0.00 %"
+        },
+        {
+          "previous": null,
+          "current": "3.00 %"
+        }
+      ],
+      "previous_evidence": null,
+      "current_evidence": {
+        "evidence_id": "d6f7a34032cbbad3c09f",
+        "filing_version": "current",
+        "accession_number": "0000006201-26-000014",
+        "filing_date": "2026-02-18",
+        "report_date": "2025-12-31",
+        "section": "risk_factors",
+        "paragraph_index": 71,
+        "text_excerpt": "The 2023 Revolving Facility matures in June 2029 and bears interest at a base rate (subject to a floor of 1.00 %) plus an applicable margin of 2.00 %, 2.25 % or 2.50 %, depending on AAG’s public corporate credit rating, or, at American’s option, the SOFR rate for a tenor of one, three or six months, depending on the interest period selected by American (subject to a floor of 0.00 %), plus an applicable margin of 3.00 %, 3.25 % or 3.50 %, depending on AAG’s public corporate credit rating. SOFR borrowings under the 2023 Revolving Facility are not subject to a credit spread adjustment. The 2023 Revolving Facility has aggregate commitments of $ 924 million. As of December 31, 2025, there were no borrowings outstanding under the 2023 Revolving Facility. Other Terms of the 2013, 2014 and 2023 Credit Facilities The term loans under the 2013, 2014 and 2023 Credit Facilities (collectively referred to as the Credit…",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/6201/000000620126000014/aal-20251231.htm",
+        "numbers": [
+          "2023",
+          "2029",
+          "1.00 %",
+          "2.00 %",
+          "2.25 %",
+          "2.50 %",
+          "0.00 %",
+          "3.00 %",
+          "3.25 %",
+          "3.50 %",
+          "$ 924 million",
+          "31",
+          "2025",
+          "2013",
+          "2014"
+        ],
+        "dates": [
+          "December 31, 2025"
+        ]
+      }
+    },
+    {
+      "change_id": "2374a3399a573c12",
+      "change_type": "removed",
+      "topic": "human_capital",
+      "topic_label": "Human capital",
+      "section": "management_discussion",
+      "attention": {
+        "score": 84,
+        "label": "high",
+        "factors": [
+          {
+            "label": "Disclosure novelty",
+            "points": 40
+          },
+          {
+            "label": "Section significance",
+            "points": 17
+          },
+          {
+            "label": "Risk language",
+            "points": 10
+          },
+          {
+            "label": "Numerical change",
+            "points": 14
+          },
+          {
+            "label": "Evidence specificity",
+            "points": 3
+          }
+        ]
+      },
+      "explanation": "A prior disclosure related to human capital is no longer present in the comparable section.",
+      "analyst_relevance": "Review the cited language in the context of the investment thesis.",
+      "similarity": null,
+      "numeric_deltas": [
+        {
+          "previous": "2024",
+          "current": null
+        },
+        {
+          "previous": "2025",
+          "current": null
+        },
+        {
+          "previous": "$45 million",
+          "current": null
+        }
+      ],
+      "previous_evidence": {
+        "evidence_id": "5e12485b5f76d7fb8beb",
+        "filing_version": "prior",
+        "accession_number": "0000006201-25-000010",
+        "filing_date": "2025-02-19",
+        "report_date": "2024-12-31",
+        "section": "management_discussion",
+        "paragraph_index": 34,
+        "text_excerpt": "In 2024, new five-year CBAs were ratified by the APFA and CWA-IBT, the unions representing our mainline flight attendants and passenger service team members, respectively. Also in 2024, the TWU-IAM ratified a two-year contract extension for our mainline maintenance and fleet service team members. Among our wholly-owned regional subsidiaries, Piedmont fleet and passenger service and PSA flight attendants and dispatchers have agreements that are now amendable and we are engaged in negotiations. For more discussion, see Part I, Item 1A. Risk Factors – “ Union disputes, employee strikes and other labor-related disruptions may adversely affect our operations and financial performance .” Aircraft Fuel Our operations and financial results are materially affected by the availability and price of aircraft fuel, which represents one of the largest single cost items in our business. Based on our 2025 forecasted mainl…",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/6201/000000620125000010/aal-20241231.htm",
+        "numbers": [
+          "2024",
+          "1",
+          "2025",
+          "$45 million"
+        ],
+        "dates": []
+      },
+      "current_evidence": null
+    },
+    {
+      "change_id": "3b658b6f9c85a468",
+      "change_type": "new",
+      "topic": "cybersecurity_and_technology",
+      "topic_label": "Cybersecurity and technology",
+      "section": "management_discussion",
+      "attention": {
+        "score": 84,
+        "label": "high",
+        "factors": [
+          {
+            "label": "Disclosure novelty",
+            "points": 40
+          },
+          {
+            "label": "Section significance",
+            "points": 17
+          },
+          {
+            "label": "Risk language",
+            "points": 14
+          },
+          {
+            "label": "Numerical change",
+            "points": 10
+          },
+          {
+            "label": "Evidence specificity",
+            "points": 3
+          }
+        ]
+      },
+      "explanation": "The current filing introduces a new disclosure related to cybersecurity and technology.",
+      "analyst_relevance": "Review the cited language in the context of the investment thesis.",
+      "similarity": null,
+      "numeric_deltas": [
+        {
+          "previous": null,
+          "current": "5"
+        },
+        {
+          "previous": null,
+          "current": "2028"
+        }
+      ],
+      "previous_evidence": null,
+      "current_evidence": {
+        "evidence_id": "f08726eaa0b96e537bbc",
+        "filing_version": "current",
+        "accession_number": "0000006201-26-000014",
+        "filing_date": "2026-02-18",
+        "report_date": "2025-12-31",
+        "section": "management_discussion",
+        "paragraph_index": 109,
+        "text_excerpt": "While the FAA and the telecommunications industry reached an agreement to delay the full implementation of 5G deployment near airports until 2028, there could be future impacts once the current agreement expires. Additionally, there has been an increase in the reported use of jamming or “spoofing” technologies by bad actors intended to disrupt the operation of GPS navigation and other flight systems by relaying fake or erroneous flight information and signals to crews. These technologies could pose risks to the safe operation of aircraft by diverting pilots’ attention and potentially resulting in operational disruptions. Our technologies and automated systems are not completely protected against events that are beyond our control, including natural disasters, power failures, terrorist attacks, cyberattacks, data theft, defects, errors, equipment and software failures, computer viruses or telecommunications…",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/6201/000000620126000014/aal-20251231.htm",
+        "numbers": [
+          "5",
+          "2028"
+        ],
+        "dates": []
+      }
+    },
+    {
+      "change_id": "0281fca2c436b838",
+      "change_type": "removed",
+      "topic": "liquidity_debt_margins_and_costs",
+      "topic_label": "Liquidity, debt, margins and costs",
+      "section": "risk_factors",
+      "attention": {
+        "score": 83,
+        "label": "high",
+        "factors": [
+          {
+            "label": "Disclosure novelty",
+            "points": 40
+          },
+          {
+            "label": "Section significance",
+            "points": 20
+          },
+          {
+            "label": "Risk language",
+            "points": 6
+          },
+          {
+            "label": "Numerical change",
+            "points": 14
+          },
+          {
+            "label": "Evidence specificity",
+            "points": 3
+          }
+        ]
+      },
+      "explanation": "A prior disclosure related to liquidity, debt, margins and costs is no longer present in the comparable section.",
+      "analyst_relevance": "Review the cited language in the context of the investment thesis.",
+      "similarity": null,
+      "numeric_deltas": [
+        {
+          "previous": "2014",
+          "current": null
+        },
+        {
+          "previous": "$ 1.5 billion",
+          "current": null
+        },
+        {
+          "previous": "$ 200 million",
+          "current": null
+        },
+        {
+          "previous": "1.00 %",
+          "current": null
+        },
+        {
+          "previous": "2.00 %",
+          "current": null
+        },
+        {
+          "previous": "2.25 %",
+          "current": null
+        },
+        {
+          "previous": "2.50 %",
+          "current": null
+        },
+        {
+          "previous": "0.00 %",
+          "current": null
+        }
+      ],
+      "previous_evidence": {
+        "evidence_id": "5f0c32b8861cdc4bacfc",
+        "filing_version": "prior",
+        "accession_number": "0000006201-25-000010",
+        "filing_date": "2025-02-19",
+        "report_date": "2024-12-31",
+        "section": "risk_factors",
+        "paragraph_index": 211,
+        "text_excerpt": "On June 4, 2024, American and AAG entered into the Tenth Amendment to Amended and Restated Credit and Guaranty Agreement (the 2014 Credit Agreement Tenth Amendment), amending the 2014 Credit Agreement, pursuant to which American terminated all existing revolving commitments and letter of credit commitments available under the 2014 Credit Agreement and established new revolving commitments in an aggregate amount of $ 1.5 billion (which includes the ability to issue letters of credit in an aggregate amount of $ 200 million) (the newly established commitments, the 2014 Revolving Facility), which have a maturity date of June 4, 2029. Additionally, as a result of the 2014 Credit Agreement Tenth Amendment, the 2014 Revolving Facility bears interest at a base rate (subject to a floor of 1.00 %) plus an applicable margin of 2.00 %, 2.25 % or 2.50 %, depending on AAG’s public corporate credit rating, or, at America…",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/6201/000000620125000010/aal-20241231.htm",
+        "numbers": [
+          "4",
+          "2024",
+          "2014",
+          "$ 1.5 billion",
+          "$ 200 million",
+          "2029",
+          "1.00 %",
+          "2.00 %",
+          "2.25 %",
+          "2.50 %",
+          "0.00 %",
+          "3.00 %",
+          "3.25 %",
+          "3.50 %"
+        ],
+        "dates": [
+          "June 4, 2024",
+          "June 4, 2029"
+        ]
+      },
+      "current_evidence": null
+    },
+    {
+      "change_id": "3e4b2a1f94ad0aa9",
+      "change_type": "removed",
+      "topic": "liquidity_debt_margins_and_costs",
+      "topic_label": "Liquidity, debt, margins and costs",
+      "section": "risk_factors",
+      "attention": {
+        "score": 83,
+        "label": "high",
+        "factors": [
+          {
+            "label": "Disclosure novelty",
+            "points": 40
+          },
+          {
+            "label": "Section significance",
+            "points": 20
+          },
+          {
+            "label": "Risk language",
+            "points": 6
+          },
+          {
+            "label": "Numerical change",
+            "points": 14
+          },
+          {
+            "label": "Evidence specificity",
+            "points": 3
+          }
+        ]
+      },
+      "explanation": "A prior disclosure related to liquidity, debt, margins and costs is no longer present in the comparable section.",
+      "analyst_relevance": "Review the cited language in the context of the investment thesis.",
+      "similarity": null,
+      "numeric_deltas": [
+        {
+          "previous": "7.25 %",
+          "current": null
+        },
+        {
+          "previous": "1.6",
+          "current": null
+        },
+        {
+          "previous": "1.0",
+          "current": null
+        },
+        {
+          "previous": "2.0 %",
+          "current": null
+        },
+        {
+          "previous": "8.50 %",
+          "current": null
+        },
+        {
+          "previous": "$ 1.0 billion",
+          "current": null
+        },
+        {
+          "previous": "2029",
+          "current": null
+        },
+        {
+          "previous": "15",
+          "current": null
+        }
+      ],
+      "previous_evidence": {
+        "evidence_id": "50c26d94103e68686a97",
+        "filing_version": "prior",
+        "accession_number": "0000006201-25-000010",
+        "filing_date": "2025-02-19",
+        "report_date": "2024-12-31",
+        "section": "risk_factors",
+        "paragraph_index": 222,
+        "text_excerpt": "If the 7.25 % Senior Secured Notes Collateral Coverage Ratio is less than 1.6 to 1.0 as of the date of delivery of the appraisal for the applicable period, then, subject to a cure period in which additional collateral can be provided or debt repaid such that American meets the required 7.25 % Senior Secured Notes Collateral Coverage Ratio, American will be required to pay special interest in an additional amount equal to 2.0 % per annum of the principal amount of the 7.25 % Senior Secured Notes until the 7.25 % Senior Secured Notes Collateral Coverage Ratio is established to be at least 1.6 to 1.0. 8.50 % Senior Secured Notes On December 4, 2023, American issued $ 1.0 billion aggregate principal amount of 8.50 % senior secured notes due 2029 (the 8.50 % Senior Secured Notes) in a private offering. The 8.50 % Senior Secured Notes were issued at par and bear interest at a rate of 8.50 % per annum (subject to…",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/6201/000000620125000010/aal-20241231.htm",
+        "numbers": [
+          "7.25 %",
+          "1.6",
+          "1.0",
+          "2.0 %",
+          "8.50 %",
+          "4",
+          "2023",
+          "$ 1.0 billion",
+          "2029",
+          "15",
+          "2024"
+        ],
+        "dates": [
+          "December 4, 2023",
+          "May 15, 2024",
+          "May 15, 2029"
+        ]
+      },
+      "current_evidence": null
+    },
+    {
+      "change_id": "46de7049bfe5a4b2",
+      "change_type": "new",
+      "topic": "liquidity_debt_margins_and_costs",
+      "topic_label": "Liquidity, debt, margins and costs",
+      "section": "risk_factors",
+      "attention": {
+        "score": 83,
+        "label": "high",
+        "factors": [
+          {
+            "label": "Disclosure novelty",
+            "points": 40
+          },
+          {
+            "label": "Section significance",
+            "points": 20
+          },
+          {
+            "label": "Risk language",
+            "points": 6
+          },
+          {
+            "label": "Numerical change",
+            "points": 14
+          },
+          {
+            "label": "Evidence specificity",
+            "points": 3
+          }
+        ]
+      },
+      "explanation": "The current filing introduces a new disclosure related to liquidity, debt, margins and costs.",
+      "analyst_relevance": "Review the cited language in the context of the investment thesis.",
+      "similarity": null,
+      "numeric_deltas": [
+        {
+          "previous": null,
+          "current": "13"
+        },
+        {
+          "previous": null,
+          "current": "2024"
+        },
+        {
+          "previous": null,
+          "current": "2023"
+        },
+        {
+          "previous": null,
+          "current": "$ 15 million"
+        },
+        {
+          "previous": null,
+          "current": "$ 47 million"
+        },
+        {
+          "previous": null,
+          "current": "$ 30 million"
+        }
+      ],
+      "previous_evidence": null,
+      "current_evidence": {
+        "evidence_id": "0de27e0a11e1854dd0dd",
+        "filing_version": "current",
+        "accession_number": "0000006201-26-000014",
+        "filing_date": "2026-02-18",
+        "report_date": "2025-12-31",
+        "section": "risk_factors",
+        "paragraph_index": 197,
+        "text_excerpt": "See Note 13 for further discussion of share-based compensation. (q) Foreign Currency Gains and Losses Foreign currency gains and losses are recorded as part of other income (expense), net within total nonoperating expense, net on American’s consolidated statements of operations. For the years ended December 31, 2025, 2024 and 2023, foreign currency losses were $ 15 million, $ 47 million and $ 30 million, respectively. (r) Other Operating Expenses Other operating expenses includes costs associated with onboard food and catering, crew travel, ground and cargo handling, passenger accommodation, international navigation fees, aircraft cleaning, airport lounge operations and certain general and administrative expenses. (s) Regional Expenses American's regional carriers provide scheduled air transportation under the brand name “American Eagle.” The American Eagle carriers include AAG's wholly-owned regional carr…",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/6201/000000620126000014/aal-20251231.htm",
+        "numbers": [
+          "13",
+          "31",
+          "2025",
+          "2024",
+          "2023",
+          "$ 15 million",
+          "$ 47 million",
+          "$ 30 million"
+        ],
+        "dates": [
+          "December 31, 2025"
+        ]
+      }
+    },
+    {
+      "change_id": "4f5dd6f259a94bc3",
+      "change_type": "removed",
+      "topic": "liquidity_debt_margins_and_costs",
+      "topic_label": "Liquidity, debt, margins and costs",
+      "section": "risk_factors",
+      "attention": {
+        "score": 83,
+        "label": "high",
+        "factors": [
+          {
+            "label": "Disclosure novelty",
+            "points": 40
+          },
+          {
+            "label": "Section significance",
+            "points": 20
+          },
+          {
+            "label": "Risk language",
+            "points": 6
+          },
+          {
+            "label": "Numerical change",
+            "points": 14
+          },
+          {
+            "label": "Evidence specificity",
+            "points": 3
+          }
+        ]
+      },
+      "explanation": "A prior disclosure related to liquidity, debt, margins and costs is no longer present in the comparable section.",
+      "analyst_relevance": "Review the cited language in the context of the investment thesis.",
+      "similarity": null,
+      "numeric_deltas": [
+        {
+          "previous": "2023",
+          "current": null
+        },
+        {
+          "previous": "$ 890 million",
+          "current": null
+        },
+        {
+          "previous": "1.00 %",
+          "current": null
+        },
+        {
+          "previous": "2.00 %",
+          "current": null
+        },
+        {
+          "previous": "2.25 %",
+          "current": null
+        },
+        {
+          "previous": "2.50 %",
+          "current": null
+        },
+        {
+          "previous": "0.00 %",
+          "current": null
+        },
+        {
+          "previous": "3.00 %",
+          "current": null
+        }
+      ],
+      "previous_evidence": {
+        "evidence_id": "7e6777e135bb58a62897",
+        "filing_version": "prior",
+        "accession_number": "0000006201-25-000010",
+        "filing_date": "2025-02-19",
+        "report_date": "2024-12-31",
+        "section": "risk_factors",
+        "paragraph_index": 213,
+        "text_excerpt": "Pursuant to the First Amendment, American established a revolving credit facility (the 2023 Revolving Facility, collectively with the 2023 Term Loan Facility, referred to as the 2023 Credit Facilities) in an aggregate amount of $ 890 million, maturing June 4, 2029. The 2023 Revolving Facility bears interest at a base rate (subject to a floor of 1.00 %) plus an applicable margin of 2.00 %, 2.25 % or 2.50 %, depending on AAG’s public corporate credit rating, or, at American’s option, the SOFR rate for a tenor of one, three or six months, depending on the interest period selected by American (subject to a floor of 0.00 %), plus an applicable margin of 3.00 %, 3.25 % or 3.50 %, depending on AAG’s public corporate credit rating. SOFR borrowings under the 2023 Revolving Facility are not subject to a credit spread adjustment. As of December 31, 2024, there were no borrowings outstanding under the 2023 Revolving F…",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/6201/000000620125000010/aal-20241231.htm",
+        "numbers": [
+          "2023",
+          "$ 890 million",
+          "4",
+          "2029",
+          "1.00 %",
+          "2.00 %",
+          "2.25 %",
+          "2.50 %",
+          "0.00 %",
+          "3.00 %",
+          "3.25 %",
+          "3.50 %",
+          "31",
+          "2024",
+          "$ 1.1 billion"
+        ],
+        "dates": [
+          "June 4, 2029",
+          "December 31, 2024"
+        ]
+      },
+      "current_evidence": null
+    },
+    {
+      "change_id": "7d9497ef1d0e6e88",
+      "change_type": "new",
+      "topic": "liquidity_debt_margins_and_costs",
+      "topic_label": "Liquidity, debt, margins and costs",
+      "section": "risk_factors",
+      "attention": {
+        "score": 83,
+        "label": "high",
+        "factors": [
+          {
+            "label": "Disclosure novelty",
+            "points": 40
+          },
+          {
+            "label": "Section significance",
+            "points": 20
+          },
+          {
+            "label": "Risk language",
+            "points": 6
+          },
+          {
+            "label": "Numerical change",
+            "points": 14
+          },
+          {
+            "label": "Evidence specificity",
+            "points": 3
+          }
+        ]
+      },
+      "explanation": "The current filing introduces a new disclosure related to liquidity, debt, margins and costs.",
+      "analyst_relevance": "Review the cited language in the context of the investment thesis.",
+      "similarity": null,
+      "numeric_deltas": [
+        {
+          "previous": null,
+          "current": "2025"
+        },
+        {
+          "previous": null,
+          "current": "$ 1.9 billion"
+        },
+        {
+          "previous": null,
+          "current": "2024"
+        },
+        {
+          "previous": null,
+          "current": "$ 1.0 billion"
+        },
+        {
+          "previous": null,
+          "current": "3.75 %"
+        }
+      ],
+      "previous_evidence": null,
+      "current_evidence": {
+        "evidence_id": "2be832aa816cf3bbcb87",
+        "filing_version": "current",
+        "accession_number": "0000006201-26-000014",
+        "filing_date": "2026-02-18",
+        "report_date": "2025-12-31",
+        "section": "risk_factors",
+        "paragraph_index": 42,
+        "text_excerpt": "If we determine that it is more likely than not that our indefinite-lived intangible assets may be impaired, we use a quantitative approach to assess the asset’s fair value and the amount of the impairment, if any. Based upon our annual assessment, there were no indefinite-lived intangible asset impairments in 2025. We had $ 1.9 billion of indefinite-lived intangible assets on our consolidated balance sheets as of December 31, 2025 and 2024. (l) Fuel Financing In December 2024, we entered into a fuel financing facility with a bank pursuant to which the bank pays certain fuel invoices on our behalf. The agreement contains a maximum allowable outstanding principal balance at any time of $ 1.0 billion and is required to be repaid at least quarterly. The fuel financing facility bears interest at a base rate equal to one-month Secured Overnight Financing Rate (SOFR), plus a margin of 3.75 %.",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/6201/000000620126000014/aal-20251231.htm",
+        "numbers": [
+          "2025",
+          "$ 1.9 billion",
+          "31",
+          "2024",
+          "$ 1.0 billion",
+          "3.75 %"
+        ],
+        "dates": [
+          "December 31, 2025"
+        ]
+      }
+    },
+    {
+      "change_id": "86ecda871ce8a974",
+      "change_type": "removed",
+      "topic": "liquidity_debt_margins_and_costs",
+      "topic_label": "Liquidity, debt, margins and costs",
+      "section": "risk_factors",
+      "attention": {
+        "score": 83,
+        "label": "high",
+        "factors": [
+          {
+            "label": "Disclosure novelty",
+            "points": 40
+          },
+          {
+            "label": "Section significance",
+            "points": 20
+          },
+          {
+            "label": "Risk language",
+            "points": 6
+          },
+          {
+            "label": "Numerical change",
+            "points": 14
+          },
+          {
+            "label": "Evidence specificity",
+            "points": 3
+          }
+        ]
+      },
+      "explanation": "A prior disclosure related to liquidity, debt, margins and costs is no longer present in the comparable section.",
+      "analyst_relevance": "Review the cited language in the context of the investment thesis.",
+      "similarity": null,
+      "numeric_deltas": [
+        {
+          "previous": "20",
+          "current": null
+        },
+        {
+          "previous": "30",
+          "current": null
+        },
+        {
+          "previous": "5",
+          "current": null
+        },
+        {
+          "previous": "3",
+          "current": null
+        },
+        {
+          "previous": "15",
+          "current": null
+        },
+        {
+          "previous": "10",
+          "current": null
+        },
+        {
+          "previous": "$ 2.2 billion",
+          "current": null
+        },
+        {
+          "previous": "$ 2.3 billion",
+          "current": null
+        }
+      ],
+      "previous_evidence": {
+        "evidence_id": "2443729cbfbab0191251",
+        "filing_version": "prior",
+        "accession_number": "0000006201-25-000010",
+        "filing_date": "2025-02-19",
+        "report_date": "2024-12-31",
+        "section": "risk_factors",
+        "paragraph_index": 34,
+        "text_excerpt": "Costs of major improvements that enhance the usefulness of the asset are capitalized and depreciated or amortized over the estimated useful life of the asset or the lease term, whichever is less. The estimated useful lives for the principal property and equipment classifications are as follows: Principal Property and Equipment Classification Estimated Useful Life Aircraft, engines and related rotable parts 20 – 30 years Buildings and improvements 5 – 30 years Furniture, fixtures and other equipment 3 – 15 years Capitalized software 5 – 10 years Total mainline and regional depreciation and amortization expense was $ 2.2 billion for the year ended December 31, 2024 and $ 2.3 billion for each of the years ended December 31, 2023 and 2022. We assess impairment of operating property and equipment when events and circumstances indicate that the assets may be impaired. An impairment of an asset or group of assets…",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/6201/000000620125000010/aal-20241231.htm",
+        "numbers": [
+          "20",
+          "30",
+          "5",
+          "3",
+          "15",
+          "10",
+          "$ 2.2 billion",
+          "31",
+          "2024",
+          "$ 2.3 billion",
+          "2023",
+          "2022"
+        ],
+        "dates": [
+          "December 31, 2024",
+          "December 31, 2023"
+        ]
+      },
+      "current_evidence": null
+    },
+    {
+      "change_id": "931fe194026001ee",
+      "change_type": "removed",
+      "topic": "liquidity_debt_margins_and_costs",
+      "topic_label": "Liquidity, debt, margins and costs",
+      "section": "risk_factors",
+      "attention": {
+        "score": 83,
+        "label": "high",
+        "factors": [
+          {
+            "label": "Disclosure novelty",
+            "points": 40
+          },
+          {
+            "label": "Section significance",
+            "points": 20
+          },
+          {
+            "label": "Risk language",
+            "points": 6
+          },
+          {
+            "label": "Numerical change",
+            "points": 14
+          },
+          {
+            "label": "Evidence specificity",
+            "points": 3
+          }
+        ]
+      },
+      "explanation": "A prior disclosure related to liquidity, debt, margins and costs is no longer present in the comparable section.",
+      "analyst_relevance": "Review the cited language in the context of the investment thesis.",
+      "similarity": null,
+      "numeric_deltas": [
+        {
+          "previous": "2024",
+          "current": null
+        },
+        {
+          "previous": "03",
+          "current": null
+        },
+        {
+          "previous": "220",
+          "current": null
+        },
+        {
+          "previous": "04",
+          "current": null
+        }
+      ],
+      "previous_evidence": {
+        "evidence_id": "029212831b980ec3f02b",
+        "filing_version": "prior",
+        "accession_number": "0000006201-25-000010",
+        "filing_date": "2025-02-19",
+        "report_date": "2024-12-31",
+        "section": "risk_factors",
+        "paragraph_index": 30,
+        "text_excerpt": "We are currently evaluating how the adoption of this standard will impact our income tax disclosures. ASU 2024-03: Income Statement - Reporting Comprehensive Income - Expense Disaggregation Disclosures (Subtopic 220-04) Disaggregation of Income Statement Expenses This standard enhances transparency in reporting by requiring disaggregation of certain costs and expenses in the notes to financial statements. This update is effective for annual periods beginning after December 15, 2026 and interim periods within annual periods beginning after December 15, 2027, and early adoption is permitted. We are currently evaluating how the adoption of this standard will impact our disclosures. (c) Investments Short-term investments primarily include debt securities and are classified as available-for-sale and stated at fair value. Realized gains and losses are recorded as interest income in nonoperating expense, net on o…",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/6201/000000620125000010/aal-20241231.htm",
+        "numbers": [
+          "2024",
+          "03",
+          "220",
+          "04",
+          "15",
+          "2026",
+          "2027"
+        ],
+        "dates": [
+          "December 15, 2026",
+          "December 15, 2027"
+        ]
+      },
+      "current_evidence": null
+    },
+    {
+      "change_id": "93f9cabfafc11f90",
+      "change_type": "removed",
+      "topic": "liquidity_debt_margins_and_costs",
+      "topic_label": "Liquidity, debt, margins and costs",
+      "section": "risk_factors",
+      "attention": {
+        "score": 83,
+        "label": "high",
+        "factors": [
+          {
+            "label": "Disclosure novelty",
+            "points": 40
+          },
+          {
+            "label": "Section significance",
+            "points": 20
+          },
+          {
+            "label": "Risk language",
+            "points": 6
+          },
+          {
+            "label": "Numerical change",
+            "points": 14
+          },
+          {
+            "label": "Evidence specificity",
+            "points": 3
+          }
+        ]
+      },
+      "explanation": "A prior disclosure related to liquidity, debt, margins and costs is no longer present in the comparable section.",
+      "analyst_relevance": "Review the cited language in the context of the investment thesis.",
+      "similarity": null,
+      "numeric_deltas": [
+        {
+          "previous": "13",
+          "current": null
+        },
+        {
+          "previous": "2023",
+          "current": null
+        },
+        {
+          "previous": "2022",
+          "current": null
+        },
+        {
+          "previous": "$ 47 million",
+          "current": null
+        },
+        {
+          "previous": "$ 30 million",
+          "current": null
+        },
+        {
+          "previous": "$ 38 million",
+          "current": null
+        }
+      ],
+      "previous_evidence": {
+        "evidence_id": "2dd91b2c3cac63488b57",
+        "filing_version": "prior",
+        "accession_number": "0000006201-25-000010",
+        "filing_date": "2025-02-19",
+        "report_date": "2024-12-31",
+        "section": "risk_factors",
+        "paragraph_index": 199,
+        "text_excerpt": "Certain awards have performance conditions that must be achieved prior to vesting and are expensed based on the expected achievement at each reporting period. The majority of American’s equity awards are time vested restricted stock units. For equity-classified awards, the fair value of such awards is based on the market price of the underlying shares of AAG common stock on the date of grant and is not subsequently remeasured unless modified. For liability-classified awards, the fair value of such awards is remeasured at the end of each reporting period until settled. See Note 13 for further discussion of share-based compensation. (q) Foreign Currency Gains and Losses Foreign currency gains and losses are recorded as part of other income (expense), net within total nonoperating expense, net on American’s consolidated statements of operations. For the years ended December 31, 2024, 2023 and 2022, foreign cu…",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/6201/000000620125000010/aal-20241231.htm",
+        "numbers": [
+          "13",
+          "31",
+          "2024",
+          "2023",
+          "2022",
+          "$ 47 million",
+          "$ 30 million",
+          "$ 38 million"
+        ],
+        "dates": [
+          "December 31, 2024"
+        ]
+      },
+      "current_evidence": null
+    },
+    {
+      "change_id": "9c39fce7a819a7e5",
+      "change_type": "new",
+      "topic": "liquidity_debt_margins_and_costs",
+      "topic_label": "Liquidity, debt, margins and costs",
+      "section": "risk_factors",
+      "attention": {
+        "score": 83,
+        "label": "high",
+        "factors": [
+          {
+            "label": "Disclosure novelty",
+            "points": 40
+          },
+          {
+            "label": "Section significance",
+            "points": 20
+          },
+          {
+            "label": "Risk language",
+            "points": 6
+          },
+          {
+            "label": "Numerical change",
+            "points": 14
+          },
+          {
+            "label": "Evidence specificity",
+            "points": 3
+          }
+        ]
+      },
+      "explanation": "The current filing introduces a new disclosure related to liquidity, debt, margins and costs.",
+      "analyst_relevance": "Review the cited language in the context of the investment thesis.",
+      "similarity": null,
+      "numeric_deltas": [
+        {
+          "previous": null,
+          "current": "2025"
+        },
+        {
+          "previous": null,
+          "current": "$ 1.9 billion"
+        },
+        {
+          "previous": null,
+          "current": "2024"
+        },
+        {
+          "previous": null,
+          "current": "$ 1.0 billion"
+        },
+        {
+          "previous": null,
+          "current": "3.75 %"
+        }
+      ],
+      "previous_evidence": null,
+      "current_evidence": {
+        "evidence_id": "b84925fb342dee8e245f",
+        "filing_version": "current",
+        "accession_number": "0000006201-26-000014",
+        "filing_date": "2026-02-18",
+        "report_date": "2025-12-31",
+        "section": "risk_factors",
+        "paragraph_index": 184,
+        "text_excerpt": "If American determines that it is more likely than not that its indefinite-lived intangible assets may be impaired, American uses a quantitative approach to assess the asset’s fair value and the amount of the impairment, if any. Based upon American’s annual assessment, there were no indefinite-lived intangible asset impairments in 2025. American had $ 1.9 billion of indefinite-lived intangible assets on its consolidated balance sheets as of December 31, 2025 and 2024. (l) Fuel Financing In December 2024, American entered into a fuel financing facility with a bank pursuant to which the bank pays certain fuel invoices on American’s behalf. The agreement contains a maximum allowable outstanding principal balance at any time of $ 1.0 billion and is required to be repaid at least quarterly. The fuel financing facility bears interest at a base rate equal to one-month Secured Overnight Financing Rate (SOFR), plus…",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/6201/000000620126000014/aal-20251231.htm",
+        "numbers": [
+          "2025",
+          "$ 1.9 billion",
+          "31",
+          "2024",
+          "$ 1.0 billion",
+          "3.75 %"
+        ],
+        "dates": [
+          "December 31, 2025"
+        ]
+      }
+    },
+    {
+      "change_id": "b3fd4a9972a7920a",
+      "change_type": "removed",
+      "topic": "liquidity_debt_margins_and_costs",
+      "topic_label": "Liquidity, debt, margins and costs",
+      "section": "risk_factors",
+      "attention": {
+        "score": 83,
+        "label": "high",
+        "factors": [
+          {
+            "label": "Disclosure novelty",
+            "points": 40
+          },
+          {
+            "label": "Section significance",
+            "points": 20
+          },
+          {
+            "label": "Risk language",
+            "points": 6
+          },
+          {
+            "label": "Numerical change",
+            "points": 14
+          },
+          {
+            "label": "Evidence specificity",
+            "points": 3
+          }
+        ]
+      },
+      "explanation": "A prior disclosure related to liquidity, debt, margins and costs is no longer present in the comparable section.",
+      "analyst_relevance": "Review the cited language in the context of the investment thesis.",
+      "similarity": null,
+      "numeric_deltas": [
+        {
+          "previous": "2014",
+          "current": null
+        },
+        {
+          "previous": "$ 1.5 billion",
+          "current": null
+        },
+        {
+          "previous": "$ 200 million",
+          "current": null
+        },
+        {
+          "previous": "1.00 %",
+          "current": null
+        },
+        {
+          "previous": "2.00 %",
+          "current": null
+        },
+        {
+          "previous": "2.25 %",
+          "current": null
+        },
+        {
+          "previous": "2.50 %",
+          "current": null
+        },
+        {
+          "previous": "0.00 %",
+          "current": null
+        }
+      ],
+      "previous_evidence": {
+        "evidence_id": "9214726f26b0d7e728a5",
+        "filing_version": "prior",
+        "accession_number": "0000006201-25-000010",
+        "filing_date": "2025-02-19",
+        "report_date": "2024-12-31",
+        "section": "risk_factors",
+        "paragraph_index": 69,
+        "text_excerpt": "On June 4, 2024, American and AAG entered into the Tenth Amendment to Amended and Restated Credit and Guaranty Agreement (the 2014 Credit Agreement Tenth Amendment), amending the 2014 Credit Agreement, pursuant to which American terminated all existing revolving commitments and letter of credit commitments available under the 2014 Credit Agreement and established new revolving commitments in an aggregate amount of $ 1.5 billion (which includes the ability to issue letters of credit in an aggregate amount of $ 200 million) (the newly established commitments, the 2014 Revolving Facility), which have a maturity date of June 4, 2029. Additionally, as a result of the 2014 Credit Agreement Tenth Amendment, the 2014 Revolving Facility bears interest at a base rate (subject to a floor of 1.00 %) plus an applicable margin of 2.00 %, 2.25 % or 2.50 %, depending on AAG’s public corporate credit rating, or, at America…",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/6201/000000620125000010/aal-20241231.htm",
+        "numbers": [
+          "4",
+          "2024",
+          "2014",
+          "$ 1.5 billion",
+          "$ 200 million",
+          "2029",
+          "1.00 %",
+          "2.00 %",
+          "2.25 %",
+          "2.50 %",
+          "0.00 %",
+          "3.00 %",
+          "3.25 %",
+          "3.50 %"
+        ],
+        "dates": [
+          "June 4, 2024",
+          "June 4, 2029"
+        ]
+      },
+      "current_evidence": null
+    },
+    {
+      "change_id": "c304c6c48c617047",
+      "change_type": "new",
+      "topic": "liquidity_debt_margins_and_costs",
+      "topic_label": "Liquidity, debt, margins and costs",
+      "section": "risk_factors",
+      "attention": {
+        "score": 83,
+        "label": "high",
+        "factors": [
+          {
+            "label": "Disclosure novelty",
+            "points": 40
+          },
+          {
+            "label": "Section significance",
+            "points": 20
+          },
+          {
+            "label": "Risk language",
+            "points": 6
+          },
+          {
+            "label": "Numerical change",
+            "points": 14
+          },
+          {
+            "label": "Evidence specificity",
+            "points": 3
+          }
+        ]
+      },
+      "explanation": "The current filing introduces a new disclosure related to liquidity, debt, margins and costs.",
+      "analyst_relevance": "Review the cited language in the context of the investment thesis.",
+      "similarity": null,
+      "numeric_deltas": [
+        {
+          "previous": null,
+          "current": "30"
+        },
+        {
+          "previous": null,
+          "current": "$ 124 million"
+        },
+        {
+          "previous": null,
+          "current": "$ 101 million"
+        },
+        {
+          "previous": null,
+          "current": "2024"
+        },
+        {
+          "previous": null,
+          "current": "$ 7 million"
+        },
+        {
+          "previous": null,
+          "current": "2026"
+        },
+        {
+          "previous": null,
+          "current": "2030"
+        },
+        {
+          "previous": null,
+          "current": "$ 88 million"
+        }
+      ],
+      "previous_evidence": null,
+      "current_evidence": {
+        "evidence_id": "1cc9c649ee0921f0a91d",
+        "filing_version": "current",
+        "accession_number": "0000006201-26-000014",
+        "filing_date": "2026-02-18",
+        "report_date": "2025-12-31",
+        "section": "risk_factors",
+        "paragraph_index": 41,
+        "text_excerpt": "Certain marketing agreements were identified as intangible assets subject to amortization and are amortized on a straight-line basis over approximately 30 years. We had $ 124 million and $ 101 million of definite-lived intangible assets, net of accumulated amortization on our consolidated balance sheets as of December 31, 2025 and 2024, respectively. We expect to record amortization expense related to these assets of approximately $ 7 million for each of the years in 2026 through 2030, and $ 88 million of amortization expense in 2031 and thereafter until fully amortized. Indefinite-Lived Intangible Assets Indefinite-lived intangible assets include certain domestic airport slots, international slots and route authorities and our commercial agreement with GOL Linhas Aéreas Inteligentes S.A. (GOL). We assess indefinite-lived intangible assets for impairment annually or more frequently if events or circumstanc…",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/6201/000000620126000014/aal-20251231.htm",
+        "numbers": [
+          "30",
+          "$ 124 million",
+          "$ 101 million",
+          "31",
+          "2025",
+          "2024",
+          "$ 7 million",
+          "2026",
+          "2030",
+          "$ 88 million",
+          "2031",
+          "1"
+        ],
+        "dates": [
+          "December 31, 2025"
+        ]
+      }
+    },
+    {
+      "change_id": "ce5833eb2b6e5a3e",
+      "change_type": "new",
+      "topic": "liquidity_debt_margins_and_costs",
+      "topic_label": "Liquidity, debt, margins and costs",
+      "section": "risk_factors",
+      "attention": {
+        "score": 83,
+        "label": "high",
+        "factors": [
+          {
+            "label": "Disclosure novelty",
+            "points": 40
+          },
+          {
+            "label": "Section significance",
+            "points": 20
+          },
+          {
+            "label": "Risk language",
+            "points": 6
+          },
+          {
+            "label": "Numerical change",
+            "points": 14
+          },
+          {
+            "label": "Evidence specificity",
+            "points": 3
+          }
+        ]
+      },
+      "explanation": "The current filing introduces a new disclosure related to liquidity, debt, margins and costs.",
+      "analyst_relevance": "Review the cited language in the context of the investment thesis.",
+      "similarity": null,
+      "numeric_deltas": [
+        {
+          "previous": null,
+          "current": "1.75 %"
+        },
+        {
+          "previous": null,
+          "current": "2014"
+        },
+        {
+          "previous": null,
+          "current": "2029"
+        },
+        {
+          "previous": null,
+          "current": "1.00 %"
+        },
+        {
+          "previous": null,
+          "current": "2.00 %"
+        },
+        {
+          "previous": null,
+          "current": "2.25 %"
+        },
+        {
+          "previous": null,
+          "current": "2.50 %"
+        },
+        {
+          "previous": null,
+          "current": "0.00 %"
+        }
+      ],
+      "previous_evidence": null,
+      "current_evidence": {
+        "evidence_id": "4101d227b0fc76d5d88b",
+        "filing_version": "current",
+        "accession_number": "0000006201-26-000014",
+        "filing_date": "2026-02-18",
+        "report_date": "2025-12-31",
+        "section": "risk_factors",
+        "paragraph_index": 69,
+        "text_excerpt": "As of December 31, 2025, the margin elected was 1.75 % per annum. The 2014 Revolving Facility matures in June 2029 and bears interest at a base rate (subject to a floor of 1.00 %) plus an applicable margin of 2.00 %, 2.25 % or 2.50 %, depending on AAG’s public corporate credit rating, or, at American’s option, the SOFR rate for a tenor of one, three or six months, depending on the interest period selected by American (subject to a floor of 0.00 %), plus an applicable margin of 3.00 %, 3.25 % or 3.50 %, depending on AAG’s public corporate credit rating. SOFR borrowings under the 2014 Revolving Facility are not subject to a credit spread adjustment. The 2014 Revolving Facility has aggregate commitments of $ 1.6 billion, with the ability to issue letters of credit up to an aggregate amount of $ 200 million. As of December 31, 2025, there were no borrowings or letters of credit outstanding under the 2014 Revol…",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/6201/000000620126000014/aal-20251231.htm",
+        "numbers": [
+          "31",
+          "2025",
+          "1.75 %",
+          "2014",
+          "2029",
+          "1.00 %",
+          "2.00 %",
+          "2.25 %",
+          "2.50 %",
+          "0.00 %",
+          "3.00 %",
+          "3.25 %",
+          "3.50 %",
+          "$ 1.6 billion",
+          "$ 200 million"
+        ],
+        "dates": [
+          "December 31, 2025"
+        ]
+      }
+    },
+    {
+      "change_id": "ea43f3ecf50602b1",
+      "change_type": "removed",
+      "topic": "liquidity_debt_margins_and_costs",
+      "topic_label": "Liquidity, debt, margins and costs",
+      "section": "risk_factors",
+      "attention": {
+        "score": 83,
+        "label": "high",
+        "factors": [
+          {
+            "label": "Disclosure novelty",
+            "points": 40
+          },
+          {
+            "label": "Section significance",
+            "points": 20
+          },
+          {
+            "label": "Risk language",
+            "points": 6
+          },
+          {
+            "label": "Numerical change",
+            "points": 14
+          },
+          {
+            "label": "Evidence specificity",
+            "points": 3
+          }
+        ]
+      },
+      "explanation": "A prior disclosure related to liquidity, debt, margins and costs is no longer present in the comparable section.",
+      "analyst_relevance": "Review the cited language in the context of the investment thesis.",
+      "similarity": null,
+      "numeric_deltas": [
+        {
+          "previous": "10.75 %",
+          "current": null
+        },
+        {
+          "previous": "$ 1.0 billion",
+          "current": null
+        },
+        {
+          "previous": "$ 200 million",
+          "current": null
+        }
+      ],
+      "previous_evidence": {
+        "evidence_id": "6c99e5d7b590444d7b66",
+        "filing_version": "prior",
+        "accession_number": "0000006201-25-000010",
+        "filing_date": "2025-02-19",
+        "report_date": "2024-12-31",
+        "section": "risk_factors",
+        "paragraph_index": 74,
+        "text_excerpt": "American has the ability to make future modifications to the collateral pledged, subject to certain restrictions. American’s obligations under the Credit Facilities are guaranteed by AAG, and such guarantee is AAG’s senior unsecured obligations (all of the collateral is owned by American, and AAG has not granted a security interest in any assets to secure any of the foregoing obligations). The Credit Facilities contain events of default customary for similar financings, including cross default and cross-acceleration to other material indebtedness. (b) Senior Secured Notes 10.75 % Senior Secured Notes On September 25, 2020 (the 10.75 % Senior Secured Notes Closing Date), American issued $ 1.0 billion in initial principal amount of senior secured IP notes (the IP Notes) and $ 200 million in initial principal amount of senior secured LGA/DCA notes (the LGA/DCA Notes and together with the IP Notes, the 10.75 %…",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/6201/000000620125000010/aal-20241231.htm",
+        "numbers": [
+          "10.75 %",
+          "25",
+          "2020",
+          "$ 1.0 billion",
+          "$ 200 million"
+        ],
+        "dates": [
+          "September 25, 2020"
+        ]
+      },
+      "current_evidence": null
+    },
+    {
+      "change_id": "f21984be5392b146",
+      "change_type": "removed",
+      "topic": "liquidity_debt_margins_and_costs",
+      "topic_label": "Liquidity, debt, margins and costs",
+      "section": "risk_factors",
+      "attention": {
+        "score": 83,
+        "label": "high",
+        "factors": [
+          {
+            "label": "Disclosure novelty",
+            "points": 40
+          },
+          {
+            "label": "Section significance",
+            "points": 20
+          },
+          {
+            "label": "Risk language",
+            "points": 6
+          },
+          {
+            "label": "Numerical change",
+            "points": 14
+          },
+          {
+            "label": "Evidence specificity",
+            "points": 3
+          }
+        ]
+      },
+      "explanation": "A prior disclosure related to liquidity, debt, margins and costs is no longer present in the comparable section.",
+      "analyst_relevance": "Review the cited language in the context of the investment thesis.",
+      "similarity": null,
+      "numeric_deltas": [
+        {
+          "previous": "2013",
+          "current": null
+        },
+        {
+          "previous": "1.00 %",
+          "current": null
+        },
+        {
+          "previous": "2.00 %",
+          "current": null
+        },
+        {
+          "previous": "2.25 %",
+          "current": null
+        },
+        {
+          "previous": "2.50 %",
+          "current": null
+        },
+        {
+          "previous": "0.00 %",
+          "current": null
+        },
+        {
+          "previous": "3.00 %",
+          "current": null
+        },
+        {
+          "previous": "3.25 %",
+          "current": null
+        }
+      ],
+      "previous_evidence": {
+        "evidence_id": "8053133acc90e2b950b4",
+        "filing_version": "prior",
+        "accession_number": "0000006201-25-000010",
+        "filing_date": "2025-02-19",
+        "report_date": "2024-12-31",
+        "section": "risk_factors",
+        "paragraph_index": 208,
+        "text_excerpt": "Additionally, as a result of the Ninth Amendment, the 2013 Revolving Facility bears interest at a base rate (subject to a floor of 1.00 %) plus an applicable margin of 2.00 %, 2.25 % or 2.50 %, depending on AAG’s public corporate credit rating, or, at American’s option, SOFR for a tenor of one, three or six months, depending on the interest period selected by American (subject to a floor of 0.00 %), plus an applicable margin of 3.00 %, 3.25 % or 3.50 %, depending on AAG’s public corporate credit rating. Pursuant to the Ninth Amendment, SOFR borrowings under the 2013 Revolving Facility are not subject to a credit spread adjustment. As of December 31, 2024, there were no borrowings or letters of credit outstanding under the 2013 Revolving Facility. On December 19, 2024, American and AAG entered into the Tenth Amendment to Amended and Restated Credit and Guaranty Agreement (the 2013 Credit Agreement Tenth Ame…",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/6201/000000620125000010/aal-20241231.htm",
+        "numbers": [
+          "2013",
+          "1.00 %",
+          "2.00 %",
+          "2.25 %",
+          "2.50 %",
+          "0.00 %",
+          "3.00 %",
+          "3.25 %",
+          "3.50 %",
+          "31",
+          "2024",
+          "19"
+        ],
+        "dates": [
+          "December 31, 2024",
+          "December 19, 2024"
+        ]
+      },
+      "current_evidence": null
+    },
+    {
+      "change_id": "f9ec1edf780cfbdd",
+      "change_type": "removed",
+      "topic": "growth_and_strategy",
+      "topic_label": "Growth and strategy",
+      "section": "risk_factors",
+      "attention": {
+        "score": 83,
+        "label": "high",
+        "factors": [
+          {
+            "label": "Disclosure novelty",
+            "points": 40
+          },
+          {
+            "label": "Section significance",
+            "points": 20
+          },
+          {
+            "label": "Risk language",
+            "points": 6
+          },
+          {
+            "label": "Numerical change",
+            "points": 14
+          },
+          {
+            "label": "Evidence specificity",
+            "points": 3
+          }
+        ]
+      },
+      "explanation": "A prior disclosure related to growth and strategy is no longer present in the comparable section.",
+      "analyst_relevance": "Review the cited language in the context of the investment thesis.",
+      "similarity": null,
+      "numeric_deltas": [
+        {
+          "previous": "8.50 %",
+          "current": null
+        },
+        {
+          "previous": "100 %",
+          "current": null
+        },
+        {
+          "previous": "40 %",
+          "current": null
+        },
+        {
+          "previous": "108.50 %",
+          "current": null
+        }
+      ],
+      "previous_evidence": {
+        "evidence_id": "50c97f2faf338851e76c",
+        "filing_version": "prior",
+        "accession_number": "0000006201-25-000010",
+        "filing_date": "2025-02-19",
+        "report_date": "2024-12-31",
+        "section": "risk_factors",
+        "paragraph_index": 224,
+        "text_excerpt": "American may redeem the 8.50 % Senior Secured Notes, in whole at any time or in part from time to time prior to November 15, 2025, at a redemption price equal to 100 % of the principal amount of the 8.50 % Senior Secured Notes to be redeemed, plus a “make-whole” premium, plus any accrued and unpaid interest thereon to but excluding the date of redemption. At any time on or after November 15, 2025, American may redeem all or any of the 8.50 % Senior Secured Notes in whole at any time, or in part from time to time, at the redemption prices described in the 8.50 % Senior Secured Notes Indenture, plus any accrued and unpaid interest thereon to but excluding the date of redemption. In addition, at any time prior to November 15, 2025, American may redeem up to 40 % of the original aggregate principal amount of the 8.50 % Senior Secured Notes (calculated after giving effect to any issuance of additional notes) wi…",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/6201/000000620125000010/aal-20241231.htm",
+        "numbers": [
+          "8.50 %",
+          "15",
+          "2025",
+          "100 %",
+          "40 %",
+          "108.50 %"
+        ],
+        "dates": [
+          "November 15, 2025"
+        ]
+      },
+      "current_evidence": null
+    }
+  ],
+  "sources": [
+    {
+      "evidence_id": "63629c31b69a2ebdace6",
+      "filing_version": "current",
+      "accession_number": "0000006201-26-000014",
+      "filing_date": "2026-02-18",
+      "report_date": "2025-12-31",
+      "section": "management_discussion",
+      "paragraph_index": 110,
+      "text_excerpt": "For example, the CrowdStrike-caused systems outage in July 2024 significantly impacted airline operations, including our own, and forced several carriers to ground flights for a prolonged period and incur significant costs associated with reaccommodating and compensating affected passengers. Similarly, in September 2025, hundreds of our flights were delayed or cancelled out of Dallas/Fort Worth International Airport (DFW) when FAA fiberoptic cables were accidentally cut by a third party. When service interruptions occur as a result of any of the aforementioned events, we address them in accordance with applicable laws, rules and regulations. However, substantial or sustained system failures could cause service delays or failures and result in our customers purchasing tickets from other airlines. We cannot assure that our security measures, change control procedures or disaster recovery plans are adequate t…",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/6201/000000620126000014/aal-20251231.htm",
+      "numbers": [
+        "2024",
+        "2025"
+      ],
+      "dates": []
+    },
+    {
+      "evidence_id": "40acc827d697e1e3f48e",
+      "filing_version": "prior",
+      "accession_number": "0000006201-25-000010",
+      "filing_date": "2025-02-19",
+      "report_date": "2024-12-31",
+      "section": "risk_factors",
+      "paragraph_index": 41,
+      "text_excerpt": "Indefinite-Lived Intangible Assets Indefinite-lived intangible assets include certain domestic airport slots, international slots and route authorities and our commercial agreement with GOL Linhas Aéreas Inteligentes S.A. (GOL). We assess indefinite-lived intangible assets for impairment annually or more frequently if events or circumstances indicate that the fair values of indefinite-lived intangible assets may be lower than their carrying values. Our annual assessment date is October 1. Indefinite-lived intangible assets are assessed for impairment by initially performing a qualitative assessment. If we determine that it is more likely than not that our indefinite-lived intangible assets may be impaired, we use a quantitative approach to assess the asset’s fair value and the amount of the impairment, if any. Based upon our annual assessment, there were no indefinite-lived intangible asset impairments in…",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/6201/000000620125000010/aal-20241231.htm",
+      "numbers": [
+        "1",
+        "2024"
+      ],
+      "dates": []
+    },
+    {
+      "evidence_id": "4c39bc8733b95a85fe34",
+      "filing_version": "current",
+      "accession_number": "0000006201-26-000014",
+      "filing_date": "2026-02-18",
+      "report_date": "2025-12-31",
+      "section": "risk_factors",
+      "paragraph_index": 30,
+      "text_excerpt": "ASU 2025-06: Intangibles - Goodwill and Other - Internal-Use Software (Subtopic 350-40) Targeted Improvements to the Accounting for Internal-Use Software This standard modernizes the accounting for costs related to internal-use software by removing references to project stages and by clarifying the thresholds entities apply to begin capitalizing costs. The amendments in this update are effective for interim and annual periods beginning after December 15, 2027, and early adoption is permitted. We are currently evaluating how the adoption of this standard may impact our consolidated financial statements. (c) Investments Short-term investments primarily include debt securities and are classified as available-for-sale and stated at fair value. Realized gains and losses are recorded as part of interest income within total nonoperating expense, net on our consolidated statements of operations. Unrealized gains a…",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/6201/000000620126000014/aal-20251231.htm",
+      "numbers": [
+        "2025",
+        "06",
+        "350",
+        "40",
+        "15",
+        "2027"
+      ],
+      "dates": [
+        "December 15, 2027"
+      ]
+    },
+    {
+      "evidence_id": "411a5311bba44d0e2b2a",
+      "filing_version": "current",
+      "accession_number": "0000006201-26-000014",
+      "filing_date": "2026-02-18",
+      "report_date": "2025-12-31",
+      "section": "risk_factors",
+      "paragraph_index": 67,
+      "text_excerpt": "The 2013 Term Loan Facility matures in February 2028 and bears interest at a base rate (subject to a floor of 1.00 %) plus an applicable margin of 1.25 % per annum or, at American’s option, the SOFR rate for a tenor of one, three or six months, depending on the interest period selected by American (subject to a floor of 0.00 %), plus an applicable margin of 2.25 % per annum. SOFR borrowings under the 2013 Term Loan Facility are not subject to a credit spread adjustment. As of December 31, 2025, the margin elected was 2.25 % per annum. The 2013 Revolving Facility matures in June 2029 and bears interest at a base rate (subject to a floor of 1.00 %) plus an applicable margin of 2.00 %, 2.25 % or 2.50 %, depending on AAG’s public corporate credit rating, or, at American’s option, the SOFR rate for a tenor of one, three or six months, depending on the interest period selected by American (subject to a floor of…",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/6201/000000620126000014/aal-20251231.htm",
+      "numbers": [
+        "2013",
+        "2028",
+        "1.00 %",
+        "1.25 %",
+        "0.00 %",
+        "2.25 %",
+        "31",
+        "2025",
+        "2029",
+        "2.00 %",
+        "2.50 %",
+        "3.00 %",
+        "3.25 %",
+        "3.50 %"
+      ],
+      "dates": [
+        "December 31, 2025"
+      ]
+    },
+    {
+      "evidence_id": "10c5107380a95a17e175",
+      "filing_version": "current",
+      "accession_number": "0000006201-26-000014",
+      "filing_date": "2026-02-18",
+      "report_date": "2025-12-31",
+      "section": "risk_factors",
+      "paragraph_index": 206,
+      "text_excerpt": "The 2014 Term Loan Facility matures in January 2027 and bears interest at a base rate (subject to a floor of 1.00 %) plus an applicable margin of 0.75 % or, at American’s option, the SOFR rate for a tenor of one, three or six months, depending on the interest period selected by American, plus the SOFR adjustment applicable to such interest period (with such SOFR rate plus SOFR adjustment being subject to a floor of 0.00 %) plus an applicable margin of 1.75 %. As of December 31, 2025, the margin elected was 1.75 % per annum. The 2014 Revolving Facility matures in June 2029 and bears interest at a base rate (subject to a floor of 1.00 %) plus an applicable margin of 2.00 %, 2.25 % or 2.50 %, depending on AAG’s public corporate credit rating, or, at American’s option, the SOFR rate for a tenor of one, three or six months, depending on the interest period selected by American (subject to a floor of 0.00 %), pl…",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/6201/000000620126000014/aal-20251231.htm",
+      "numbers": [
+        "2014",
+        "2027",
+        "1.00 %",
+        "0.75 %",
+        "0.00 %",
+        "1.75 %",
+        "31",
+        "2025",
+        "2029",
+        "2.00 %",
+        "2.25 %",
+        "2.50 %",
+        "3.00 %",
+        "3.25 %",
+        "3.50 %"
+      ],
+      "dates": [
+        "December 31, 2025"
+      ]
+    },
+    {
+      "evidence_id": "ed843e88fbf323efe19e",
+      "filing_version": "current",
+      "accession_number": "0000006201-26-000014",
+      "filing_date": "2026-02-18",
+      "report_date": "2025-12-31",
+      "section": "risk_factors",
+      "paragraph_index": 35,
+      "text_excerpt": "Total mainline and regional depreciation and amortization expense was $ 2.2 billion for each of the years ended December 31, 2025 and 2024 and $ 2.3 billion for the year ended December 31, 2023. We assess impairment of operating property and equipment when events and circumstances indicate that the assets may be impaired. An impairment of an asset or group of assets exists only when the sum of the estimated undiscounted cash flows expected to be generated directly by the assets are less than the carrying value of the assets. We group assets principally by fleet-type when estimating future cash flows, which is generally the lowest level for which identifiable cash flows exist. Estimates of future cash flows are based on historical results adjusted to reflect management’s best estimate of future market and operating conditions, including our current fleet plan. If such assets are impaired, the impairment cha…",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/6201/000000620126000014/aal-20251231.htm",
+      "numbers": [
+        "$ 2.2 billion",
+        "31",
+        "2025",
+        "2024",
+        "$ 2.3 billion",
+        "2023"
+      ],
+      "dates": [
+        "December 31, 2025",
+        "December 31, 2023"
+      ]
+    },
+    {
+      "evidence_id": "d6f7a34032cbbad3c09f",
+      "filing_version": "current",
+      "accession_number": "0000006201-26-000014",
+      "filing_date": "2026-02-18",
+      "report_date": "2025-12-31",
+      "section": "risk_factors",
+      "paragraph_index": 71,
+      "text_excerpt": "The 2023 Revolving Facility matures in June 2029 and bears interest at a base rate (subject to a floor of 1.00 %) plus an applicable margin of 2.00 %, 2.25 % or 2.50 %, depending on AAG’s public corporate credit rating, or, at American’s option, the SOFR rate for a tenor of one, three or six months, depending on the interest period selected by American (subject to a floor of 0.00 %), plus an applicable margin of 3.00 %, 3.25 % or 3.50 %, depending on AAG’s public corporate credit rating. SOFR borrowings under the 2023 Revolving Facility are not subject to a credit spread adjustment. The 2023 Revolving Facility has aggregate commitments of $ 924 million. As of December 31, 2025, there were no borrowings outstanding under the 2023 Revolving Facility. Other Terms of the 2013, 2014 and 2023 Credit Facilities The term loans under the 2013, 2014 and 2023 Credit Facilities (collectively referred to as the Credit…",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/6201/000000620126000014/aal-20251231.htm",
+      "numbers": [
+        "2023",
+        "2029",
+        "1.00 %",
+        "2.00 %",
+        "2.25 %",
+        "2.50 %",
+        "0.00 %",
+        "3.00 %",
+        "3.25 %",
+        "3.50 %",
+        "$ 924 million",
+        "31",
+        "2025",
+        "2013",
+        "2014"
+      ],
+      "dates": [
+        "December 31, 2025"
+      ]
+    },
+    {
+      "evidence_id": "5e12485b5f76d7fb8beb",
+      "filing_version": "prior",
+      "accession_number": "0000006201-25-000010",
+      "filing_date": "2025-02-19",
+      "report_date": "2024-12-31",
+      "section": "management_discussion",
+      "paragraph_index": 34,
+      "text_excerpt": "In 2024, new five-year CBAs were ratified by the APFA and CWA-IBT, the unions representing our mainline flight attendants and passenger service team members, respectively. Also in 2024, the TWU-IAM ratified a two-year contract extension for our mainline maintenance and fleet service team members. Among our wholly-owned regional subsidiaries, Piedmont fleet and passenger service and PSA flight attendants and dispatchers have agreements that are now amendable and we are engaged in negotiations. For more discussion, see Part I, Item 1A. Risk Factors – “ Union disputes, employee strikes and other labor-related disruptions may adversely affect our operations and financial performance .” Aircraft Fuel Our operations and financial results are materially affected by the availability and price of aircraft fuel, which represents one of the largest single cost items in our business. Based on our 2025 forecasted mainl…",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/6201/000000620125000010/aal-20241231.htm",
+      "numbers": [
+        "2024",
+        "1",
+        "2025",
+        "$45 million"
+      ],
+      "dates": []
+    },
+    {
+      "evidence_id": "f08726eaa0b96e537bbc",
+      "filing_version": "current",
+      "accession_number": "0000006201-26-000014",
+      "filing_date": "2026-02-18",
+      "report_date": "2025-12-31",
+      "section": "management_discussion",
+      "paragraph_index": 109,
+      "text_excerpt": "While the FAA and the telecommunications industry reached an agreement to delay the full implementation of 5G deployment near airports until 2028, there could be future impacts once the current agreement expires. Additionally, there has been an increase in the reported use of jamming or “spoofing” technologies by bad actors intended to disrupt the operation of GPS navigation and other flight systems by relaying fake or erroneous flight information and signals to crews. These technologies could pose risks to the safe operation of aircraft by diverting pilots’ attention and potentially resulting in operational disruptions. Our technologies and automated systems are not completely protected against events that are beyond our control, including natural disasters, power failures, terrorist attacks, cyberattacks, data theft, defects, errors, equipment and software failures, computer viruses or telecommunications…",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/6201/000000620126000014/aal-20251231.htm",
+      "numbers": [
+        "5",
+        "2028"
+      ],
+      "dates": []
+    },
+    {
+      "evidence_id": "5f0c32b8861cdc4bacfc",
+      "filing_version": "prior",
+      "accession_number": "0000006201-25-000010",
+      "filing_date": "2025-02-19",
+      "report_date": "2024-12-31",
+      "section": "risk_factors",
+      "paragraph_index": 211,
+      "text_excerpt": "On June 4, 2024, American and AAG entered into the Tenth Amendment to Amended and Restated Credit and Guaranty Agreement (the 2014 Credit Agreement Tenth Amendment), amending the 2014 Credit Agreement, pursuant to which American terminated all existing revolving commitments and letter of credit commitments available under the 2014 Credit Agreement and established new revolving commitments in an aggregate amount of $ 1.5 billion (which includes the ability to issue letters of credit in an aggregate amount of $ 200 million) (the newly established commitments, the 2014 Revolving Facility), which have a maturity date of June 4, 2029. Additionally, as a result of the 2014 Credit Agreement Tenth Amendment, the 2014 Revolving Facility bears interest at a base rate (subject to a floor of 1.00 %) plus an applicable margin of 2.00 %, 2.25 % or 2.50 %, depending on AAG’s public corporate credit rating, or, at America…",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/6201/000000620125000010/aal-20241231.htm",
+      "numbers": [
+        "4",
+        "2024",
+        "2014",
+        "$ 1.5 billion",
+        "$ 200 million",
+        "2029",
+        "1.00 %",
+        "2.00 %",
+        "2.25 %",
+        "2.50 %",
+        "0.00 %",
+        "3.00 %",
+        "3.25 %",
+        "3.50 %"
+      ],
+      "dates": [
+        "June 4, 2024",
+        "June 4, 2029"
+      ]
+    },
+    {
+      "evidence_id": "50c26d94103e68686a97",
+      "filing_version": "prior",
+      "accession_number": "0000006201-25-000010",
+      "filing_date": "2025-02-19",
+      "report_date": "2024-12-31",
+      "section": "risk_factors",
+      "paragraph_index": 222,
+      "text_excerpt": "If the 7.25 % Senior Secured Notes Collateral Coverage Ratio is less than 1.6 to 1.0 as of the date of delivery of the appraisal for the applicable period, then, subject to a cure period in which additional collateral can be provided or debt repaid such that American meets the required 7.25 % Senior Secured Notes Collateral Coverage Ratio, American will be required to pay special interest in an additional amount equal to 2.0 % per annum of the principal amount of the 7.25 % Senior Secured Notes until the 7.25 % Senior Secured Notes Collateral Coverage Ratio is established to be at least 1.6 to 1.0. 8.50 % Senior Secured Notes On December 4, 2023, American issued $ 1.0 billion aggregate principal amount of 8.50 % senior secured notes due 2029 (the 8.50 % Senior Secured Notes) in a private offering. The 8.50 % Senior Secured Notes were issued at par and bear interest at a rate of 8.50 % per annum (subject to…",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/6201/000000620125000010/aal-20241231.htm",
+      "numbers": [
+        "7.25 %",
+        "1.6",
+        "1.0",
+        "2.0 %",
+        "8.50 %",
+        "4",
+        "2023",
+        "$ 1.0 billion",
+        "2029",
+        "15",
+        "2024"
+      ],
+      "dates": [
+        "December 4, 2023",
+        "May 15, 2024",
+        "May 15, 2029"
+      ]
+    },
+    {
+      "evidence_id": "0de27e0a11e1854dd0dd",
+      "filing_version": "current",
+      "accession_number": "0000006201-26-000014",
+      "filing_date": "2026-02-18",
+      "report_date": "2025-12-31",
+      "section": "risk_factors",
+      "paragraph_index": 197,
+      "text_excerpt": "See Note 13 for further discussion of share-based compensation. (q) Foreign Currency Gains and Losses Foreign currency gains and losses are recorded as part of other income (expense), net within total nonoperating expense, net on American’s consolidated statements of operations. For the years ended December 31, 2025, 2024 and 2023, foreign currency losses were $ 15 million, $ 47 million and $ 30 million, respectively. (r) Other Operating Expenses Other operating expenses includes costs associated with onboard food and catering, crew travel, ground and cargo handling, passenger accommodation, international navigation fees, aircraft cleaning, airport lounge operations and certain general and administrative expenses. (s) Regional Expenses American's regional carriers provide scheduled air transportation under the brand name “American Eagle.” The American Eagle carriers include AAG's wholly-owned regional carr…",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/6201/000000620126000014/aal-20251231.htm",
+      "numbers": [
+        "13",
+        "31",
+        "2025",
+        "2024",
+        "2023",
+        "$ 15 million",
+        "$ 47 million",
+        "$ 30 million"
+      ],
+      "dates": [
+        "December 31, 2025"
+      ]
+    },
+    {
+      "evidence_id": "7e6777e135bb58a62897",
+      "filing_version": "prior",
+      "accession_number": "0000006201-25-000010",
+      "filing_date": "2025-02-19",
+      "report_date": "2024-12-31",
+      "section": "risk_factors",
+      "paragraph_index": 213,
+      "text_excerpt": "Pursuant to the First Amendment, American established a revolving credit facility (the 2023 Revolving Facility, collectively with the 2023 Term Loan Facility, referred to as the 2023 Credit Facilities) in an aggregate amount of $ 890 million, maturing June 4, 2029. The 2023 Revolving Facility bears interest at a base rate (subject to a floor of 1.00 %) plus an applicable margin of 2.00 %, 2.25 % or 2.50 %, depending on AAG’s public corporate credit rating, or, at American’s option, the SOFR rate for a tenor of one, three or six months, depending on the interest period selected by American (subject to a floor of 0.00 %), plus an applicable margin of 3.00 %, 3.25 % or 3.50 %, depending on AAG’s public corporate credit rating. SOFR borrowings under the 2023 Revolving Facility are not subject to a credit spread adjustment. As of December 31, 2024, there were no borrowings outstanding under the 2023 Revolving F…",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/6201/000000620125000010/aal-20241231.htm",
+      "numbers": [
+        "2023",
+        "$ 890 million",
+        "4",
+        "2029",
+        "1.00 %",
+        "2.00 %",
+        "2.25 %",
+        "2.50 %",
+        "0.00 %",
+        "3.00 %",
+        "3.25 %",
+        "3.50 %",
+        "31",
+        "2024",
+        "$ 1.1 billion"
+      ],
+      "dates": [
+        "June 4, 2029",
+        "December 31, 2024"
+      ]
+    },
+    {
+      "evidence_id": "2be832aa816cf3bbcb87",
+      "filing_version": "current",
+      "accession_number": "0000006201-26-000014",
+      "filing_date": "2026-02-18",
+      "report_date": "2025-12-31",
+      "section": "risk_factors",
+      "paragraph_index": 42,
+      "text_excerpt": "If we determine that it is more likely than not that our indefinite-lived intangible assets may be impaired, we use a quantitative approach to assess the asset’s fair value and the amount of the impairment, if any. Based upon our annual assessment, there were no indefinite-lived intangible asset impairments in 2025. We had $ 1.9 billion of indefinite-lived intangible assets on our consolidated balance sheets as of December 31, 2025 and 2024. (l) Fuel Financing In December 2024, we entered into a fuel financing facility with a bank pursuant to which the bank pays certain fuel invoices on our behalf. The agreement contains a maximum allowable outstanding principal balance at any time of $ 1.0 billion and is required to be repaid at least quarterly. The fuel financing facility bears interest at a base rate equal to one-month Secured Overnight Financing Rate (SOFR), plus a margin of 3.75 %.",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/6201/000000620126000014/aal-20251231.htm",
+      "numbers": [
+        "2025",
+        "$ 1.9 billion",
+        "31",
+        "2024",
+        "$ 1.0 billion",
+        "3.75 %"
+      ],
+      "dates": [
+        "December 31, 2025"
+      ]
+    },
+    {
+      "evidence_id": "2443729cbfbab0191251",
+      "filing_version": "prior",
+      "accession_number": "0000006201-25-000010",
+      "filing_date": "2025-02-19",
+      "report_date": "2024-12-31",
+      "section": "risk_factors",
+      "paragraph_index": 34,
+      "text_excerpt": "Costs of major improvements that enhance the usefulness of the asset are capitalized and depreciated or amortized over the estimated useful life of the asset or the lease term, whichever is less. The estimated useful lives for the principal property and equipment classifications are as follows: Principal Property and Equipment Classification Estimated Useful Life Aircraft, engines and related rotable parts 20 – 30 years Buildings and improvements 5 – 30 years Furniture, fixtures and other equipment 3 – 15 years Capitalized software 5 – 10 years Total mainline and regional depreciation and amortization expense was $ 2.2 billion for the year ended December 31, 2024 and $ 2.3 billion for each of the years ended December 31, 2023 and 2022. We assess impairment of operating property and equipment when events and circumstances indicate that the assets may be impaired. An impairment of an asset or group of assets…",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/6201/000000620125000010/aal-20241231.htm",
+      "numbers": [
+        "20",
+        "30",
+        "5",
+        "3",
+        "15",
+        "10",
+        "$ 2.2 billion",
+        "31",
+        "2024",
+        "$ 2.3 billion",
+        "2023",
+        "2022"
+      ],
+      "dates": [
+        "December 31, 2024",
+        "December 31, 2023"
+      ]
+    },
+    {
+      "evidence_id": "029212831b980ec3f02b",
+      "filing_version": "prior",
+      "accession_number": "0000006201-25-000010",
+      "filing_date": "2025-02-19",
+      "report_date": "2024-12-31",
+      "section": "risk_factors",
+      "paragraph_index": 30,
+      "text_excerpt": "We are currently evaluating how the adoption of this standard will impact our income tax disclosures. ASU 2024-03: Income Statement - Reporting Comprehensive Income - Expense Disaggregation Disclosures (Subtopic 220-04) Disaggregation of Income Statement Expenses This standard enhances transparency in reporting by requiring disaggregation of certain costs and expenses in the notes to financial statements. This update is effective for annual periods beginning after December 15, 2026 and interim periods within annual periods beginning after December 15, 2027, and early adoption is permitted. We are currently evaluating how the adoption of this standard will impact our disclosures. (c) Investments Short-term investments primarily include debt securities and are classified as available-for-sale and stated at fair value. Realized gains and losses are recorded as interest income in nonoperating expense, net on o…",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/6201/000000620125000010/aal-20241231.htm",
+      "numbers": [
+        "2024",
+        "03",
+        "220",
+        "04",
+        "15",
+        "2026",
+        "2027"
+      ],
+      "dates": [
+        "December 15, 2026",
+        "December 15, 2027"
+      ]
+    },
+    {
+      "evidence_id": "2dd91b2c3cac63488b57",
+      "filing_version": "prior",
+      "accession_number": "0000006201-25-000010",
+      "filing_date": "2025-02-19",
+      "report_date": "2024-12-31",
+      "section": "risk_factors",
+      "paragraph_index": 199,
+      "text_excerpt": "Certain awards have performance conditions that must be achieved prior to vesting and are expensed based on the expected achievement at each reporting period. The majority of American’s equity awards are time vested restricted stock units. For equity-classified awards, the fair value of such awards is based on the market price of the underlying shares of AAG common stock on the date of grant and is not subsequently remeasured unless modified. For liability-classified awards, the fair value of such awards is remeasured at the end of each reporting period until settled. See Note 13 for further discussion of share-based compensation. (q) Foreign Currency Gains and Losses Foreign currency gains and losses are recorded as part of other income (expense), net within total nonoperating expense, net on American’s consolidated statements of operations. For the years ended December 31, 2024, 2023 and 2022, foreign cu…",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/6201/000000620125000010/aal-20241231.htm",
+      "numbers": [
+        "13",
+        "31",
+        "2024",
+        "2023",
+        "2022",
+        "$ 47 million",
+        "$ 30 million",
+        "$ 38 million"
+      ],
+      "dates": [
+        "December 31, 2024"
+      ]
+    },
+    {
+      "evidence_id": "b84925fb342dee8e245f",
+      "filing_version": "current",
+      "accession_number": "0000006201-26-000014",
+      "filing_date": "2026-02-18",
+      "report_date": "2025-12-31",
+      "section": "risk_factors",
+      "paragraph_index": 184,
+      "text_excerpt": "If American determines that it is more likely than not that its indefinite-lived intangible assets may be impaired, American uses a quantitative approach to assess the asset’s fair value and the amount of the impairment, if any. Based upon American’s annual assessment, there were no indefinite-lived intangible asset impairments in 2025. American had $ 1.9 billion of indefinite-lived intangible assets on its consolidated balance sheets as of December 31, 2025 and 2024. (l) Fuel Financing In December 2024, American entered into a fuel financing facility with a bank pursuant to which the bank pays certain fuel invoices on American’s behalf. The agreement contains a maximum allowable outstanding principal balance at any time of $ 1.0 billion and is required to be repaid at least quarterly. The fuel financing facility bears interest at a base rate equal to one-month Secured Overnight Financing Rate (SOFR), plus…",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/6201/000000620126000014/aal-20251231.htm",
+      "numbers": [
+        "2025",
+        "$ 1.9 billion",
+        "31",
+        "2024",
+        "$ 1.0 billion",
+        "3.75 %"
+      ],
+      "dates": [
+        "December 31, 2025"
+      ]
+    },
+    {
+      "evidence_id": "9214726f26b0d7e728a5",
+      "filing_version": "prior",
+      "accession_number": "0000006201-25-000010",
+      "filing_date": "2025-02-19",
+      "report_date": "2024-12-31",
+      "section": "risk_factors",
+      "paragraph_index": 69,
+      "text_excerpt": "On June 4, 2024, American and AAG entered into the Tenth Amendment to Amended and Restated Credit and Guaranty Agreement (the 2014 Credit Agreement Tenth Amendment), amending the 2014 Credit Agreement, pursuant to which American terminated all existing revolving commitments and letter of credit commitments available under the 2014 Credit Agreement and established new revolving commitments in an aggregate amount of $ 1.5 billion (which includes the ability to issue letters of credit in an aggregate amount of $ 200 million) (the newly established commitments, the 2014 Revolving Facility), which have a maturity date of June 4, 2029. Additionally, as a result of the 2014 Credit Agreement Tenth Amendment, the 2014 Revolving Facility bears interest at a base rate (subject to a floor of 1.00 %) plus an applicable margin of 2.00 %, 2.25 % or 2.50 %, depending on AAG’s public corporate credit rating, or, at America…",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/6201/000000620125000010/aal-20241231.htm",
+      "numbers": [
+        "4",
+        "2024",
+        "2014",
+        "$ 1.5 billion",
+        "$ 200 million",
+        "2029",
+        "1.00 %",
+        "2.00 %",
+        "2.25 %",
+        "2.50 %",
+        "0.00 %",
+        "3.00 %",
+        "3.25 %",
+        "3.50 %"
+      ],
+      "dates": [
+        "June 4, 2024",
+        "June 4, 2029"
+      ]
+    },
+    {
+      "evidence_id": "1cc9c649ee0921f0a91d",
+      "filing_version": "current",
+      "accession_number": "0000006201-26-000014",
+      "filing_date": "2026-02-18",
+      "report_date": "2025-12-31",
+      "section": "risk_factors",
+      "paragraph_index": 41,
+      "text_excerpt": "Certain marketing agreements were identified as intangible assets subject to amortization and are amortized on a straight-line basis over approximately 30 years. We had $ 124 million and $ 101 million of definite-lived intangible assets, net of accumulated amortization on our consolidated balance sheets as of December 31, 2025 and 2024, respectively. We expect to record amortization expense related to these assets of approximately $ 7 million for each of the years in 2026 through 2030, and $ 88 million of amortization expense in 2031 and thereafter until fully amortized. Indefinite-Lived Intangible Assets Indefinite-lived intangible assets include certain domestic airport slots, international slots and route authorities and our commercial agreement with GOL Linhas Aéreas Inteligentes S.A. (GOL). We assess indefinite-lived intangible assets for impairment annually or more frequently if events or circumstanc…",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/6201/000000620126000014/aal-20251231.htm",
+      "numbers": [
+        "30",
+        "$ 124 million",
+        "$ 101 million",
+        "31",
+        "2025",
+        "2024",
+        "$ 7 million",
+        "2026",
+        "2030",
+        "$ 88 million",
+        "2031",
+        "1"
+      ],
+      "dates": [
+        "December 31, 2025"
+      ]
+    },
+    {
+      "evidence_id": "4101d227b0fc76d5d88b",
+      "filing_version": "current",
+      "accession_number": "0000006201-26-000014",
+      "filing_date": "2026-02-18",
+      "report_date": "2025-12-31",
+      "section": "risk_factors",
+      "paragraph_index": 69,
+      "text_excerpt": "As of December 31, 2025, the margin elected was 1.75 % per annum. The 2014 Revolving Facility matures in June 2029 and bears interest at a base rate (subject to a floor of 1.00 %) plus an applicable margin of 2.00 %, 2.25 % or 2.50 %, depending on AAG’s public corporate credit rating, or, at American’s option, the SOFR rate for a tenor of one, three or six months, depending on the interest period selected by American (subject to a floor of 0.00 %), plus an applicable margin of 3.00 %, 3.25 % or 3.50 %, depending on AAG’s public corporate credit rating. SOFR borrowings under the 2014 Revolving Facility are not subject to a credit spread adjustment. The 2014 Revolving Facility has aggregate commitments of $ 1.6 billion, with the ability to issue letters of credit up to an aggregate amount of $ 200 million. As of December 31, 2025, there were no borrowings or letters of credit outstanding under the 2014 Revol…",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/6201/000000620126000014/aal-20251231.htm",
+      "numbers": [
+        "31",
+        "2025",
+        "1.75 %",
+        "2014",
+        "2029",
+        "1.00 %",
+        "2.00 %",
+        "2.25 %",
+        "2.50 %",
+        "0.00 %",
+        "3.00 %",
+        "3.25 %",
+        "3.50 %",
+        "$ 1.6 billion",
+        "$ 200 million"
+      ],
+      "dates": [
+        "December 31, 2025"
+      ]
+    },
+    {
+      "evidence_id": "6c99e5d7b590444d7b66",
+      "filing_version": "prior",
+      "accession_number": "0000006201-25-000010",
+      "filing_date": "2025-02-19",
+      "report_date": "2024-12-31",
+      "section": "risk_factors",
+      "paragraph_index": 74,
+      "text_excerpt": "American has the ability to make future modifications to the collateral pledged, subject to certain restrictions. American’s obligations under the Credit Facilities are guaranteed by AAG, and such guarantee is AAG’s senior unsecured obligations (all of the collateral is owned by American, and AAG has not granted a security interest in any assets to secure any of the foregoing obligations). The Credit Facilities contain events of default customary for similar financings, including cross default and cross-acceleration to other material indebtedness. (b) Senior Secured Notes 10.75 % Senior Secured Notes On September 25, 2020 (the 10.75 % Senior Secured Notes Closing Date), American issued $ 1.0 billion in initial principal amount of senior secured IP notes (the IP Notes) and $ 200 million in initial principal amount of senior secured LGA/DCA notes (the LGA/DCA Notes and together with the IP Notes, the 10.75 %…",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/6201/000000620125000010/aal-20241231.htm",
+      "numbers": [
+        "10.75 %",
+        "25",
+        "2020",
+        "$ 1.0 billion",
+        "$ 200 million"
+      ],
+      "dates": [
+        "September 25, 2020"
+      ]
+    },
+    {
+      "evidence_id": "8053133acc90e2b950b4",
+      "filing_version": "prior",
+      "accession_number": "0000006201-25-000010",
+      "filing_date": "2025-02-19",
+      "report_date": "2024-12-31",
+      "section": "risk_factors",
+      "paragraph_index": 208,
+      "text_excerpt": "Additionally, as a result of the Ninth Amendment, the 2013 Revolving Facility bears interest at a base rate (subject to a floor of 1.00 %) plus an applicable margin of 2.00 %, 2.25 % or 2.50 %, depending on AAG’s public corporate credit rating, or, at American’s option, SOFR for a tenor of one, three or six months, depending on the interest period selected by American (subject to a floor of 0.00 %), plus an applicable margin of 3.00 %, 3.25 % or 3.50 %, depending on AAG’s public corporate credit rating. Pursuant to the Ninth Amendment, SOFR borrowings under the 2013 Revolving Facility are not subject to a credit spread adjustment. As of December 31, 2024, there were no borrowings or letters of credit outstanding under the 2013 Revolving Facility. On December 19, 2024, American and AAG entered into the Tenth Amendment to Amended and Restated Credit and Guaranty Agreement (the 2013 Credit Agreement Tenth Ame…",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/6201/000000620125000010/aal-20241231.htm",
+      "numbers": [
+        "2013",
+        "1.00 %",
+        "2.00 %",
+        "2.25 %",
+        "2.50 %",
+        "0.00 %",
+        "3.00 %",
+        "3.25 %",
+        "3.50 %",
+        "31",
+        "2024",
+        "19"
+      ],
+      "dates": [
+        "December 31, 2024",
+        "December 19, 2024"
+      ]
+    },
+    {
+      "evidence_id": "50c97f2faf338851e76c",
+      "filing_version": "prior",
+      "accession_number": "0000006201-25-000010",
+      "filing_date": "2025-02-19",
+      "report_date": "2024-12-31",
+      "section": "risk_factors",
+      "paragraph_index": 224,
+      "text_excerpt": "American may redeem the 8.50 % Senior Secured Notes, in whole at any time or in part from time to time prior to November 15, 2025, at a redemption price equal to 100 % of the principal amount of the 8.50 % Senior Secured Notes to be redeemed, plus a “make-whole” premium, plus any accrued and unpaid interest thereon to but excluding the date of redemption. At any time on or after November 15, 2025, American may redeem all or any of the 8.50 % Senior Secured Notes in whole at any time, or in part from time to time, at the redemption prices described in the 8.50 % Senior Secured Notes Indenture, plus any accrued and unpaid interest thereon to but excluding the date of redemption. In addition, at any time prior to November 15, 2025, American may redeem up to 40 % of the original aggregate principal amount of the 8.50 % Senior Secured Notes (calculated after giving effect to any issuance of additional notes) wi…",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/6201/000000620125000010/aal-20241231.htm",
+      "numbers": [
+        "8.50 %",
+        "15",
+        "2025",
+        "100 %",
+        "40 %",
+        "108.50 %"
+      ],
+      "dates": [
+        "November 15, 2025"
+      ]
+    }
+  ],
+  "generation": {
+    "used": false,
+    "status": "disabled",
+    "model": null
+  },
+  "cache": {
+    "hit": false,
+    "fingerprint": "7bca7f1b34c5060a9a39e59813da9b038632e05d4b9a53db0cede11230a4be67"
+  },
+  "latency_ms": 33819.87
+}

@@ -1,0 +1,3025 @@
+{
+  "analysis_id": "ab2d3e2124588e8c",
+  "company": {
+    "cik": "0001500217",
+    "ticker": "AAT",
+    "company_name": "American Assets Trust, Inc."
+  },
+  "filing_pair": {
+    "previous": {
+      "accession_number": "0001500217-25-000007",
+      "filing_date": "2025-02-12",
+      "report_date": "2024-12-31",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1500217/000150021725000007/aat-20241231.htm"
+    },
+    "current": {
+      "accession_number": "0001500217-26-000008",
+      "filing_date": "2026-02-06",
+      "report_date": "2025-12-31",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1500217/000150021726000008/aat-20251231.htm"
+    }
+  },
+  "pipeline_version": "filing-intelligence-v1",
+  "comparison_available": true,
+  "coverage": {
+    "prior_sections": [
+      "business",
+      "management_discussion",
+      "risk_factors"
+    ],
+    "current_sections": [
+      "business",
+      "management_discussion",
+      "risk_factors"
+    ],
+    "comparable_sections": [
+      "business",
+      "management_discussion",
+      "risk_factors"
+    ],
+    "missing_from_current": [],
+    "new_in_current": [],
+    "prior_text_capped": true,
+    "current_text_capped": true,
+    "status": "partial",
+    "alignment_methods": {
+      "local semantic": 3
+    },
+    "paragraphs_compared": 595
+  },
+  "summary": {
+    "total_changes": 24,
+    "high_attention": 24,
+    "new": 11,
+    "removed": 13,
+    "modified": 0,
+    "dominant_topics": [
+      {
+        "topic": "liquidity_debt_margins_and_costs",
+        "label": "Liquidity, debt, margins and costs",
+        "count": 15
+      },
+      {
+        "topic": "growth_and_strategy",
+        "label": "Growth and strategy",
+        "count": 6
+      },
+      {
+        "topic": "demand_and_competition",
+        "label": "Demand and competition",
+        "count": 2
+      }
+    ]
+  },
+  "changes": [
+    {
+      "change_id": "1aec7475bf41ea1c",
+      "change_type": "removed",
+      "topic": "demand_and_competition",
+      "topic_label": "Demand and competition",
+      "section": "risk_factors",
+      "attention": {
+        "score": 85,
+        "label": "high",
+        "factors": [
+          {
+            "label": "Disclosure novelty",
+            "points": 40
+          },
+          {
+            "label": "Section significance",
+            "points": 20
+          },
+          {
+            "label": "Risk language",
+            "points": 12
+          },
+          {
+            "label": "Numerical change",
+            "points": 10
+          },
+          {
+            "label": "Evidence specificity",
+            "points": 3
+          }
+        ]
+      },
+      "explanation": "A prior disclosure related to demand and competition is no longer present in the comparable section.",
+      "analyst_relevance": "Review the cited language in the context of the investment thesis.",
+      "similarity": null,
+      "numeric_deltas": [
+        {
+          "previous": "43.2 %",
+          "current": null
+        },
+        {
+          "previous": "41.2 %",
+          "current": null
+        }
+      ],
+      "previous_evidence": {
+        "evidence_id": "4c1157e47c3f640f29c3",
+        "filing_version": "prior",
+        "accession_number": "0001500217-25-000007",
+        "filing_date": "2025-02-12",
+        "report_date": "2024-12-31",
+        "section": "risk_factors",
+        "paragraph_index": 228,
+        "text_excerpt": "The work performed is financed through an escrow account funded by the seller upon our purchase of the Del Monte Center. We believe the funds in the escrow account are sufficient for the remaining work to be performed. However, if further work is required costing more than the remaining escrow funds, we could be required to pay such overage, although we may have a contractual claim for such costs against the prior owner or our environmental remediation consultant. Concentrations of Credit Risk Our properties are located in Southern California, Northern California, Washington, Oregon, Texas and Hawaii. The ability of the tenants to honor the terms of their respective leases is dependent upon the economic, regulatory and social factors affecting the markets in which the tenants operate. Fifteen of our consolidated properties, representing 43.2 % and 41.2 % of our total revenue for the year ended December 31,…",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1500217/000150021725000007/aat-20241231.htm",
+        "numbers": [
+          "43.2 %",
+          "41.2 %",
+          "31",
+          "2024",
+          "2023"
+        ],
+        "dates": [
+          "December 31, 2024"
+        ]
+      },
+      "current_evidence": null
+    },
+    {
+      "change_id": "3def0b9a9b3992a2",
+      "change_type": "new",
+      "topic": "growth_and_strategy",
+      "topic_label": "Growth and strategy",
+      "section": "risk_factors",
+      "attention": {
+        "score": 85,
+        "label": "high",
+        "factors": [
+          {
+            "label": "Disclosure novelty",
+            "points": 40
+          },
+          {
+            "label": "Section significance",
+            "points": 20
+          },
+          {
+            "label": "Risk language",
+            "points": 8
+          },
+          {
+            "label": "Numerical change",
+            "points": 14
+          },
+          {
+            "label": "Evidence specificity",
+            "points": 3
+          }
+        ]
+      },
+      "explanation": "The current filing introduces a new disclosure related to growth and strategy.",
+      "analyst_relevance": "Review the cited language in the context of the investment thesis.",
+      "similarity": null,
+      "numeric_deltas": [
+        {
+          "previous": null,
+          "current": "$ 100 million"
+        },
+        {
+          "previous": null,
+          "current": "$ 250 million"
+        },
+        {
+          "previous": null,
+          "current": "4.29 %"
+        },
+        {
+          "previous": null,
+          "current": "4.24 %"
+        },
+        {
+          "previous": null,
+          "current": "23"
+        },
+        {
+          "previous": null,
+          "current": "3.78 %"
+        }
+      ],
+      "previous_evidence": null,
+      "current_evidence": {
+        "evidence_id": "e04a0c02dcb83cee80a4",
+        "filing_version": "current",
+        "accession_number": "0001500217-26-000008",
+        "filing_date": "2026-02-06",
+        "report_date": "2025-12-31",
+        "section": "risk_factors",
+        "paragraph_index": 193,
+        "text_excerpt": "On December 2, 2024, we repaid the entirety of the $ 100 million Series B Notes. On February 3, 2025, we repaid the entirety of the $ 100 million Series C Notes. On March 1, 2017, the Operating Partnership entered into a Note Purchase Agreement for the private placement of $ 250 million of 4.29 % Senior Guaranteed Notes, Series D, due March 1, 2027 (the “Series D Notes”). The Series D Notes were issued on March 1, 2017 and pay interest quarterly on the last day of January, April, July and October until their respective maturities. On May 23, 2017, the Operating Partnership entered into a Note Purchase Agreement for the private placement of $ 100 million of 4.24 % Senior Guaranteed Notes, Series E, due May 23, 2029 (the “Series E Notes”). The Series E Notes were issued on May 23, 2017 and pay interest semi-annually on the 23rd of May and November until their respective maturities. On July 19, 2017, the Oper…",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1500217/000150021726000008/aat-20251231.htm",
+        "numbers": [
+          "2",
+          "2024",
+          "$ 100 million",
+          "3",
+          "2025",
+          "1",
+          "2017",
+          "$ 250 million",
+          "4.29 %",
+          "2027",
+          "23",
+          "4.24 %",
+          "2029",
+          "19",
+          "3.78 %"
+        ],
+        "dates": [
+          "December 2, 2024",
+          "February 3, 2025",
+          "March 1, 2017",
+          "March 1, 2027",
+          "May 23, 2017",
+          "May 23, 2029",
+          "July 19, 2017",
+          "July 19, 2024"
+        ]
+      }
+    },
+    {
+      "change_id": "2514a76f0da15c4e",
+      "change_type": "new",
+      "topic": "liquidity_debt_margins_and_costs",
+      "topic_label": "Liquidity, debt, margins and costs",
+      "section": "risk_factors",
+      "attention": {
+        "score": 81,
+        "label": "high",
+        "factors": [
+          {
+            "label": "Disclosure novelty",
+            "points": 40
+          },
+          {
+            "label": "Section significance",
+            "points": 20
+          },
+          {
+            "label": "Risk language",
+            "points": 4
+          },
+          {
+            "label": "Numerical change",
+            "points": 14
+          },
+          {
+            "label": "Evidence specificity",
+            "points": 3
+          }
+        ]
+      },
+      "explanation": "Added details about treasury lock contracts and effective interest rates.",
+      "analyst_relevance": "High. These items provide insight into the company's financial hedging strategies.",
+      "similarity": null,
+      "numeric_deltas": [
+        {
+          "previous": null,
+          "current": "6.150 %"
+        },
+        {
+          "previous": null,
+          "current": "6.209 %"
+        },
+        {
+          "previous": null,
+          "current": "3.375 %"
+        },
+        {
+          "previous": null,
+          "current": "60 %"
+        },
+        {
+          "previous": null,
+          "current": "28"
+        },
+        {
+          "previous": null,
+          "current": "1.5"
+        },
+        {
+          "previous": null,
+          "current": "40 %"
+        },
+        {
+          "previous": null,
+          "current": "150 %"
+        }
+      ],
+      "previous_evidence": null,
+      "current_evidence": {
+        "evidence_id": "f09866e717e3b2355ba4",
+        "filing_version": "current",
+        "accession_number": "0001500217-26-000008",
+        "filing_date": "2026-02-06",
+        "report_date": "2025-12-31",
+        "section": "risk_factors",
+        "paragraph_index": 191,
+        "text_excerpt": "As a result of the loss on these treasury lock contracts and the debt discount, the effective rate on our 6.150 % Senior Notes is 6.209 % per annum. The treasury lock contracts have been deemed to be highly effective cash flow hedges and have been designated as accounting hedges. Any gains or losses incurred upon the settlement of these treasury lock contracts are included in accumulated other comprehensive income and are amortized to interest expense over the life of the 6.150 % Senior Notes. The 3.375 % Senior Notes and the 6.150 % Senior Notes include a number of customary financial covenants, including: • A maximum aggregate debt ratio of 60 %, F-28 • A minimum debt service ratio of 1.5 x, • A maximum secured debt ratio of 40 %, • A minimum maintenance of total unencumbered assets of 150 %. As of December 31, 2025, the Operating Partnership was in compliance with all then in-place 3.375 % Senior Notes…",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1500217/000150021726000008/aat-20251231.htm",
+        "numbers": [
+          "6.150 %",
+          "6.209 %",
+          "3.375 %",
+          "60 %",
+          "28",
+          "1.5",
+          "40 %",
+          "150 %",
+          "31",
+          "2025",
+          "6.15 %"
+        ],
+        "dates": [
+          "December 31, 2025"
+        ]
+      }
+    },
+    {
+      "change_id": "c8eb4a5892e567d7",
+      "change_type": "removed",
+      "topic": "liquidity_debt_margins_and_costs",
+      "topic_label": "Liquidity, debt, margins and costs",
+      "section": "risk_factors",
+      "attention": {
+        "score": 81,
+        "label": "high",
+        "factors": [
+          {
+            "label": "Disclosure novelty",
+            "points": 40
+          },
+          {
+            "label": "Section significance",
+            "points": 20
+          },
+          {
+            "label": "Risk language",
+            "points": 4
+          },
+          {
+            "label": "Numerical change",
+            "points": 14
+          },
+          {
+            "label": "Evidence specificity",
+            "points": 3
+          }
+        ]
+      },
+      "explanation": "Removed debt repayment details and interest rate swap agreements.",
+      "analyst_relevance": "Moderate. The removal of these items may affect the company's financial health and borrowing capacity.",
+      "similarity": null,
+      "numeric_deltas": [
+        {
+          "previous": "3",
+          "current": null
+        },
+        {
+          "previous": "5.47 %",
+          "current": null
+        },
+        {
+          "previous": "5.57 %",
+          "current": null
+        },
+        {
+          "previous": "4",
+          "current": null
+        },
+        {
+          "previous": "$ 0.5 million",
+          "current": null
+        },
+        {
+          "previous": "3.85 %",
+          "current": null
+        }
+      ],
+      "previous_evidence": {
+        "evidence_id": "9fb062003186b2012f24",
+        "filing_version": "prior",
+        "accession_number": "0001500217-25-000007",
+        "filing_date": "2025-02-12",
+        "report_date": "2024-12-31",
+        "section": "risk_factors",
+        "paragraph_index": 185,
+        "text_excerpt": "On January 2, 2025, we repaid the entirety of Term Loan B and Term Loan C. (3) The Operating Partnership entered into interest rate swap agreements that are intended to fix the effective interest rate associated with Term Loan B and Term Loan C, subject to adjustments based on our consolidated leverage ratio, at, 5.47 % from January 5, 2023 to January 4, 2024 and at 5.57 % from January 5, 2024 to January 4, 2025. (4) The Operating Partnership entered into a treasury lock contract on May 31, 2017, which was settled on June 23, 2017 at a loss of approximately $ 0.5 million. The treasury lock contract was deemed to be a highly effective cash flow hedge, accordingly, the effective interest rate is approximately 3.85 % per annum.",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1500217/000150021725000007/aat-20241231.htm",
+        "numbers": [
+          "2",
+          "2025",
+          "3",
+          "5.47 %",
+          "5",
+          "2023",
+          "4",
+          "2024",
+          "5.57 %",
+          "31",
+          "2017",
+          "23",
+          "$ 0.5 million",
+          "3.85 %"
+        ],
+        "dates": [
+          "January 2, 2025",
+          "January 5, 2023",
+          "January 4, 2024",
+          "January 5, 2024",
+          "January 4, 2025",
+          "May 31, 2017",
+          "June 23, 2017"
+        ]
+      },
+      "current_evidence": null
+    },
+    {
+      "change_id": "0c2c835b3221bc72",
+      "change_type": "removed",
+      "topic": "growth_and_strategy",
+      "topic_label": "Growth and strategy",
+      "section": "risk_factors",
+      "attention": {
+        "score": 79,
+        "label": "high",
+        "factors": [
+          {
+            "label": "Disclosure novelty",
+            "points": 40
+          },
+          {
+            "label": "Section significance",
+            "points": 20
+          },
+          {
+            "label": "Risk language",
+            "points": 2
+          },
+          {
+            "label": "Numerical change",
+            "points": 14
+          },
+          {
+            "label": "Evidence specificity",
+            "points": 3
+          }
+        ]
+      },
+      "explanation": "A prior disclosure related to growth and strategy is no longer present in the comparable section.",
+      "analyst_relevance": "Review the cited language in the context of the investment thesis.",
+      "similarity": null,
+      "numeric_deltas": [
+        {
+          "previous": "1",
+          "current": null
+        },
+        {
+          "previous": "1.20 %",
+          "current": null
+        },
+        {
+          "previous": "1.90 %",
+          "current": null
+        },
+        {
+          "previous": "2",
+          "current": null
+        },
+        {
+          "previous": "0 %",
+          "current": null
+        },
+        {
+          "previous": "50 bps",
+          "current": null
+        },
+        {
+          "previous": "100 bps",
+          "current": null
+        },
+        {
+          "previous": "0.20 %",
+          "current": null
+        }
+      ],
+      "previous_evidence": {
+        "evidence_id": "dc59c7a0177ce25d9699",
+        "filing_version": "prior",
+        "accession_number": "0001500217-25-000007",
+        "filing_date": "2025-02-12",
+        "report_date": "2024-12-31",
+        "section": "risk_factors",
+        "paragraph_index": 200,
+        "text_excerpt": "Borrowings under the Amended and Restated Term Loan Agreement bear interest at floating rates equal to, at the Operating Partnership’s option, either (1) the applicable SOFR, plus a SOFR adjustment and a spread (based on the Operating Partnership’s consolidated leverage ratio and applicable year of Term Loan B and Term Loan C) ranging from 1.20 % to 1.90 %, or (2) a base rate equal to the highest of (a) 0 %, (b) the prime rate, (c) the federal funds rate plus 50 bps and (d) the one-month SOFR, plus a SOFR adjustment and 100 bps, plus, in each case, a spread (based on the Operating Partnership’s consolidated leverage ratio and applicable year of Term Loan B and Term Loan C) ranging from 0.20 % to 0.90 %. Additionally, the Operating Partnership may elect for borrowings to bear interest based on a ratings-based pricing grid based on the Operating Partnership’s then-applicable investment grade debt ratings und…",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1500217/000150021725000007/aat-20241231.htm",
+        "numbers": [
+          "1",
+          "1.20 %",
+          "1.90 %",
+          "2",
+          "0 %",
+          "50 bps",
+          "100 bps",
+          "0.20 %",
+          "0.90 %"
+        ],
+        "dates": []
+      },
+      "current_evidence": null
+    },
+    {
+      "change_id": "30dfaebdeef0f3c2",
+      "change_type": "removed",
+      "topic": "liquidity_debt_margins_and_costs",
+      "topic_label": "Liquidity, debt, margins and costs",
+      "section": "risk_factors",
+      "attention": {
+        "score": 79,
+        "label": "high",
+        "factors": [
+          {
+            "label": "Disclosure novelty",
+            "points": 40
+          },
+          {
+            "label": "Section significance",
+            "points": 20
+          },
+          {
+            "label": "Risk language",
+            "points": 2
+          },
+          {
+            "label": "Numerical change",
+            "points": 14
+          },
+          {
+            "label": "Evidence specificity",
+            "points": 3
+          }
+        ]
+      },
+      "explanation": "A prior disclosure related to liquidity, debt, margins and costs is no longer present in the comparable section.",
+      "analyst_relevance": "Review the cited language in the context of the investment thesis.",
+      "similarity": null,
+      "numeric_deltas": [
+        {
+          "previous": "$ 150 million",
+          "current": null
+        },
+        {
+          "previous": "3.91 %",
+          "current": null
+        },
+        {
+          "previous": "30",
+          "current": null
+        },
+        {
+          "previous": "5 %",
+          "current": null
+        },
+        {
+          "previous": "100 %",
+          "current": null
+        },
+        {
+          "previous": "29",
+          "current": null
+        }
+      ],
+      "previous_evidence": {
+        "evidence_id": "2c14b1b15061b0ad726b",
+        "filing_version": "prior",
+        "accession_number": "0001500217-25-000007",
+        "filing_date": "2025-02-12",
+        "report_date": "2024-12-31",
+        "section": "risk_factors",
+        "paragraph_index": 194,
+        "text_excerpt": "On July 30, 2019, the Operating Partnership entered into a Note Purchase Agreement for the private placement of $ 150 million of 3.91 % Senior Guaranteed Notes, Series G, due July 30, 2030 (the \"Series G Notes\" and collectively with the Series A Notes, Series B Notes, Series C Notes, Series D Notes, Series E Notes, Series F Notes and Series G Notes are referred to herein as, the “Notes\".) The Series G Notes were issued on July 30, 2019 and pay interest semi-annually on the 30th of July and January until their maturity. The Operating Partnership may prepay at any time all, or from time to time any part of, the Notes, in an amount not less than 5 % of the aggregate principal amount of any series of the Notes then outstanding in the case of a partial prepayment, at 100 % of the principal amount so prepaid plus a Make-Whole Amount. F-29 The Note Purchase Agreements contain a number of customary financial coven…",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1500217/000150021725000007/aat-20241231.htm",
+        "numbers": [
+          "30",
+          "2019",
+          "$ 150 million",
+          "3.91 %",
+          "2030",
+          "5 %",
+          "100 %",
+          "29"
+        ],
+        "dates": [
+          "July 30, 2019",
+          "July 30, 2030"
+        ]
+      },
+      "current_evidence": null
+    },
+    {
+      "change_id": "710f3ae00888aa46",
+      "change_type": "new",
+      "topic": "liquidity_debt_margins_and_costs",
+      "topic_label": "Liquidity, debt, margins and costs",
+      "section": "risk_factors",
+      "attention": {
+        "score": 79,
+        "label": "high",
+        "factors": [
+          {
+            "label": "Disclosure novelty",
+            "points": 40
+          },
+          {
+            "label": "Section significance",
+            "points": 20
+          },
+          {
+            "label": "Risk language",
+            "points": 2
+          },
+          {
+            "label": "Numerical change",
+            "points": 14
+          },
+          {
+            "label": "Evidence specificity",
+            "points": 3
+          }
+        ]
+      },
+      "explanation": "The current filing introduces a new disclosure related to liquidity, debt, margins and costs.",
+      "analyst_relevance": "Review the cited language in the context of the investment thesis.",
+      "similarity": null,
+      "numeric_deltas": [
+        {
+          "previous": null,
+          "current": "27"
+        },
+        {
+          "previous": null,
+          "current": "3"
+        },
+        {
+          "previous": null,
+          "current": "5.47 %"
+        },
+        {
+          "previous": null,
+          "current": "5.57 %"
+        },
+        {
+          "previous": null,
+          "current": "4"
+        },
+        {
+          "previous": null,
+          "current": "5"
+        },
+        {
+          "previous": null,
+          "current": "$ 10.4 million"
+        },
+        {
+          "previous": null,
+          "current": "3.87 %"
+        }
+      ],
+      "previous_evidence": null,
+      "current_evidence": {
+        "evidence_id": "37539287586b6c1d5852",
+        "filing_version": "current",
+        "accession_number": "0001500217-26-000008",
+        "filing_date": "2026-02-06",
+        "report_date": "2025-12-31",
+        "section": "risk_factors",
+        "paragraph_index": 187,
+        "text_excerpt": "F-27 (3) The Operating Partnership entered into interest rate swap agreements that are intended to fix the effective interest rate associated with Term Loan B and Term Loan C, subject to adjustments based on our consolidated leverage ratio, at, 5.47 % from January 5, 2023 to January 4, 2024 and at 5.57 % from January 5, 2024 to January 4, 2025. (4) The Senior C Notes were prepaid in full on February 3, 2025, without penalty or premium. (5) The Operating Partnership entered into forward-starting interest rate swap contracts on March 29, 2016 and April 7, 2016, which were settled on January 18, 2017 at a gain of approximately $ 10.4 million. The forward-starting interest swap rate contracts were deemed to be highly effective cash flow hedges, accordingly, the effective interest rate is approximately 3.87 % per annum. (6) The Operating Partnership entered into a treasury lock contract on April 25, 2017, which…",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1500217/000150021726000008/aat-20251231.htm",
+        "numbers": [
+          "27",
+          "3",
+          "5.47 %",
+          "5",
+          "2023",
+          "4",
+          "2024",
+          "5.57 %",
+          "2025",
+          "29",
+          "2016",
+          "7",
+          "18",
+          "2017",
+          "$ 10.4 million",
+          "3.87 %"
+        ],
+        "dates": [
+          "January 5, 2023",
+          "January 4, 2024",
+          "January 5, 2024",
+          "January 4, 2025",
+          "February 3, 2025",
+          "March 29, 2016",
+          "April 7, 2016",
+          "January 18, 2017"
+        ]
+      }
+    },
+    {
+      "change_id": "7d53174d819a1d30",
+      "change_type": "new",
+      "topic": "growth_and_strategy",
+      "topic_label": "Growth and strategy",
+      "section": "risk_factors",
+      "attention": {
+        "score": 79,
+        "label": "high",
+        "factors": [
+          {
+            "label": "Disclosure novelty",
+            "points": 40
+          },
+          {
+            "label": "Section significance",
+            "points": 20
+          },
+          {
+            "label": "Risk language",
+            "points": 2
+          },
+          {
+            "label": "Numerical change",
+            "points": 14
+          },
+          {
+            "label": "Evidence specificity",
+            "points": 3
+          }
+        ]
+      },
+      "explanation": "Included a description of securities and related agreements.",
+      "analyst_relevance": "High. This information is crucial for understanding the company's capital structure.",
+      "similarity": null,
+      "numeric_deltas": [
+        {
+          "previous": null,
+          "current": "4.3"
+        },
+        {
+          "previous": null,
+          "current": "10.1"
+        },
+        {
+          "previous": null,
+          "current": "6"
+        },
+        {
+          "previous": null,
+          "current": "10.2"
+        },
+        {
+          "previous": null,
+          "current": "10.3"
+        },
+        {
+          "previous": null,
+          "current": "1"
+        },
+        {
+          "previous": null,
+          "current": "10.4"
+        },
+        {
+          "previous": null,
+          "current": "10.5"
+        }
+      ],
+      "previous_evidence": null,
+      "current_evidence": {
+        "evidence_id": "515323609b996e30ddb5",
+        "filing_version": "current",
+        "accession_number": "0001500217-26-000008",
+        "filing_date": "2026-02-06",
+        "report_date": "2025-12-31",
+        "section": "risk_factors",
+        "paragraph_index": 106,
+        "text_excerpt": "4.3* Description of Securities 10.1(6) Amended and Restated Agreement of Limited Partnership of American Assets Trust, L.P., dated January 19, 2011 10.2(6) Registration Rights Agreement among American Assets Trust, Inc. and the persons named therein, dated January 19, 2011 10.3(1) American Assets Trust, Inc. and American Assets Trust, L.P. Amended and Restated 2011 Equity Incentive Award Plan 10.4(1) Form of Indemnification Agreement between American Assets Trust, Inc. and its directors and officers 10.5* Form of American Assets Trust, Inc. Restricted Stock Award Agreement (Performance Vesting) 10.6(21) Form of American Assets Trust, Inc.",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1500217/000150021726000008/aat-20251231.htm",
+        "numbers": [
+          "4.3",
+          "10.1",
+          "6",
+          "19",
+          "2011",
+          "10.2",
+          "10.3",
+          "1",
+          "10.4",
+          "10.5",
+          "10.6",
+          "21"
+        ],
+        "dates": [
+          "January 19, 2011"
+        ]
+      }
+    },
+    {
+      "change_id": "9793e25852acc69a",
+      "change_type": "new",
+      "topic": "liquidity_debt_margins_and_costs",
+      "topic_label": "Liquidity, debt, margins and costs",
+      "section": "risk_factors",
+      "attention": {
+        "score": 79,
+        "label": "high",
+        "factors": [
+          {
+            "label": "Disclosure novelty",
+            "points": 40
+          },
+          {
+            "label": "Section significance",
+            "points": 20
+          },
+          {
+            "label": "Risk language",
+            "points": 2
+          },
+          {
+            "label": "Numerical change",
+            "points": 14
+          },
+          {
+            "label": "Evidence specificity",
+            "points": 3
+          }
+        ]
+      },
+      "explanation": "The current filing introduces a new disclosure related to liquidity, debt, margins and costs.",
+      "analyst_relevance": "Review the cited language in the context of the investment thesis.",
+      "similarity": null,
+      "numeric_deltas": [
+        {
+          "previous": null,
+          "current": "$ 1.3 million"
+        },
+        {
+          "previous": null,
+          "current": "$ 2.0 million"
+        },
+        {
+          "previous": null,
+          "current": "$ 0.6 million"
+        },
+        {
+          "previous": null,
+          "current": "$ 1.5 million"
+        },
+        {
+          "previous": null,
+          "current": "30"
+        },
+        {
+          "previous": null,
+          "current": "40"
+        }
+      ],
+      "previous_evidence": null,
+      "current_evidence": {
+        "evidence_id": "bf00e418e6be2527120e",
+        "filing_version": "current",
+        "accession_number": "0001500217-26-000008",
+        "filing_date": "2026-02-06",
+        "report_date": "2025-12-31",
+        "section": "risk_factors",
+        "paragraph_index": 157,
+        "text_excerpt": "If our assessment of these factors indicates that it is no longer probable that we will be able to collect substantially all rents, we recognize a charge to rental income and limit our rental income to the lesser of lease income on a straight-line basis plus variable rents when they become accruable or cash collected. If we change our conclusion regarding the probability of collecting rent payments required by a lessee, we may recognize an adjustment to rental income in the period we make a change to our prior conclusion. At December 31, 2025 and December 31, 2024, our allowance for doubtful accounts was $ 1.3 million and $ 2.0 million, respectively. Total collectability related adjustments for rental income, which includes the allowance for doubtful accounts and deferred rent receivables, was $ 0.6 million, $ 1.5 million and $ 1.5 million for the years ended December 31, 2025, 2024 and 2023, respectively.…",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1500217/000150021726000008/aat-20251231.htm",
+        "numbers": [
+          "31",
+          "2025",
+          "2024",
+          "$ 1.3 million",
+          "$ 2.0 million",
+          "$ 0.6 million",
+          "$ 1.5 million",
+          "2023",
+          "30",
+          "40"
+        ],
+        "dates": [
+          "December 31, 2025",
+          "December 31, 2024"
+        ]
+      }
+    },
+    {
+      "change_id": "b66941d3cee51aa2",
+      "change_type": "new",
+      "topic": "liquidity_debt_margins_and_costs",
+      "topic_label": "Liquidity, debt, margins and costs",
+      "section": "risk_factors",
+      "attention": {
+        "score": 79,
+        "label": "high",
+        "factors": [
+          {
+            "label": "Disclosure novelty",
+            "points": 40
+          },
+          {
+            "label": "Section significance",
+            "points": 20
+          },
+          {
+            "label": "Risk language",
+            "points": 2
+          },
+          {
+            "label": "Numerical change",
+            "points": 14
+          },
+          {
+            "label": "Evidence specificity",
+            "points": 3
+          }
+        ]
+      },
+      "explanation": "The current filing introduces a new disclosure related to liquidity, debt, margins and costs.",
+      "analyst_relevance": "Review the cited language in the context of the investment thesis.",
+      "similarity": null,
+      "numeric_deltas": [
+        {
+          "previous": null,
+          "current": "$ 3,909"
+        },
+        {
+          "previous": null,
+          "current": "5,021"
+        },
+        {
+          "previous": null,
+          "current": "1,112"
+        },
+        {
+          "previous": null,
+          "current": "2"
+        },
+        {
+          "previous": null,
+          "current": "1,110"
+        },
+        {
+          "previous": null,
+          "current": "$ 123.5 million"
+        },
+        {
+          "previous": null,
+          "current": "$ 117.8 million"
+        },
+        {
+          "previous": null,
+          "current": "$ 44.5 million"
+        }
+      ],
+      "previous_evidence": null,
+      "current_evidence": {
+        "evidence_id": "b9aa79fa816c7d2671fe",
+        "filing_version": "current",
+        "accession_number": "0001500217-26-000008",
+        "filing_date": "2026-02-06",
+        "report_date": "2025-12-31",
+        "section": "risk_factors",
+        "paragraph_index": 175,
+        "text_excerpt": "The following table summarizes the operating results for Genesee Park included in the company's historical consolidated statement of operations for the period of acquisition through December 31, 2025 (in thousands): Genesee Park Revenues $ 3,909 Operating expenses 5,021 Operating loss ( 1,112 ) Other income, net 2 Net income attributable to American Assets Trust, Inc. $ ( 1,110 ) Dispositions On February 25, 2025, we sold Del Monte Center, which is located in Monterey, California and was previously included in our retail segment. The sale price of this property was $ 123.5 million, less closing costs and prorations, resulting in net proceeds of approximately $ 117.8 million. Accordingly, we recorded a gain on sale of approximately $ 44.5 million for the year ended December 31, 2025. NOTE 3.",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1500217/000150021726000008/aat-20251231.htm",
+        "numbers": [
+          "31",
+          "2025",
+          "$ 3,909",
+          "5,021",
+          "1,112",
+          "2",
+          "1,110",
+          "25",
+          "$ 123.5 million",
+          "$ 117.8 million",
+          "$ 44.5 million",
+          "3"
+        ],
+        "dates": [
+          "December 31, 2025",
+          "February 25, 2025"
+        ]
+      }
+    },
+    {
+      "change_id": "fefaf19460ff4c21",
+      "change_type": "removed",
+      "topic": "liquidity_debt_margins_and_costs",
+      "topic_label": "Liquidity, debt, margins and costs",
+      "section": "risk_factors",
+      "attention": {
+        "score": 79,
+        "label": "high",
+        "factors": [
+          {
+            "label": "Disclosure novelty",
+            "points": 40
+          },
+          {
+            "label": "Section significance",
+            "points": 20
+          },
+          {
+            "label": "Risk language",
+            "points": 2
+          },
+          {
+            "label": "Numerical change",
+            "points": 14
+          },
+          {
+            "label": "Evidence specificity",
+            "points": 3
+          }
+        ]
+      },
+      "explanation": "A prior disclosure related to liquidity, debt, margins and costs is no longer present in the comparable section.",
+      "analyst_relevance": "Review the cited language in the context of the investment thesis.",
+      "similarity": null,
+      "numeric_deltas": [
+        {
+          "previous": "$ 100 million",
+          "current": null
+        },
+        {
+          "previous": "5",
+          "current": null
+        },
+        {
+          "previous": "6",
+          "current": null
+        },
+        {
+          "previous": "7",
+          "current": null
+        },
+        {
+          "previous": "$ 10.4 million",
+          "current": null
+        },
+        {
+          "previous": "3.87 %",
+          "current": null
+        },
+        {
+          "previous": "8",
+          "current": null
+        },
+        {
+          "previous": "$ 0.7 million",
+          "current": null
+        }
+      ],
+      "previous_evidence": {
+        "evidence_id": "d266b28dca297592d4ab",
+        "filing_version": "prior",
+        "accession_number": "0001500217-25-000007",
+        "filing_date": "2025-02-12",
+        "report_date": "2024-12-31",
+        "section": "risk_factors",
+        "paragraph_index": 186,
+        "text_excerpt": "On July 18, 2024, we borrowed $ 100 million on our Revolver Loan (as defined below) to repay the entirety of our Series F Notes upon their maturity on July 19, 2024. (5) The Senior B Notes were prepaid in full on December 2, 2024, without penalty or premium. (6) The Senior C Notes were prepaid in full on February 3, 2025, without penalty or premium. (7) The Operating Partnership entered into forward-starting interest rate swap contracts on March 29, 2016 and April 7, 2016, which were settled on January 18, 2017 at a gain of approximately $ 10.4 million. The forward-starting interest swap rate contracts were deemed to be highly effective cash flow hedges, accordingly, the effective interest rate is approximately 3.87 % per annum. (8) The Operating Partnership entered into a treasury lock contract on April 25, 2017, which was settled on May 11, 2017 at a gain of approximately $ 0.7 million.",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1500217/000150021725000007/aat-20241231.htm",
+        "numbers": [
+          "18",
+          "2024",
+          "$ 100 million",
+          "19",
+          "5",
+          "2",
+          "6",
+          "3",
+          "2025",
+          "7",
+          "29",
+          "2016",
+          "2017",
+          "$ 10.4 million",
+          "3.87 %",
+          "8"
+        ],
+        "dates": [
+          "July 18, 2024",
+          "July 19, 2024",
+          "December 2, 2024",
+          "February 3, 2025",
+          "March 29, 2016",
+          "April 7, 2016",
+          "January 18, 2017",
+          "April 25, 2017"
+        ]
+      },
+      "current_evidence": null
+    },
+    {
+      "change_id": "102601ea81d20cc3",
+      "change_type": "removed",
+      "topic": "growth_and_strategy",
+      "topic_label": "Growth and strategy",
+      "section": "risk_factors",
+      "attention": {
+        "score": 77,
+        "label": "high",
+        "factors": [
+          {
+            "label": "Disclosure novelty",
+            "points": 40
+          },
+          {
+            "label": "Section significance",
+            "points": 20
+          },
+          {
+            "label": "Risk language",
+            "points": 0
+          },
+          {
+            "label": "Numerical change",
+            "points": 14
+          },
+          {
+            "label": "Evidence specificity",
+            "points": 3
+          }
+        ]
+      },
+      "explanation": "A prior disclosure related to growth and strategy is no longer present in the comparable section.",
+      "analyst_relevance": "Review the cited language in the context of the investment thesis.",
+      "similarity": null,
+      "numeric_deltas": [
+        {
+          "previous": "$ 100,567",
+          "current": null
+        },
+        {
+          "previous": "$ 99,765",
+          "current": null
+        },
+        {
+          "previous": "27,117",
+          "current": null
+        },
+        {
+          "previous": "24,758",
+          "current": null
+        },
+        {
+          "previous": "21,633",
+          "current": null
+        },
+        {
+          "previous": "1,692",
+          "current": null
+        },
+        {
+          "previous": "549",
+          "current": null
+        },
+        {
+          "previous": "80,435",
+          "current": null
+        }
+      ],
+      "previous_evidence": {
+        "evidence_id": "36e020444db089a6c627",
+        "filing_version": "prior",
+        "accession_number": "0001500217-25-000007",
+        "filing_date": "2025-02-12",
+        "report_date": "2024-12-31",
+        "section": "risk_factors",
+        "paragraph_index": 172,
+        "text_excerpt": "The following table presents the assets associated with the property classified as held for sale (in thousands): December 31, 2024 December 31, 2023 Assets Buildings and improvements $ 100,567 $ 99,765 Land 27,117 27,117 Tenant improvements 24,758 21,633 Construction in Progress 1,692 549 Accumulated depreciation ( 80,435 ) ( 77,808 ) Net real estate assets 73,699 71,256 Other Assets 3,820 2,968 Real estate assets held for sale $ 77,519 $ 74,223 F-23 NOTE 3.",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1500217/000150021725000007/aat-20241231.htm",
+        "numbers": [
+          "31",
+          "2024",
+          "2023",
+          "$ 100,567",
+          "$ 99,765",
+          "27,117",
+          "24,758",
+          "21,633",
+          "1,692",
+          "549",
+          "80,435",
+          "77,808",
+          "73,699",
+          "71,256",
+          "3,820",
+          "2,968"
+        ],
+        "dates": [
+          "December 31, 2024",
+          "December 31, 2023"
+        ]
+      },
+      "current_evidence": null
+    },
+    {
+      "change_id": "18c15a14f6aa9eb2",
+      "change_type": "new",
+      "topic": "liquidity_debt_margins_and_costs",
+      "topic_label": "Liquidity, debt, margins and costs",
+      "section": "risk_factors",
+      "attention": {
+        "score": 77,
+        "label": "high",
+        "factors": [
+          {
+            "label": "Disclosure novelty",
+            "points": 40
+          },
+          {
+            "label": "Section significance",
+            "points": 20
+          },
+          {
+            "label": "Risk language",
+            "points": 0
+          },
+          {
+            "label": "Numerical change",
+            "points": 14
+          },
+          {
+            "label": "Evidence specificity",
+            "points": 3
+          }
+        ]
+      },
+      "explanation": "The current filing introduces a new disclosure related to liquidity, debt, margins and costs.",
+      "analyst_relevance": "Review the cited language in the context of the investment thesis.",
+      "similarity": null,
+      "numeric_deltas": [
+        {
+          "previous": null,
+          "current": "3"
+        },
+        {
+          "previous": null,
+          "current": "15"
+        },
+        {
+          "previous": null,
+          "current": "$ 113.1 million"
+        },
+        {
+          "previous": null,
+          "current": "$ 111.7 million"
+        },
+        {
+          "previous": null,
+          "current": "$ 106.3 million"
+        }
+      ],
+      "previous_evidence": null,
+      "current_evidence": {
+        "evidence_id": "549959c30951fd2ed1ad",
+        "filing_version": "current",
+        "accession_number": "0001500217-26-000008",
+        "filing_date": "2026-02-06",
+        "report_date": "2025-12-31",
+        "section": "risk_factors",
+        "paragraph_index": 158,
+        "text_excerpt": "Minor improvements, furniture and equipment are capitalized and depreciated over useful lives ranging from 3 years to 15 years. Maintenance and repairs that do not improve or extend the useful lives of the related assets are charged to operations as incurred. Tenant improvements are capitalized and depreciated over the life of the related lease or their estimated useful life, whichever is shorter. If a tenant vacates its space prior to the contractual termination of its lease, the undepreciated balance of any tenant improvements are written off if they are replaced or have no future value. For the years ended December 31, 2025, 2024 and 2023, real estate depreciation expense was $ 113.1 million, $ 111.7 million and $ 106.3 million, respectively. Acquisitions of properties are accounted for in accordance with the authoritative accounting guidance on acquisitions and business combinations. Our methodology of…",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1500217/000150021726000008/aat-20251231.htm",
+        "numbers": [
+          "3",
+          "15",
+          "31",
+          "2025",
+          "2024",
+          "2023",
+          "$ 113.1 million",
+          "$ 111.7 million",
+          "$ 106.3 million"
+        ],
+        "dates": [
+          "December 31, 2025"
+        ]
+      }
+    },
+    {
+      "change_id": "36bacea2d36d8524",
+      "change_type": "removed",
+      "topic": "liquidity_debt_margins_and_costs",
+      "topic_label": "Liquidity, debt, margins and costs",
+      "section": "risk_factors",
+      "attention": {
+        "score": 77,
+        "label": "high",
+        "factors": [
+          {
+            "label": "Disclosure novelty",
+            "points": 40
+          },
+          {
+            "label": "Section significance",
+            "points": 20
+          },
+          {
+            "label": "Risk language",
+            "points": 0
+          },
+          {
+            "label": "Numerical change",
+            "points": 14
+          },
+          {
+            "label": "Evidence specificity",
+            "points": 3
+          }
+        ]
+      },
+      "explanation": "A prior disclosure related to liquidity, debt, margins and costs is no longer present in the comparable section.",
+      "analyst_relevance": "Review the cited language in the context of the investment thesis.",
+      "similarity": null,
+      "numeric_deltas": [
+        {
+          "previous": "$0.4 million",
+          "current": null
+        },
+        {
+          "previous": "85.9%",
+          "current": null
+        },
+        {
+          "previous": "85.2%",
+          "current": null
+        },
+        {
+          "previous": "$12.5 million",
+          "current": null
+        },
+        {
+          "previous": "57%",
+          "current": null
+        },
+        {
+          "previous": "$34.2 million",
+          "current": null
+        },
+        {
+          "previous": "$21.8 million",
+          "current": null
+        }
+      ],
+      "previous_evidence": {
+        "evidence_id": "ac62a6c67788ac42aa32",
+        "filing_version": "prior",
+        "accession_number": "0001500217-25-000007",
+        "filing_date": "2025-02-12",
+        "report_date": "2024-12-31",
+        "section": "risk_factors",
+        "paragraph_index": 44,
+        "text_excerpt": "Mixed-use rental revenue increased $0.4 million for the year ended December 31, 2024 compared to the year ended December 31, 2023 primarily due to an increase in rental revenue at the retail portion of our mixed-use property, largely attributable to an increase in cost recoveries and new tenant leases commencing at higher base rents. Additionally, there was a minimal increase in rental revenue at the Waikiki Beach Walk hotel portion of our mixed-use property, due to a slight increase in average occupancy to 85.9% for the year ended December 31, 2024 compared to 85.2% for the year ended December 31, 2023. Other property income. Other property income increased $12.5 million, or 57%, to $34.2 million for the year ended December 31, 2024, compared to $21.8 million for the year ended December 31, 2023.",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1500217/000150021725000007/aat-20241231.htm",
+        "numbers": [
+          "$0.4 million",
+          "31",
+          "2024",
+          "2023",
+          "85.9%",
+          "85.2%",
+          "$12.5 million",
+          "57%",
+          "$34.2 million",
+          "$21.8 million"
+        ],
+        "dates": [
+          "December 31, 2024",
+          "December 31, 2023"
+        ]
+      },
+      "current_evidence": null
+    },
+    {
+      "change_id": "3957f9a2c28cd337",
+      "change_type": "removed",
+      "topic": "liquidity_debt_margins_and_costs",
+      "topic_label": "Liquidity, debt, margins and costs",
+      "section": "risk_factors",
+      "attention": {
+        "score": 77,
+        "label": "high",
+        "factors": [
+          {
+            "label": "Disclosure novelty",
+            "points": 40
+          },
+          {
+            "label": "Section significance",
+            "points": 20
+          },
+          {
+            "label": "Risk language",
+            "points": 0
+          },
+          {
+            "label": "Numerical change",
+            "points": 14
+          },
+          {
+            "label": "Evidence specificity",
+            "points": 3
+          }
+        ]
+      },
+      "explanation": "A prior disclosure related to liquidity, debt, margins and costs is no longer present in the comparable section.",
+      "analyst_relevance": "Review the cited language in the context of the investment thesis.",
+      "similarity": null,
+      "numeric_deltas": [
+        {
+          "previous": "$0.5 million",
+          "current": null
+        },
+        {
+          "previous": "1%",
+          "current": null
+        },
+        {
+          "previous": "$35.5 million",
+          "current": null
+        },
+        {
+          "previous": "$36.0 million",
+          "current": null
+        },
+        {
+          "previous": "59",
+          "current": null
+        },
+        {
+          "previous": "$6.0 million",
+          "current": null
+        },
+        {
+          "previous": "5%",
+          "current": null
+        },
+        {
+          "previous": "$125.5 million",
+          "current": null
+        }
+      ],
+      "previous_evidence": {
+        "evidence_id": "30981b386f7bbd6b71d5",
+        "filing_version": "prior",
+        "accession_number": "0001500217-25-000007",
+        "filing_date": "2025-02-12",
+        "report_date": "2024-12-31",
+        "section": "risk_factors",
+        "paragraph_index": 53,
+        "text_excerpt": "These decreases were partially offset by higher room rental income at the hotel portion of our mixed use property and higher parking garage income at the retail portion of our mixed use property. Other General and administrative. General and administrative expenses decreased $0.5 million, or 1%, to $35.5 million for the year ended December 31, 2024, compared to $36.0 million for the year ended December 31, 2023. This was primarily due to lower legal fees related to prior settlements and stock-based compensation expense attributable to a decrease in the number of restricted stock awards granted as part of our 2023 and 2024 grants. These decreases were offset by higher employee-related costs, including, without limitation, with respect to base pay for certain salaried and hourly workers and benefits. 59 Depreciation and amortization. Depreciation and amortization expense increased $6.0 million, or 5%, to $12…",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1500217/000150021725000007/aat-20241231.htm",
+        "numbers": [
+          "$0.5 million",
+          "1%",
+          "$35.5 million",
+          "31",
+          "2024",
+          "$36.0 million",
+          "2023",
+          "59",
+          "$6.0 million",
+          "5%",
+          "$125.5 million",
+          "$119.5 million"
+        ],
+        "dates": [
+          "December 31, 2024",
+          "December 31, 2023"
+        ]
+      },
+      "current_evidence": null
+    },
+    {
+      "change_id": "4700625fbf8d9b60",
+      "change_type": "removed",
+      "topic": "liquidity_debt_margins_and_costs",
+      "topic_label": "Liquidity, debt, margins and costs",
+      "section": "risk_factors",
+      "attention": {
+        "score": 77,
+        "label": "high",
+        "factors": [
+          {
+            "label": "Disclosure novelty",
+            "points": 40
+          },
+          {
+            "label": "Section significance",
+            "points": 20
+          },
+          {
+            "label": "Risk language",
+            "points": 0
+          },
+          {
+            "label": "Numerical change",
+            "points": 14
+          },
+          {
+            "label": "Evidence specificity",
+            "points": 3
+          }
+        ]
+      },
+      "explanation": "A prior disclosure related to liquidity, debt, margins and costs is no longer present in the comparable section.",
+      "analyst_relevance": "Review the cited language in the context of the investment thesis.",
+      "similarity": null,
+      "numeric_deltas": [
+        {
+          "previous": "$0.8 million",
+          "current": null
+        },
+        {
+          "previous": "$0.4 million",
+          "current": null
+        },
+        {
+          "previous": "$0.9 million",
+          "current": null
+        },
+        {
+          "previous": "2%",
+          "current": null
+        },
+        {
+          "previous": "$44.2 million",
+          "current": null
+        },
+        {
+          "previous": "$45.2 million",
+          "current": null
+        }
+      ],
+      "previous_evidence": {
+        "evidence_id": "c259ed63a055bf263306",
+        "filing_version": "prior",
+        "accession_number": "0001500217-25-000007",
+        "filing_date": "2025-02-12",
+        "report_date": "2024-12-31",
+        "section": "risk_factors",
+        "paragraph_index": 48,
+        "text_excerpt": "Multifamily rental expenses increased $0.8 million for the year ended December 31, 2024 compared to the year ended December 31, 2023 primarily due to an increase in facilities services, utilities expenses, insurance expenses and an increase in property-level personnel compensation expenses. Mixed-use rental expenses increased $0.8 million for the year ended December 31, 2024 compared to the year ended December 31, 2023 primarily due to an increase of $0.4 million in hotel room expenses, personnel expenses and excise tax expenses at the hotel portion of our mixed-use property during the period. There was also an increase in rental expenses of $0.4 million at the retail portion of our mixed-use property related to excise taxes, employee costs and facilities expenses. Real Estate Taxes. Real estate tax expense decreased $0.9 million, or 2%, to $44.2 million for the year ended December 31, 2024, compared to $4…",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1500217/000150021725000007/aat-20241231.htm",
+        "numbers": [
+          "$0.8 million",
+          "31",
+          "2024",
+          "2023",
+          "$0.4 million",
+          "$0.9 million",
+          "2%",
+          "$44.2 million",
+          "$45.2 million"
+        ],
+        "dates": [
+          "December 31, 2024",
+          "December 31, 2023"
+        ]
+      },
+      "current_evidence": null
+    },
+    {
+      "change_id": "4b138776a06bf73d",
+      "change_type": "new",
+      "topic": "operations_and_supply_chain",
+      "topic_label": "Operations and supply chain",
+      "section": "risk_factors",
+      "attention": {
+        "score": 77,
+        "label": "high",
+        "factors": [
+          {
+            "label": "Disclosure novelty",
+            "points": 40
+          },
+          {
+            "label": "Section significance",
+            "points": 20
+          },
+          {
+            "label": "Risk language",
+            "points": 0
+          },
+          {
+            "label": "Numerical change",
+            "points": 14
+          },
+          {
+            "label": "Evidence specificity",
+            "points": 3
+          }
+        ]
+      },
+      "explanation": "The current filing introduces a new disclosure related to operations and supply chain.",
+      "analyst_relevance": "Review the cited language in the context of the investment thesis.",
+      "similarity": null,
+      "numeric_deltas": [
+        {
+          "previous": null,
+          "current": "29"
+        },
+        {
+          "previous": null,
+          "current": "$ 500 million"
+        },
+        {
+          "previous": null,
+          "current": "$ 400 million"
+        },
+        {
+          "previous": null,
+          "current": "$ 100 million"
+        }
+      ],
+      "previous_evidence": null,
+      "current_evidence": {
+        "evidence_id": "91f617600611ceeac496",
+        "filing_version": "current",
+        "accession_number": "0001500217-26-000008",
+        "filing_date": "2026-02-06",
+        "report_date": "2025-12-31",
+        "section": "risk_factors",
+        "paragraph_index": 196,
+        "text_excerpt": "F-29 Third Amended and Restated Credit Facility On January 5, 2022, the Operating Partnership entered into the third amended and restated credit facility (the “Third Amended and Restated Credit Facility”) , which amended and restated our then-existing credit facility. The Third Amended and Restated Credit Facility provides for aggregate, unsecured borrowings of up to $ 500 million, consisting of a revolving line of credit of $ 400 million (the “Revolver Loan”) and a term loan of $ 100 million (“Term Loan A”). The Revolver Loan was initially scheduled to mature on January 5, 2026, subject to two , six-month extension options. On November 13, 2025, we exercised the first of the extension options, which extended the maturity date to July 5, 2026, subject to our option to extend the Revolver Loan for one additional six-month period. Term Loan A matures on January 5, 2027, with no further extension options.",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1500217/000150021726000008/aat-20251231.htm",
+        "numbers": [
+          "29",
+          "5",
+          "2022",
+          "$ 500 million",
+          "$ 400 million",
+          "$ 100 million",
+          "2026",
+          "13",
+          "2025",
+          "2027"
+        ],
+        "dates": [
+          "January 5, 2022",
+          "January 5, 2026",
+          "November 13, 2025",
+          "July 5, 2026",
+          "January 5, 2027"
+        ]
+      }
+    },
+    {
+      "change_id": "4fc58ea4545cadc4",
+      "change_type": "removed",
+      "topic": "demand_and_competition",
+      "topic_label": "Demand and competition",
+      "section": "risk_factors",
+      "attention": {
+        "score": 77,
+        "label": "high",
+        "factors": [
+          {
+            "label": "Disclosure novelty",
+            "points": 40
+          },
+          {
+            "label": "Section significance",
+            "points": 20
+          },
+          {
+            "label": "Risk language",
+            "points": 0
+          },
+          {
+            "label": "Numerical change",
+            "points": 14
+          },
+          {
+            "label": "Evidence specificity",
+            "points": 3
+          }
+        ]
+      },
+      "explanation": "A prior disclosure related to demand and competition is no longer present in the comparable section.",
+      "analyst_relevance": "Review the cited language in the context of the investment thesis.",
+      "similarity": null,
+      "numeric_deltas": [
+        {
+          "previous": "1",
+          "current": null
+        },
+        {
+          "previous": "2",
+          "current": null
+        },
+        {
+          "previous": "3",
+          "current": null
+        }
+      ],
+      "previous_evidence": {
+        "evidence_id": "905a9f92fbb7fe7c1a47",
+        "filing_version": "prior",
+        "accession_number": "0001500217-25-000007",
+        "filing_date": "2025-02-12",
+        "report_date": "2024-12-31",
+        "section": "risk_factors",
+        "paragraph_index": 26,
+        "text_excerpt": "These factors include: (1) the type of tenant in relation to the property it occupies, (2) the quality of the tenant, including the tenant's long term business prospects, and (3) whether the fixed rate renewal option was sufficiently lower than the fair rental of the property at the date the option becomes exercisable such that it would appear to be reasonably assured that the tenant would exercise the option to renew. Each of these estimates requires a great deal of judgment, and some of the estimates involve complex calculations. These allocation assessments have a direct impact on our results of operations because if we were to allocate more value to land, there would be no depreciation with respect to such amount. If we were to allocate more value to the buildings, as opposed to allocating to the value of tenant leases, this amount would be recognized as an expense over a much longer period of time, si…",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1500217/000150021725000007/aat-20241231.htm",
+        "numbers": [
+          "1",
+          "2",
+          "3"
+        ],
+        "dates": []
+      },
+      "current_evidence": null
+    },
+    {
+      "change_id": "4fe8c8644cefc263",
+      "change_type": "removed",
+      "topic": "liquidity_debt_margins_and_costs",
+      "topic_label": "Liquidity, debt, margins and costs",
+      "section": "risk_factors",
+      "attention": {
+        "score": 77,
+        "label": "high",
+        "factors": [
+          {
+            "label": "Disclosure novelty",
+            "points": 40
+          },
+          {
+            "label": "Section significance",
+            "points": 20
+          },
+          {
+            "label": "Risk language",
+            "points": 0
+          },
+          {
+            "label": "Numerical change",
+            "points": 14
+          },
+          {
+            "label": "Evidence specificity",
+            "points": 3
+          }
+        ]
+      },
+      "explanation": "A prior disclosure related to liquidity, debt, margins and costs is no longer present in the comparable section.",
+      "analyst_relevance": "Review the cited language in the context of the investment thesis.",
+      "similarity": null,
+      "numeric_deltas": [
+        {
+          "previous": "$ 72,819",
+          "current": null
+        },
+        {
+          "previous": "$ 64,690",
+          "current": null
+        },
+        {
+          "previous": "$ 55,877",
+          "current": null
+        },
+        {
+          "previous": "5,781",
+          "current": null
+        },
+        {
+          "previous": "7,239",
+          "current": null
+        },
+        {
+          "previous": "11,489",
+          "current": null
+        },
+        {
+          "previous": "125,461",
+          "current": null
+        },
+        {
+          "previous": "119,500",
+          "current": null
+        }
+      ],
+      "previous_evidence": {
+        "evidence_id": "895a76fb21ab26811d1e",
+        "filing_version": "prior",
+        "accession_number": "0001500217-25-000007",
+        "filing_date": "2025-02-12",
+        "report_date": "2024-12-31",
+        "section": "risk_factors",
+        "paragraph_index": 134,
+        "text_excerpt": "Consolidated Statements of Cash Flows (In Thousands) Year ended December 31, 2024 2023 2022 OPERATING ACTIVITIES Net income $ 72,819 $ 64,690 $ 55,877 Adjustments to reconcile net income to net cash provided by operating activities: Deferred rent revenue and amortization of lease intangibles ( 5,781 ) ( 7,239 ) ( 11,489 ) Depreciation and amortization 125,461 119,500 123,338 Amortization of debt issuance costs and debt discounts 3,652 3,388 2,581 Provision for uncollectable rental income 1,517 1,439 2,334 Stock-based compensation expense 7,110 8,838 8,690 Settlement of treasury locks ( 1,345 ) — — Other noncash interest expense, net ( 377 ) ( 1,149 ) ( 1,477 ) Other, net 1,161 266 ( 252 ) Changes in operating assets and liabilities Change in accounts receivable ( 1,787 ) ( 870 ) ( 404 ) Change in other assets ( 1,266 ) ( 1,141 ) ( 723 ) Change in accounts payable and accrued expenses 5,577 765 ( 1,237 ) Ch…",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1500217/000150021725000007/aat-20241231.htm",
+        "numbers": [
+          "31",
+          "2024",
+          "2023",
+          "2022",
+          "$ 72,819",
+          "$ 64,690",
+          "$ 55,877",
+          "5,781",
+          "7,239",
+          "11,489",
+          "125,461",
+          "119,500",
+          "123,338",
+          "3,652",
+          "3,388",
+          "2,581"
+        ],
+        "dates": [
+          "December 31, 2024"
+        ]
+      },
+      "current_evidence": null
+    },
+    {
+      "change_id": "5ff27f20591c1457",
+      "change_type": "new",
+      "topic": "growth_and_strategy",
+      "topic_label": "Growth and strategy",
+      "section": "risk_factors",
+      "attention": {
+        "score": 77,
+        "label": "high",
+        "factors": [
+          {
+            "label": "Disclosure novelty",
+            "points": 40
+          },
+          {
+            "label": "Section significance",
+            "points": 20
+          },
+          {
+            "label": "Risk language",
+            "points": 0
+          },
+          {
+            "label": "Numerical change",
+            "points": 14
+          },
+          {
+            "label": "Evidence specificity",
+            "points": 3
+          }
+        ]
+      },
+      "explanation": "The current filing introduces a new disclosure related to growth and strategy.",
+      "analyst_relevance": "Review the cited language in the context of the investment thesis.",
+      "similarity": null,
+      "numeric_deltas": [
+        {
+          "previous": null,
+          "current": "1"
+        },
+        {
+          "previous": null,
+          "current": "2"
+        },
+        {
+          "previous": null,
+          "current": "3"
+        }
+      ],
+      "previous_evidence": null,
+      "current_evidence": {
+        "evidence_id": "4abe2f039ffeb2727351",
+        "filing_version": "current",
+        "accession_number": "0001500217-26-000008",
+        "filing_date": "2026-02-06",
+        "report_date": "2025-12-31",
+        "section": "risk_factors",
+        "paragraph_index": 27,
+        "text_excerpt": "The fair values associated with below market renewal options are determined based on a review of several qualitative and quantitative factors on a lease-by-lease basis at acquisition to determine whether it is probable that the tenant would exercise its option to renew the lease agreement. These factors include: (1) the type of tenant in relation to the property it occupies, (2) the quality of the tenant, including the tenant's long term business prospects, and (3) whether the fixed rate renewal option was sufficiently lower than the fair rental of the property at the date the option becomes exercisable such that it would appear to be reasonably assured that the tenant would exercise the option to renew. Each of these estimates requires a great deal of judgment, and some of the estimates involve complex calculations. These allocation assessments have a direct impact on our results of operations because if…",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1500217/000150021726000008/aat-20251231.htm",
+        "numbers": [
+          "1",
+          "2",
+          "3"
+        ],
+        "dates": []
+      }
+    },
+    {
+      "change_id": "633cca2b3a54a464",
+      "change_type": "removed",
+      "topic": "liquidity_debt_margins_and_costs",
+      "topic_label": "Liquidity, debt, margins and costs",
+      "section": "risk_factors",
+      "attention": {
+        "score": 77,
+        "label": "high",
+        "factors": [
+          {
+            "label": "Disclosure novelty",
+            "points": 40
+          },
+          {
+            "label": "Section significance",
+            "points": 20
+          },
+          {
+            "label": "Risk language",
+            "points": 0
+          },
+          {
+            "label": "Numerical change",
+            "points": 14
+          },
+          {
+            "label": "Evidence specificity",
+            "points": 3
+          }
+        ]
+      },
+      "explanation": "A prior disclosure related to liquidity, debt, margins and costs is no longer present in the comparable section.",
+      "analyst_relevance": "Review the cited language in the context of the investment thesis.",
+      "similarity": null,
+      "numeric_deltas": [
+        {
+          "previous": "3.375 %",
+          "current": null
+        },
+        {
+          "previous": "6.150 %",
+          "current": null
+        },
+        {
+          "previous": "60 %",
+          "current": null
+        },
+        {
+          "previous": "1.5",
+          "current": null
+        },
+        {
+          "previous": "40 %",
+          "current": null
+        },
+        {
+          "previous": "150 %",
+          "current": null
+        },
+        {
+          "previous": "6.15 %",
+          "current": null
+        },
+        {
+          "previous": "$ 350 million",
+          "current": null
+        }
+      ],
+      "previous_evidence": {
+        "evidence_id": "afa19d62df0e2881566f",
+        "filing_version": "prior",
+        "accession_number": "0001500217-25-000007",
+        "filing_date": "2025-02-12",
+        "report_date": "2024-12-31",
+        "section": "risk_factors",
+        "paragraph_index": 191,
+        "text_excerpt": "The 3.375 % Senior Notes and the 6.150 % Senior Notes include a number of customary financial covenants, including: • A maximum aggregate debt ratio of 60 %, • A minimum debt service ratio of 1.5 x, • A maximum secured debt ratio of 40 %, • A minimum maintenance of total unencumbered assets of 150 %. As of December 31, 2024, the Operating Partnership was in compliance with all then in-place 3.375 % Senior Notes and 6.15 % Senior Notes covenants. Senior Guaranteed Notes On October 31, 2014, the Operating Partnership entered into a note purchase agreement (the \"Note Purchase Agreement\") with a group of institutional purchasers that provided for the private placement of an aggregate of $ 350 million of senior guaranteed notes, of which (i) $ 150 million are designated as 4.04 % Senior Guaranteed Notes, Series A, due October 31, 2021 (the “Series A Notes”), (ii) $ 100 million are designated as 4.45 % Senior Gu…",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1500217/000150021725000007/aat-20241231.htm",
+        "numbers": [
+          "3.375 %",
+          "6.150 %",
+          "60 %",
+          "1.5",
+          "40 %",
+          "150 %",
+          "31",
+          "2024",
+          "6.15 %",
+          "2014",
+          "$ 350 million",
+          "$ 150 million",
+          "4.04 %",
+          "2021",
+          "$ 100 million",
+          "4.45 %"
+        ],
+        "dates": [
+          "December 31, 2024",
+          "October 31, 2014",
+          "October 31, 2021",
+          "February 2, 2025",
+          "April 1, 2025"
+        ]
+      },
+      "current_evidence": null
+    },
+    {
+      "change_id": "6944fb795e285f46",
+      "change_type": "new",
+      "topic": "liquidity_debt_margins_and_costs",
+      "topic_label": "Liquidity, debt, margins and costs",
+      "section": "risk_factors",
+      "attention": {
+        "score": 77,
+        "label": "high",
+        "factors": [
+          {
+            "label": "Disclosure novelty",
+            "points": 40
+          },
+          {
+            "label": "Section significance",
+            "points": 20
+          },
+          {
+            "label": "Risk language",
+            "points": 0
+          },
+          {
+            "label": "Numerical change",
+            "points": 14
+          },
+          {
+            "label": "Evidence specificity",
+            "points": 3
+          }
+        ]
+      },
+      "explanation": "The current filing introduces a new disclosure related to liquidity, debt, margins and costs.",
+      "analyst_relevance": "Review the cited language in the context of the investment thesis.",
+      "similarity": null,
+      "numeric_deltas": [
+        {
+          "previous": null,
+          "current": "$ 71,370"
+        },
+        {
+          "previous": null,
+          "current": "$ 72,819"
+        },
+        {
+          "previous": null,
+          "current": "$ 64,690"
+        },
+        {
+          "previous": null,
+          "current": "920"
+        },
+        {
+          "previous": null,
+          "current": "5,781"
+        },
+        {
+          "previous": null,
+          "current": "7,239"
+        },
+        {
+          "previous": null,
+          "current": "127,312"
+        },
+        {
+          "previous": null,
+          "current": "125,461"
+        }
+      ],
+      "previous_evidence": null,
+      "current_evidence": {
+        "evidence_id": "f9cb42bf05089ab96ad3",
+        "filing_version": "current",
+        "accession_number": "0001500217-26-000008",
+        "filing_date": "2026-02-06",
+        "report_date": "2025-12-31",
+        "section": "risk_factors",
+        "paragraph_index": 144,
+        "text_excerpt": "Consolidated Statements of Cash Flows (In Thousands) Year Ended December 31, 2025 2024 2023 OPERATING ACTIVITIES Net income $ 71,370 $ 72,819 $ 64,690 Adjustments to reconcile net income to net cash provided by operating activities: Deferred rent revenue and amortization of lease intangibles 920 ( 5,781 ) ( 7,239 ) Depreciation and amortization 127,312 125,461 119,500 Amortization of debt issuance costs and debt discounts 2,891 3,652 3,388 Provision for uncollectable rental income 540 1,517 1,439 Gain on sale of real estate ( 44,476 ) — — Stock-based compensation expense 7,397 7,110 8,838 Settlement of treasury locks — ( 1,345 ) — Other noncash interest expense, net ( 1,031 ) ( 377 ) ( 1,149 ) Other, net 3,233 1,161 266 Changes in operating assets and liabilities Change in accounts receivable and deferred rent receivables 726 ( 1,787 ) ( 870 ) Change in other assets ( 1,225 ) ( 1,266 ) ( 1,141 ) Change in…",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1500217/000150021726000008/aat-20251231.htm",
+        "numbers": [
+          "31",
+          "2025",
+          "2024",
+          "2023",
+          "$ 71,370",
+          "$ 72,819",
+          "$ 64,690",
+          "920",
+          "5,781",
+          "7,239",
+          "127,312",
+          "125,461",
+          "119,500",
+          "2,891",
+          "3,652",
+          "3,388"
+        ],
+        "dates": [
+          "December 31, 2025"
+        ]
+      }
+    },
+    {
+      "change_id": "753606aedc2cb02a",
+      "change_type": "new",
+      "topic": "growth_and_strategy",
+      "topic_label": "Growth and strategy",
+      "section": "risk_factors",
+      "attention": {
+        "score": 77,
+        "label": "high",
+        "factors": [
+          {
+            "label": "Disclosure novelty",
+            "points": 40
+          },
+          {
+            "label": "Section significance",
+            "points": 20
+          },
+          {
+            "label": "Risk language",
+            "points": 0
+          },
+          {
+            "label": "Numerical change",
+            "points": 14
+          },
+          {
+            "label": "Evidence specificity",
+            "points": 3
+          }
+        ]
+      },
+      "explanation": "The current filing introduces a new disclosure related to growth and strategy.",
+      "analyst_relevance": "Review the cited language in the context of the investment thesis.",
+      "similarity": null,
+      "numeric_deltas": [
+        {
+          "previous": null,
+          "current": "14"
+        },
+        {
+          "previous": null,
+          "current": "$8.2 million"
+        },
+        {
+          "previous": null,
+          "current": "$1.2 million"
+        },
+        {
+          "previous": null,
+          "current": "$0.4 million"
+        }
+      ],
+      "previous_evidence": null,
+      "current_evidence": {
+        "evidence_id": "13f067cb31986e7584da",
+        "filing_version": "current",
+        "accession_number": "0001500217-26-000008",
+        "filing_date": "2026-02-06",
+        "report_date": "2025-12-31",
+        "section": "risk_factors",
+        "paragraph_index": 57,
+        "text_excerpt": "These decreases were partially offset by an increase in occupancy and annualized base rents at City Center Bellevue, Timber Ridge and La Jolla Commons III, an increase in lease termination fees received at 14Acres and Timber Ridge in 2025 and an increase in parking garage income. Retail operating income decreased $8.2 million for the year ended December 31, 2025 compared to the year ended December 31, 2024 primarily due to the sale of Del Monte Center. Same-store retail operating income increased $1.2 million due to new tenant leases and scheduled rent increases at Carmel Mountain Plaza and Alamo Quarry Market. Additionally, there was a decrease in real estate taxes due to lower property tax assessments at Alamo Quarry Market and an increase in real estate tax refunds received at Alamo Quarry Market and Carmel Mountain Plaza in 2025. Multifamily operating income increased $0.4 million for the year ended De…",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1500217/000150021726000008/aat-20251231.htm",
+        "numbers": [
+          "14",
+          "2025",
+          "$8.2 million",
+          "31",
+          "2024",
+          "$1.2 million",
+          "$0.4 million"
+        ],
+        "dates": [
+          "December 31, 2025",
+          "December 31, 2024"
+        ]
+      }
+    },
+    {
+      "change_id": "77a7a8e6d226f40a",
+      "change_type": "removed",
+      "topic": "liquidity_debt_margins_and_costs",
+      "topic_label": "Liquidity, debt, margins and costs",
+      "section": "risk_factors",
+      "attention": {
+        "score": 77,
+        "label": "high",
+        "factors": [
+          {
+            "label": "Disclosure novelty",
+            "points": 40
+          },
+          {
+            "label": "Section significance",
+            "points": 20
+          },
+          {
+            "label": "Risk language",
+            "points": 0
+          },
+          {
+            "label": "Numerical change",
+            "points": 14
+          },
+          {
+            "label": "Evidence specificity",
+            "points": 3
+          }
+        ]
+      },
+      "explanation": "A prior disclosure related to liquidity, debt, margins and costs is no longer present in the comparable section.",
+      "analyst_relevance": "Review the cited language in the context of the investment thesis.",
+      "similarity": null,
+      "numeric_deltas": [
+        {
+          "previous": "31",
+          "current": null
+        },
+        {
+          "previous": "$ 153,544",
+          "current": null
+        },
+        {
+          "previous": "$ 146,517",
+          "current": null
+        },
+        {
+          "previous": "$ 7,027",
+          "current": null
+        },
+        {
+          "previous": "5 %",
+          "current": null
+        },
+        {
+          "previous": "$ 155,470",
+          "current": null
+        },
+        {
+          "previous": "$ 147,732",
+          "current": null
+        },
+        {
+          "previous": "$ 7,738",
+          "current": null
+        }
+      ],
+      "previous_evidence": {
+        "evidence_id": "6879d89827a027fa81c9",
+        "filing_version": "prior",
+        "accession_number": "0001500217-25-000007",
+        "filing_date": "2025-02-12",
+        "report_date": "2024-12-31",
+        "section": "risk_factors",
+        "paragraph_index": 51,
+        "text_excerpt": "Property operating income by segment was as follows (dollars in thousands): Total Portfolio Same-Store Portfolio Year Ended December 31, Year Ended December 31, 2024 2023 Change % 2024 2023 Change % Office $ 153,544 $ 146,517 $ 7,027 5 % $ 155,470 $ 147,732 $ 7,738 5 % Retail 76,532 73,327 3,205 4 76,532 73,327 3,205 4 Multifamily 36,583 33,805 2,778 8 36,583 33,805 2,778 8 Mixed-Use 23,469 23,558 (89) — 23,469 23,558 (89) — $ 290,128 $ 277,207 $ 12,921 5 % $ 292,054 $ 278,422 $ 13,632 5 % Total office property operating income increased $7.0 million for the year ended December 31, 2024 compared to the year ended December 31, 2023 primarily due to an approximately $11.0 million lease termination fee received at Torrey Reserve Campus and lower real estate taxes due to tax refunds received at La Jolla Commons and First & Main. These increases were offset by a decrease in rental revenue driven by lower rental…",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1500217/000150021725000007/aat-20241231.htm",
+        "numbers": [
+          "31",
+          "2024",
+          "2023",
+          "$ 153,544",
+          "$ 146,517",
+          "$ 7,027",
+          "5 %",
+          "$ 155,470",
+          "$ 147,732",
+          "$ 7,738",
+          "76,532",
+          "73,327",
+          "3,205",
+          "4",
+          "36,583",
+          "33,805"
+        ],
+        "dates": [
+          "December 31, 2024",
+          "December 31, 2023"
+        ]
+      },
+      "current_evidence": null
+    }
+  ],
+  "sources": [
+    {
+      "evidence_id": "4c1157e47c3f640f29c3",
+      "filing_version": "prior",
+      "accession_number": "0001500217-25-000007",
+      "filing_date": "2025-02-12",
+      "report_date": "2024-12-31",
+      "section": "risk_factors",
+      "paragraph_index": 228,
+      "text_excerpt": "The work performed is financed through an escrow account funded by the seller upon our purchase of the Del Monte Center. We believe the funds in the escrow account are sufficient for the remaining work to be performed. However, if further work is required costing more than the remaining escrow funds, we could be required to pay such overage, although we may have a contractual claim for such costs against the prior owner or our environmental remediation consultant. Concentrations of Credit Risk Our properties are located in Southern California, Northern California, Washington, Oregon, Texas and Hawaii. The ability of the tenants to honor the terms of their respective leases is dependent upon the economic, regulatory and social factors affecting the markets in which the tenants operate. Fifteen of our consolidated properties, representing 43.2 % and 41.2 % of our total revenue for the year ended December 31,…",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1500217/000150021725000007/aat-20241231.htm",
+      "numbers": [
+        "43.2 %",
+        "41.2 %",
+        "31",
+        "2024",
+        "2023"
+      ],
+      "dates": [
+        "December 31, 2024"
+      ]
+    },
+    {
+      "evidence_id": "e04a0c02dcb83cee80a4",
+      "filing_version": "current",
+      "accession_number": "0001500217-26-000008",
+      "filing_date": "2026-02-06",
+      "report_date": "2025-12-31",
+      "section": "risk_factors",
+      "paragraph_index": 193,
+      "text_excerpt": "On December 2, 2024, we repaid the entirety of the $ 100 million Series B Notes. On February 3, 2025, we repaid the entirety of the $ 100 million Series C Notes. On March 1, 2017, the Operating Partnership entered into a Note Purchase Agreement for the private placement of $ 250 million of 4.29 % Senior Guaranteed Notes, Series D, due March 1, 2027 (the “Series D Notes”). The Series D Notes were issued on March 1, 2017 and pay interest quarterly on the last day of January, April, July and October until their respective maturities. On May 23, 2017, the Operating Partnership entered into a Note Purchase Agreement for the private placement of $ 100 million of 4.24 % Senior Guaranteed Notes, Series E, due May 23, 2029 (the “Series E Notes”). The Series E Notes were issued on May 23, 2017 and pay interest semi-annually on the 23rd of May and November until their respective maturities. On July 19, 2017, the Oper…",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1500217/000150021726000008/aat-20251231.htm",
+      "numbers": [
+        "2",
+        "2024",
+        "$ 100 million",
+        "3",
+        "2025",
+        "1",
+        "2017",
+        "$ 250 million",
+        "4.29 %",
+        "2027",
+        "23",
+        "4.24 %",
+        "2029",
+        "19",
+        "3.78 %"
+      ],
+      "dates": [
+        "December 2, 2024",
+        "February 3, 2025",
+        "March 1, 2017",
+        "March 1, 2027",
+        "May 23, 2017",
+        "May 23, 2029",
+        "July 19, 2017",
+        "July 19, 2024"
+      ]
+    },
+    {
+      "evidence_id": "f09866e717e3b2355ba4",
+      "filing_version": "current",
+      "accession_number": "0001500217-26-000008",
+      "filing_date": "2026-02-06",
+      "report_date": "2025-12-31",
+      "section": "risk_factors",
+      "paragraph_index": 191,
+      "text_excerpt": "As a result of the loss on these treasury lock contracts and the debt discount, the effective rate on our 6.150 % Senior Notes is 6.209 % per annum. The treasury lock contracts have been deemed to be highly effective cash flow hedges and have been designated as accounting hedges. Any gains or losses incurred upon the settlement of these treasury lock contracts are included in accumulated other comprehensive income and are amortized to interest expense over the life of the 6.150 % Senior Notes. The 3.375 % Senior Notes and the 6.150 % Senior Notes include a number of customary financial covenants, including: • A maximum aggregate debt ratio of 60 %, F-28 • A minimum debt service ratio of 1.5 x, • A maximum secured debt ratio of 40 %, • A minimum maintenance of total unencumbered assets of 150 %. As of December 31, 2025, the Operating Partnership was in compliance with all then in-place 3.375 % Senior Notes…",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1500217/000150021726000008/aat-20251231.htm",
+      "numbers": [
+        "6.150 %",
+        "6.209 %",
+        "3.375 %",
+        "60 %",
+        "28",
+        "1.5",
+        "40 %",
+        "150 %",
+        "31",
+        "2025",
+        "6.15 %"
+      ],
+      "dates": [
+        "December 31, 2025"
+      ]
+    },
+    {
+      "evidence_id": "9fb062003186b2012f24",
+      "filing_version": "prior",
+      "accession_number": "0001500217-25-000007",
+      "filing_date": "2025-02-12",
+      "report_date": "2024-12-31",
+      "section": "risk_factors",
+      "paragraph_index": 185,
+      "text_excerpt": "On January 2, 2025, we repaid the entirety of Term Loan B and Term Loan C. (3) The Operating Partnership entered into interest rate swap agreements that are intended to fix the effective interest rate associated with Term Loan B and Term Loan C, subject to adjustments based on our consolidated leverage ratio, at, 5.47 % from January 5, 2023 to January 4, 2024 and at 5.57 % from January 5, 2024 to January 4, 2025. (4) The Operating Partnership entered into a treasury lock contract on May 31, 2017, which was settled on June 23, 2017 at a loss of approximately $ 0.5 million. The treasury lock contract was deemed to be a highly effective cash flow hedge, accordingly, the effective interest rate is approximately 3.85 % per annum.",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1500217/000150021725000007/aat-20241231.htm",
+      "numbers": [
+        "2",
+        "2025",
+        "3",
+        "5.47 %",
+        "5",
+        "2023",
+        "4",
+        "2024",
+        "5.57 %",
+        "31",
+        "2017",
+        "23",
+        "$ 0.5 million",
+        "3.85 %"
+      ],
+      "dates": [
+        "January 2, 2025",
+        "January 5, 2023",
+        "January 4, 2024",
+        "January 5, 2024",
+        "January 4, 2025",
+        "May 31, 2017",
+        "June 23, 2017"
+      ]
+    },
+    {
+      "evidence_id": "dc59c7a0177ce25d9699",
+      "filing_version": "prior",
+      "accession_number": "0001500217-25-000007",
+      "filing_date": "2025-02-12",
+      "report_date": "2024-12-31",
+      "section": "risk_factors",
+      "paragraph_index": 200,
+      "text_excerpt": "Borrowings under the Amended and Restated Term Loan Agreement bear interest at floating rates equal to, at the Operating Partnership’s option, either (1) the applicable SOFR, plus a SOFR adjustment and a spread (based on the Operating Partnership’s consolidated leverage ratio and applicable year of Term Loan B and Term Loan C) ranging from 1.20 % to 1.90 %, or (2) a base rate equal to the highest of (a) 0 %, (b) the prime rate, (c) the federal funds rate plus 50 bps and (d) the one-month SOFR, plus a SOFR adjustment and 100 bps, plus, in each case, a spread (based on the Operating Partnership’s consolidated leverage ratio and applicable year of Term Loan B and Term Loan C) ranging from 0.20 % to 0.90 %. Additionally, the Operating Partnership may elect for borrowings to bear interest based on a ratings-based pricing grid based on the Operating Partnership’s then-applicable investment grade debt ratings und…",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1500217/000150021725000007/aat-20241231.htm",
+      "numbers": [
+        "1",
+        "1.20 %",
+        "1.90 %",
+        "2",
+        "0 %",
+        "50 bps",
+        "100 bps",
+        "0.20 %",
+        "0.90 %"
+      ],
+      "dates": []
+    },
+    {
+      "evidence_id": "2c14b1b15061b0ad726b",
+      "filing_version": "prior",
+      "accession_number": "0001500217-25-000007",
+      "filing_date": "2025-02-12",
+      "report_date": "2024-12-31",
+      "section": "risk_factors",
+      "paragraph_index": 194,
+      "text_excerpt": "On July 30, 2019, the Operating Partnership entered into a Note Purchase Agreement for the private placement of $ 150 million of 3.91 % Senior Guaranteed Notes, Series G, due July 30, 2030 (the \"Series G Notes\" and collectively with the Series A Notes, Series B Notes, Series C Notes, Series D Notes, Series E Notes, Series F Notes and Series G Notes are referred to herein as, the “Notes\".) The Series G Notes were issued on July 30, 2019 and pay interest semi-annually on the 30th of July and January until their maturity. The Operating Partnership may prepay at any time all, or from time to time any part of, the Notes, in an amount not less than 5 % of the aggregate principal amount of any series of the Notes then outstanding in the case of a partial prepayment, at 100 % of the principal amount so prepaid plus a Make-Whole Amount. F-29 The Note Purchase Agreements contain a number of customary financial coven…",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1500217/000150021725000007/aat-20241231.htm",
+      "numbers": [
+        "30",
+        "2019",
+        "$ 150 million",
+        "3.91 %",
+        "2030",
+        "5 %",
+        "100 %",
+        "29"
+      ],
+      "dates": [
+        "July 30, 2019",
+        "July 30, 2030"
+      ]
+    },
+    {
+      "evidence_id": "37539287586b6c1d5852",
+      "filing_version": "current",
+      "accession_number": "0001500217-26-000008",
+      "filing_date": "2026-02-06",
+      "report_date": "2025-12-31",
+      "section": "risk_factors",
+      "paragraph_index": 187,
+      "text_excerpt": "F-27 (3) The Operating Partnership entered into interest rate swap agreements that are intended to fix the effective interest rate associated with Term Loan B and Term Loan C, subject to adjustments based on our consolidated leverage ratio, at, 5.47 % from January 5, 2023 to January 4, 2024 and at 5.57 % from January 5, 2024 to January 4, 2025. (4) The Senior C Notes were prepaid in full on February 3, 2025, without penalty or premium. (5) The Operating Partnership entered into forward-starting interest rate swap contracts on March 29, 2016 and April 7, 2016, which were settled on January 18, 2017 at a gain of approximately $ 10.4 million. The forward-starting interest swap rate contracts were deemed to be highly effective cash flow hedges, accordingly, the effective interest rate is approximately 3.87 % per annum. (6) The Operating Partnership entered into a treasury lock contract on April 25, 2017, which…",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1500217/000150021726000008/aat-20251231.htm",
+      "numbers": [
+        "27",
+        "3",
+        "5.47 %",
+        "5",
+        "2023",
+        "4",
+        "2024",
+        "5.57 %",
+        "2025",
+        "29",
+        "2016",
+        "7",
+        "18",
+        "2017",
+        "$ 10.4 million",
+        "3.87 %"
+      ],
+      "dates": [
+        "January 5, 2023",
+        "January 4, 2024",
+        "January 5, 2024",
+        "January 4, 2025",
+        "February 3, 2025",
+        "March 29, 2016",
+        "April 7, 2016",
+        "January 18, 2017"
+      ]
+    },
+    {
+      "evidence_id": "515323609b996e30ddb5",
+      "filing_version": "current",
+      "accession_number": "0001500217-26-000008",
+      "filing_date": "2026-02-06",
+      "report_date": "2025-12-31",
+      "section": "risk_factors",
+      "paragraph_index": 106,
+      "text_excerpt": "4.3* Description of Securities 10.1(6) Amended and Restated Agreement of Limited Partnership of American Assets Trust, L.P., dated January 19, 2011 10.2(6) Registration Rights Agreement among American Assets Trust, Inc. and the persons named therein, dated January 19, 2011 10.3(1) American Assets Trust, Inc. and American Assets Trust, L.P. Amended and Restated 2011 Equity Incentive Award Plan 10.4(1) Form of Indemnification Agreement between American Assets Trust, Inc. and its directors and officers 10.5* Form of American Assets Trust, Inc. Restricted Stock Award Agreement (Performance Vesting) 10.6(21) Form of American Assets Trust, Inc.",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1500217/000150021726000008/aat-20251231.htm",
+      "numbers": [
+        "4.3",
+        "10.1",
+        "6",
+        "19",
+        "2011",
+        "10.2",
+        "10.3",
+        "1",
+        "10.4",
+        "10.5",
+        "10.6",
+        "21"
+      ],
+      "dates": [
+        "January 19, 2011"
+      ]
+    },
+    {
+      "evidence_id": "bf00e418e6be2527120e",
+      "filing_version": "current",
+      "accession_number": "0001500217-26-000008",
+      "filing_date": "2026-02-06",
+      "report_date": "2025-12-31",
+      "section": "risk_factors",
+      "paragraph_index": 157,
+      "text_excerpt": "If our assessment of these factors indicates that it is no longer probable that we will be able to collect substantially all rents, we recognize a charge to rental income and limit our rental income to the lesser of lease income on a straight-line basis plus variable rents when they become accruable or cash collected. If we change our conclusion regarding the probability of collecting rent payments required by a lessee, we may recognize an adjustment to rental income in the period we make a change to our prior conclusion. At December 31, 2025 and December 31, 2024, our allowance for doubtful accounts was $ 1.3 million and $ 2.0 million, respectively. Total collectability related adjustments for rental income, which includes the allowance for doubtful accounts and deferred rent receivables, was $ 0.6 million, $ 1.5 million and $ 1.5 million for the years ended December 31, 2025, 2024 and 2023, respectively.…",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1500217/000150021726000008/aat-20251231.htm",
+      "numbers": [
+        "31",
+        "2025",
+        "2024",
+        "$ 1.3 million",
+        "$ 2.0 million",
+        "$ 0.6 million",
+        "$ 1.5 million",
+        "2023",
+        "30",
+        "40"
+      ],
+      "dates": [
+        "December 31, 2025",
+        "December 31, 2024"
+      ]
+    },
+    {
+      "evidence_id": "b9aa79fa816c7d2671fe",
+      "filing_version": "current",
+      "accession_number": "0001500217-26-000008",
+      "filing_date": "2026-02-06",
+      "report_date": "2025-12-31",
+      "section": "risk_factors",
+      "paragraph_index": 175,
+      "text_excerpt": "The following table summarizes the operating results for Genesee Park included in the company's historical consolidated statement of operations for the period of acquisition through December 31, 2025 (in thousands): Genesee Park Revenues $ 3,909 Operating expenses 5,021 Operating loss ( 1,112 ) Other income, net 2 Net income attributable to American Assets Trust, Inc. $ ( 1,110 ) Dispositions On February 25, 2025, we sold Del Monte Center, which is located in Monterey, California and was previously included in our retail segment. The sale price of this property was $ 123.5 million, less closing costs and prorations, resulting in net proceeds of approximately $ 117.8 million. Accordingly, we recorded a gain on sale of approximately $ 44.5 million for the year ended December 31, 2025. NOTE 3.",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1500217/000150021726000008/aat-20251231.htm",
+      "numbers": [
+        "31",
+        "2025",
+        "$ 3,909",
+        "5,021",
+        "1,112",
+        "2",
+        "1,110",
+        "25",
+        "$ 123.5 million",
+        "$ 117.8 million",
+        "$ 44.5 million",
+        "3"
+      ],
+      "dates": [
+        "December 31, 2025",
+        "February 25, 2025"
+      ]
+    },
+    {
+      "evidence_id": "d266b28dca297592d4ab",
+      "filing_version": "prior",
+      "accession_number": "0001500217-25-000007",
+      "filing_date": "2025-02-12",
+      "report_date": "2024-12-31",
+      "section": "risk_factors",
+      "paragraph_index": 186,
+      "text_excerpt": "On July 18, 2024, we borrowed $ 100 million on our Revolver Loan (as defined below) to repay the entirety of our Series F Notes upon their maturity on July 19, 2024. (5) The Senior B Notes were prepaid in full on December 2, 2024, without penalty or premium. (6) The Senior C Notes were prepaid in full on February 3, 2025, without penalty or premium. (7) The Operating Partnership entered into forward-starting interest rate swap contracts on March 29, 2016 and April 7, 2016, which were settled on January 18, 2017 at a gain of approximately $ 10.4 million. The forward-starting interest swap rate contracts were deemed to be highly effective cash flow hedges, accordingly, the effective interest rate is approximately 3.87 % per annum. (8) The Operating Partnership entered into a treasury lock contract on April 25, 2017, which was settled on May 11, 2017 at a gain of approximately $ 0.7 million.",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1500217/000150021725000007/aat-20241231.htm",
+      "numbers": [
+        "18",
+        "2024",
+        "$ 100 million",
+        "19",
+        "5",
+        "2",
+        "6",
+        "3",
+        "2025",
+        "7",
+        "29",
+        "2016",
+        "2017",
+        "$ 10.4 million",
+        "3.87 %",
+        "8"
+      ],
+      "dates": [
+        "July 18, 2024",
+        "July 19, 2024",
+        "December 2, 2024",
+        "February 3, 2025",
+        "March 29, 2016",
+        "April 7, 2016",
+        "January 18, 2017",
+        "April 25, 2017"
+      ]
+    },
+    {
+      "evidence_id": "36e020444db089a6c627",
+      "filing_version": "prior",
+      "accession_number": "0001500217-25-000007",
+      "filing_date": "2025-02-12",
+      "report_date": "2024-12-31",
+      "section": "risk_factors",
+      "paragraph_index": 172,
+      "text_excerpt": "The following table presents the assets associated with the property classified as held for sale (in thousands): December 31, 2024 December 31, 2023 Assets Buildings and improvements $ 100,567 $ 99,765 Land 27,117 27,117 Tenant improvements 24,758 21,633 Construction in Progress 1,692 549 Accumulated depreciation ( 80,435 ) ( 77,808 ) Net real estate assets 73,699 71,256 Other Assets 3,820 2,968 Real estate assets held for sale $ 77,519 $ 74,223 F-23 NOTE 3.",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1500217/000150021725000007/aat-20241231.htm",
+      "numbers": [
+        "31",
+        "2024",
+        "2023",
+        "$ 100,567",
+        "$ 99,765",
+        "27,117",
+        "24,758",
+        "21,633",
+        "1,692",
+        "549",
+        "80,435",
+        "77,808",
+        "73,699",
+        "71,256",
+        "3,820",
+        "2,968"
+      ],
+      "dates": [
+        "December 31, 2024",
+        "December 31, 2023"
+      ]
+    },
+    {
+      "evidence_id": "549959c30951fd2ed1ad",
+      "filing_version": "current",
+      "accession_number": "0001500217-26-000008",
+      "filing_date": "2026-02-06",
+      "report_date": "2025-12-31",
+      "section": "risk_factors",
+      "paragraph_index": 158,
+      "text_excerpt": "Minor improvements, furniture and equipment are capitalized and depreciated over useful lives ranging from 3 years to 15 years. Maintenance and repairs that do not improve or extend the useful lives of the related assets are charged to operations as incurred. Tenant improvements are capitalized and depreciated over the life of the related lease or their estimated useful life, whichever is shorter. If a tenant vacates its space prior to the contractual termination of its lease, the undepreciated balance of any tenant improvements are written off if they are replaced or have no future value. For the years ended December 31, 2025, 2024 and 2023, real estate depreciation expense was $ 113.1 million, $ 111.7 million and $ 106.3 million, respectively. Acquisitions of properties are accounted for in accordance with the authoritative accounting guidance on acquisitions and business combinations. Our methodology of…",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1500217/000150021726000008/aat-20251231.htm",
+      "numbers": [
+        "3",
+        "15",
+        "31",
+        "2025",
+        "2024",
+        "2023",
+        "$ 113.1 million",
+        "$ 111.7 million",
+        "$ 106.3 million"
+      ],
+      "dates": [
+        "December 31, 2025"
+      ]
+    },
+    {
+      "evidence_id": "ac62a6c67788ac42aa32",
+      "filing_version": "prior",
+      "accession_number": "0001500217-25-000007",
+      "filing_date": "2025-02-12",
+      "report_date": "2024-12-31",
+      "section": "risk_factors",
+      "paragraph_index": 44,
+      "text_excerpt": "Mixed-use rental revenue increased $0.4 million for the year ended December 31, 2024 compared to the year ended December 31, 2023 primarily due to an increase in rental revenue at the retail portion of our mixed-use property, largely attributable to an increase in cost recoveries and new tenant leases commencing at higher base rents. Additionally, there was a minimal increase in rental revenue at the Waikiki Beach Walk hotel portion of our mixed-use property, due to a slight increase in average occupancy to 85.9% for the year ended December 31, 2024 compared to 85.2% for the year ended December 31, 2023. Other property income. Other property income increased $12.5 million, or 57%, to $34.2 million for the year ended December 31, 2024, compared to $21.8 million for the year ended December 31, 2023.",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1500217/000150021725000007/aat-20241231.htm",
+      "numbers": [
+        "$0.4 million",
+        "31",
+        "2024",
+        "2023",
+        "85.9%",
+        "85.2%",
+        "$12.5 million",
+        "57%",
+        "$34.2 million",
+        "$21.8 million"
+      ],
+      "dates": [
+        "December 31, 2024",
+        "December 31, 2023"
+      ]
+    },
+    {
+      "evidence_id": "30981b386f7bbd6b71d5",
+      "filing_version": "prior",
+      "accession_number": "0001500217-25-000007",
+      "filing_date": "2025-02-12",
+      "report_date": "2024-12-31",
+      "section": "risk_factors",
+      "paragraph_index": 53,
+      "text_excerpt": "These decreases were partially offset by higher room rental income at the hotel portion of our mixed use property and higher parking garage income at the retail portion of our mixed use property. Other General and administrative. General and administrative expenses decreased $0.5 million, or 1%, to $35.5 million for the year ended December 31, 2024, compared to $36.0 million for the year ended December 31, 2023. This was primarily due to lower legal fees related to prior settlements and stock-based compensation expense attributable to a decrease in the number of restricted stock awards granted as part of our 2023 and 2024 grants. These decreases were offset by higher employee-related costs, including, without limitation, with respect to base pay for certain salaried and hourly workers and benefits. 59 Depreciation and amortization. Depreciation and amortization expense increased $6.0 million, or 5%, to $12…",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1500217/000150021725000007/aat-20241231.htm",
+      "numbers": [
+        "$0.5 million",
+        "1%",
+        "$35.5 million",
+        "31",
+        "2024",
+        "$36.0 million",
+        "2023",
+        "59",
+        "$6.0 million",
+        "5%",
+        "$125.5 million",
+        "$119.5 million"
+      ],
+      "dates": [
+        "December 31, 2024",
+        "December 31, 2023"
+      ]
+    },
+    {
+      "evidence_id": "c259ed63a055bf263306",
+      "filing_version": "prior",
+      "accession_number": "0001500217-25-000007",
+      "filing_date": "2025-02-12",
+      "report_date": "2024-12-31",
+      "section": "risk_factors",
+      "paragraph_index": 48,
+      "text_excerpt": "Multifamily rental expenses increased $0.8 million for the year ended December 31, 2024 compared to the year ended December 31, 2023 primarily due to an increase in facilities services, utilities expenses, insurance expenses and an increase in property-level personnel compensation expenses. Mixed-use rental expenses increased $0.8 million for the year ended December 31, 2024 compared to the year ended December 31, 2023 primarily due to an increase of $0.4 million in hotel room expenses, personnel expenses and excise tax expenses at the hotel portion of our mixed-use property during the period. There was also an increase in rental expenses of $0.4 million at the retail portion of our mixed-use property related to excise taxes, employee costs and facilities expenses. Real Estate Taxes. Real estate tax expense decreased $0.9 million, or 2%, to $44.2 million for the year ended December 31, 2024, compared to $4…",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1500217/000150021725000007/aat-20241231.htm",
+      "numbers": [
+        "$0.8 million",
+        "31",
+        "2024",
+        "2023",
+        "$0.4 million",
+        "$0.9 million",
+        "2%",
+        "$44.2 million",
+        "$45.2 million"
+      ],
+      "dates": [
+        "December 31, 2024",
+        "December 31, 2023"
+      ]
+    },
+    {
+      "evidence_id": "91f617600611ceeac496",
+      "filing_version": "current",
+      "accession_number": "0001500217-26-000008",
+      "filing_date": "2026-02-06",
+      "report_date": "2025-12-31",
+      "section": "risk_factors",
+      "paragraph_index": 196,
+      "text_excerpt": "F-29 Third Amended and Restated Credit Facility On January 5, 2022, the Operating Partnership entered into the third amended and restated credit facility (the “Third Amended and Restated Credit Facility”) , which amended and restated our then-existing credit facility. The Third Amended and Restated Credit Facility provides for aggregate, unsecured borrowings of up to $ 500 million, consisting of a revolving line of credit of $ 400 million (the “Revolver Loan”) and a term loan of $ 100 million (“Term Loan A”). The Revolver Loan was initially scheduled to mature on January 5, 2026, subject to two , six-month extension options. On November 13, 2025, we exercised the first of the extension options, which extended the maturity date to July 5, 2026, subject to our option to extend the Revolver Loan for one additional six-month period. Term Loan A matures on January 5, 2027, with no further extension options.",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1500217/000150021726000008/aat-20251231.htm",
+      "numbers": [
+        "29",
+        "5",
+        "2022",
+        "$ 500 million",
+        "$ 400 million",
+        "$ 100 million",
+        "2026",
+        "13",
+        "2025",
+        "2027"
+      ],
+      "dates": [
+        "January 5, 2022",
+        "January 5, 2026",
+        "November 13, 2025",
+        "July 5, 2026",
+        "January 5, 2027"
+      ]
+    },
+    {
+      "evidence_id": "905a9f92fbb7fe7c1a47",
+      "filing_version": "prior",
+      "accession_number": "0001500217-25-000007",
+      "filing_date": "2025-02-12",
+      "report_date": "2024-12-31",
+      "section": "risk_factors",
+      "paragraph_index": 26,
+      "text_excerpt": "These factors include: (1) the type of tenant in relation to the property it occupies, (2) the quality of the tenant, including the tenant's long term business prospects, and (3) whether the fixed rate renewal option was sufficiently lower than the fair rental of the property at the date the option becomes exercisable such that it would appear to be reasonably assured that the tenant would exercise the option to renew. Each of these estimates requires a great deal of judgment, and some of the estimates involve complex calculations. These allocation assessments have a direct impact on our results of operations because if we were to allocate more value to land, there would be no depreciation with respect to such amount. If we were to allocate more value to the buildings, as opposed to allocating to the value of tenant leases, this amount would be recognized as an expense over a much longer period of time, si…",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1500217/000150021725000007/aat-20241231.htm",
+      "numbers": [
+        "1",
+        "2",
+        "3"
+      ],
+      "dates": []
+    },
+    {
+      "evidence_id": "895a76fb21ab26811d1e",
+      "filing_version": "prior",
+      "accession_number": "0001500217-25-000007",
+      "filing_date": "2025-02-12",
+      "report_date": "2024-12-31",
+      "section": "risk_factors",
+      "paragraph_index": 134,
+      "text_excerpt": "Consolidated Statements of Cash Flows (In Thousands) Year ended December 31, 2024 2023 2022 OPERATING ACTIVITIES Net income $ 72,819 $ 64,690 $ 55,877 Adjustments to reconcile net income to net cash provided by operating activities: Deferred rent revenue and amortization of lease intangibles ( 5,781 ) ( 7,239 ) ( 11,489 ) Depreciation and amortization 125,461 119,500 123,338 Amortization of debt issuance costs and debt discounts 3,652 3,388 2,581 Provision for uncollectable rental income 1,517 1,439 2,334 Stock-based compensation expense 7,110 8,838 8,690 Settlement of treasury locks ( 1,345 ) — — Other noncash interest expense, net ( 377 ) ( 1,149 ) ( 1,477 ) Other, net 1,161 266 ( 252 ) Changes in operating assets and liabilities Change in accounts receivable ( 1,787 ) ( 870 ) ( 404 ) Change in other assets ( 1,266 ) ( 1,141 ) ( 723 ) Change in accounts payable and accrued expenses 5,577 765 ( 1,237 ) Ch…",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1500217/000150021725000007/aat-20241231.htm",
+      "numbers": [
+        "31",
+        "2024",
+        "2023",
+        "2022",
+        "$ 72,819",
+        "$ 64,690",
+        "$ 55,877",
+        "5,781",
+        "7,239",
+        "11,489",
+        "125,461",
+        "119,500",
+        "123,338",
+        "3,652",
+        "3,388",
+        "2,581"
+      ],
+      "dates": [
+        "December 31, 2024"
+      ]
+    },
+    {
+      "evidence_id": "4abe2f039ffeb2727351",
+      "filing_version": "current",
+      "accession_number": "0001500217-26-000008",
+      "filing_date": "2026-02-06",
+      "report_date": "2025-12-31",
+      "section": "risk_factors",
+      "paragraph_index": 27,
+      "text_excerpt": "The fair values associated with below market renewal options are determined based on a review of several qualitative and quantitative factors on a lease-by-lease basis at acquisition to determine whether it is probable that the tenant would exercise its option to renew the lease agreement. These factors include: (1) the type of tenant in relation to the property it occupies, (2) the quality of the tenant, including the tenant's long term business prospects, and (3) whether the fixed rate renewal option was sufficiently lower than the fair rental of the property at the date the option becomes exercisable such that it would appear to be reasonably assured that the tenant would exercise the option to renew. Each of these estimates requires a great deal of judgment, and some of the estimates involve complex calculations. These allocation assessments have a direct impact on our results of operations because if…",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1500217/000150021726000008/aat-20251231.htm",
+      "numbers": [
+        "1",
+        "2",
+        "3"
+      ],
+      "dates": []
+    },
+    {
+      "evidence_id": "afa19d62df0e2881566f",
+      "filing_version": "prior",
+      "accession_number": "0001500217-25-000007",
+      "filing_date": "2025-02-12",
+      "report_date": "2024-12-31",
+      "section": "risk_factors",
+      "paragraph_index": 191,
+      "text_excerpt": "The 3.375 % Senior Notes and the 6.150 % Senior Notes include a number of customary financial covenants, including: • A maximum aggregate debt ratio of 60 %, • A minimum debt service ratio of 1.5 x, • A maximum secured debt ratio of 40 %, • A minimum maintenance of total unencumbered assets of 150 %. As of December 31, 2024, the Operating Partnership was in compliance with all then in-place 3.375 % Senior Notes and 6.15 % Senior Notes covenants. Senior Guaranteed Notes On October 31, 2014, the Operating Partnership entered into a note purchase agreement (the \"Note Purchase Agreement\") with a group of institutional purchasers that provided for the private placement of an aggregate of $ 350 million of senior guaranteed notes, of which (i) $ 150 million are designated as 4.04 % Senior Guaranteed Notes, Series A, due October 31, 2021 (the “Series A Notes”), (ii) $ 100 million are designated as 4.45 % Senior Gu…",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1500217/000150021725000007/aat-20241231.htm",
+      "numbers": [
+        "3.375 %",
+        "6.150 %",
+        "60 %",
+        "1.5",
+        "40 %",
+        "150 %",
+        "31",
+        "2024",
+        "6.15 %",
+        "2014",
+        "$ 350 million",
+        "$ 150 million",
+        "4.04 %",
+        "2021",
+        "$ 100 million",
+        "4.45 %"
+      ],
+      "dates": [
+        "December 31, 2024",
+        "October 31, 2014",
+        "October 31, 2021",
+        "February 2, 2025",
+        "April 1, 2025"
+      ]
+    },
+    {
+      "evidence_id": "f9cb42bf05089ab96ad3",
+      "filing_version": "current",
+      "accession_number": "0001500217-26-000008",
+      "filing_date": "2026-02-06",
+      "report_date": "2025-12-31",
+      "section": "risk_factors",
+      "paragraph_index": 144,
+      "text_excerpt": "Consolidated Statements of Cash Flows (In Thousands) Year Ended December 31, 2025 2024 2023 OPERATING ACTIVITIES Net income $ 71,370 $ 72,819 $ 64,690 Adjustments to reconcile net income to net cash provided by operating activities: Deferred rent revenue and amortization of lease intangibles 920 ( 5,781 ) ( 7,239 ) Depreciation and amortization 127,312 125,461 119,500 Amortization of debt issuance costs and debt discounts 2,891 3,652 3,388 Provision for uncollectable rental income 540 1,517 1,439 Gain on sale of real estate ( 44,476 ) — — Stock-based compensation expense 7,397 7,110 8,838 Settlement of treasury locks — ( 1,345 ) — Other noncash interest expense, net ( 1,031 ) ( 377 ) ( 1,149 ) Other, net 3,233 1,161 266 Changes in operating assets and liabilities Change in accounts receivable and deferred rent receivables 726 ( 1,787 ) ( 870 ) Change in other assets ( 1,225 ) ( 1,266 ) ( 1,141 ) Change in…",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1500217/000150021726000008/aat-20251231.htm",
+      "numbers": [
+        "31",
+        "2025",
+        "2024",
+        "2023",
+        "$ 71,370",
+        "$ 72,819",
+        "$ 64,690",
+        "920",
+        "5,781",
+        "7,239",
+        "127,312",
+        "125,461",
+        "119,500",
+        "2,891",
+        "3,652",
+        "3,388"
+      ],
+      "dates": [
+        "December 31, 2025"
+      ]
+    },
+    {
+      "evidence_id": "13f067cb31986e7584da",
+      "filing_version": "current",
+      "accession_number": "0001500217-26-000008",
+      "filing_date": "2026-02-06",
+      "report_date": "2025-12-31",
+      "section": "risk_factors",
+      "paragraph_index": 57,
+      "text_excerpt": "These decreases were partially offset by an increase in occupancy and annualized base rents at City Center Bellevue, Timber Ridge and La Jolla Commons III, an increase in lease termination fees received at 14Acres and Timber Ridge in 2025 and an increase in parking garage income. Retail operating income decreased $8.2 million for the year ended December 31, 2025 compared to the year ended December 31, 2024 primarily due to the sale of Del Monte Center. Same-store retail operating income increased $1.2 million due to new tenant leases and scheduled rent increases at Carmel Mountain Plaza and Alamo Quarry Market. Additionally, there was a decrease in real estate taxes due to lower property tax assessments at Alamo Quarry Market and an increase in real estate tax refunds received at Alamo Quarry Market and Carmel Mountain Plaza in 2025. Multifamily operating income increased $0.4 million for the year ended De…",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1500217/000150021726000008/aat-20251231.htm",
+      "numbers": [
+        "14",
+        "2025",
+        "$8.2 million",
+        "31",
+        "2024",
+        "$1.2 million",
+        "$0.4 million"
+      ],
+      "dates": [
+        "December 31, 2025",
+        "December 31, 2024"
+      ]
+    },
+    {
+      "evidence_id": "6879d89827a027fa81c9",
+      "filing_version": "prior",
+      "accession_number": "0001500217-25-000007",
+      "filing_date": "2025-02-12",
+      "report_date": "2024-12-31",
+      "section": "risk_factors",
+      "paragraph_index": 51,
+      "text_excerpt": "Property operating income by segment was as follows (dollars in thousands): Total Portfolio Same-Store Portfolio Year Ended December 31, Year Ended December 31, 2024 2023 Change % 2024 2023 Change % Office $ 153,544 $ 146,517 $ 7,027 5 % $ 155,470 $ 147,732 $ 7,738 5 % Retail 76,532 73,327 3,205 4 76,532 73,327 3,205 4 Multifamily 36,583 33,805 2,778 8 36,583 33,805 2,778 8 Mixed-Use 23,469 23,558 (89) — 23,469 23,558 (89) — $ 290,128 $ 277,207 $ 12,921 5 % $ 292,054 $ 278,422 $ 13,632 5 % Total office property operating income increased $7.0 million for the year ended December 31, 2024 compared to the year ended December 31, 2023 primarily due to an approximately $11.0 million lease termination fee received at Torrey Reserve Campus and lower real estate taxes due to tax refunds received at La Jolla Commons and First & Main. These increases were offset by a decrease in rental revenue driven by lower rental…",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1500217/000150021725000007/aat-20241231.htm",
+      "numbers": [
+        "31",
+        "2024",
+        "2023",
+        "$ 153,544",
+        "$ 146,517",
+        "$ 7,027",
+        "5 %",
+        "$ 155,470",
+        "$ 147,732",
+        "$ 7,738",
+        "76,532",
+        "73,327",
+        "3,205",
+        "4",
+        "36,583",
+        "33,805"
+      ],
+      "dates": [
+        "December 31, 2024",
+        "December 31, 2023"
+      ]
+    }
+  ],
+  "generation": {
+    "used": false,
+    "status": "precomputed evidence analysis"
+  },
+  "cache": {
+    "hit": false,
+    "fingerprint": "ab2d3e2124588e8ccf2c4e99dc63ed6b160c11ae8385bcd0a9c2361f04114426"
+  },
+  "latency_ms": 22271.31
+}
